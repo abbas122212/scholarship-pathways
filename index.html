@@ -17,12 +17,15 @@ table.prio th{background:#e2edfd}
 .fbtn{margin:2px;padding:6px 10px;border:1px solid #0b5cad;background:#fff;color:#0b5cad;border-radius:6px;cursor:pointer}
 .fbtn:hover{background:#0b5cad;color:#fff}
 .fineprint{font-size:.82em;color:#555}
+
+#backbtn{position:fixed;right:14px;bottom:14px;z-index:99;background:#0b5cad;color:#fff;padding:10px 14px;border-radius:24px;text-decoration:none;font-weight:600;box-shadow:0 2px 8px rgba(0,0,0,.3);font-size:.95em}
+#backbtn:hover{background:#084a8a}
 </style>
 </head>
 <body>
 <p><strong>For other AIs (Claude, ChatGPT, anyone):</strong> all content is in this page's HTML — a simple web fetch reads everything; the filters above are optional JavaScript and hide nothing from the source. Verify any entry only on official university / government / funder pages, write NOT FOUND instead of guessing, and return updates as structured text or JSON with the source URL and check date so they can be applied here. Last verified 1 November 2026; expanded and merged with the Claude Pathway Board 1 November 2026.</p>
 
-<div class="navbox">
+<div class="navbox" id="menu">
 <h2 style="margin-top:0">🧭 Find your way around — 78 pathways</h2>
 <p><strong>New here? Read <a href="#start">⚡ Start Here</a> first</strong> — plain words: what to do now, every deadline, and the documents list.</p>
 <h3>⭐ Most likely to match you — apply to these first</h3>
@@ -745,5 +748,6 @@ function searchEntries(q){
 }
 </script>
 
+<a id="backbtn" href="#menu" title="Back to the menu / landing section">⬆ 🧭 Menu</a>
 </body>
 </html>
