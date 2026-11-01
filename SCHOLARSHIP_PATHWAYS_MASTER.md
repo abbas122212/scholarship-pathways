@@ -1,6 +1,7 @@
 # Scholarship Pathways — Master Data File
 ## For: Dr. Abbas Uddin Chowdhury, MBBS (intern), Bangladesh — Autumn 2027 intake
 **Last verified:** 1 November 2026 (Europe/UK shortlist checked 31 Oct 2026; USA pathways re-verified 1 Nov 2026 after an independent Claude check — see Verification Log at the end)
+**🔎 Claude check 1 Nov 2026, 18:05 UTC:** 34 entries re-checked on official pages — 1 new gate (Eiffel age), 3 added dates, 1 conflict resolved, 2 items flagged. See the "CLAUDE INDEPENDENT VERIFICATION" section above the Verification Log.
 **Profile:** Bangladeshi MBBS, currently in internship, Chattogram. Fields: public health, epidemiology, global health, clinical research, health policy / aerospace medicine (exploration).
 **HARD FILTER:** Tuition fully covered PLUS a monthly stipend or salary. Partial tuition discounts do NOT count. Salaried PhD contracts count. Master's or PhD both acceptable if MBBS makes him eligible.
 **VERIFICATION RULE FOR ANY AI EDITING THIS FILE:** Official university / government / funder pages only for decisive facts. Aggregators are leads only. Content farms are banned. If a fact cannot be verified on an official page, write `NOT FOUND` — never invent a deadline, stipend, or eligibility rule. Date-stamp every verification. Preserve `NOT FOUND` / `PATTERN ONLY` / `UNRESOLVED` flags until an official source resolves them.
@@ -73,6 +74,7 @@ Keep one folder (the system from your scholarship-documents video: one subfolder
 - **Gates:** GPA ≥7.5/10 (75%); age ≤35 on 1 Sep 2027; both programmes on 2027–28 participating list (VERIFIED)
 - **MBBS eligibility:** Medicine listed as relevant background (VERIFIED). GRE required ONLY on non-EEA bachelor's route; Board decides route — UNRESOLVED (see Gate 2)
 - **Source:** Maastricht University official pages, checked 1 Nov 2026
+- **🔎 Claude check 1 Nov 2026, 18:05 UTC:** Two different deadlines. The scholarship itself closes **1 February 2027, 23:59 CET**; the complete programme application must be in **before 10 December 2026**. Both quoted on the official scholarship page. €1,550/month, GPA ≥7.5/10 and age ≤35 on 1 Sep 2027 CONFIRMED.
 
 ### 2. Maastricht University — MSc Epidemiology + NL High Potential Scholarship
 - Same funding, deadline, GPA and GRE gates as #1. Medicine listed as relevant (VERIFIED).
@@ -91,12 +93,14 @@ Keep one folder (the system from your scholarship-documents video: one subfolder
 - **Route:** Apply to approved course at university AND via CSC Central
 - **Unresolved:** 2027 approved-course list NOT yet published (page still links 2026 list); degree-conferral mapping for internship status UNRESOLVED
 - **Source:** cscuk.fcdo.gov.uk, checked 31 Oct 2026
+- **🔎 Claude check 1 Nov 2026, 18:05 UTC:** Dates and Bangladesh eligibility CONFIRMED. ADD: the page requires, "by September 2027, a first degree of at least upper second-class (2:1) honours standard" (or a lower second plus a relevant postgraduate qualification). How his MBBS maps to 2:1 is part of Gate 1.
 
 ### 5. France Excellence Eiffel 2027
 - **Status:** ACTION MONTH IS NOVEMBER 2026
 - **Institutional deadline (Campus France):** **6 January 2027**; results week of 12 April 2027
 - **Rule:** Students cannot apply directly — French institutions submit. Internal university deadlines fall ~Oct–Nov 2026
 - **Source:** campusfrance.org, checked 31 Oct 2026
+- **🔎 Claude check 1 Nov 2026, 18:05 UTC:** **NEW GATE — AGE.** Campus France: the programme "encourages applicants from foreign countries up to 29 years old at master’s level, and applicants up to 35 years old at PhD level." If he is 30+ the Master's route is effectively off. Deadline 6 Jan 2027 and results from 12 Apr 2027 CONFIRMED.
 
 ### 6. Erasmus Mundus Joint Masters (general)
 - **Status:** OPEN WINDOW Oct 2026 – Jan 2027, programme by programme; no central portal; up to 3 applications per cycle
@@ -298,6 +302,7 @@ Public universities in Germany charge **no tuition fees** in most states (except
 
 ### 40. Columbia Mailman School of Public Health — MPH
 - **Rolling close:** **15 January 2027**
+- **🔎 Claude check 1 Nov 2026, 18:05 UTC:** **ADD: 1 December 2026 is the preferred deadline.** Official deadlines page: "December 1st is the preferred deadline for most master level programs"; MPH applications then accepted on a rolling basis until 15 January. Aim for 1 Dec.
 - **PopFam Future Changemaker Scholarship:** Exists but pays **$10,000 only**, announced for incoming Fall 2026 class; Fall 2027 cohort and international eligibility NOT STATED — not a verifiable Fall 2027 funding plan. Fails hard filter alone.
 
 ### 41. Georgia State University — MPH
@@ -333,6 +338,7 @@ Public universities in Germany charge **no tuition fees** in most states (except
 ### 48. Monash University — Graduate Scholarship + International Tuition Scholarship (packaged)
 - **Stipend:** **AUD 41,100/year (2027)** + tuition + OSHC
 - **Deadline:** International Round 1 closes **28 February** (2027 round) — **CONFLICT:** MITS header also shows 31 Mar / 31 Jul closings; confirm with Monash before relying on a date
+- **🔎 Claude check 1 Nov 2026, 18:05 UTC:** **CONFLICT RESOLVED.** Monash RTP page: "R1 Closing date for 2027 has been brought forward" — from 31 March to 28 February. Later rounds close 31 May, 31 Aug, 31 Oct. The 31 Jul date was NOT FOUND. AUD 41,100 (2027) CONFIRMED on the rates page.
 
 ### 49. Australian National University (ANU) — RTP Stipend + International Fee Offset
 - **Stipend:** **AUD 40,475/year (2027)** + tuition + OSHC including family
@@ -341,6 +347,7 @@ Public universities in Germany charge **no tuition fees** in most states (except
 ### 50. University of Queensland — Graduate School Scholarships
 - **Stipend:** AUD 39,220/year (**2026 rate; 2027 rate NOT FOUND**)
 - **Deadline:** International round for late-2027 start **CLOSED 19 Oct 2026**; next round date NOT FOUND. Supervisor + Expression of Interest first.
+- **🔎 Claude check 1 Nov 2026, 18:05 UTC:** AUD 39,220 (2026 rate) CONFIRMED. The page lists, for "commencement in Research Quarter 4 2027 or early 2028": 20 Aug, 19 Oct, 27 Oct, 18 Nov 2026, and "18 Nov 2026 to 19 Feb 2027 – Assessment and scholarship consideration". The step labels did not come through, so 19 Oct as the closing date is consistent but UNRESOLVED; ask UQ whether any later application window exists.
 
 ### 51. Flinders University — AGRTPS / FIPRS
 - **Stipend:** AUD 36,061/year (**2026 rate**)
@@ -367,6 +374,7 @@ Public universities in Germany charge **no tuition fees** in most states (except
 ### 55. University of Waikato — Doctoral Scholarship
 - **Stipend:** Up to **NZ$33,000/year** + domestic fees
 - **Deadline:** **31 January 2027**; supervisor's Invitation to Apply required first
+- **🔎 Claude check 1 Nov 2026, 18:05 UTC:** Up to NZ$33,000 + domestic fees CONFIRMED. The scholarship page says "four rounds each year" and requires an **Offer of Place**. The "31 January 2027" date and the "Invitation to Apply" wording were NOT FOUND on that page — treat as UNCONFIRMED.
 
 ### 56. Victoria University of Wellington — Doctoral Scholarship
 - **Stipend:** **NZ$32,000/year** + domestic fees for up to 3 years
@@ -511,7 +519,7 @@ Public universities in Germany charge **no tuition fees** in most states (except
 | 10 Nov 2026 | Commonwealth Shared Scholarships OPEN |
 | 13 Nov 2026 | Swedish Institute eligible-programme list due (Gothenburg gate) |
 | Mid-Nov 2026 (expected) | Stipendium Hungaricum portal opens — PATTERN ONLY |
-| 1 Dec 2026 | **Johns Hopkins PhD Epidemiology** ⭐ + **Emory Rollins PhD Epidemiology** (deadline resolved 1 Nov 2026) + Hopkins MPH (gated off) |
+| 1 Dec 2026 | **Johns Hopkins PhD Epidemiology** ⭐ + **Emory Rollins PhD Epidemiology** (deadline resolved 1 Nov 2026) + Hopkins MPH (gated off) + Columbia Mailman MPH preferred deadline (added by Claude check 1 Nov 2026, 18:05 UTC) |
 | 8 Dec 2026, 16:00 GMT | Commonwealth Shared Scholarships CLOSE |
 | 10 Dec 2026 | Maastricht NL High Potential complete file (both MSc programmes) |
 | 15 Dec 2026 | UNC Gillings PhD Epidemiology (conditional funding) |
@@ -520,11 +528,11 @@ Public universities in Germany charge **no tuition fees** in most states (except
 | 6 Jan 2027 | France Excellence Eiffel — institutional deadline |
 | 15 Jan 2027 | Columbia Mailman MPH rolling close; Stipendium Hungaricum expected deadline — PATTERN ONLY |
 | 21 Jan 2027, 23:59 CET | Erasmus Mundus SpaceMed |
-| 31 Jan 2027 | Waikato Doctoral Scholarship |
-| 1 Feb 2027 | Auckland Doctoral Scholarship round |
+| 31 Jan 2027 | Waikato Doctoral Scholarship — date UNCONFIRMED on official page (Claude check 1 Nov 2026, 18:05 UTC) |
+| 1 Feb 2027 | Auckland Doctoral Scholarship round; Maastricht NL High Potential scholarship closes 23:59 CET (added by Claude check 1 Nov 2026, 18:05 UTC) |
 | ~1 Feb 2027 (expected) | Australia Awards 2028 intake opens — PATTERN ONLY |
 | 15 Feb 2027 | Georgia State MPH priority |
-| 28 Feb 2027 | Monash International Round 1 (confirm conflicting MITS dates) |
+| 28 Feb 2027 | Monash Round 1 (brought forward from 31 Mar — conflict resolved by Claude check 1 Nov 2026, 18:05 UTC) |
 | 1 Mar 2027 | Wellington Doctoral Scholarship round |
 | Mar 2027 | Otago Doctoral Scholarship round |
 | 20 Mar – 15 May 2027 | Canterbury Doctoral Scholarship May round |
@@ -540,6 +548,48 @@ Public universities in Germany charge **no tuition fees** in most states (except
 
 ---
 
+## 🔎 CLAUDE INDEPENDENT VERIFICATION — 1 Nov 2026, 18:05 UTC
+Checked by Claude (Anthropic) on **1 Nov 2026, 18:05 UTC** for the owner, against official university / government / funder pages only. Entry numbers follow the current 78-pathway numbering. Every row gives the decisive line and the official URL, so anyone can re-verify it: open the URL and find the quoted text. Nothing was deleted; inline notes tagged "🔎 Claude check" were added to the affected entries.
+
+| Entry | Result | Decisive line / finding | Official source |
+|---|---|---|---|
+| #5 France Excellence Eiffel | **NEW GATE** | Age: "up to 29 years old at master’s level, and … up to 35 years old at PhD level". Deadline 6 Jan 2027; results from 12 Apr 2027. | https://www.campusfrance.org/en/france-excellence-eiffel-scholarship-program |
+| #40 Columbia Mailman MPH | **ADDED DATE** | "December 1st is the preferred deadline for most master level programs"; rolling until 15 January. | https://www.publichealth.columbia.edu/become-student/how-apply/deadlines |
+| #1–2 Maastricht NL High Potential | **CLARIFIED** | "Applications are open from 1 October 2026 until 1 February 2027 23:59 CET"; programme file complete "before 10 December 2026"; "not older than 35 years of age on 1 September 2027"; GPA 7.5/10. | https://www.maastrichtuniversity.nl/studeren/toelating-inschrijving/financing-your-studies/scholarships/maastricht-university-nl-high |
+| #48 Monash | **CONFLICT RESOLVED** | "R1 Closing date for 2027 has been brought forward from 31 March to 28 February"; later rounds 31 May / 31 Aug / 31 Oct; AUD 41,100 (2027). | https://www.monash.edu/graduate-research/study/apply |
+| #4 Commonwealth Shared | **CONFIRMED + ADD** | Opens 10 Nov 2026; closes "16:00 GMT on Tuesday 8 December 2026"; Bangladesh eligible; needs 2:1 first degree "by September 2027"; 2027 course list "will be published in advance of the opening date". | https://cscuk.fcdo.gov.uk/scholarships/commonwealth-shared-scholarships-applications/ |
+| #55 Waikato | **UNCONFIRMED** | "Up to $33,000 per year for up to 36 months + domestic tuition fees"; "four rounds each year"; needs an "Offer of Place". 31 Jan 2027 and "Invitation to Apply" NOT FOUND. | https://www.waikato.ac.nz/study/scholarships/find-a-scholarship/university-of-waikato-doctoral-scholarship/ |
+| #50 UQ | **UNRESOLVED** | $39,220 (2026 rate) confirmed. Dates listed: 20 Aug, 19 Oct, 27 Oct, 18 Nov 2026; "18 Nov 2026 to 19 Feb 2027 – Assessment and scholarship consideration". Step labels not readable. | https://scholarships.uq.edu.au/scholarship/graduate-school-scholarships-uqgss-%E2%80%93-includes-rtp |
+| #3 Swedish Institute | **CONFIRMED** | Bangladesh eligible; 3,000 hours "prior to 8 February 2027", max three employers; FAQ: internships — "we do not consider them employment". | https://si.se/en/apply/faq-scholarships-on-masters-level/ |
+| #7 SpaceMed | **CONFIRMED** | "open until January 21st 2027 (11.59pm CET)"; selection early April 2027; "€1,400 per month, for a total of 24 months" + fee waiver; fees €5,000/yr otherwise. | https://www.space-med.eu/apply-to-spacemed/scholarships |
+| #6 Erasmus Mundus (general) | **CONFIRMED** | "€1,400 per month (max. 24 months)". | https://erasmus-plus.ec.europa.eu/opportunities/organisations/cooperation-among-organisations-and-institutions/erasmus-mundus-joint-masters |
+| #18 Stipendium Hungaricum | **STILL PATTERN ONLY** | Official site still shows the 2026/27 call (deadline 15 Jan 2026, 2 p.m.); 2027/28 call not posted. | https://stipendiumhungaricum.hu/apply_call/call-for-application/ |
+| #19 Türkiye Bursları | **PATTERN CONFIRMED** | Official calendar: General Application Period "January 10 – February 20". | https://www.turkiyeburslari.gov.tr/calendar |
+| #20 Antwerp / VLIR-UOS | **CONFIRMED** | Master of Epidemiology "will not be available for scholarship in AY 2027-2028". | https://www.vliruos.be/get-funded/study-scholarships |
+| #21 Chevening | **CONFIRMED** | Bangladesh: "Applications for 2027-2028 Chevening Scholarships are now closed"; 2,800 hours work experience. Exact 6 Oct date not shown (timeline says "October 2026"). | https://www.chevening.org/scholarship/bangladesh/ |
+| #36 Hopkins PhD Epidemiology | **CONFIRMED** | "Apply by December 1 for an August start"; "$52,000 through June 2027"; "One year of full-time work experience in a related field"; GRE "not required and not reviewed". FAQ wording NOT re-checked. | https://publichealth.jhu.edu/academics/phd-dept-of-epidemiology |
+| #37 Emory PhD Epidemiology | **CONFIRMED** | "Dec. 1, 2026 — Final deadline for PhD applicants"; CBA stipend "$43,260 for FY26-27" (agreement runs through 24 Aug 2027). | https://sph.emory.edu/admissions/how-to-apply ; https://phdunioninfo.emory.edu/overview.html |
+| #38 UNC PhD Epidemiology | **CONFIRMED** | 15 Dec 2026; "Previous masters degree beneficial but not required"; funding "possible but not guaranteed". | https://sph.unc.edu/epid/phd/ |
+| #39 Emory MPH | **CONFIRMED** | Jan 5 2027 priority for scholarship consideration; internationals automatically considered; 1 May / 15 Jul 2027. REAL/practicum amounts and tuition NOT re-checked. | https://sph.emory.edu/admissions/tuition-funding/scholarships |
+| #41 Georgia State MPH | **CONFIRMED** | "February 15 (priority deadline for scholarship consideration and international applicants)". | https://publichealth.gsu.edu/academics-admissions/georgia-state-mph-program/mph-application-process/ |
+| #42 Hopkins MPH | **CONFIRMED** | Full-time (July 2027 start) deadline 1 Dec 2026; "two years of full-time, paid, post-baccalaureate … health-related work experience". | https://publichealth.jhu.edu/academics/mph/requirements |
+| #43 Fulbright Bangladesh | **CONFIRMED** | Posted 3 May 2026; "Applications are due on Saturday, July 11, 2026"; "at least two years of full-time professional experience". | https://bd.usembassy.gov/fulbright-foreign-student-program-announcement/ |
+| #44 Knight-Hennessy | **CONFIRMED** | 2027 cohort closed; "2028 cohort will open in June 2027". | https://knight-hennessy.stanford.edu/admission |
+| WES (Gate 7) | **CONFIRMED** | Course-by-Course ICAP $239. | https://www.wes.org/evaluations-and-fees/education/graduate-admissions/ |
+| #46 Sydney | **CONFIRMED** | "$44,293 p.a. stipend (2027 rate)"; Research Periods 3–4, 2027 deadline 18 Dec 2026. | https://www.sydney.edu.au/scholarships/australian-government-research-training-program/rtp-international.html |
+| #47 Melbourne | **CONFIRMED** | "$41,100 per year pro rata (2027 full-time study rate)". | https://scholarships.unimelb.edu.au/awards/graduate-research-scholarships |
+| #49 ANU | **CONFIRMED** | "$40,475 per annum (… 2027)"; Round 2 "Closing 15 April each year". | https://study.anu.edu.au/scholarships/find-scholarship/australian-government-research-training-program-rtp-stipend |
+| #51 Flinders | **CONFIRMED** | "$36,061.00 pa tax free (2026 full time rate)". | https://www.flinders.edu.au/scholarships/australian-government-research-training-program-scholarship-international |
+| #52 Australia Awards | **CONFIRMED** | Bangladesh 2027 intake: 1 Feb 2026 – 30 Apr 2026; country site: "will reopen in early 2027". | https://www.dfat.gov.au/people-to-people/australia-awards/australia-awards-scholarships-opening-and-closing-dates |
+| #53 Manaaki | **CONFIRMED** | Eligible Asian countries: Cambodia, Indonesia, Lao PDR, Malaysia, Nepal, Philippines, Thailand, Timor-Leste, Viet Nam — no Bangladesh. | https://www.nzscholarships.govt.nz/check-eligible-countries |
+| #54 Auckland | **CONFIRMED** | $35,468; apply-by dates 1 Nov 2026 (today), 1 Feb 2027, 1 May 2027, 1 Aug 2027. | https://www.auckland.ac.nz/en/study/scholarships-and-awards/scholarship-types/postgraduate-scholarships/doctoral-scholarships.html |
+| #56 Wellington | **CONFIRMED** | $32,000 + domestic fees up to 3 years; rounds close 1 Mar, 1 Jul, 1 Nov. | https://www.wgtn.ac.nz/scholarships/current/wellington-doctoral-scholarships |
+| #57 Otago | **CONFIRMED** | NZ$34,128 + domestic fee waiver 36 months; rounds Mar/Jun/Sep/Nov, submit "by the first day of each round month" (so the Nov round was due today). | https://www.otago.ac.nz/courses/scholarships/university-of-otago-doctoral-scholarship |
+| #58 Canterbury | **CONFIRMED** | $32,650 per 120 points + tuition for thesis-only enrolment; closing 15 May or 15 October; May round "opens 20 March, closes 15 May". | https://www.canterbury.ac.nz/study/getting-started/scholarships/doctoral-scholarships/uc-doctoral-scholarships |
+| #59 Massey | **CONFIRMED** | Closing date 1 October 2026; stipend $30,000 + fees (Massey news page). | https://www.massey.ac.nz/study/scholarships-and-awards/massey-university-doctoral-scholarship/ |
+
+**Not checked in this pass:** Maastricht admission route / GRE (Gate 2); Hopkins FAQ wording (Gate 4); Emory MPH tuition and REAL/practicum amounts; Columbia PopFam; Hopkins Sommer Scholars; KCL aerospace course fee; Swedish Institute 13 Nov list; Sakib model (personal account, not an official source); everything added in the late-1-Nov expansion (Italy, Germany, extra Erasmus, Asia & Middle East, merged Claude-board items, annex).
+
 ## VERIFICATION LOG
 | Date | Pathway | What changed | Source |
 |---|---|---|---|
@@ -549,6 +599,7 @@ Public universities in Germany charge **no tuition fees** in most states (except
 | 1 Nov 2026 | UNC PhD Epidemiology (#15) | "$12–24k recruitment awards" removed (NOT FOUND on re-check). Added: NIH T32-type training grants restricted to US citizens/permanent residents; tuition remission eligible but not guaranteed. | sph.unc.edu |
 | 1 Nov 2026 | Hopkins MPH (#19) | Sommer Scholars stipend / "12 per year" flagged NOT FOUND on the MPH page. | publichealth.jhu.edu |
 | 1 Nov 2026 | Confirmed unchanged | Emory MPH (#16), Columbia MPH (#17), Georgia State MPH (#18 — GRA posts "limited / not guaranteed", no stipend stated), Hopkins MPH gate (#19), Knight-Hennessy (#21), WES ICAP $239. Sakib model (#22) remains a personal account, not an official source. | Official pages via Claude check + Muse spot re-verification |
+| 1 Nov 2026, 18:05 UTC | Claude independent check (34 entries) | Eiffel age gate ADDED; Columbia 1 Dec preferred deadline ADDED; Maastricht 1 Feb 2027 scholarship close ADDED; Monash conflict RESOLVED (28 Feb); Commonwealth 2:1 rule ADDED; Waikato date UNCONFIRMED; UQ next round UNRESOLVED; 27 others CONFIRMED. Details + quotes in the section above. | Official pages listed in the Claude verification section |
 
 - **1 Nov 2026 (late) — EXPANSION + MERGE:** Added the START HERE action dashboard (plain-words deadlines + documents checklist); new ITALY section (DSU regional scholarships: €7,171.11/yr national fuori-sede minimum, ISEE cap €28,339.88, 2026/27 official-call figures; MAECI €10,800; IYT €1,200/mo with Bangladesh eligible and a health-course fit NOT FOUND; Padua Excellence €8,000); new GERMANY section (DAAD Study Scholarships €992/mo with NO experience gate; DAAD EPOS €992/€1,400 with the 2-year experience gate and internships excluded; blocked account €11,904/yr); expanded ERASMUS block (Europubhealth+ 8 Jan 2027 VERIFIED on europubhealth.org; HumanResponse deadline CORRECTED to 7 Jan 2027 on humanresponse.eu — an earlier secondary listing said February; PHID window 1 Oct–31 Dec 2026; IDOH window 1 Dec 2026–15 Jan 2027; NOHA, IMIM, LIVE_Innov, Neurasmus, HYGIEIA added). MERGED the old Claude 'Pathway Board' (120 routes, last sweep 24 Oct 2026, read in full 1 Nov 2026): Gates Cambridge (re-verified: £23,152 maintenance, 8 Dec 2026 / 6 Jan 2027 by course), HKPFS (re-verified: HK$344,400 + HK$14,400, 1 Dec 2026 12:00 HKT, deferral to 31 Jan 2028; tuition not in the RGC award itself), Clarendon, LSHTM Fund, Master Mind (€10,225), GOI-IES Ireland, ETH ESOP, an ASIA & MIDDLE EAST section (NUS SSHSPH, SINGA, NTU, KAUST, MEXT x2, GKS, CSC, Brunei, MBZUAI, HBKU, Mahidol, Chula), MORE FUNDED PhDs (Imperial President's, OIST, Sanger, ISTA, Max Planck Schools, Edinburgh), and an ANNEX importing the board's non-scholarship routes (US paid research jobs, licensing, Bangladesh fallbacks, internships) in short form. Claude-board items not individually re-verified are tagged [merged]. Total numbered pathways now 78.
 
