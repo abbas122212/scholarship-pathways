@@ -1,0 +1,61 @@
+{
+  "schema": "scholarship-pathways/v1",
+  "owner": "Dr. Abbas Uddin Chowdhury, MBBS (intern), Bangladesh",
+  "target_intake": "Autumn 2027",
+  "hard_filter": "Tuition fully covered PLUS monthly stipend or salary. Partial discounts do not count.",
+  "last_verified": "2026-11-01 (USA re-verified 2026-11-01)",
+  "canonical_markdown": "SCHOLARSHIP_PATHWAYS_MASTER.md",
+  "verification_rule": "Official pages only for decisive facts. NOT FOUND instead of guessing. Date-stamp every check.",
+  "open_gates": [
+    "MBBS conferral timing (before vs after internship) - UNRESOLVED",
+    "Maastricht GRE route + GPA conversion to 7.5/10 - UNRESOLVED, contact masteradmission-fhml@maastrichtuniversity.nl",
+    "Swedish Institute 3000 hours paid work separate from internship - UNRESOLVED",
+    "Hopkins PhD: does internship satisfy 1yr related experience - NOT STATED, contact BSPH.EpiAcademic@jh.edu",
+    "MBBS to direct PhD in Australia/NZ - no guarantee, equivalency/case-by-case",
+    "Emory PhD Epidemiology deadline RESOLVED 2026-11-01: 1 December 2026 (Rollins How to Apply)"
+  ],
+  "pathway_count": 36,
+  "regions": [
+    "Europe & UK",
+    "USA",
+    "Australia",
+    "New Zealand"
+  ],
+  "nearest_deadlines": [
+    {
+      "date": "2026-12-01",
+      "name": "Johns Hopkins PhD Epidemiology AND Emory Rollins PhD Epidemiology"
+    },
+    {
+      "date": "2026-12-08",
+      "name": "Commonwealth Shared Scholarships close"
+    },
+    {
+      "date": "2026-12-10",
+      "name": "Maastricht NL High Potential complete file"
+    },
+    {
+      "date": "2026-12-15",
+      "name": "UNC Gillings PhD Epidemiology"
+    },
+    {
+      "date": "2026-12-18",
+      "name": "Sydney RTP RP3-4 2027"
+    },
+    {
+      "date": "2027-01-05",
+      "name": "Emory Rollins MPH priority (scholarship gate)"
+    },
+    {
+      "date": "2027-01-21",
+      "name": "Erasmus Mundus SpaceMed"
+    }
+  ],
+  "note": "Full per-pathway funding, eligibility, gates and sources are in the canonical markdown file in this same folder. This JSON is the machine-readable index for other AIs.",
+  "corrections_2026_11_01": [
+    "Fulbright Bangladesh 2027-28: call WAS posted 3 May 2026, closed 11 July 2026 - entry corrected from 'no call posted' to CLOSED",
+    "Hopkins PhD stipend: '+3% after Jun 2027' removed - later rates depend on successor union negotiations",
+    "UNC PhD: $12-24k recruitment figure NOT FOUND on re-check, removed; NIH training grants US citizen/PR only",
+    "Emory PhD stipend current Laney CBA rate $43,260/yr FY26-27"
+  ]
+}
