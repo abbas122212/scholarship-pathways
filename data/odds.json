@@ -1,23 +1,593 @@
 {
  "_about": "Estimated chance of winning a FUNDED place this cycle, out of 10, for Batch 1 routes. Judgement, not a statistic: based on what the board knows (fresh MBBS, no publications or work experience, internship until late 2027, marks and class rank unknown) plus published award numbers where they exist. Factors are scored 0-3: eligibility (does he clearly qualify), competition (3 = less crowded), profile (how well a no-research MBBS matches who they pick), timing (does the start date fit the internship).",
  "routes": {
-  "imperial-pres": {"score": 2, "factors": {"eligibility": 2, "competition": 1, "profile": 1, "timing": 1}, "why": "About 50 awards across all of Imperial, and you need a supervisor's agreement before applying. Round 1 closes today.", "raise": ["A supervisor who agrees to back you for round 2 (11 Jan 2027)", "A first-class-equivalent MBBS result and class rank", "Any research output from the internship year"]},
-  "oist-phd": {"score": 2, "factors": {"eligibility": 1, "competition": 1, "profile": 1, "timing": 2}, "why": "Very competitive, research-led selection. Basic science rather than medicine, and OIST doesn't say an MBBS qualifies.", "raise": ["Written confirmation that an MBBS is accepted", "A unit with space that matches computational or neuroscience interests", "Some coding or lab experience"]},
-  "sanger-phd": {"score": 2, "factors": {"eligibility": 2, "competition": 1, "profile": 1, "timing": 1}, "why": "At least 12 places worldwide, and genomics and coding skills carry the selection.", "raise": ["Python or R and basic statistics in your CV", "A genomic-epidemiology question in your statement", "An answer from Sanger on a later start"]},
-  "eth-esop": {"score": 2, "factors": {"eligibility": 2, "competition": 1, "profile": 1, "timing": 1}, "why": "About 60 awards; you need roughly the top 10% of your class and a strong thesis pre-proposal.", "raise": ["A class-rank certificate showing top 10%", "A convincing quantitative thesis pre-proposal", "A September 2028 start instead"]},
-  "yenching": {"score": 3, "factors": {"eligibility": 3, "competition": 1, "profile": 2, "timing": 1}, "why": "Any degree qualifies and the cohort is large for a fellowship, but it's still elite. A health-policy proposal is your angle.", "raise": ["A sharp research statement on China's health system or global health diplomacy", "IELTS 7.0+ sent directly to the Academy", "Letters from professors in your intended field"]},
-  "clarendon": {"score": 2, "factors": {"eligibility": 2, "competition": 1, "profile": 1, "timing": 1}, "why": "You need an Oxford offer first, then Clarendon picks only the very top applicants. The October 2027 start clashes.", "raise": ["Top marks and class rank", "Research output before the December deadline", "Applying in the 2028 cycle when you can arrive"]},
-  "emjm-neurasmus": {"score": 2, "factors": {"eligibility": 2, "competition": 1, "profile": 1, "timing": 1}, "why": "About 20 places from 800+ applicants (roughly 1 in 40), and lab or neuroscience experience helps.", "raise": ["Clinical neurology exposure or a neuro research project", "Strong motivation letter tied to neuroscience", "Confirming a later start is possible"]},
-  "hkpfs": {"score": 2, "factors": {"eligibility": 3, "competition": 1, "profile": 1, "timing": 3}, "why": "Eligibility and timing are excellent (deferral to Jan 2028), but about 400 fellowships worldwide go mostly to people with publications.", "raise": ["A supervisor at HKU or CUHK who backs your proposal", "A focused epidemiology research proposal", "Even one paper or abstract from the internship"]},
-  "jhu-phd": {"score": 1, "factors": {"eligibility": 1, "competition": 0, "profile": 1, "timing": 1}, "why": "One of the most competitive epidemiology PhDs anywhere; most admits have a master's or research record, and the work-experience line is unresolved.", "raise": ["A yes from Hopkins on whether the internship counts", "A master's or 1–2 years of research first", "Strong quantitative evidence (statistics, coding)"]},
-  "emory-phd": {"score": 1, "factors": {"eligibility": 2, "competition": 0, "profile": 1, "timing": 1}, "why": "200+ applications for 10–14 places (about 1 in 17), and admits often hold advanced degrees.", "raise": ["Research experience and a publication", "A faculty member whose work matches yours", "Applying after a research year"]},
-  "singa": {"score": 3, "factors": {"eligibility": 2, "competition": 2, "profile": 1, "timing": 3}, "why": "Supervisor-led selection in science and engineering; the January 2028 intake fits your timing well.", "raise": ["A supervisor at A*STAR, NUS or NTU who wants you", "A biomedical or data-science project angle", "Targeting the 1 June 2027 round"]},
-  "mps": {"score": 2, "factors": {"eligibility": 2, "competition": 1, "profile": 1, "timing": 1}, "why": "Multi-stage selection that favours research and computational backgrounds; the fall 2027 start clashes.", "raise": ["Computational skills for the Biomedical AI School", "A clear research interest matched to a faculty member", "Asking about a later start"]},
-  "euhem": {"score": 0, "factors": {"eligibility": 2, "competition": 2, "profile": 2, "timing": 1}, "why": "There is no scholarship, so the chance of a funded place is zero. Admission alone would be realistic.", "raise": ["Nothing changes the funding; choose a funded Erasmus Mundus programme instead"]},
-  "gates": {"score": 1, "factors": {"eligibility": 2, "competition": 0, "profile": 1, "timing": 1}, "why": "About 70 full-cost awards worldwide, after first winning a Cambridge place; the October 2027 start clashes.", "raise": ["Top academic standing", "Evidence of leadership and service in public health", "Applying when you can actually start"]},
-  "cw-shared": {"score": 3, "factors": {"eligibility": 1, "competition": 2, "profile": 2, "timing": 1}, "why": "Less crowded than Chevening or Gates and designed for people like you, but the 2:1 mapping and the start date are open.", "raise": ["Confirmation that your MBBS meets the 2:1 standard", "An approved course with a university that allows a later start", "A development-impact case for Bangladesh"]},
-  "emjm-noha": {"score": 1, "factors": {"eligibility": 0, "competition": 1, "profile": 2, "timing": 1}, "why": "Scholarship applicants must have completed their degree by 15 Dec 2026, which may rule you out this year. About 16 scholarships with a 10% nationality cap.", "raise": ["NOHA confirming your MBBS counts as completed", "Humanitarian or community-health experience in the CV"]},
-  "unc-phd": {"score": 2, "factors": {"eligibility": 2, "competition": 1, "profile": 1, "timing": 1}, "why": "Admission is possible, but funding isn't guaranteed for international students, so a funded place is the hard part.", "raise": ["A named faculty mentor with grant money for you", "Quantitative skills on paper"]},
-  "mbzuai": {"score": 2, "factors": {"eligibility": 1, "competition": 2, "profile": 1, "timing": 1}, "why": "A medical degree may not count as STEM, and MSc places are fee-paying by default; only the PhD route is funded.", "raise": ["Admissions confirming an MBBS is eligible", "75%+ on the screening exam", "Python and machine-learning coursework"]}
+  "imperial-pres": {
+   "score": 2,
+   "factors": {
+    "eligibility": 2,
+    "competition": 1,
+    "profile": 1,
+    "timing": 1
+   },
+   "why": "About 50 awards across all of Imperial, and you need a supervisor's agreement before applying. Round 1 closes today.",
+   "raise": [
+    "A supervisor who agrees to back you for round 2 (11 Jan 2027)",
+    "A first-class-equivalent MBBS result and class rank",
+    "Any research output from the internship year"
+   ]
+  },
+  "oist-phd": {
+   "score": 2,
+   "factors": {
+    "eligibility": 1,
+    "competition": 1,
+    "profile": 1,
+    "timing": 2
+   },
+   "why": "Very competitive, research-led selection. Basic science rather than medicine, and OIST doesn't say an MBBS qualifies.",
+   "raise": [
+    "Written confirmation that an MBBS is accepted",
+    "A unit with space that matches computational or neuroscience interests",
+    "Some coding or lab experience"
+   ]
+  },
+  "sanger-phd": {
+   "score": 2,
+   "factors": {
+    "eligibility": 2,
+    "competition": 1,
+    "profile": 1,
+    "timing": 1
+   },
+   "why": "At least 12 places worldwide, and genomics and coding skills carry the selection.",
+   "raise": [
+    "Python or R and basic statistics in your CV",
+    "A genomic-epidemiology question in your statement",
+    "An answer from Sanger on a later start"
+   ]
+  },
+  "eth-esop": {
+   "score": 2,
+   "factors": {
+    "eligibility": 2,
+    "competition": 1,
+    "profile": 1,
+    "timing": 1
+   },
+   "why": "About 60 awards; you need roughly the top 10% of your class and a strong thesis pre-proposal.",
+   "raise": [
+    "A class-rank certificate showing top 10%",
+    "A convincing quantitative thesis pre-proposal",
+    "A September 2028 start instead"
+   ]
+  },
+  "yenching": {
+   "score": 3,
+   "factors": {
+    "eligibility": 3,
+    "competition": 1,
+    "profile": 2,
+    "timing": 1
+   },
+   "why": "Any degree qualifies and the cohort is large for a fellowship, but it's still elite. A health-policy proposal is your angle.",
+   "raise": [
+    "A sharp research statement on China's health system or global health diplomacy",
+    "IELTS 7.0+ sent directly to the Academy",
+    "Letters from professors in your intended field"
+   ]
+  },
+  "clarendon": {
+   "score": 2,
+   "factors": {
+    "eligibility": 2,
+    "competition": 1,
+    "profile": 1,
+    "timing": 1
+   },
+   "why": "You need an Oxford offer first, then Clarendon picks only the very top applicants. The October 2027 start clashes.",
+   "raise": [
+    "Top marks and class rank",
+    "Research output before the December deadline",
+    "Applying in the 2028 cycle when you can arrive"
+   ]
+  },
+  "emjm-neurasmus": {
+   "score": 2,
+   "factors": {
+    "eligibility": 2,
+    "competition": 1,
+    "profile": 1,
+    "timing": 1
+   },
+   "why": "About 20 places from 800+ applicants (roughly 1 in 40), and lab or neuroscience experience helps.",
+   "raise": [
+    "Clinical neurology exposure or a neuro research project",
+    "Strong motivation letter tied to neuroscience",
+    "Confirming a later start is possible"
+   ]
+  },
+  "hkpfs": {
+   "score": 2,
+   "factors": {
+    "eligibility": 3,
+    "competition": 1,
+    "profile": 1,
+    "timing": 3
+   },
+   "why": "Eligibility and timing are excellent (deferral to Jan 2028), but about 400 fellowships worldwide go mostly to people with publications.",
+   "raise": [
+    "A supervisor at HKU or CUHK who backs your proposal",
+    "A focused epidemiology research proposal",
+    "Even one paper or abstract from the internship"
+   ]
+  },
+  "jhu-phd": {
+   "score": 1,
+   "factors": {
+    "eligibility": 1,
+    "competition": 0,
+    "profile": 1,
+    "timing": 1
+   },
+   "why": "One of the most competitive epidemiology PhDs anywhere; most admits have a master's or research record, and the work-experience line is unresolved.",
+   "raise": [
+    "A yes from Hopkins on whether the internship counts",
+    "A master's or 1–2 years of research first",
+    "Strong quantitative evidence (statistics, coding)"
+   ]
+  },
+  "emory-phd": {
+   "score": 1,
+   "factors": {
+    "eligibility": 2,
+    "competition": 0,
+    "profile": 1,
+    "timing": 1
+   },
+   "why": "200+ applications for 10–14 places (about 1 in 17), and admits often hold advanced degrees.",
+   "raise": [
+    "Research experience and a publication",
+    "A faculty member whose work matches yours",
+    "Applying after a research year"
+   ]
+  },
+  "singa": {
+   "score": 3,
+   "factors": {
+    "eligibility": 2,
+    "competition": 2,
+    "profile": 1,
+    "timing": 3
+   },
+   "why": "Supervisor-led selection in science and engineering; the January 2028 intake fits your timing well.",
+   "raise": [
+    "A supervisor at A*STAR, NUS or NTU who wants you",
+    "A biomedical or data-science project angle",
+    "Targeting the 1 June 2027 round"
+   ]
+  },
+  "mps": {
+   "score": 2,
+   "factors": {
+    "eligibility": 2,
+    "competition": 1,
+    "profile": 1,
+    "timing": 1
+   },
+   "why": "Multi-stage selection that favours research and computational backgrounds; the fall 2027 start clashes.",
+   "raise": [
+    "Computational skills for the Biomedical AI School",
+    "A clear research interest matched to a faculty member",
+    "Asking about a later start"
+   ]
+  },
+  "euhem": {
+   "score": 0,
+   "factors": {
+    "eligibility": 2,
+    "competition": 2,
+    "profile": 2,
+    "timing": 1
+   },
+   "why": "There is no scholarship, so the chance of a funded place is zero. Admission alone would be realistic.",
+   "raise": [
+    "Nothing changes the funding; choose a funded Erasmus Mundus programme instead"
+   ]
+  },
+  "gates": {
+   "score": 1,
+   "factors": {
+    "eligibility": 2,
+    "competition": 0,
+    "profile": 1,
+    "timing": 1
+   },
+   "why": "About 70 full-cost awards worldwide, after first winning a Cambridge place; the October 2027 start clashes.",
+   "raise": [
+    "Top academic standing",
+    "Evidence of leadership and service in public health",
+    "Applying when you can actually start"
+   ]
+  },
+  "cw-shared": {
+   "score": 3,
+   "factors": {
+    "eligibility": 1,
+    "competition": 2,
+    "profile": 2,
+    "timing": 1
+   },
+   "why": "Less crowded than Chevening or Gates and designed for people like you, but the 2:1 mapping and the start date are open.",
+   "raise": [
+    "Confirmation that your MBBS meets the 2:1 standard",
+    "An approved course with a university that allows a later start",
+    "A development-impact case for Bangladesh"
+   ]
+  },
+  "emjm-noha": {
+   "score": 1,
+   "factors": {
+    "eligibility": 0,
+    "competition": 1,
+    "profile": 2,
+    "timing": 1
+   },
+   "why": "Scholarship applicants must have completed their degree by 15 Dec 2026, which may rule you out this year. About 16 scholarships with a 10% nationality cap.",
+   "raise": [
+    "NOHA confirming your MBBS counts as completed",
+    "Humanitarian or community-health experience in the CV"
+   ]
+  },
+  "unc-phd": {
+   "score": 2,
+   "factors": {
+    "eligibility": 2,
+    "competition": 1,
+    "profile": 1,
+    "timing": 1
+   },
+   "why": "Admission is possible, but funding isn't guaranteed for international students, so a funded place is the hard part.",
+   "raise": [
+    "A named faculty mentor with grant money for you",
+    "Quantitative skills on paper"
+   ]
+  },
+  "mbzuai": {
+   "score": 2,
+   "factors": {
+    "eligibility": 1,
+    "competition": 2,
+    "profile": 1,
+    "timing": 1
+   },
+   "why": "A medical degree may not count as STEM, and MSc places are fee-paying by default; only the PhD route is funded.",
+   "raise": [
+    "Admissions confirming an MBBS is eligible",
+    "75%+ on the screening exam",
+    "Python and machine-learning coursework"
+   ]
+  },
+  "au-sydney": {
+   "score": 2,
+   "factors": {
+    "eligibility": 1,
+    "competition": 1,
+    "profile": 1,
+    "timing": 1
+   },
+   "why": "Direct MBBS-to-PhD entry is case by case and needs a supervisor; 2027 research periods clash with your internship.",
+   "raise": [
+    "A supervisor who backs a direct PhD application",
+    "One publication or research output",
+    "Targeting a 2028 research period"
+   ]
+  },
+  "emjm-phid": {
+   "score": 3,
+   "factors": {
+    "eligibility": 3,
+    "competition": 1,
+    "profile": 2,
+    "timing": 1
+   },
+   "why": "Health degrees accepted and no experience minimum, but Erasmus scholarships are limited and the 2027 start clashes.",
+   "raise": [
+    "IELTS writing at 6.5 or above",
+    "Disaster or outbreak-response experience from the internship",
+    "Agreement on a later start, or the 2028 cycle"
+   ]
+  },
+  "ntu-rss": {
+   "score": 2,
+   "factors": {
+    "eligibility": 2,
+    "competition": 1,
+    "profile": 1,
+    "timing": 3
+   },
+   "why": "The January 2028 intake fits your timing, but you need a supervisor and some research experience for the clinician route.",
+   "raise": [
+    "An LKCMedicine supervisor's agreement",
+    "Research experience on the CV",
+    "Applying in the 1–30 June 2027 window"
+   ]
+  },
+  "kaust": {
+   "score": 2,
+   "factors": {
+    "eligibility": 1,
+    "competition": 2,
+    "profile": 1,
+    "timing": 1
+   },
+   "why": "Funding is automatic if admitted, but programmes are science and data only, and August 2027 is too early.",
+   "raise": [
+    "A bioscience or data-science programme that accepts an MBBS",
+    "Evidence of quantitative skills",
+    "Deferral to 2028"
+   ]
+  },
+  "emjm-imim": {
+   "score": 3,
+   "factors": {
+    "eligibility": 3,
+    "competition": 1,
+    "profile": 2,
+    "timing": 1
+   },
+   "why": "Medicine is a named eligible field and the translational focus suits an MBBS, but scholarships are limited.",
+   "raise": [
+    "Research experience, even small",
+    "A sharp translational-research motivation",
+    "Confirming a later start"
+   ]
+  },
+  "emory-mph": {
+   "score": 3,
+   "factors": {
+    "eligibility": 2,
+    "competition": 2,
+    "profile": 2,
+    "timing": 1
+   },
+   "why": "Internationals are considered for merit awards automatically, but only tuition is covered; a full-tuition award is the hard part.",
+   "raise": [
+    "A file SOPHAS-verified well before 5 Jan",
+    "Strong marks and a clear public-health story",
+    "A plan for paid US research work alongside"
+   ]
+  },
+  "eiffel": {
+   "score": 1,
+   "factors": {
+    "eligibility": 1,
+    "competition": 1,
+    "profile": 2,
+    "timing": 0
+   },
+   "why": "Only institutions can nominate, and most internal deadlines passed in Oct–Nov 2026.",
+   "raise": [
+    "Nomination through IDOH or another programme still open",
+    "Planning for the 2028 round from September 2027"
+   ]
+  },
+  "emjm-humres": {
+   "score": 3,
+   "factors": {
+    "eligibility": 3,
+    "competition": 1,
+    "profile": 2,
+    "timing": 1
+   },
+   "why": "A health degree fits well and it's free to apply, but there are only 15 scholarships and experience is 20% of the score.",
+   "raise": [
+    "Community or outbreak work from the internship",
+    "A strong motivation statement",
+    "Asking about a later start"
+   ]
+  },
+  "emjm-eph": {
+   "score": 3,
+   "factors": {
+    "eligibility": 3,
+    "competition": 1,
+    "profile": 2,
+    "timing": 1
+   },
+   "why": "Medical graduates accepted and no experience required; competition for scholarships is strong.",
+   "raise": [
+    "A motivation letter tied to epidemiology and data",
+    "Interview preparation for 18 Feb",
+    "Choosing the right track and city"
+   ]
+  },
+  "ista-phd": {
+   "score": 1,
+   "factors": {
+    "eligibility": 1,
+    "competition": 1,
+    "profile": 1,
+    "timing": 0
+   },
+   "why": "MBBS eligibility isn't stated, selection is very competitive, and the fixed 15 Sep 2027 start rules out this year.",
+   "raise": [
+    "Confirmation that an MBBS qualifies",
+    "Computational or lab experience",
+    "Applying for the 2028 intake"
+   ]
+  },
+  "csc": {
+   "score": 4,
+   "factors": {
+    "eligibility": 3,
+    "competition": 2,
+    "profile": 2,
+    "timing": 1
+   },
+   "why": "Bangladesh is eligible through two routes and university places are relatively accessible, but the 2027 call isn't out yet.",
+   "raise": [
+    "Two target universities with English-taught public health",
+    "Documents ready before the December notice",
+    "Applying through both the embassy and a university"
+   ]
+  },
+  "emjm-idoh": {
+   "score": 3,
+   "factors": {
+    "eligibility": 3,
+    "competition": 1,
+    "profile": 2,
+    "timing": 1
+   },
+   "why": "A direct interest match with a straightforward application, but limited scholarship seats.",
+   "raise": [
+    "An infectious-disease angle from your internship",
+    "A strong motivation letter",
+    "Asking about a later start"
+   ]
+  },
+  "hartford-srf": {
+   "score": 2,
+   "factors": {
+    "eligibility": 2,
+    "competition": 2,
+    "profile": 1,
+    "timing": 1
+   },
+   "why": "IMGs are encouraged and J-1 sponsorship exists, but pay isn't stated, research experience is preferred and the field is surgery.",
+   "raise": [
+    "Confirmation the post is paid",
+    "Any research output",
+    "A January 2028 cycle start"
+   ]
+  },
+  "reading-intl-phd": {
+   "score": 1,
+   "factors": {
+    "eligibility": 2,
+    "competition": 0,
+    "profile": 1,
+    "timing": 1
+   },
+   "why": "Each School nominates just one candidate, and there's no health track.",
+   "raise": [
+    "A Reading supervisor whose project matches your interests"
+   ]
+  },
+  "hung": {
+   "score": 4,
+   "factors": {
+    "eligibility": 3,
+    "competition": 2,
+    "profile": 2,
+    "timing": 1
+   },
+   "why": "Bangladesh is a Sending Partner with no experience rule; the dual nomination process is the main hurdle.",
+   "raise": [
+    "Applying to both Tempus and the Sending Partner",
+    "A public health programme with space",
+    "Savings to cover the small stipend"
+   ]
+  },
+  "mastermind": {
+   "score": 2,
+   "factors": {
+    "eligibility": 2,
+    "competition": 1,
+    "profile": 2,
+    "timing": 1
+   },
+   "why": "Each university nominates up to 20 people, but health-programme eligibility is unclear and the terms are under review.",
+   "raise": [
+    "Confirmation that a health master's qualifies",
+    "Strong marks (top of class)"
+   ]
+  },
+  "columbia-mph": {
+   "score": 1,
+   "factors": {
+    "eligibility": 2,
+    "competition": 1,
+    "profile": 2,
+    "timing": 1
+   },
+   "why": "Admission is realistic, but the money is partial and small next to New York costs.",
+   "raise": [
+    "A large named award",
+    "Adding it cheaply to an existing SOPHAS application"
+   ]
+  },
+  "si": {
+   "score": 0,
+   "factors": {
+    "eligibility": 0,
+    "competition": 2,
+    "profile": 2,
+    "timing": 0
+   },
+   "why": "You need about 3,000 hours of paid work before February 2027, and the internship doesn't count.",
+   "raise": [
+    "About 18 months of post-internship work, then reapply"
+   ]
+  },
+  "emjm-live": {
+   "score": 3,
+   "factors": {
+    "eligibility": 3,
+    "competition": 1,
+    "profile": 2,
+    "timing": 1
+   },
+   "why": "Clinicians are explicitly welcomed; scholarships are limited and some are partial.",
+   "raise": [
+    "A vaccinology or infection-control angle",
+    "IELTS 6.5 or above",
+    "Asking about a later start"
+   ]
+  },
+  "emjm-spacemed": {
+   "score": 3,
+   "factors": {
+    "eligibility": 2,
+    "competition": 1,
+    "profile": 3,
+    "timing": 1
+   },
+   "why": "A medical degree is the core background, but there are only about 20 scholarships and degree-completion timing is open.",
+   "raise": [
+    "SpaceMed confirming how an internship-pending MBBS counts",
+    "Top grades (40% of the score)",
+    "A sharp motivation video"
+   ]
+  },
+  "unimelb-mdhs": {
+   "score": 2,
+   "factors": {
+    "eligibility": 2,
+    "competition": 1,
+    "profile": 1,
+    "timing": 1
+   },
+   "why": "Automatic scholarship consideration, but research experience is usually expected and 2027 offers must start by 31 Oct.",
+   "raise": [
+    "A supervisor at MDHS",
+    "One research output",
+    "Applying for a 2028 start"
+   ]
+  },
+  "nz-waikato": {
+   "score": 2,
+   "factors": {
+    "eligibility": 1,
+    "competition": 2,
+    "profile": 1,
+    "timing": 2
+   },
+   "why": "Four rounds a year help timing, but you need an Offer of Place and MBBS-to-PhD entry is unclear.",
+   "raise": [
+    "A supervisor's invitation",
+    "Confirmation an MBBS gives PhD entry"
+   ]
+  }
  }
 }
