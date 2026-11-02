@@ -21,6 +21,8 @@ BUILD_DATE = date(2026, 11, 2)  # fallback "today" for the no-JS render
 board = json.loads((ROOT / "data/board.json").read_text())
 extra = json.loads((ROOT / "data/extra.json").read_text())
 guide = json.loads((ROOT / "data/guide.json").read_text())
+APPLY = json.loads((ROOT / "data/apply.json").read_text())["routes"]
+STORIES = json.loads((ROOT / "data/stories.json").read_text())["stories"]
 
 paths = board["paths"] + extra["paths"]
 paths.sort(key=lambda p: p["rank"])
@@ -59,6 +61,15 @@ GETS = {
 }
 
 e = lambda s: escape(str(s if s is not None else ""), quote=True)
+
+
+def rich(text):
+    """Escape, then turn **bold** into <strong>."""
+    return re.sub(r"\*\*(.+?)\*\*", r"<strong>\1</strong>", e(text))
+
+
+FEE_CLS = {"free": "fee-free", "paid": "fee-paid", "unk": "fee-unk"}
+FEE_ICON = {"free": "✓", "paid": "¤", "unk": "?"}
 
 
 def pdate(s):
@@ -216,7 +227,21 @@ def card(p):
     note = f'<p>{e(p["note"])}</p>' if p.get("note") else ""
     search = " ".join([p["name"], p["country"], p.get("note", ""), p.get("gets", ""), p.get("cost", ""), CAT_NAME[p["cat"]]]).lower()
     new = '<span class="badge-new">Updated this week</span>' if p.get("isNew") else ""
-    return f'''<li class="card" id="p-{e(p["id"])}" data-cat="{p["cat"]}" data-elig="{p["elig"]}" data-country="{e(p["country"])}" data-rank="{p["rank"]}" data-d="{p.get("d") or ""}" data-name="{e(p["name"].lower())}" data-q="{e(search)}">
+    ap = APPLY.get(p["id"])
+    has_story = p["id"] in STORIES
+    apply_html = ""
+    if ap:
+        apply_html = (
+            f'<div class="apply"><p class="fee {FEE_CLS[ap["kind"]]}"><span class="fee-k">Application fee</span>'
+            f'<strong><span class="fee-i" aria-hidden="true">{FEE_ICON[ap["kind"]]}</span> {e(ap["fee"])}</strong></p>'
+            f'<a class="portal" href="{e(ap["portal_url"])}" target="_blank" rel="noopener">Open portal<span class="sr"> for {e(p["name"])} (opens in a new tab)</span> <span aria-hidden="true">↗</span></a></div>'
+        )
+    story_html = (
+        f'<a class="story-link" href="#story-{e(p["id"])}"><span>Read the story</span><span class="sr"> about {e(p["name"])}</span> <span aria-hidden="true">→</span></a>'
+        if has_story else ""
+    )
+    feekind = ap["kind"] if ap else ""
+    return f'''<li class="card" id="p-{e(p["id"])}" data-fee="{feekind}" data-cat="{p["cat"]}" data-elig="{p["elig"]}" data-country="{e(p["country"])}" data-rank="{p["rank"]}" data-d="{p.get("d") or ""}" data-name="{e(p["name"].lower())}" data-q="{e(search)}">
   <article aria-labelledby="t-{e(p["id"])}">
     <div class="card-top">
       <p class="card-meta"><span>{e(p["country"])}</span><span aria-hidden="true"> · </span><span>{e(CAT_NAME[p["cat"]])}</span></p>
@@ -232,6 +257,8 @@ def card(p):
       <div><dt>Gets him</dt><dd>{e(gets)}</dd></div>
       <div><dt>US goal</dt><dd class="us us-{us_cls}"><span class="ico" aria-hidden="true"></span>{e(us_label)}</dd></div>
     </dl>
+    {apply_html}
+    {story_html}
     <details>
       <summary>Full notes &amp; source</summary>
       <div class="more">{change}{note}<p class="foot">{src}<span class="ver">Verified {e(fmt(p["v"]))}</span></p></div>
@@ -241,6 +268,76 @@ def card(p):
 
 
 cards_html = "\n".join(card(p) for p in paths)
+PBYID = {p["id"]: p for p in paths}
+
+FIT_LABEL = {"good": "Good fit", "mixed": "Mixed", "poor": "Poor fit"}
+FIT_NAME = {"us": "US Match, 2029 plan", "eu": "Practising in Europe", "interest": "Your interests"}
+
+
+def story_html(pid, st):
+    p = PBYID[pid]
+    ap = APPLY.get(pid)
+    fit = "".join(
+        f'<li class="fit fit-{v[0]}"><span class="fit-n">{FIT_NAME[k]}</span><strong><span class="fit-i" aria-hidden="true"></span>{FIT_LABEL[v[0]]}</strong><span class="fit-t">{e(v[1])}</span></li>'
+        for k, v in st["fit"].items()
+    )
+    secs = []
+    for sec in st["sections"]:
+        body = ""
+        for para in sec.get("p", []):
+            body += f"<p>{rich(para)}</p>"
+        if sec.get("ul"):
+            cls = " class=\"catches\"" if sec["h"].lower().startswith("the catches") else ""
+            body += f"<ul{cls}>" + "".join(f"<li>{rich(x)}</li>" for x in sec["ul"]) + "</ul>"
+        secs.append(f"<section><h3>{e(sec['h'])}</h3>{body}</section>")
+    fixed = "".join(f"<li>{rich(x)}</li>" for x in st["fixed"])
+    box = ""
+    if ap:
+        dl = f'<p class="sb-row"><span>Closes</span><strong>{e(p.get("dt") or "")}</strong></p>' if p.get("dt") else ""
+        box = (
+            f'<div class="story-box"><p class="sb-row"><span>Portal</span><a class="portal" href="{e(ap["portal_url"])}" target="_blank" rel="noopener">{e(ap["portal_label"])} <span aria-hidden="true">↗</span><span class="sr"> (opens in a new tab)</span></a></p>'
+            f'<p class="sb-row"><span>Application fee</span><strong class="fee {FEE_CLS[ap["kind"]]}"><span class="fee-i" aria-hidden="true">{FEE_ICON[ap["kind"]]}</span> {e(ap["fee"])}</strong></p>'
+            f'{dl}<p class="sb-note">{e(ap["fee_note"])}</p><p class="sb-check"><strong>How this was checked:</strong> {e(ap["check"])}</p></div>'
+        )
+    return f'''<article class="story" id="story-{e(pid)}" role="dialog" aria-modal="true" aria-labelledby="st-{e(pid)}" tabindex="-1">
+  <a class="story-backdrop" href="#p-{e(pid)}" tabindex="-1" aria-hidden="true"></a>
+  <div class="story-sheet">
+    <div class="story-bar"><p class="eyebrow">The story · {e(p["country"])}</p><a class="story-close" href="#p-{e(pid)}">Close <span aria-hidden="true">✕</span><span class="sr"> story</span></a></div>
+    <h2 id="st-{e(pid)}">{e(p["name"])}</h2>
+    <p class="verdict v-{st["tone"]}"><span class="v-i" aria-hidden="true"></span>{e(st["tag"])}</p>
+    <p class="story-lede">{rich(st["lede"])}</p>
+    <p class="ai-note"><span aria-hidden="true">✦</span> Drafted by Gemini (an AI), then rewritten and fact-checked against official pages on 2 Nov 2026. Where the two disagreed, the official page won.</p>
+    <ul class="fitrail" aria-label="How it fits your goals">{fit}</ul>
+    {box}
+    {"".join(secs)}
+    <aside class="fixed"><h3>What we corrected from Gemini's draft</h3><ul>{fixed}</ul></aside>
+    <p class="story-end"><a class="btn btn-ghost" href="#p-{e(pid)}">Back to the route</a></p>
+  </div>
+</article>'''
+
+
+stories_html = "\n".join(story_html(k, v) for k, v in STORIES.items() if k in PBYID)
+
+desk_ids = sorted(
+    [k for k in APPLY if k in PBYID],
+    key=lambda k: ((PBYID[k].get("d") or "9999"), PBYID[k]["rank"]),
+)
+desk_rows = []
+for k in desk_ids:
+    p, ap = PBYID[k], APPLY[k]
+    d = p.get("d")
+    date_cell = e(fmt(d)) if d else "—"
+    bundle = f' data-bundle="{ap["bundle"]}"' if ap.get("bundle") else ""
+    desk_rows.append(f'''<tr data-id="{e(k)}" data-d="{d or ""}" data-cur="{ap["cur"]}" data-amt="{ap["amt"]}"{bundle}>
+  <td data-label="Closes" class="dk-date">{date_cell}<span class="dk-rel" data-left="{d or ""}">{e(rel(days_left(d))) if d else ""}</span></td>
+  <td data-label="Route" class="dk-name"><a href="#p-{e(k)}">{e(p["name"])}</a><span class="dk-c">{e(p["country"])}</span></td>
+  <td data-label="Portal"><a class="portal" href="{e(ap["portal_url"])}" target="_blank" rel="noopener">{e(ap["portal_label"])} <span aria-hidden="true">↗</span><span class="sr"> (opens in a new tab)</span></a></td>
+  <td data-label="Fee"><span class="fee {FEE_CLS[ap["kind"]]}"><strong><span class="fee-i" aria-hidden="true">{FEE_ICON[ap["kind"]]}</span> {e(ap["fee"])}</strong></span></td>
+  <td data-label="Story">{f'<a class="story-link" href="#story-{e(k)}">Read <span class="sr">the story about {e(p["name"])} </span>→</a>' if k in STORIES else ""}</td>
+  <td data-label="Cost" class="dk-tick"><label><input type="checkbox" class="calc" data-id="{e(k)}"><span class="sr">Add {e(p["name"])} to the fee estimate</span></label></td>
+</tr>''')
+desk_html = "\n".join(desk_rows)
+free_n = sum(1 for k in desk_ids if APPLY[k]["kind"] == "free")
 cat_counts = Counter(p["cat"] for p in paths)
 elig_counts = Counter(p["elig"] for p in paths)
 
@@ -330,6 +427,11 @@ page = (
     .replace("{{COUNTRY_OPTS}}", country_opts)
     .replace("{{CARDS}}", cards_html)
     .replace("{{CALENDAR}}", "\n".join(cal_html))
+    .replace("{{STORIES}}", stories_html)
+    .replace("{{DESK_ROWS}}", desk_html)
+    .replace("{{DESK_N}}", str(len(desk_ids)))
+    .replace("{{DESK_FREE}}", str(free_n))
+    .replace("{{STORY_N}}", str(len([k for k in STORIES if k in PBYID])))
     .replace("{{CHECKLIST}}", checklist)
     .replace("{{DOCS}}", docs)
     .replace("{{GATES}}", gates)
