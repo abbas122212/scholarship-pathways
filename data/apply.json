@@ -1,0 +1,187 @@
+{
+ "_about": "Application portal + fee for Batch 1 routes (deadlines 2 Nov – 15 Dec 2026). Prepared by Muse 2 Nov 2026; re-checked by Claude on official pages the same day. kind: free | paid | unk. cur/amt feed the fee calculator (amt = fee at the first/typical application; bundle = shared SOPHAS charge).",
+ "routes": {
+  "imperial-pres": {
+   "portal_label": "Imperial online application (via the scheme page)",
+   "portal_url": "https://www.imperial.ac.uk/study/fees-and-funding/postgraduate-doctoral/grants-scholarships/presidents-phd/",
+   "kind": "free",
+   "fee": "Free",
+   "fee_note": "Imperial states there is no application fee for PhDs (taught master's cost £90). No separate scholarship form: apply for the PhD place and select the President's PhD Scholarship in the funding section; the department then nominates you.",
+   "cur": "GBP",
+   "amt": 0,
+   "check": "Fee quote from Imperial's postgraduate admissions page (Muse, 2 Nov). The scheme page rendered blank for a live re-read, so dates and stipend come from the board's weekly sweep."
+  },
+  "oist-phd": {
+   "portal_label": "OIST graduate school application",
+   "portal_url": "https://graduateschool.oist.jp/apply/",
+   "kind": "paid",
+   "fee": "¥5,000",
+   "fee_note": "Non-refundable, and OIST offers no waivers for personal financial situations. Check a supervisor has room for students before you apply.",
+   "cur": "JPY",
+   "amt": 5000,
+   "check": "Confirmed live on oist.jp/admissions/phd-program/apply-phd (2 Nov 2026)."
+  },
+  "sanger-phd": {
+   "portal_label": "Sanger Institute online application",
+   "portal_url": "https://www.sanger.ac.uk/about/study/phd-programmes/4-year-phd-programme/application-process-for-sanger-institute-4-year-phd-programme/",
+   "kind": "paid",
+   "fee": "Free now · £20 later",
+   "fee_note": "Applying to the Sanger costs nothing. If you're selected you then apply to the University of Cambridge, which costs £20 (Cambridge Applicant Portal: apply.postgraduate.study.cam.ac.uk).",
+   "cur": "GBP",
+   "amt": 20,
+   "check": "Both fee lines confirmed on Sanger's FAQ and Cambridge's fee page (2 Nov 2026)."
+  },
+  "eth-esop": {
+   "portal_label": "ETH Zurich eApply (from the ESOP page)",
+   "portal_url": "https://ethz.ch/students/en/studies/financial/scholarships/excellencescholarship.html",
+   "kind": "paid",
+   "fee": "CHF 150",
+   "fee_note": "Per degree programme for applicants with a non-Swiss degree (CHF 50 with a Swiss degree). Not refundable and cannot be waived. No extra ESOP fee: you tick ESOP inside the Master's application and add a thesis pre-proposal.",
+   "cur": "CHF",
+   "amt": 150,
+   "check": "CHF 150 confirmed on ETH's master's how-to-apply page (2 Nov 2026). ESOP's own page confirms the single eApply route."
+  },
+  "yenching": {
+   "portal_label": "Yenching Academy application portal",
+   "portal_url": "https://apply.yca.pku.edu.cn/",
+   "kind": "free",
+   "fee": "None charged",
+   "fee_note": "No application fee is listed in the official instructions. Two academic recommendation letters must come from full or associate professors in your intended field, and English scores must be sent directly by the testing body (IELTS 7.0 minimum).",
+   "cur": "CNY",
+   "amt": 0,
+   "check": "Portal and requirements read on yenchingacademy.pku.edu.cn/ADMISSIONS.htm (2 Nov 2026). 'No fee' is recorded from the absence of any fee in the official instructions."
+  },
+  "clarendon": {
+   "portal_label": "Oxford Graduate Application Form",
+   "portal_url": "https://www.ox.ac.uk/admissions/graduate/application-guide/declaration-and-payment/application-fee",
+   "kind": "paid",
+   "fee": "£75 taught · £20 research",
+   "fee_note": "No separate Clarendon form: everyone who applies by the course deadline is considered. Applicants resident in a listed low-income country can have the fee waived, and Bangladesh is on Oxford's list.",
+   "cur": "GBP",
+   "amt": 75,
+   "check": "Both amounts and the Bangladesh waiver listing confirmed on ox.ac.uk (2 Nov 2026). Scheme page: ox.ac.uk/clarendon."
+  },
+  "emjm-neurasmus": {
+   "portal_label": "Neurasmus eMundus platform",
+   "portal_url": "https://emundus-neurasmus.u-bordeaux.fr",
+   "kind": "unk",
+   "fee": "None found",
+   "fee_note": "No application fee appears in the consortium's guidance. The €4,500 per semester participation cost applies only to self-funded students, not to scholarship applicants. Programme site: neurasmus.u-bordeaux.fr.",
+   "cur": "EUR",
+   "amt": 0,
+   "check": "Portal and fee as reported by Muse (2 Nov). Claude's live re-read of the platform timed out; the 1 Dec noon deadline is also on third-party listings."
+  },
+  "hkpfs": {
+   "portal_label": "HKPFS Electronic System (RGC)",
+   "portal_url": "https://cerg1.ugc.edu.hk/hkpfs/apply.html",
+   "kind": "paid",
+   "fee": "Step 1 free · HK$500 per programme at step 2",
+   "fee_note": "Step 1: submit the initial application to the Research Grants Council by 12:00 noon HKT on 1 Dec 2026 to get a reference number. Step 2: apply to the universities, quoting it. You can choose up to two programmes at one or two universities, and each university charges its own fee (HK$500 per programme at CityU and PolyU).",
+   "cur": "HKD",
+   "amt": 500,
+   "check": "Two-step process and 'up to two programmes' read on the RGC page; HK$500 per programme read on CityU's HKPFS page (2 Nov 2026)."
+  },
+  "jhu-phd": {
+   "portal_label": "SOPHAS",
+   "portal_url": "https://sophas.liaisoncas.com",
+   "kind": "paid",
+   "fee": "$155 first · $65 each extra",
+   "fee_note": "SOPHAS charges $155 for the first programme and $65 for each additional one, so Hopkins + Emory together cost $220, not $310. A limited number of fee waivers exist and must be requested before you submit. The same fees apply to Harvard Chan.",
+   "cur": "USD",
+   "amt": 155,
+   "bundle": "sophas",
+   "check": "Fee amounts confirmed on Liaison's SOPHAS help centre; Bloomberg's own FAQ confirms PhD applicants use SOPHAS (2 Nov 2026)."
+  },
+  "emory-phd": {
+   "portal_label": "SOPHAS",
+   "portal_url": "https://sophas.liaisoncas.com",
+   "kind": "paid",
+   "fee": "$155 first · $65 each extra",
+   "fee_note": "All Rollins applications run through SOPHAS. If Hopkins is your first designation, Emory adds only the $65 extra-programme charge.",
+   "cur": "USD",
+   "amt": 155,
+   "bundle": "sophas",
+   "check": "Fee amounts confirmed on Liaison's SOPHAS help centre (2 Nov 2026)."
+  },
+  "singa": {
+   "portal_label": "A*STAR Scholarship Application System",
+   "portal_url": "https://sms-applicant-app.a-star.edu.sg/",
+   "kind": "unk",
+   "fee": "None stated",
+   "fee_note": "Log in and choose 'Singapore International Graduate Award (SINGA)'. A*STAR's international awards page lists intakes closing 1 June and 1 December.",
+   "cur": "SGD",
+   "amt": 0,
+   "check": "Portal and the 1 Dec / 1 Jun deadlines confirmed on a-star.edu.sg. 'No fee' is from Muse's check; the live page did not state a fee either way."
+  },
+  "mps": {
+   "portal_label": "Max Planck Schools application portal",
+   "portal_url": "https://mps.cloud.opencampus.net/user/register",
+   "kind": "free",
+   "fee": "None found",
+   "fee_note": "One portal for all four Schools (Biomedical AI, Cognition, Matter to Life, Photonics), open 1 Sep – 1 Dec 2026. Each School has its own requirements page, so read the one for your School.",
+   "cur": "EUR",
+   "amt": 0,
+   "check": "Portal and dates read on maxplanckschools.org (2 Nov 2026). No fee is mentioned anywhere; the Matter to Life page says 'no registration fee'."
+  },
+  "euhem": {
+   "portal_label": "University of Oslo (or MCI Innsbruck) application",
+   "portal_url": "https://www.uio.no/english/studies/programmes/hem-master/admission/",
+   "kind": "unk",
+   "fee": "Not found",
+   "fee_note": "Apply through Eu-HEM's partner universities, preferably Oslo. Eu-HEM is not an Erasmus Mundus programme and offers no scholarship; non-EEA participation costs are about €9,000 a year.",
+   "cur": "EUR",
+   "amt": 0,
+   "check": "'EMJM scholarship is not available for this programme' read on eu-hem.eu FAQ (2 Nov 2026). The €9,000 figure comes from Erasmus University Rotterdam's page as reported by Muse."
+  },
+  "gates": {
+   "portal_label": "Cambridge Applicant Portal",
+   "portal_url": "https://apply.postgraduate.study.cam.ac.uk/applicant/login",
+   "kind": "paid",
+   "fee": "£20 doctoral · £85 other courses",
+   "fee_note": "No separate Gates form: apply to Cambridge and complete the Gates section of the funding part. Gates itself charges nothing. Cambridge fee waivers apply to some applicants automatically; check eligibility in the portal.",
+   "cur": "GBP",
+   "amt": 85,
+   "check": "Fees confirmed on Cambridge's own fee page ('from September 2025'); 8 Dec 2026 / 6 Jan 2027 deadlines confirmed on gatescambridge.org (2 Nov 2026)."
+  },
+  "cw-shared": {
+   "portal_label": "CSC Central (plus the UK university)",
+   "portal_url": "https://portal.csccentralonline.org.uk/application",
+   "kind": "free",
+   "fee": "None from the CSC",
+   "fee_note": "Two applications are needed: CSC Central, and the UK university for the approved course. The CSC doesn't charge to apply; the university may charge its own course fee. Opens 10 Nov 2026.",
+   "cur": "GBP",
+   "amt": 0,
+   "check": "Portal and 'does not charge' line read on cscuk.fcdo.gov.uk (2 Nov 2026)."
+  },
+  "emjm-noha": {
+   "portal_label": "NOHA joint application system",
+   "portal_url": "https://apply.nohanet.org/",
+   "kind": "unk",
+   "fee": "None found",
+   "fee_note": "Scholarship applications run only 1 Oct – 15 Dec 2026 (23:59 GMT). Candidates must have completed their degree by 15 Dec 2026 to be eligible for the scholarship.",
+   "cur": "EUR",
+   "amt": 0,
+   "check": "Portal, window and the degree-completion rule read on apply.nohanet.org (2 Nov 2026). No fee is mentioned."
+  },
+  "unc-phd": {
+   "portal_label": "UNC Graduate School application",
+   "portal_url": "https://sph.unc.edu/epid/phd/",
+   "kind": "paid",
+   "fee": "$95",
+   "fee_note": "The PhD uses the UNC Graduate School application, not SOPHAS. Name at least one and up to five faculty mentors. Fee waivers can be requested through the Graduate School.",
+   "cur": "USD",
+   "amt": 95,
+   "check": "Deadline 15 Dec 2026, the $95 fee and the mentor rule read on sph.unc.edu/epid/phd (2 Nov 2026)."
+  },
+  "mbzuai": {
+   "portal_label": "MBZUAI graduate admissions",
+   "portal_url": "https://mbzuai.ac.ae/admissions/graduate-masters-admissions",
+   "kind": "paid",
+   "fee": "AED 200 (waived at 75%+)",
+   "fee_note": "Submit the application, sit the screening exam, then pay. The fee is waived if your screening score is 75% or above, and unpaid applications don't proceed to review.",
+   "cur": "AED",
+   "amt": 200,
+   "check": "Fee and waiver rule read on mbzuai.ac.ae admissions pages (2 Nov 2026). The 'refunded if you enrol' detail is from Muse and not re-confirmed."
+  }
+ }
+}

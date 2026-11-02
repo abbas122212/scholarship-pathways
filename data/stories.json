@@ -1,0 +1,278 @@
+{
+ "_about": "Gemini 3.5 Flash drafted these answers (ungrounded) on 2 Nov 2026 from Abbas's context. Claude rewrote each one the same day, keeping the voice and structure but replacing every fact that conflicted with official pages or the board. 'fixed' lists what changed from Gemini's draft.",
+ "stories": {
+  "imperial-pres": {
+   "tag": "Today's deadline: only if a supervisor has said yes",
+   "tone": "warn",
+   "lede": "The Imperial College President's PhD Scholarships are the most prestigious doctoral funding Imperial offers. They're fully funded and a real route into world-class research, but the first round closes at 23:59 UK time today, and without a supervisor's agreement you're not ready for it.",
+   "fit": {"us": ["poor", "A 3.5-year PhD pushes a US Match out to about 2031–32."], "eu": ["mixed", "Great for UK research networks, but it doesn't license you to practise."], "interest": ["good", "Public health, epidemiology and global health departments all sit here."]},
+   "sections": [
+    {"h": "What it pays", "ul": ["**Full tuition fees** at the overseas rate.", "**£27,036 a year** tax-free stipend for up to 3.5 years, plus **£2,000 a year** for research costs.", "About **50 awards** a year, open to any nationality.", "Your **$30,000 budget stays untouched**: it can go to USMLE fees and US clinical experience instead."]},
+    {"h": "Who can apply", "ul": ["Any nationality, Bangladesh included.", "A **first-class degree or equivalent**. How Imperial reads an MBBS comes down to your marks and class rank.", "A **supervisor's agreement first**: find a faculty member in an area like the School of Public Health, email them your CV and a short proposal, and get their yes before you apply."]},
+    {"h": "Dates that matter", "ul": ["**Round 1: 2 Nov 2026** (decisions by 31 Jan 2027).", "**Round 2: 11 Jan 2027.** Round 3: 1 Mar 2027.", "Funded 2027–28 places can start as late as **1 Nov 2027**, which brushes against the end of your internship."]},
+    {"h": "How it fits the US and Europe goals", "p": ["A PhD from Imperial in public health makes you exceptionally competitive for academic residency programmes, and London gives you a base for PLAB and NHS contacts. But the plan that works for 2029 is Step 1 during the internship, a paid US research job, then Step 2 CK. A 3.5-year PhD replaces that plan rather than adding to it, and your Match year moves to roughly 2031–32."]},
+    {"h": "The catches", "ul": ["**Catch 1: timing.** Round 1 closes today. If you have no agreed supervisor, aim for round 2 on 11 Jan instead.", "**Catch 2: competition.** Fifty awards across the whole college, usually for people with research experience. A fresh MBBS with no publications needs a strong supervisor connection.", "**Catch 3: years since graduation.** Many US programmes screen on how long ago you graduated. A PhD explains the gap well for academic programmes, less so for community ones.", "**Catch 4: clinical distance.** Three and a half years in a research group means arranging observerships before you reapply to residency."]},
+    {"h": "The honest recommendation", "p": ["Treat this as a **physician-scientist route**, not a 2029 route. Apply in round 2 if a supervisor commits in the next two months. Otherwise keep your energy on Step 1 and a paid US research post."]}
+   ],
+   "fixed": ["Stipend: Gemini said £25,150 (2024/25). The current figure on the board is £27,036 a year.", "Rounds: Gemini gave 4 Nov / 8 Jan / 13 Mar. The real rounds are 2 Nov 2026, 11 Jan 2027 and 1 Mar 2027.", "Timeline: Gemini had you finishing the internship in late 2026. It runs from about Oct–Nov 2026 to late 2027, so the 1 Nov 2027 latest start matters.", "Removed unverified claims about Imperial's space-agency links."]
+  },
+  "oist-phd": {
+   "tag": "Brilliant funding, wrong field for epidemiology",
+   "tone": "warn",
+   "lede": "OIST is an elite, English-language graduate university on Okinawa with one of the most generous PhD packages anywhere. It's basic science and computation rather than public health, so the question is whether you'd want a lab life for five years.",
+   "fit": {"us": ["poor", "Five years in basic science puts a Match at about 2033."], "eu": ["poor", "No help with licensing in the UK, Germany or Ireland."], "interest": ["mixed", "Neuroscience, genetics and computational biology yes; epidemiology no."]},
+   "sections": [
+    {"h": "What it is", "p": ["A single 5-year integrated PhD. The first two years are lab rotations and coursework, and the last three are thesis research. There are no departments: units cover molecular and cell biology, neuroscience, mathematics and computation, chemistry, physics and ecology."]},
+    {"h": "What it pays", "ul": ["Tuition included, with a stipend of about **¥2.6 million a year**, rising to about ¥3.6 million.", "Support for relocation and conference travel.", "**Cost to apply: ¥5,000**, non-refundable and without waivers. It's small, but it isn't free."]},
+    {"h": "Who can apply", "ul": ["Completion of a **bachelor's, master's or equivalent** before the admission date. Medicine isn't named, so confirm with admissions that an MBBS is accepted.", "Check that your chosen unit actually has room to supervise new PhD students. OIST warns that strong applicants are rejected when the field has no space."]},
+    {"h": "Dates that matter", "ul": ["**15 Nov 2026, 23:59 JST** for the 2027 admissions workshop round.", "Entry on 1 May or 1 Sep 2027, or **1 Jan 2028**. The January 2028 entry is the one that fits the end of your internship."]},
+    {"h": "How it fits the US and Europe goals", "p": ["A PhD with strong papers helps for academic residencies, but US programmes weigh clinical experience and clinical research more heavily than bench work. Europe's licensing routes (PLAB, the German Kenntnisprüfung, Ireland's PRES) don't change at all."]},
+    {"h": "The catches", "ul": ["**Catch 1: timeline.** Starting in 2028 and finishing five years later puts a US Match at roughly 2033.", "**Catch 2: field mismatch.** There is no public health or epidemiology unit. Computational biology is your closest door.", "**Catch 3: admission.** Research experience matters a lot, and you'd be competing with people who have lab degrees."]},
+    {"h": "The honest recommendation", "p": ["Apply only if you're deliberately choosing a research career and would lean into computational work. For a Match-focused plan, skip it."]}
+   ],
+   "fixed": ["Application fee: Gemini said $0. OIST charges ¥5,000, non-refundable, no waivers (confirmed on oist.jp).", "Stipend: Gemini said about ¥2.4 million; the board and OIST's package point to about ¥2.6 million.", "Removed a second April application cycle and the GRE and acceptance-rate claims, none of which could be confirmed.", "Timeline corrected: the internship ends in late 2027, not early 2027."]
+  },
+  "sanger-phd": {
+   "tag": "Exceptional if you can show genomics and coding skills",
+   "tone": "warn",
+   "lede": "The Wellcome Sanger Institute 4-year PhD is one of the best-funded doctorates in the world, with a Cambridge degree at the end. It's a genomics and data-science programme, so it only works if that's the work you want.",
+   "fit": {"us": ["poor", "Four years pushes a Match to about 2032."], "eu": ["mixed", "Strong UK academic standing; no licensing shortcut."], "interest": ["mixed", "Genomic epidemiology yes; policy, health economics and aerospace no."]},
+   "sections": [
+    {"h": "What it is", "p": ["A 1+3 model. In year one you do three short rotations in different labs plus taught modules, then choose your main project. The degree is awarded by the University of Cambridge, and you work on the Wellcome Genome Campus."]},
+    {"h": "What it pays", "ul": ["**Full university tuition fees** and a stipend (£25,270 in year one at Oct 2025 rates).", "Visa and NHS surcharge costs reimbursed.", "At least **12 funded studentships**, whatever your nationality.", "**Cost to apply:** nothing for the Sanger application. If selected, the Cambridge admission application costs **£20**."]},
+    {"h": "Who can apply", "ul": ["Candidates expected to hold a **1st or good 2:1**, or an equivalent overseas qualification. Whether your MBBS is read that way is worth asking.", "Genomics and data science are the focus. Basic Python or R and some statistics will help an MBBS profile a lot."]},
+    {"h": "Dates that matter", "ul": ["**24 Nov 2026, 09:00 GMT** is the closing time.", "Start is in October 2027, which is likely to collide with your internship: ask whether a later start is possible before spending time on the application."]},
+    {"h": "How it fits the US and Europe goals", "p": ["A Cambridge-linked PhD with strong genomics papers is a great physician-scientist credential and can put you in contact with US collaborators for letters. It doesn't give you US clinical experience, and a four-year PhD moves a Match to around 2032."]},
+    {"h": "The catches", "ul": ["**Catch 1: scope.** This is genomics and computation, not general public health.", "**Catch 2: preparation.** Selection favours people with coding or lab skills you may not have built yet.", "**Catch 3: clinical distance.** Four years away from patients means rebuilding clinical credibility afterwards."]},
+    {"h": "The honest recommendation", "p": ["If genomic epidemiology really pulls you, ask Sanger about starting later and whether an MBBS qualifies, and spend the internship building Python and R skills. If the 2029 Match is the priority, this isn't the route."]}
+   ],
+   "fixed": ["Deadline: Gemini said late November or early December. It's 24 Nov 2026 at 09:00 GMT.", "Removed the IELTS 7.5 claim; check Cambridge's current language requirement for PhD entry.", "Added the 1st / good 2:1 wording from Sanger's own page and the confirmed £20 Cambridge fee.", "Timeline: October 2027 entry sits on top of the internship, which Gemini hadn't noticed."]
+  },
+  "eth-esop": {
+   "tag": "Fully funded, but not a road to a medical licence",
+   "tone": "warn",
+   "lede": "ETH Zurich's Excellence Scholarship (ESOP) pays for a Master's at one of Europe's top technical universities, with a real living allowance. It's a science degree, not a licence to practise, and the autumn start sits on top of your internship.",
+   "fit": {"us": ["poor", "Prestige helps, but it adds years without US clinical experience."], "eu": ["poor", "Doesn't unlock Swiss or EU medical licensing."], "interest": ["mixed", "Health Sciences & Technology and statistics fit; no MPH-style courses."]},
+   "sections": [
+    {"h": "What it pays", "ul": ["**CHF 13,500 per semester** living allowance plus a tuition waiver.", "About 60 awards, based on merit rather than financial need.", "**Cost to apply: CHF 150** per programme (non-Swiss degree), non-refundable, no waivers. There's no extra ESOP fee."]},
+    {"h": "Who can apply", "ul": ["Strong results in your degree, roughly the **top 10% of your class**.", "A Master's application to ETH for the autumn semester, with a **thesis pre-proposal** you write yourself. That pre-proposal carries a lot of weight.", "Typical English requirement is around IELTS 7.0 or TOEFL 100; check your programme's page."]},
+    {"h": "Dates that matter", "ul": ["The window is **1–30 Nov 2026**, with a September 2027 start. That start collides with the internship, so ask about a later one or plan for the next cycle."]},
+    {"h": "How it fits the US and Europe goals", "p": ["An ETH MSc in health sciences, statistics or biomedical engineering looks excellent on a residency application, and it links to aerospace physiology research. What it can't do is give you US clinical experience or any shortcut to practise in Switzerland or the EU, where you'd still need the local recognition exams and the language."]},
+    {"h": "The catches", "ul": ["**Catch 1: competition.** You need rank and a strong research idea, not just good marks.", "**Catch 2: course fit.** ETH's health degrees are quantitative and molecular; there's no standard MPH.", "**Catch 3: timeline.** One and a half to two years away from the USMLE track pushes a Match to about 2031."]},
+    {"h": "The honest recommendation", "p": ["Apply only if you want a quantitative research career and can write a convincing thesis pre-proposal. For a clinical Match, skip it. For European practice, Germany's Kenntnisprüfung or the UK's PLAB are more direct."]}
+   ],
+   "fixed": ["Living allowance: Gemini said CHF 12,000 per semester. The board has CHF 13,500.", "Class rank: Gemini said top 10% in one answer and top 1–2% in another. ESOP's criterion is about the top 10%.", "Application fee: Gemini said nothing; ETH charges CHF 150 per programme.", "Timeline: Gemini had you finishing the internship in late 2026."]
+  },
+  "yenching": {
+   "tag": "Free, prestigious, but it's a China Studies degree",
+   "tone": "warn",
+   "lede": "The Yenching Academy at Peking University is a fully funded two-year Master's, often compared to a Rhodes or Marshall. It's an interdisciplinary China Studies degree, so it works as a global-health-policy credential rather than medical training.",
+   "fit": {"us": ["mixed", "A CV booster and a gap-explainer, with no clinical value."], "eu": ["mixed", "Helps global-health and policy careers, not licensing."], "interest": ["mixed", "Health policy via Society & Culture or Politics tracks; no epidemiology methods."]},
+   "sections": [
+    {"h": "What it pays", "ul": ["Tuition, accommodation, a monthly stipend, one round-trip fare and field-study costs.", "No application fee is listed. Applying is free."]},
+    {"h": "Who can apply", "ul": ["A bachelor's degree in any field, or someone currently enrolled and expecting a diploma by August of the intake year.", "**English: IELTS 7.0 minimum.** Scores must be sent directly to the Academy.", "Two academic letters from full or associate professors in your intended field, a personal statement (750 words) and a research-interest statement (up to 1,500 words)."]},
+    {"h": "Dates that matter", "ul": ["**30 Nov 2026, 09:00 Beijing time.** Apply early: the closing hour is in the morning, China time.", "The September 2027 start collides with your internship, so ask about arriving late or aim for the following year."]},
+    {"h": "How it fits the US and Europe goals", "p": ["It preserves your $30,000 and gives you a prestigious, well-explained one-to-two years after the MBBS. A thesis on China's health system, global health diplomacy or South Asia–East Asia comparisons would sit well with preventive-medicine programmes. It gives you no US clinical experience, and USMLE preparation will still need dedicated time."]},
+    {"h": "The catches", "ul": ["**Catch 1: degree type.** It's a Master of Arts in China Studies, not an MPH or epidemiology degree.", "**Catch 2: workload.** Balancing the Academy with Step 1 and Step 2 CK is tough.", "**Catch 3: no aerospace medicine.** There's no entry point here."]},
+    {"h": "The honest recommendation", "p": ["Worth applying if global health policy genuinely interests you and you can build a real thesis around it. If you want methods training, choose an epidemiology programme instead."]}
+   ],
+   "fixed": ["Deadline: Gemini said early December. It's 30 Nov 2026 at 09:00 Beijing time.", "Research statement: Gemini said 750 words; the official limit is 1,500 words for the research-interest statement.", "Removed an age limit of 28 that couldn't be confirmed on the official page.", "Added the degree-timing rule and the sending-scores-directly requirement."]
+  },
+  "clarendon": {
+   "tag": "No form to fill, but your course choice matters",
+   "tone": "ok",
+   "lede": "The Clarendon Fund is Oxford's flagship full-funding scheme. There's no separate application: you apply for your course, and strong applicants are considered automatically. That makes the course you choose, and when you can arrive, the real decision.",
+   "fit": {"us": ["mixed", "A one-year MSc is the only Oxford shape that keeps a 2030 Match realistic."], "eu": ["mixed", "UK base for PLAB and NHS contacts; no licence on its own."], "interest": ["good", "Global Health Science & Epidemiology is a direct fit."]},
+   "sections": [
+    {"h": "What it pays", "ul": ["Full course fees plus a living grant for the whole degree.", "A MSc in Global Health Science & Epidemiology carries overseas fees of about £36,900 (2027–28), so funding it yourself isn't realistic.", "**Cost to apply: £75** for taught courses or **£20** for research courses. Applicants resident in a listed low-income country, Bangladesh included, can have it waived."]},
+    {"h": "Who can apply", "ul": ["Any nationality, any subject. Medicine degrees are accepted.", "The course deadline is what counts: everyone who applies by it and gets an offer is considered.", "**Skip the MSc in International Health and Tropical Medicine:** it asks for 3+ years of low-resource work experience, which you don't have yet."]},
+    {"h": "Dates that matter", "ul": ["**1 Dec 2026, 12:00 UK** for the MSc in Global Health Science & Epidemiology. The Oxford and NDPH pages served older-cycle text on re-check, so confirm on the Graduate Admissions page.", "An October 2027 start collides with the internship. The next realistic cycle is December 2027 for October 2028."]},
+    {"h": "How it fits the US and Europe goals", "p": ["A one-year Oxford MSc in epidemiology is the strongest version of an academic credential you can get quickly, and Oxford's population-health groups have US collaborations that can lead to letters. It's still not US clinical experience, and in the UK it doesn't replace PLAB."]},
+    {"h": "The catches", "ul": ["**Catch 1: competition.** You can't apply to Clarendon directly. You need a place first, and marks and rank near the top.", "**Catch 2: timing.** The cycle that fits your internship is next year's.", "**Catch 3: exam clash.** An Oxford MSc plus Step 2 CK preparation in the same year is a heavy load."]},
+    {"h": "The honest recommendation", "p": ["Apply for the MSc in Global Health Science & Epidemiology only if you can get a later start or are happy to wait for the 2028 intake. Use the waiver, and never pay course fees from your $30,000."]}
+   ],
+   "fixed": ["Living stipend: Gemini quoted £18,622 (2024–25). That's out of date; the board lists the current award as full fees plus a living grant.", "Deadline: Gemini said early January for medical sciences. The board lists 1 Dec 2026 for the Global Health MSc.", "Application fee: Gemini said about £75. It's £75 for taught and £20 for research, with a waiver available for Bangladesh.", "Gemini recommended the Tropical Medicine MSc; it needs 3+ years of experience, so it was removed. Removed an unverified count of awards."]
+  },
+  "emjm-neurasmus": {
+   "tag": "Funded and prestigious, but a neuroscience degree",
+   "tone": "warn",
+   "lede": "Neurasmus is a two-year Erasmus Mundus joint Master's in neuroscience that pays €1,400 a month. If you're excited by the brain, it's a great route into Europe. If you want population health, a different Erasmus programme fits you much better.",
+   "fit": {"us": ["poor", "Basic-science research isn't what US residencies value most."], "eu": ["mixed", "A funded base in Europe, but it doesn't license you."], "interest": ["mixed", "Space neuroscience overlaps; epidemiology does not."]},
+   "sections": [
+    {"h": "What it pays", "ul": ["The standard Erasmus Mundus package: **participation costs covered and €1,400 a month for up to 24 months**, plus insurance.", "About 20 places from 800+ applicants.", "The €4,500 per semester participation cost applies only to self-funded students.", "No application fee was found in the official guidance."]},
+    {"h": "Who can apply", "ul": ["A bachelor's-level degree (180 ECTS or equivalent), and medicine is a listed field.", "No work-experience rule, though research experience helps.", "IELTS around 6.5 to 7.0 is typical; check the call text.", "Erasmus Mundus also limits how long you may have lived or worked in a programme country before you apply."]},
+    {"h": "Dates that matter", "ul": ["The scholarship call runs **1 Sep – 1 Dec 2026, 12:00 CET**. It's one of the 1 December group.", "A September 2027 start collides with your internship: ask about late arrival, or aim for 2028."]},
+    {"h": "How it fits the US and Europe goals", "p": ["A Master's with a good thesis boosts a neurology or neurosurgery application, and living in Germany or France gives you time to learn the language for later licensing. None of it counts as US clinical experience, and time on a two-year programme pushes a US Match out to 2030 or later."]},
+    {"h": "The catches", "ul": ["**Catch 1: field.** It's basic and translational neuroscience, not public health.", "**Catch 2: competition.** Candidates with lab or coding experience have an edge.", "**Catch 3: workload.** Two universities, lab rotations and USMLE preparation is a lot at once."]},
+    {"h": "The honest recommendation", "p": ["Apply only if neuroscience is a real interest. If epidemiology is the goal, put your motivation letter into Europubhealth+ or IDOH instead."]}
+   ],
+   "fixed": ["Deadline: Gemini said early December to mid-January. It's 1 Dec 2026 at 12:00.", "Removed the €18,000 tuition and €3,000–€4,000 travel figures, which don't match the standard scholarship description, and the partner list, which couldn't be confirmed.", "Timeline: Gemini had the internship ending in September 2027 and then a 2027 start; the internship actually runs to late 2027."]
+  },
+  "hkpfs": {
+   "tag": "Among the best fits for your timing, if you can match a PhD to your interests",
+   "tone": "ok",
+   "lede": "The Hong Kong PhD Fellowship Scheme pays a generous stipend with no nationality, age or work-experience limit, and it allows a deferred start to 31 January 2028. That deferral is why it fits your internship better than most.",
+   "fit": {"us": ["poor", "A multi-year PhD moves a Match well past 2029."], "eu": ["mixed", "Strong academic credential; no licensing impact."], "interest": ["good", "HKU and CUHK public health schools are global leaders."]},
+   "sections": [
+    {"h": "What it pays", "ul": ["**HK$344,400 a year** (about US$44,000) plus **HK$14,400 a year** for travel, for up to three years.", "Host universities usually cover the tuition for fellows, but confirm that in your offer: it isn't part of the RGC award.", "**Cost to apply:** the initial application is free. Each university's own application costs about **HK$500 per programme**."]},
+    {"h": "Who can apply", "ul": ["Any nationality. No age or work-experience limit.", "You choose up to **two programmes at one or two universities**.", "You'll need a strong research proposal, references and English scores. The selection panel rates research potential, academic record and leadership."]},
+    {"h": "Dates that matter", "ul": ["**1 Dec 2026**: the initial application to the RGC closes at **12:00 noon Hong Kong time**, and university deadlines can follow almost immediately.", "Fellows normally start Jul–Sep 2027, but with RGC approval you can defer to **31 January 2028**."]},
+    {"h": "How it fits the US and Europe goals", "p": ["A PhD in infectious-disease epidemiology or public health from HKU or CUHK, with real publications, is a strong credential for academic residency programmes. It doesn't license you in the UK or Europe, and it doesn't replace US clinical experience."]},
+    {"h": "The catches", "ul": ["**Catch 1: timeline.** Even a deferred start leaves you several years from a US Match.", "**Catch 2: competition.** About 400 fellowships worldwide, and the panel prizes publications.", "**Catch 3: no aerospace medicine.** Hong Kong isn't a hub for it."]},
+    {"h": "The honest recommendation", "p": ["Submit the RGC step by noon on 1 Dec if you want a research career: it's one of the few big PhD schemes that works around an internship. Weigh it carefully against the 2029 plan first."]}
+   ],
+   "fixed": ["Stipend: Gemini quoted HK$331,200 and HK$13,800. The current amounts are HK$344,400 and HK$14,400.", "Gemini said apply in December 2027 for a 2028 start. Apply now: the RGC allows deferral to 31 Jan 2028.", "Universities: Gemini said up to two of eight universities; the RGC wording is up to two programmes at one or two universities.", "Added the HK$500 per-programme university fee, and removed the acceptance-rate figures."]
+  },
+  "jhu-phd": {
+   "tag": "Strong funding; ask one question about work experience first",
+   "tone": "warn",
+   "lede": "The Johns Hopkins Bloomberg PhD in Epidemiology is a fully funded, top-ranked programme, and it's one of the few US PhDs that explicitly says a prior graduate degree isn't required. One line about work experience is still unresolved.",
+   "fit": {"us": ["poor", "A 4–5 year PhD moves a US clinical Match to about 2032."], "eu": ["mixed", "Great for academic and global-health careers, no licensing impact."], "interest": ["good", "Epidemiology and clinical research are exactly this."]},
+   "sections": [
+    {"h": "What it pays", "ul": ["A guaranteed minimum stipend of **$52,000 a year**, plus tuition, fees and medical benefits.", "Stipend rates beyond June 2027 depend on negotiations with the union.", "**Cost to apply: $155** through SOPHAS for the first programme, $65 for each additional. A limited number of waivers exist."]},
+    {"h": "Who can apply", "ul": ["A prior graduate degree is 'not required, but highly recommended'. GRE is not required.", "You'll need a WES or similar credential evaluation, English scores, a statement of purpose and letters.", "The programme page's work-experience wording is inconsistent between pages: ask BSPH.EpiAcademic@jh.edu whether an internship counts."]},
+    {"h": "Dates that matter", "ul": ["**1 Dec 2026** via SOPHAS, for an August 2027 start.", "WES evaluation takes weeks, so ask whether the application can go in with WES still in progress. Start it today."]},
+    {"h": "How it fits the US and Europe goals", "p": ["A Hopkins epidemiology PhD builds US contacts, publications and letters, and can lead to physician-scientist tracks. It also takes four to five years, so a US clinical Match lands around 2032, and an August 2027 start collides with your internship."]},
+    {"h": "The catches", "ul": ["**Catch 1: admission.** One of the most competitive PhDs in the field. Most successful applicants have a master's or research track record.", "**Catch 2: timing.** August 2027 starts before your internship ends.", "**Catch 3: years since graduation.** A PhD finishing around 2031–32 means your MBBS is six years old when you apply."]},
+    {"h": "The honest recommendation", "p": ["Email the department this week, quoting both work-experience lines. If they say the internship counts and allow a later start, apply. Otherwise, next year's cycle suits your timeline better."]}
+   ],
+   "fixed": ["Stipend: Gemini said $35,000–$40,000. Hopkins guarantees a minimum of $52,000 through June 2027.", "Removed the claim that Hopkins treats an MBBS as an MD equivalent, and the three-letter and TOEFL-100 specifics, which couldn't be confirmed.", "Added the SOPHAS fee ($155 / $65) and the bundling saving with Emory.", "Added the unresolved work-experience question."]
+  },
+  "emory-phd": {
+   "tag": "Fully funded and shares a deadline with Hopkins",
+   "tone": "warn",
+   "lede": "Emory's Rollins PhD in Epidemiology gives every admitted student full tuition and a stipend, sits next to the CDC, and shares the same 1 December deadline as Hopkins. It's very competitive, and the same timing trade-off applies.",
+   "fit": {"us": ["poor", "A 4–5 year PhD moves a clinical Match to about 2032–33."], "eu": ["mixed", "Great academically, no licensing impact."], "interest": ["good", "Epidemiology with CDC proximity."]},
+   "sections": [
+    {"h": "What it pays", "ul": ["A full-tuition scholarship for all admitted PhD students plus a stipend of **$43,260 a year** (FY26–27 union rate).", "Health insurance support as part of the package.", "**Cost to apply: $155** through SOPHAS, or just **$65 extra** if you also apply to Hopkins in the same application."]},
+    {"h": "Who can apply", "ul": ["A bachelor's is the stated minimum, so an MBBS qualifies. GRE is optional.", "It's very selective: more than 200 applications for 10–14 places, and admitted students often hold advanced degrees."]},
+    {"h": "Dates that matter", "ul": ["**1 Dec 2026** is the final deadline for PhD applicants.", "Credential evaluation can run past the deadline: ask whether it can follow the submission."]},
+    {"h": "How it fits the US and Europe goals", "p": ["An Emory PhD gives you CDC-adjacent networks and US letters. It's also several years on F-1 status before any Match, and your MBBS year of graduation ages meanwhile."]},
+    {"h": "The catches", "ul": ["**Catch 1: admission.** The competition is heavy for a first-time researcher.", "**Catch 2: timing.** An August 2027 start doesn't fit the internship.", "**Catch 3: clinical gap.** Five years without patient care."]},
+    {"h": "The honest recommendation", "p": ["Apply alongside Hopkins on one SOPHAS application only if you're committed to the research route and have an answer on start dates. If the 2029 Match is the priority, the paid US research job route is better."]}
+   ],
+   "fixed": ["Stipend: Gemini said $37,000–$40,000. The current Laney rate is $43,260 for FY26–27.", "Application fee: Gemini said about $75–$100. It's $155 through SOPHAS, with a $65 saving if bundled with Hopkins.", "Timeline: Gemini had you applying in December 2027; the deadline is 1 Dec 2026, and August 2027 start dates clash with the internship."]
+  },
+  "singa": {
+   "tag": "Good money, and the January 2028 intake suits you",
+   "tone": "ok",
+   "lede": "A*STAR's SINGA PhD is fully funded, carries no service bond, and has a second intake in January 2028 that lines up with the end of your internship. It sits in science and engineering, so any health angle has to be biomedical or data-driven.",
+   "fit": {"us": ["poor", "A 4-year PhD pushes a Match to about 2032."], "eu": ["mixed", "Academic standing only, no licensing impact."], "interest": ["mixed", "Biomedical and data angles only; no clinical track."]},
+   "sections": [
+    {"h": "What it pays", "ul": ["Full tuition, plus **S$2,700 a month** (rising to S$3,200 after the qualifying exam).", "A **S$1,000** settling-in allowance and **S$1,500** towards airfare.", "No service bond.", "No application fee is stated."]},
+    {"h": "Who can apply", "ul": ["International graduates in science and engineering fields at NUS, NTU, SUTD or SMU, supervised through A*STAR.", "Whether an MBBS counts for your chosen area depends on the host school: ask early."]},
+    {"h": "Dates that matter", "ul": ["**1 Dec 2026, 23:59 Singapore time** for the August 2027 intake.", "**1 June 2027** for the **January 2028** intake: this is the one that fits your departure window."]},
+    {"h": "How it fits the US and Europe goals", "p": ["A Singapore PhD builds strong biomedical or data skills, and the stipend lets you save money for USMLE costs. It's four years of non-clinical work, so a US Match moves to around 2032, and it does nothing for UK or European licensing."]},
+    {"h": "The catches", "ul": ["**Catch 1: field.** Bench science and computation, not epidemiology.", "**Catch 2: no aerospace medicine.** There's no civilian track.", "**Catch 3: admission.** Supervisors expect research experience."]},
+    {"h": "The honest recommendation", "p": ["Look at the 1 June 2027 round for January 2028 once you've lined up a supervisor. Treat 1 Dec as a stretch."]}
+   ],
+   "fixed": ["Added the January 2028 intake and 1 June 2027 deadline, which fits your timeline and which Gemini mentioned but didn't connect to your internship.", "Timeline: Gemini had you starting in August 2027 straight after the internship. That start collides with it.", "Removed the university rankings and the claim that an MBBS is automatically accepted."]
+  },
+  "mps": {
+   "tag": "Funded up to five years: look at the new Biomedical AI School",
+   "tone": "ok",
+   "lede": "The Max Planck Schools are a German network of elite PhD programmes with full funding for up to five years and no tuition. The 2027 intake includes a brand-new Biomedical AI School, the closest one to your interests.",
+   "fit": {"us": ["poor", "Four to five years pushes a Match to about 2032."], "eu": ["mixed", "Great for German research careers, no licensing."], "interest": ["mixed", "Biomedical AI and cognition fit; public health does not."]},
+   "sections": [
+    {"h": "What it is", "p": ["Four Schools: **Biomedical AI**, Cognition, Matter to Life and Photonics. You apply to one School through a single portal. Selection is a multi-stage process, and the first cohort of Biomedical AI starts in fall 2027."]},
+    {"h": "What it pays", "ul": ["No tuition fees and full funding for up to five years: a scholarship first, then a salaried contract.", "No application fee was found anywhere on the official pages."]},
+    {"h": "Who can apply", "ul": ["Candidates with bachelor's or master's degrees are encouraged to apply.", "Each School sets its own requirements: read the page for the School you choose. The Cognition page mentions an earlier, first-come cutoff, so confirm its date."]},
+    {"h": "Dates that matter", "ul": ["**Applications open 1 Sep and close 1 Dec 2026**, for a start in fall 2027."]},
+    {"h": "How it fits the US and Europe goals", "p": ["A Max Planck PhD in biomedical AI is a distinctive credential for academic residency programmes. It adds years before any US Match and does nothing for German licensing, where you'd still need the language and the Kenntnisprüfung."]},
+    {"h": "The catches", "ul": ["**Catch 1: field.** Computational and basic science, not epidemiology.", "**Catch 2: competition.** Strong research and coding background expected.", "**Catch 3: timing.** The fall 2027 start collides with the internship."]},
+    {"h": "The honest recommendation", "p": ["Worth a look if the new Biomedical AI School excites you and you can build computational skills. Email the School about late starts first."]}
+   ],
+   "fixed": ["Added the Biomedical AI School, which Gemini left out.", "Removed the Master's-equivalence claim and the net salary range, neither of which could be confirmed.", "Corrected the portal: one central application portal for all Schools."]
+  },
+  "euhem": {
+   "tag": "Not funded: Eu-HEM is not an Erasmus Mundus programme",
+   "tone": "bad",
+   "lede": "Gemini's draft described this as a fully funded Erasmus Mundus Master's. It isn't: Eu-HEM's own site says there's no Erasmus Mundus scholarship, no other scholarship, and that students must finance their studies independently. That changes the verdict completely.",
+   "fit": {"us": ["poor", "A self-funded two-year degree adds cost and delay."], "eu": ["mixed", "A European credential, but you'd pay for it."], "interest": ["mixed", "Health economics rather than epidemiology."]},
+   "sections": [
+    {"h": "What it is", "p": ["A two-year joint Master's in health economics and management taught across four European universities, including Rotterdam, Oslo, Bologna and Innsbruck."]},
+    {"h": "What it costs", "ul": ["**No EMJM scholarship.** The FAQ says: 'Unfortunately the EMJM scholarship is not available for this programme.'", "Non-EEA participation costs of about **€9,000 a year**.", "An application fee was not found."]},
+    {"h": "Dates that matter", "ul": ["The non-EU application window at Oslo runs roughly **15 Oct – 1 Dec 2026**; the programme page also lists 11 April 2027 for other applicants. Confirm the right one for non-EU candidates."]},
+    {"h": "How it fits the US and Europe goals", "p": ["Health economics is a respectable add-on for a public health career, but paying for two years in Europe doesn't fit a $30,000 budget that has to cover USMLE exams and US clinical experience."]},
+    {"h": "The catches", "ul": ["**Catch 1: money.** Its cost would swallow most of your budget.", "**Catch 2: field.** Economics-heavy, not epidemiology.", "**Catch 3: timeline.** Another two years away from the USMLE track."]},
+    {"h": "The honest recommendation", "p": ["Don't count it as a funded route. If you want a funded European master's, put your effort into Europubhealth+, IDOH or HumanResponse instead."]}
+   ],
+   "fixed": ["Funding: Gemini said it's an Erasmus Mundus programme paying €1,400 a month. That's wrong; Eu-HEM states it is not an Erasmus Mundus programme and has no scholarships.", "Tuition: Gemini said it's waived. Non-EEA participation costs are about €9,000 a year.", "Deadline: Gemini said December 2026 to January 2027. The non-EU Oslo window is 15 Oct – 1 Dec 2026.", "The board card is updated to show this as self-funded."]
+  },
+  "gates": {
+   "tag": "The gold standard, but timing needs a real answer",
+   "tone": "warn",
+   "lede": "Gates Cambridge is a full-cost scholarship: fees, maintenance, airfare, visa and health surcharge. It's about as good as funding gets, and Cambridge's public health and epidemiology courses fit you well. The catch is the October 2027 start.",
+   "fit": {"us": ["mixed", "A one-year MPhil is the only shape that keeps a Match near 2030."], "eu": ["mixed", "Great UK footprint, no licensing on its own."], "interest": ["good", "Population Health Sciences and related courses are direct fits."]},
+   "sections": [
+    {"h": "What it pays", "ul": ["Full University composition fee plus **£23,152 for 12 months** (2026–27 rate), one economy airfare, visa costs and the Immigration Health Surcharge.", "About 70 awards a year.", "**Cost to apply:** Gates itself charges nothing. Cambridge charges **£20 for doctoral courses and £85 for other courses**, with waivers for some applicants."]},
+    {"h": "Who can apply", "ul": ["Citizens of any country outside the UK, for a PhD, MLitt or full-time one-year postgraduate course.", "No separate Gates form: apply to Cambridge and complete the Gates section of the funding part of the same application.", "Selection looks at intellectual ability, why you chose the course, commitment to improving others' lives and leadership."]},
+    {"h": "Dates that matter", "ul": ["**8 Dec 2026 or 6 Jan 2027, 23:59 UK**, depending on your course. Check the Cambridge Course Directory.", "Shortlist 8 Mar 2027, interviews 22–23 Mar, offers early April. The October 2027 start collides with your internship."]},
+    {"h": "How it fits the US and Europe goals", "p": ["A one-year Cambridge MPhil in public health would be a standout credential and a base for US collaborations, with the bonus of UK exposure. It doesn't replace US clinical experience, and in the UK you'd still need PLAB and registration."]},
+    {"h": "The catches", "ul": ["**Catch 1: very low success rate.** Roughly 70 awards from a global pool.", "**Catch 2: timing.** Ask Gates and your course whether a later start is possible. If not, the realistic cycle for you is December 2027 for October 2028.", "**Catch 3: exam clash.** A one-year MPhil plus Step 2 CK is heavy."]},
+    {"h": "The honest recommendation", "p": ["Apply when you can actually arrive. If Cambridge confirms a deferral, go this cycle. Otherwise prepare for the December 2027 round."]}
+   ],
+   "fixed": ["Stipend: Gemini said about £20,000. The 2026–27 maintenance figure is £23,152.", "Dates: Gemini said apply in Sept–Dec 2027. The international deadline is 8 Dec 2026 or 6 Jan 2027.", "Fees: confirmed on Cambridge's own page (£20 doctoral, £85 other courses).", "Removed the global breakdown (US versus international awards) and the success-rate figure, neither of which could be confirmed."]
+  },
+  "cw-shared": {
+   "tag": "Opens 10 Nov: you must apply twice",
+   "tone": "warn",
+   "lede": "Commonwealth Shared Scholarships pay for a one-year taught Master's in the UK, jointly funded by the CSC and the university. They open next week, and the requirements around your degree timing are the part to sort out now.",
+   "fit": {"us": ["mixed", "One year is manageable but still delays a 2029 Match."], "eu": ["mixed", "UK base, but no licensing on its own."], "interest": ["good", "Public health and epidemiology MSc courses exist on the approved list."]},
+   "sections": [
+    {"h": "What it pays", "ul": ["Tuition, a living stipend of about **£1,712 a month** (£2,000 in London) and airfare.", "**Cost to apply: nothing to the CSC.** The UK university may charge its own course application fee."]},
+    {"h": "Who can apply", "ul": ["Bangladesh is eligible.", "A first degree of at least **upper second-class (2:1) standard by September 2027**, or a lower second plus a relevant postgraduate qualification. How your MBBS maps to that, and when the degree is conferred, are open questions.", "You apply to an **approved course** at a UK university and to **CSC Central**. Both applications are required. This is the direct route, not through the UGC."]},
+    {"h": "Dates that matter", "ul": ["**Opens 10 Nov 2026. Closes 8 Dec 2026, 16:00 GMT.**", "The approved-course list for 2027 is published before the opening date. Study starts September or October 2027, which collides with your internship."]},
+    {"h": "How it fits the US and Europe goals", "p": ["A one-year UK Master's with strong research output is a solid credential, and you could clear PLAB while there. Remember the scholarship expects you to return to a developing country afterwards."]},
+    {"h": "The catches", "ul": ["**Catch 1: start date.** September or October 2027 is before your internship ends.", "**Catch 2: degree status.** The MBBS-to-2:1 mapping and conferral timing need answers.", "**Catch 3: return commitment.** Think carefully before accepting if your long-term plan is to practise abroad."]},
+    {"h": "The honest recommendation", "p": ["Read the course list on 10 Nov, email the university about a late start and about how your degree maps, and decide then."]}
+   ],
+   "fixed": ["Stipend: Gemini said £1,347 outside London and £1,652 in London. The board lists £1,712 (£2,000 in London).", "Deadline: Gemini said mid-December. It's 8 Dec 2026 at 16:00 GMT.", "Added the 2:1-by-September-2027 rule and the confirmation that the CSC charges no fee.", "Timeline: Gemini had the internship done by September 2027."]
+  },
+  "emjm-noha": {
+   "tag": "Check the degree rule before you spend time on this",
+   "tone": "warn",
+   "lede": "NOHA is a two-year Erasmus Mundus Master's in International Humanitarian Action that pays €1,400 a month. It fits a public-health-in-crises interest well, but the official call has a degree rule that may rule out a scholarship this year.",
+   "fit": {"us": ["poor", "Two years of policy and law adds no clinical credit."], "eu": ["mixed", "Funded base in Europe, no licensing."], "interest": ["mixed", "Good on humanitarian health; light on quantitative methods."]},
+   "sections": [
+    {"h": "What it pays", "ul": ["The Erasmus Mundus scholarship: **€1,400 a month for up to 24 months** plus participation costs.", "About 16 scholarships for 2027, with a limit of 10% per nationality.", "Self-funded participation costs are €4,000 per semester. No application fee was found."]},
+    {"h": "Who can apply", "ul": ["Medicine is a listed field, and no work experience is required, though it weighs heavily in selection.", "**You must have completed your degree studies by the 15 Dec 2026 deadline** to be eligible for the scholarship. A provisional certificate may not be enough: confirm with NOHA how your MBBS conferral counts."]},
+    {"h": "Dates that matter", "ul": ["Scholarship applications run **1 Oct – 15 Dec 2026, 23:59 GMT**.", "The self-funded round closes 1 April 2027. A September 2027 start collides with the internship."]},
+    {"h": "How it fits the US and Europe goals", "p": ["Humanitarian public health is a distinctive angle for preventive medicine and global health residencies. It doesn't provide clinical experience, and two years away from the USMLE track pushes a Match past 2030."]},
+    {"h": "The catches", "ul": ["**Catch 1: the degree rule.** This could end your scholarship application before it starts.", "**Catch 2: method gap.** It's policy- and law-heavy, not biostatistics-heavy.", "**Catch 3: workload.** Mobility across universities makes exam prep harder."]},
+    {"h": "The honest recommendation", "p": ["Email NOHA about degree-completion timing today. If your MBBS is conferred in time, apply. If not, look at IDOH or Europubhealth+, which have different rules."]}
+   ],
+   "fixed": ["Window: Gemini said 15 Dec to 15 Jan. The scholarship window is 1 Oct – 15 Dec 2026.", "Provisional certificate: Gemini said you could apply with one. The call says you must have completed your degree by 15 Dec 2026.", "Added the participation cost for self-funded students and the 10% nationality cap.", "Timeline: Gemini had the internship finishing in time for a September 2027 start."]
+  },
+  "unc-phd": {
+   "tag": "Funding is conditional, and the application route isn't SOPHAS",
+   "tone": "warn",
+   "lede": "The UNC Gillings PhD in Epidemiology is a strong programme, but funding isn't guaranteed for international students and the application runs through the UNC Graduate School, not SOPHAS. It closes on 15 December.",
+   "fit": {"us": ["poor", "A 4–5 year PhD moves a Match to about 2032."], "eu": ["mixed", "Strong academically, no licensing impact."], "interest": ["good", "Epidemiology, and the degree is STEM-designated for F-1 students."]},
+   "sections": [
+    {"h": "What it pays", "ul": ["Funding is **possible but not guaranteed**, assembled from research and teaching assistantships and Graduate School awards. Departmental NIH T32-style grants typically require US citizenship or permanent residence, so that route is closed to you.", "Tuition remission is available with some assistantships but not guaranteed.", "**Cost to apply: $95**, with fee waivers possible through the Graduate School."]},
+    {"h": "Who can apply", "ul": ["A previous master's is 'beneficial but not required'.", "You must name **at least one and up to five faculty mentors** in the application."]},
+    {"h": "Dates that matter", "ul": ["**15 Dec 2026**, via the UNC Graduate School application."]},
+    {"h": "How it fits the US and Europe goals", "p": ["A UNC PhD gives you US networks and a STEM-designated degree, but with conditional funding you'd carry real financial risk, and a four-to-five-year PhD pushes a clinical Match to about 2032."]},
+    {"h": "The catches", "ul": ["**Catch 1: funding risk.** Without an assistantship, a PhD can cost real money.", "**Catch 2: competition.** You'd be competing with applicants who have research track records.", "**Catch 3: timing.** The August 2027 start collides with your internship."]},
+    {"h": "The honest recommendation", "p": ["Only apply if a named faculty mentor confirms funding in writing. Otherwise, treat Hopkins and Emory as the stronger funded options."]}
+   ],
+   "fixed": ["Application route: Gemini said SOPHAS plus a UNC supplement. The PhD uses the UNC Graduate School application alone.", "Deadline: Gemini said 1 December was mandatory for funding. The deadline is 15 Dec 2026.", "Stipend: Gemini said $30,000–$36,000, which couldn't be confirmed, so it was removed. Added the $95 fee, the mentor rule and the T32 restriction.", "Timeline: Gemini had you finishing the internship in 2026."]
+  },
+  "mbzuai": {
+   "tag": "An AI degree, and Master's funding is no longer automatic",
+   "tone": "warn",
+   "lede": "MBZUAI in Abu Dhabi is a graduate university for artificial intelligence. It can be a clever way to build AI-for-health skills, but the funding picture has changed, and whether an MBBS counts as a STEM degree isn't clear.",
+   "fit": {"us": ["poor", "AI research adds skills but no clinical credit."], "eu": ["poor", "No licensing impact."], "interest": ["mixed", "Health AI and computational biology; not public health."]},
+   "sections": [
+    {"h": "What it pays", "ul": ["**PhD students** are centrally funded in year one while matched with an advisor.", "**MSc students are 'fee-paying by default'**, with merit funding only possibly available.", "**Cost to apply: AED 200**, paid after the screening exam and waived if you score 75% or above."]},
+    {"h": "Who can apply", "ul": ["A STEM degree is expected. Whether a medical degree counts isn't addressed, so ask admissions.", "You submit your application, sit the screening exam within 10 days, then pay if required. Only one application per cycle is processed."]},
+    {"h": "Dates that matter", "ul": ["**15 Dec 2026, 17:00 GST** for most programmes. Computational Biology closes **22 Jan 2027**."]},
+    {"h": "How it fits the US and Europe goals", "p": ["Health-AI skills are valuable and publishable, and the UAE is a plausible base for Gulf work later. It doesn't give US clinical experience, and an AI degree doesn't license you anywhere."]},
+    {"h": "The catches", "ul": ["**Catch 1: funding.** Don't assume an MSc is paid for.", "**Catch 2: degree fit.** You'd need to show quantitative and coding readiness.", "**Catch 3: timeline.** Two to four years off the USMLE track."]},
+    {"h": "The honest recommendation", "p": ["Consider only the PhD route, and only after admissions confirm that an MBBS is accepted. Don't plan around a funded MSc."]}
+   ],
+   "fixed": ["Funding: Gemini said every full-time MSc and PhD student gets a full scholarship. MBZUAI's pages now describe MSc students as fee-paying by default.", "Deadlines: Gemini said 15 Jan and 31 Mar. The date is 15 Dec 2026 (Computational Biology 22 Jan 2027).", "Removed the stipend and housing amounts, which couldn't be confirmed, and kept the AED 200 fee and the 75% waiver confirmed on mbzuai.ac.ae."]
+  }
+ }
+}
