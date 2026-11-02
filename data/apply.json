@@ -182,6 +182,228 @@
    "cur": "AED",
    "amt": 200,
    "check": "Fee and waiver rule read on mbzuai.ac.ae admissions pages (2 Nov 2026). The 'refunded if you enrol' detail is from Muse and not re-confirmed."
+  },
+  "au-sydney": {
+   "portal_label": "Sydney postgraduate research application + RTP form",
+   "portal_url": "https://www.sydney.edu.au/study/applying/how-to-apply/postgraduate-research.html",
+   "kind": "paid",
+   "fee": "AUD 150",
+   "fee_note": "Two steps: apply for admission to the research degree, then complete the separate RTP scholarship form. The A$150 processing fee is non-refundable and covers all your applications within one year. It's waived only if you already hold a full sponsorship letter.",
+   "cur": "AUD",
+   "amt": 150,
+   "check": "A$150 and the 'covers all applications within one year' wording read on sydney.edu.au (2 Nov 2026)."
+  },
+  "emjm-phid": {
+   "portal_label": "PHID application platform (University of Oviedo)",
+   "portal_url": "https://emjmdphid.em.uniovi.es/emjm_phid_4.html",
+   "kind": "unk",
+   "fee": "None found",
+   "fee_note": "Register on the platform first to get a username and password, then apply. No application fee is mentioned anywhere on the official site. Programme site: masterpublichealthdisasters.eu.",
+   "cur": "EUR",
+   "amt": 0,
+   "check": "Portal and the 1 Oct – 31 Dec 2026 window checked live by Muse on the official site (2 Nov 2026)."
+  },
+  "ntu-rss": {
+   "portal_label": "NTU Graduate Admission System (research programmes)",
+   "portal_url": "https://www.ntu.edu.sg/medicine/education/graduate-programmes/phd-by-research-programme/admissions-applications",
+   "kind": "paid",
+   "fee": "S$50",
+   "fee_note": "Non-refundable, inclusive of GST. Indicate interest in the NTU Research Scholarship inside the admission application. NTU waives the fee for some listed nationalities; whether Bangladesh is one wasn't confirmed.",
+   "cur": "SGD",
+   "amt": 50,
+   "check": "S$50 confirmed on NTU's own programme pages ('adjusted to S$50, inclusive of GST'); research-programme figure from NTU's admission guide via Muse."
+  },
+  "kaust": {
+   "portal_label": "KAUST admissions portal",
+   "portal_url": "https://apply.kaust.edu.sa/apply/",
+   "kind": "free",
+   "fee": "None",
+   "fee_note": "No separate fellowship application: every admitted student receives the KAUST Fellowship automatically. Round 2 for Fall 2027 closes 3 Jan 2027.",
+   "cur": "USD",
+   "amt": 0,
+   "check": "Round 2 deadline (3 Jan 2027) and 'all admitted master's students receive the fully-funded KAUST Fellowship' read on kaust.edu.sa. 'No fee' from Muse's check."
+  },
+  "emjm-imim": {
+   "portal_label": "IMIM application (innovativemedicine.eu)",
+   "portal_url": "https://www.innovativemedicine.eu/",
+   "kind": "unk",
+   "fee": "None found",
+   "fee_note": "The 2027 call opens 25 November 2026 and closes 4 January 2027. Coordinated by the University of Groningen. Medicine is a listed eligible field.",
+   "cur": "EUR",
+   "amt": 0,
+   "check": "Deadline conflict resolved: the official IMIM homepage says 'The deadline to submit your application is 04 January 2027' (Groningen's page still shows last year's 5 January)."
+  },
+  "emory-mph": {
+   "portal_label": "SOPHAS",
+   "portal_url": "https://sophas.liaisoncas.com",
+   "kind": "paid",
+   "fee": "$155 first · $65 each extra",
+   "fee_note": "The 5 Jan 2027 priority deadline means the application must be complete AND verified by SOPHAS by then; verification can take up to 10 business days, so submit in mid-December.",
+   "cur": "USD",
+   "amt": 155,
+   "bundle": "sophas",
+   "check": "SOPHAS fees confirmed on Liaison's help centre (2 Nov 2026)."
+  },
+  "eiffel": {
+   "portal_label": "No student portal: a French institution nominates you",
+   "portal_url": "https://www.campusfrance.org/en/france-excellence-eiffel-scholarship-program",
+   "kind": "free",
+   "fee": "None for Eiffel",
+   "fee_note": "Only a French institution can submit an Eiffel file, through Campus France, by 6 Jan 2027. Your real application is admission to the institution plus asking it to nominate you. Most internal deadlines fell in Oct–Nov 2026.",
+   "cur": "EUR",
+   "amt": 0,
+   "check": "Nomination-only rule and the 6 Jan 2027 institutional deadline from Campus France's programme page (via the board and Muse)."
+  },
+  "emjm-humres": {
+   "portal_label": "Iscte application system (via Human Response)",
+   "portal_url": "https://humanresponse.eu/applications1/",
+   "kind": "free",
+   "fee": "None",
+   "fee_note": "The programme says applicants do not need to pay application fees. Applications go through Iscte's Fénix platform, linked from the page. 15 scholarships per edition; only candidates with a 180-ECTS bachelor's can be admitted.",
+   "cur": "EUR",
+   "amt": 0,
+   "check": "'Erasmus Mundus Human Response applicants do not need to pay application fees' and the 7 Jan 2027 close read on humanresponse.eu (2 Nov 2026)."
+  },
+  "emjm-eph": {
+   "portal_label": "Europubhealth+ eMundus platform",
+   "portal_url": "https://emundus.izp.cm-uj.krakow.pl",
+   "kind": "unk",
+   "fee": "None found",
+   "fee_note": "Scholarship round closes 8 Jan 2027 at 13:00 CET; top-ranked candidates are interviewed on 18 Feb. The self-funded round (24 Mar) carries no scholarship.",
+   "cur": "EUR",
+   "amt": 0,
+   "check": "Portal from the official 2027–29 applicant instructions (europubhealth.org), via Muse. No fee stated."
+  },
+  "ista-phd": {
+   "portal_label": "ISTA PhD application portal",
+   "portal_url": "https://phd.pages.ist.ac.at/apply/",
+   "kind": "free",
+   "fee": "None",
+   "fee_note": "No application fee and no tuition; PhD students are salaried employees. Submit before 14:59 CET on 8 Jan 2027 (the page shows both 14:59 and 15:00). Referee letters are due 12 Jan.",
+   "cur": "EUR",
+   "amt": 0,
+   "check": "'No application fee is required' and 'January 8, 2027 (3:00 PM CET)' read on ista.ac.at pages (2 Nov 2026)."
+  },
+  "csc": {
+   "portal_label": "CSC online application system",
+   "portal_url": "https://studyinchina.csc.edu.cn",
+   "kind": "free",
+   "fee": "None for CSC · some universities charge",
+   "fee_note": "Type A goes through the Chinese Embassy in Dhaka; Type B goes through an individual Chinese university. CSC itself charges nothing, but some universities charge their own portal fee for Type B (around CNY 400–500).",
+   "cur": "CNY",
+   "amt": 0,
+   "check": "From CSC and university guidance via Muse. The 2027 Bangladesh notice isn't published yet."
+  },
+  "emjm-idoh": {
+   "portal_label": "IDOH consortium application portal",
+   "portal_url": "https://applications.infectious-diseases-one-health.eu",
+   "kind": "unk",
+   "fee": "None found",
+   "fee_note": "Applying enters you for both self-funded and Erasmus Mundus scholarship places. The consortium also nominates some candidates for Eiffel. Window: 1 Dec 2026 – 15 Jan 2027.",
+   "cur": "EUR",
+   "amt": 0,
+   "check": "Window (1 Dec 2026 – 15 Jan 2027) read on infectious-diseases-one-health.eu (2 Nov 2026). No fee stated."
+  },
+  "hartford-srf": {
+   "portal_label": "Hartford Hospital fellowship page (apply by email/materials)",
+   "portal_url": "https://boneandjointinstitute.org/health-professionals/education/residencies-fellowships/general-surgery-research-fellowship",
+   "kind": "free",
+   "fee": "None",
+   "fee_note": "No portal: send a CV in NIH format, a personal statement and two letters as the page directs. It's a research position, not a scholarship; Hartford can sponsor a J-1 Research Scholar visa.",
+   "cur": "USD",
+   "amt": 0,
+   "check": "From the Hartford Hospital / Bone & Joint Institute page via Muse."
+  },
+  "reading-intl-phd": {
+   "portal_label": "University of Reading PhD application",
+   "portal_url": "https://www.reading.ac.uk/doctoral-researcher-college/funding/phd-studentships/international-phd-studentships",
+   "kind": "unk",
+   "fee": "None found",
+   "fee_note": "Apply for a Reading PhD by 15 Jan 2027; your School then nominates one candidate for the studentship. There's no separate scholarship form.",
+   "cur": "GBP",
+   "amt": 0,
+   "check": "Route from Reading's PhD pages via Muse. No fee appears on the pages checked."
+  },
+  "hung": {
+   "portal_label": "Tempus portal + Bangladesh Sending Partner",
+   "portal_url": "https://apply.stipendiumhungaricum.hu",
+   "kind": "free",
+   "fee": "None",
+   "fee_note": "Two applications: the Tempus portal AND a nomination from the Bangladesh Sending Partner, which is mandatory. 'The entire scholarship application and admission process is free of charge.'",
+   "cur": "HUF",
+   "amt": 0,
+   "check": "No-fee wording from the University of Debrecen's official Stipendium Hungaricum page (via Muse). The 2027/28 call isn't published yet."
+  },
+  "mastermind": {
+   "portal_label": "Through a Flemish host university",
+   "portal_url": "https://www.studyinflanders.be/scholarships/master-mind-scholarships/host-institutions",
+   "kind": "unk",
+   "fee": "No scholarship fee · university fee varies",
+   "fee_note": "Apply for admission to a participating Flemish institution (KU Leuven, UAntwerp, Ghent, Hasselt, VUB); it pre-selects you and creates your scholarship file. The admission application may have its own fee (KU Leuven reported at €75–90).",
+   "cur": "EUR",
+   "amt": 0,
+   "check": "Route from Study in Flanders via the board and Muse. The 2027–28 terms are under review."
+  },
+  "columbia-mph": {
+   "portal_label": "SOPHAS",
+   "portal_url": "https://sophas.liaisoncas.com",
+   "kind": "paid",
+   "fee": "$155 first · $65 each extra",
+   "fee_note": "One SOPHAS application covers Columbia, Emory and the US PhDs: the first programme costs $155 and each extra $65.",
+   "cur": "USD",
+   "amt": 155,
+   "bundle": "sophas",
+   "check": "SOPHAS fees confirmed on Liaison's help centre (2 Nov 2026)."
+  },
+  "si": {
+   "portal_label": "University Admissions Sweden, then the SI portal",
+   "portal_url": "https://www.universityadmissions.se",
+   "kind": "paid",
+   "fee": "SEK 900",
+   "fee_note": "One SEK 900 fee per semester at universityadmissions.se, however many programmes you choose (up to four SI-eligible ones). The SI scholarship application in February is free but needs your University Admissions number.",
+   "cur": "SEK",
+   "amt": 900,
+   "check": "'You pay one single fee of 900 SEK' read on universityadmissions.se (2 Nov 2026)."
+  },
+  "emjm-live": {
+   "portal_label": "MyLIVE application platform",
+   "portal_url": "https://mylive.univ-lyon1.fr",
+   "kind": "unk",
+   "fee": "None found",
+   "fee_note": "The scholarship application is part of the MyLIVE file. Open 18 Nov 2026 – 20 Jan 2027 (Lyon time). Clinicians are explicitly welcome.",
+   "cur": "EUR",
+   "amt": 0,
+   "check": "Window confirmed on the board and a listing quoting the official page; no fee stated."
+  },
+  "emjm-spacemed": {
+   "portal_label": "SpaceMed application (Tchooz)",
+   "portal_url": "https://apply-space-med.tchooz.app",
+   "kind": "free",
+   "fee": "None",
+   "fee_note": "Choose the scholarship inside the same form. Includes a motivation video under one minute. Closes 21 Jan 2027, 23:59 CET.",
+   "cur": "EUR",
+   "amt": 0,
+   "check": "No-fee status and dates from the earlier SpaceMed verification on space-med.eu (30 Oct – 1 Nov 2026)."
+  },
+  "unimelb-mdhs": {
+   "portal_label": "University of Melbourne graduate research application",
+   "portal_url": "https://study.unimelb.edu.au/how-to-apply/graduate-research",
+   "kind": "paid",
+   "fee": "AUD 154",
+   "fee_note": "No separate scholarship form: new applicants are considered automatically. Melbourne charges direct international applicants A$154 per application. Rounds are supervisor-first.",
+   "cur": "AUD",
+   "amt": 154,
+   "check": "'All new direct international applicants pay a non-refundable fee of AUD$154 for each application' read on study.unimelb.edu.au (2 Nov 2026). Muse had this as not verified."
+  },
+  "nz-waikato": {
+   "portal_label": "MyWaikato portal",
+   "portal_url": "https://www.waikato.ac.nz/study/scholarships/find-a-scholarship/university-of-waikato-doctoral-scholarship/",
+   "kind": "unk",
+   "fee": "None found",
+   "fee_note": "Apply to enrol in a doctoral programme, then apply under the Scholarships tab. You need an Offer of Place before the scholarship is considered. Rounds close 31 Jan, 30 Apr, 31 Jul and 31 Oct.",
+   "cur": "NZD",
+   "amt": 0,
+   "check": "Process from Waikato's pages via Muse; 'no fee' is from secondary guides, not an official fee page."
   }
  }
 }
