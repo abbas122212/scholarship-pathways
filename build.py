@@ -23,6 +23,22 @@ extra = json.loads((ROOT / "data/extra.json").read_text())
 guide = json.loads((ROOT / "data/guide.json").read_text())
 APPLY = json.loads((ROOT / "data/apply.json").read_text())["routes"]
 STORIES = json.loads((ROOT / "data/stories.json").read_text())["stories"]
+ODDS = json.loads((ROOT / "data/odds.json").read_text())["routes"]
+
+
+def odds_label(n):
+    return ["No funded route", "Very long shot", "Long shot", "Outside chance", "Realistic", "Realistic", "Good chance", "Good chance", "Strong", "Strong", "Very strong"][n]
+
+
+FACTOR_NAME = {"eligibility": "Eligibility", "competition": "Room in the field", "profile": "Profile match", "timing": "Timing fit"}
+FACTOR_HINT = {"eligibility": "Do you clearly qualify?", "competition": "How crowded the field is (more = less crowded)", "profile": "How close you are to who they pick", "timing": "Does the start date fit your internship?"}
+
+
+def dial(n, cls="dial"):
+    return (f'<span class="{cls}" style="--s:{n}" aria-hidden="true"><svg viewBox="0 0 44 44" focusable="false">'
+            f'<circle class="d-bg" cx="22" cy="22" r="18" pathLength="100"/><circle class="d-fg" cx="22" cy="22" r="18" pathLength="100"/></svg>'
+            f'<span class="d-n">{n}</span></span>')
+
 
 paths = board["paths"] + extra["paths"]
 paths.sort(key=lambda p: p["rank"])
@@ -234,7 +250,8 @@ def card(p):
         apply_html = (
             f'<div class="apply"><p class="fee {FEE_CLS[ap["kind"]]}"><span class="fee-k">Application fee</span>'
             f'<strong><span class="fee-i" aria-hidden="true">{FEE_ICON[ap["kind"]]}</span> {e(ap["fee"])}</strong></p>'
-            f'<a class="portal" href="{e(ap["portal_url"])}" target="_blank" rel="noopener">Open portal<span class="sr"> for {e(p["name"])} (opens in a new tab)</span> <span aria-hidden="true">↗</span></a></div>'
+            + (f'<p class="fee card-odds"><span class="fee-k">Your odds</span><strong>{ODDS[p["id"]]["score"]}/10 · {odds_label(ODDS[p["id"]]["score"])}</strong></p>' if p["id"] in ODDS else "")
+            + f'<a class="portal" href="{e(ap["portal_url"])}" target="_blank" rel="noopener">Open portal<span class="sr"> for {e(p["name"])} (opens in a new tab)</span> <span aria-hidden="true">↗</span></a></div>'
         )
     story_html = (
         f'<a class="story-link" href="#story-{e(p["id"])}"><span>Read the story</span><span class="sr"> about {e(p["name"])}</span> <span aria-hidden="true">→</span></a>'
@@ -352,6 +369,22 @@ def story_html(pid, st):
         f'<a class="board-btn" href="{e(ap["portal_url"])}" target="_blank" rel="noopener">Board now<span class="sr">: open the application portal for {e(p["name"])} (opens in a new tab)</span> <span aria-hidden="true">↗</span></a>'
         if ap else ""
     )
+    od = ODDS.get(pid)
+    odds_html = ""
+    if od:
+        facs = "".join(
+            f'<li><span class="of-n">{FACTOR_NAME[k]}<span class="of-h">{FACTOR_HINT[k]}</span></span>'
+            f'<span class="of-bar" aria-hidden="true">{"".join(f"<i class={chr(34)}on{chr(34)}></i>" if j < v else "<i></i>" for j in range(3))}</span>'
+            f'<span class="of-v">{v} of 3</span></li>'
+            for k, v in od["factors"].items()
+        )
+        raise_ = "".join(f"<li>{e(x)}</li>" for x in od["raise"])
+        odds_html = (
+            f'<section class="odds-box o-{od["score"]}" aria-labelledby="od-{e(pid)}"><div class="odds-dial">{dial(od["score"], "dial dial-xl")}<p class="odds-big"><span class="sr">Score: </span>{od["score"]}<small>/10</small></p></div>'
+            f'<div class="odds-txt"><p class="fx-k">Your odds this cycle</p><h3 id="od-{e(pid)}">{odds_label(od["score"])}</h3><p>{e(od["why"])}</p>'
+            f'<ul class="ofac">{facs}</ul><p class="fx-k" style="margin-top:16px">What would raise it</p><ul class="oraise">{raise_}</ul>'
+            f'<p class="onote">An estimate of the chance of a <em>funded</em> place, from what the board knows (marks and class rank unknown). Not a statistic.</p></div></section>'
+        )
     box = ""
     if ap:
         box = (
@@ -376,7 +409,7 @@ def story_html(pid, st):
             <div><dt>Passenger</dt><dd>Dr A. U. Chowdhury</dd></div>
             <div><dt>Gate closes</dt><dd>{closes}</dd></div>
             <div><dt>Fare to apply</dt><dd>{fee}</dd></div>
-            <div><dt>Class</dt><dd>{e(CAT_NAME[p["cat"]])}</dd></div>
+            <div><dt>Odds</dt><dd>{(str(ODDS[pid]["score"]) + "/10 · " + odds_label(ODDS[pid]["score"])) if pid in ODDS else "—"}</dd></div>
           </dl>
         </div>
         <div class="pass-stub">
@@ -388,12 +421,13 @@ def story_html(pid, st):
       </div>
     </header>
     <div class="story-body">
-      <nav class="toc" aria-label="Chapters"><p class="toc-h">Chapters</p><ol>{"".join(toc)}<li><a href="#{sid}" data-jump="fx-{e(pid)}"><span aria-hidden="true">✓</span>Fact-check</a></li></ol></nav>
+      <nav class="toc" aria-label="Chapters"><p class="toc-h">Chapters</p><ol>{"".join(toc)}<li><a href="#{sid}" data-jump="od-{e(pid)}"><span aria-hidden="true">%</span>Your odds</a></li><li><a href="#{sid}" data-jump="fx-{e(pid)}"><span aria-hidden="true">✓</span>Fact-check</a></li></ol></nav>
       <div class="story-main">
         <p class="verdict v-{st["tone"]}"><span class="v-i" aria-hidden="true"></span>{e(st["tag"])}</p>
         <p class="story-lede">{rich(st["lede"])}</p>
         <p class="ai-note"><span aria-hidden="true">✦</span> Drafted by Gemini (an AI), then rewritten and fact-checked against official pages on 2 Nov 2026. Where they disagreed, the official page won.</p>
         <ul class="gauges" aria-label="How it fits your goals">{"".join(gauge(k, v) for k, v in st["fit"].items())}</ul>
+        {odds_html}
         {box}
         {"".join(chapters)}
         <section class="factcheck" id="fx-{e(pid)}" aria-labelledby="fx-{e(pid)}-h"><p class="ch-n" aria-hidden="true">✓</p><h3 id="fx-{e(pid)}-h">Fact-check: Gemini vs the official pages</h3><ul class="fx">{"".join(fixes)}</ul></section>
@@ -421,10 +455,18 @@ for k in desk_ids:
   <td data-label="Route" class="dk-name"><a href="#p-{e(k)}">{e(p["name"])}</a><span class="dk-c">{e(p["country"])}</span></td>
   <td data-label="Portal"><a class="portal" href="{e(ap["portal_url"])}" target="_blank" rel="noopener">{e(ap["portal_label"])} <span aria-hidden="true">↗</span><span class="sr"> (opens in a new tab)</span></a></td>
   <td data-label="Fee"><span class="fee {FEE_CLS[ap["kind"]]}"><strong><span class="fee-i" aria-hidden="true">{FEE_ICON[ap["kind"]]}</span> {e(ap["fee"])}</strong></span></td>
+  <td data-label="Odds" class="dk-odds">{(dial(ODDS[k]["score"], "dial dial-sm") + f'<span class="dk-ov">{ODDS[k]["score"]}/10</span>') if k in ODDS else ""}</td>
   <td data-label="Story">{f'<a class="story-link" href="#story-{e(k)}">Read <span class="sr">the story about {e(p["name"])} </span>→</a>' if k in STORIES else ""}</td>
   <td data-label="Cost" class="dk-tick"><label><input type="checkbox" class="calc" data-id="{e(k)}"><span class="sr">Add {e(p["name"])} to the fee estimate</span></label></td>
 </tr>''')
 desk_html = "\n".join(desk_rows)
+odds_ids = sorted([k for k in ODDS if k in PBYID], key=lambda k: (-ODDS[k]["score"], PBYID[k].get("d") or "9999"))
+odds_rows = "".join(
+    f'<li class="ob o-{ODDS[k]["score"]}"><a href="#story-{e(k)}"><span class="ob-name">{e(PBYID[k]["name"])}<span class="ob-c">{e(PBYID[k]["country"])} · closes {e(fmt(PBYID[k]["d"])) if PBYID[k].get("d") else "rolling"}</span></span>'
+    f'<span class="ob-track" aria-hidden="true"><span class="ob-fill" style="--s:{ODDS[k]["score"]}"></span></span>'
+    f'<span class="ob-v"><strong>{ODDS[k]["score"]}</strong>/10<span class="ob-l">{odds_label(ODDS[k]["score"])}</span></span></a></li>'
+    for k in odds_ids
+)
 free_n = sum(1 for k in desk_ids if APPLY[k]["kind"] == "free")
 cat_counts = Counter(p["cat"] for p in paths)
 elig_counts = Counter(p["elig"] for p in paths)
@@ -517,6 +559,7 @@ page = (
     .replace("{{CALENDAR}}", "\n".join(cal_html))
     .replace("{{STORIES}}", stories_html)
     .replace("{{DESK_ROWS}}", desk_html)
+    .replace("{{ODDS_ROWS}}", odds_rows)
     .replace("{{DESK_N}}", str(len(desk_ids)))
     .replace("{{DESK_FREE}}", str(free_n))
     .replace("{{STORY_N}}", str(len([k for k in STORIES if k in PBYID])))
