@@ -1,0 +1,57 @@
+{
+ "person": "Dr. Abbas Uddin Chowdhury",
+ "profile": "Bangladeshi MBBS (2019–20 session), results out September 2026, internship from Oct–Nov 2026 in Chattogram, no work experience, USD 30k budget. Long-term goal: practise medicine in the US. Fields: public health, epidemiology, global health, clinical research, aerospace medicine.",
+ "truths": [
+  {"title": "Finish the internship", "body": "Without it there is no full BMDC registration, so no FCPS, full GMC, Saudi, Qatar or UAE licence, and no AHPRA registration. Realistic time to leave: December 2027 to April 2028."},
+  {"title": "Best bridge to the US", "body": "Take Step 1 during the internship, then a paid US research job, then Step 2 CK, aiming for the 2029 Match. That keeps the graduation recent (about 3 years) and earns US letters of recommendation."},
+  {"title": "Apply now, start later", "body": "Erasmus Mundus, Gates Cambridge, KAUST, MEXT, GKS, Stipendium Hungaricum, Türkiye and CSC need no work experience. Most 2027 starts collide with the internship, so ask each programme about late arrival or aim for 2028."}
+ ],
+ "journey": [
+  {"when": "Nov 2026 – Jan 2027", "title": "The application wave", "body": "Funded master's and PhD deadlines cluster here. One master motivation letter, adapted per programme.", "tag": "Now"},
+  {"when": "Nov 2026 – late 2027", "title": "Internship year", "body": "Unlocks full BMDC registration — the key to every licence route."},
+  {"when": "2027", "title": "USMLE Step 1", "body": "Sit it during the internship. Decide on PLAB 1 before Dhaka sittings end in Feb 2027."},
+  {"when": "Dec 2027 – Apr 2028", "title": "Departure window", "body": "Internship done. Start a funded degree, or a paid research post abroad."},
+  {"when": "2028", "title": "US research job + Step 2 CK", "body": "J-1 Research Scholar or H-1B cap-exempt post. US letters. ECFMG Pathway + OET."},
+  {"when": "March 2029", "title": "The Match", "body": "Graduation still recent, US experience in hand.", "tag": "Goal"}
+ ],
+ "checklist": [
+  "Imperial President's PhD round 1 closes 2 Nov, 23:59 UK — submit only if a supervisor has agreed; otherwise aim for round 2 (11 Jan 2027).",
+  "Start a WES course-by-course evaluation ($239, about 4–6 weeks). US applications are incomplete without it.",
+  "Ask referees now — two letters minimum, up to five helps for the US route. Referees are the slowest part.",
+  "Write one master motivation letter, then tailor a copy per programme. Make a Europass CV for Erasmus Mundus and DAAD.",
+  "Ask the medical college when the MBBS degree certificate is issued, and book IELTS (target 7.0) so scores land before the Dec–Jan deadlines.",
+  "PLAB 1 ends in Dhaka from Feb 2027 — decide now whether to book a Dhaka sitting, or plan to sit in India or the UK later.",
+  "November deadlines: OIST 15 Nov (23:59 JST), Sanger 24 Nov (09:00 GMT), ETH ESOP 30 Nov, Yenching 30 Nov (09:00 Beijing).",
+  "1 December group: Johns Hopkins and Emory PhDs, Hong Kong PhD Fellowship (noon HKT), A*STAR SINGA, Max Planck Schools, Neurasmus, Eu-HEM, Oxford MSc GHSE.",
+  "Erasmus Mundus windows opening: HYGIEIA 16 Nov, LIVE_Innov 18 Nov, IDOH 1 Dec. NOHA closes 15 Dec, 23:59 GMT.",
+  "December: Commonwealth Shared 8 Dec, Gates Cambridge 8 Dec or 6 Jan (by course), Maastricht file 10 Dec, Sydney RTP 18 Dec, PHID and NTU 31 Dec.",
+  "51st BCS: if applied, watch bpsc.gov.bd for the MCQ date and admit card; keep the temporary BMDC registration and exam-dates certificate ready.",
+  "Italy: start collecting family income and asset documents now — they decide the DSU grant and take the longest."
+ ],
+ "documents": [
+  ["Passport", "Valid, scanned."],
+  ["MBBS certificate", "Or, during internship, a provisional certificate or letter stating expected completion."],
+  ["All transcripts", "Every professional exam, plus a WES evaluation for the US."],
+  ["Europass CV", "The format Erasmus Mundus and DAAD expect."],
+  ["Motivation letter", "One master version plus tailored copies."],
+  ["Recommendation letters", "Two minimum; up to five strong ones for the US."],
+  ["English proof", "IELTS/TOEFL, or a Medium-of-Instruction certificate where accepted."],
+  ["Proof of residence", "Dated within 12 months — a utility bill or bank statement."],
+  ["Motivation video", "Under 1 minute, MP4 — SpaceMed only."],
+  ["Family income papers", "Italy DSU only: legalised, translated, converted to an ISEE parificato."],
+  ["Photo, police & medical certificates", "Standard scholarship folder items."],
+  ["Publications list", "Papers and manuscripts — what makes direct-PhD cases possible."]
+ ],
+ "gates": [
+  ["When is the MBBS conferred?", "Before or only after the internship? It decides SpaceMed, Commonwealth Shared, Maastricht and others that need the degree finished by a deadline."],
+  ["Maastricht admission route", "Bachelor's route (GRE needed) or bachelor's + master's route (no GRE)? Does his average convert to at least 7.5/10? Ask masteradmission-fhml@maastrichtuniversity.nl."],
+  ["Swedish Institute's 3,000 hours", "Paid or freelance work separate from the internship, before Feb 2027. The SI FAQ says internships don't count."],
+  ["Hopkins work-experience line", "The one-year line appears on the ScM page, not the PhD page. Ask BSPH.EpiAcademic@jh.edu whether the internship counts."],
+  ["MBBS → direct PhD in Australia and NZ", "No university says an MBBS alone qualifies. It's case by case (publications, research), with an MPhil as fallback."],
+  ["WES timing", "Starting in early November lands mid-December — too late for a verified 1 Dec file. Ask Hopkins and Emory if WES can follow."]
+ ],
+ "extraLog": [
+  {"date": "2026-11-01", "text": "Master file: independent check of 34 entries against official pages — Eiffel age gate added (29 for master's), Columbia 1 Dec preferred deadline added, Maastricht scholarship close (1 Feb 2027) added, Monash Round 1 resolved to 28 Feb 2027, Commonwealth 2:1 rule added, Emory PhD deadline found (1 Dec)."},
+  {"date": "2026-11-02", "text": "Master file: live-browser re-check — UQ round confirmed closed 19 Oct, Massey closed 1 Oct, SpaceMed €5,000/yr self-funded fee confirmed, Swedish Institute internship rule confirmed. 22 spot-checks: 15 confirmed, 7 partial, 0 wrong."}
+ ]
+}

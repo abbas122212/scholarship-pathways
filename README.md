@@ -1,16 +1,25 @@
-# Scholarship Pathways — static website bundle
+# Scholarship Pathways
 
-Plain HTML, **no JavaScript** — any AI or browser can read it with a simple fetch.
+Every route abroad for a Bangladeshi MBBS graduate: funded degrees, salaried PhDs, paid research jobs and licensing paths, with live deadlines.
 
-## Deploy free (pick one, ~2 minutes)
-- **GitHub Pages:** create a public repo, upload these files, Settings → Pages → deploy from main branch. Site goes live at https://<username>.github.io/<repo>/
-- **Netlify Drop:** go to app.netlify.com/drop and drag this folder in. Instant public URL, no account needed to try.
-- **Cloudflare Pages:** dash.cloudflare.com → Pages → upload assets, add this folder.
+Live site: https://abbas122212.github.io/scholarship-pathways/
 
-## Files
-- `index.html` — the website (all 36 pathways, deadline calendar, open gates, verification log)
-- `SCHOLARSHIP_PATHWAYS_MASTER.md` — canonical data any AI can edit
-- `SCHOLARSHIP_PATHWAYS_INDEX.json` — machine-readable index
+## How it's built
+`index.html` is generated, so don't edit it by hand. Edit the data, then rebuild:
 
-## Update workflow
-Any AI verifies an entry on its official source → returns updated Markdown/JSON with source URL + date → owner applies the change to the master file → redeploy (or ask Muse to regenerate index.html from the master file).
+```
+python3 build.py
+```
+
+- `data/board.json`: the Pathway Board export (121 routes, checklist, weekly log, watchlist)
+- `data/extra.json`: routes from the master file that aren't on the board (Maastricht, Commonwealth Shared, US PhDs/MPHs, Italy, DAAD, Australia/NZ PhDs and others)
+- `data/guide.json`: plan, journey, 30-day to-do, documents, open questions
+- `site/template.html`: page design (CSS + a small script)
+- `classic.html`: the previous version of the site
+
+All content is rendered as plain HTML at build time, so the page reads fully without JavaScript, for screen readers and AIs fetching it. JavaScript only adds live countdowns, filters, the shortlist and saved checklist ticks.
+
+## Other files
+- `SCHOLARSHIP_PATHWAYS_MASTER.md`: canonical research notes
+- `SCHOLARSHIP_PATHWAYS_INDEX.json`: machine-readable index
+- `CLAUDE_CHECK_VERDICTS.md`: independent verification notes
