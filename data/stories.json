@@ -1262,6 +1262,1561 @@
     "Deadlines: Gemini said 15 Jan and 31 Mar. The date is 15 Dec 2026 (Computational Biology 22 Jan 2027).",
     "Removed the stipend and housing amounts, which couldn't be confirmed, and kept the AED 200 fee and the 75% waiver confirmed on mbzuai.ac.ae."
    ]
+  },
+  "au-sydney": {
+   "tag": "Top stipend, but you need a supervisor and a case for direct PhD entry",
+   "tone": "warn",
+   "dest": [
+    "SYD",
+    "Sydney"
+   ],
+   "lede": "The University of Sydney's RTP and USYDIS scholarships pay the highest PhD stipend in Australia. The catch is getting in: no Australian university guarantees an MBBS can go straight into a PhD.",
+   "fit": {
+    "us": [
+     "poor",
+     "A 3–4 year PhD pushes a US Match to about 2031–32."
+    ],
+    "eu": [
+     "poor",
+     "No help with UK or EU licensing."
+    ],
+    "interest": [
+     "good",
+     "Public health and epidemiology at Sydney are strong."
+    ]
+   },
+   "sections": [
+    {
+     "h": "What it pays",
+     "ul": [
+      "**A$44,293 a year** stipend (2027 rate) plus 100% tuition and health cover.",
+      "**Cost to apply: A$150**, non-refundable, covering all applications within a year."
+     ]
+    },
+    {
+     "h": "Who can apply",
+     "ul": [
+      "Entry to a PhD is assessed case by case on your qualifications, publications and research capacity, with an MPhil as fallback.",
+      "**A supervisor's backing comes first.** Email potential supervisors before you apply."
+     ]
+    },
+    {
+     "h": "Dates that matter",
+     "ul": [
+      "**18 Dec 2026** for Research Periods 3–4 of 2027.",
+      "A 2027 start collides with the internship; ask about the latest start in 2027 or aim for 2028."
+     ]
+    },
+    {
+     "h": "How it fits the US and Europe goals",
+     "p": [
+      "An Australian PhD with publications is a strong academic credential, but it's three to four years away from clinical work, and Australia's own medical licensing (AMC, AHPRA) needs your completed internship and is separate from any PhD."
+     ]
+    },
+    {
+     "h": "The catches",
+     "ul": [
+      "**Catch 1: entry.** No guarantee an MBBS alone qualifies for direct PhD entry.",
+      "**Catch 2: supervisor.** Without one, the application doesn't move.",
+      "**Catch 3: timing.** 2027 research periods sit on top of your internship."
+     ]
+    },
+    {
+     "h": "The honest recommendation",
+     "p": [
+      "Worth a supervisor email or two now. If someone is keen, apply for a 2028 start rather than squeezing into 2027."
+     ]
+    }
+   ],
+   "fixed": [
+    "Stipend: Gemini quoted about A$40,109 (a 2024 rate). The 2027 rate is A$44,293.",
+    "Deadline: Gemini said mid-September or mid-December to mid-January. The board's date for Research Periods 3–4 is 18 Dec 2026.",
+    "Fee: Gemini didn't mention one. Sydney charges A$150, covering all applications within a year.",
+    "Timeline: Gemini had the internship ending September 2027. It runs to about late 2027."
+   ]
+  },
+  "emjm-phid": {
+   "tag": "A health-degree-friendly Erasmus Mundus with a long window",
+   "tone": "ok",
+   "dest": [
+    "OVD",
+    "Oviedo"
+   ],
+   "lede": "PHID is a two-year Erasmus Mundus Master's in public health in disasters, taught across Oviedo, Karolinska and Nicosia. Health degrees are accepted, there's no work-experience minimum, and the window stays open until 31 December.",
+   "fit": {
+    "us": [
+     "mixed",
+     "Two years in Europe moves a Match to about 2030–31, but builds research."
+    ],
+    "eu": [
+     "mixed",
+     "A funded base in Europe and time to learn a language; no licence."
+    ],
+    "interest": [
+     "good",
+     "Disaster epidemiology and humanitarian public health."
+    ]
+   },
+   "sections": [
+    {
+     "h": "What it pays",
+     "ul": [
+      "The Erasmus Mundus scholarship: **€1,400 a month** plus participation costs.",
+      "Self-funded non-EU fees are about €18,000 in total, so the scholarship is what makes it possible.",
+      "No application fee is mentioned."
+     ]
+    },
+    {
+     "h": "Who can apply",
+     "ul": [
+      "Health degrees accepted. Relevant experience adds points (0.2 per month, up to 3) but isn't required.",
+      "**English: IELTS 6.5 with 6.5 in writing** (or TOEFL iBT 79)."
+     ]
+    },
+    {
+     "h": "Dates that matter",
+     "ul": [
+      "Applications are open **1 Oct – 31 Dec 2026** for the 2027 intake.",
+      "A September 2027 start collides with the internship; ask about late arrival, or use the 2028 cycle."
+     ]
+    },
+    {
+     "h": "How it fits the US and Europe goals",
+     "p": [
+      "Disaster and humanitarian epidemiology is a distinctive add-on for preventive medicine and global health. It doesn't give US clinical experience, and two years in Europe pushes a Match to around 2030–31."
+     ]
+    },
+    {
+     "h": "The catches",
+     "ul": [
+      "**Catch 1: timing.** The 2027 start doesn't fit the internship.",
+      "**Catch 2: writing score.** IELTS writing must be 6.5, not just the overall band.",
+      "**Catch 3: register first.** The platform needs an account before you can apply."
+     ]
+    },
+    {
+     "h": "The honest recommendation",
+     "p": [
+      "One of the better Erasmus fits for you. Apply this cycle if they'll consider a late start; otherwise make it a priority for 2028."
+     ]
+    }
+   ],
+   "fixed": [
+    "Length: Gemini said it's a one-year, 60 ECTS programme. The board lists a two-year programme.",
+    "Deadline: Gemini said mid-December to mid-January. The window is 1 Oct – 31 Dec 2026.",
+    "Removed Gemini's post-study visa claims, which couldn't be confirmed."
+   ]
+  },
+  "ntu-rss": {
+   "tag": "Good stipend and a January 2028 intake that fits",
+   "tone": "ok",
+   "dest": [
+    "SIN",
+    "Singapore"
+   ],
+   "lede": "NTU's Research Scholarship, including the Lee Kong Chian School of Medicine PhD, pays a solid stipend with no bond. The June 2027 window for a January 2028 start lines up neatly with the end of your internship.",
+   "fit": {
+    "us": [
+     "poor",
+     "A 3–4 year PhD pushes a US Match to about 2031–32."
+    ],
+    "eu": [
+     "poor",
+     "No licensing impact."
+    ],
+    "interest": [
+     "mixed",
+     "Clinical and translational research at LKCMedicine; not classic public health."
+    ]
+   },
+   "sections": [
+    {
+     "h": "What it pays",
+     "ul": [
+      "Tuition plus about **S$3,000 a month** for a PhD, with no service bond.",
+      "**Cost to apply: S$50**, non-refundable."
+     ]
+    },
+    {
+     "h": "Who can apply",
+     "ul": [
+      "A supervisor's agreement and an Honours (Distinction) degree or equivalent.",
+      "LKCMedicine's clinician route welcomes MBBS holders with research experience."
+     ]
+    },
+    {
+     "h": "Dates that matter",
+     "ul": [
+      "**31 Dec 2026** for the August 2027 intake (collides with the internship).",
+      "**1–30 June 2027** for the **January 2028** intake: the one to aim for."
+     ]
+    },
+    {
+     "h": "How it fits the US and Europe goals",
+     "p": [
+      "A Singapore PhD builds research credentials and lets you save from the stipend, but it's four years away from clinical work and doesn't help with European licensing."
+     ]
+    },
+    {
+     "h": "The catches",
+     "ul": [
+      "**Catch 1: supervisor.** You need one before anything else.",
+      "**Catch 2: research expectations.** The clinician route still expects some research experience.",
+      "**Catch 3: length.** Four years is a long detour from a 2029 Match."
+     ]
+    },
+    {
+     "h": "The honest recommendation",
+     "p": [
+      "Skip the 31 December round. Spend the next six months finding an LKCMedicine supervisor and apply in June 2027 for January 2028."
+     ]
+    }
+   ],
+   "fixed": [
+    "Deadlines: Gemini gave 31 July for the January intake. NTU's window is 1–30 June 2027.",
+    "Stipend: Gemini gave S$2,200–3,200 a month; the board lists about S$3,000 for a PhD.",
+    "Removed Gemini's GRE 319 target, which couldn't be confirmed.",
+    "Timeline: Gemini had the internship ending in September 2027. It runs to about late 2027."
+   ]
+  },
+  "kaust": {
+   "tag": "Funded automatically if admitted, but only in science and data",
+   "tone": "warn",
+   "dest": [
+    "JED",
+    "Thuwal"
+   ],
+   "lede": "KAUST funds every admitted student with its Fellowship, so there's no separate scholarship to win. It's a science and engineering university with no clinical track, and an MBBS has to fit a bioscience or data programme.",
+   "fit": {
+    "us": [
+     "poor",
+     "Builds data skills, adds no clinical credit."
+    ],
+    "eu": [
+     "poor",
+     "No licensing impact."
+    ],
+    "interest": [
+     "mixed",
+     "Bioscience, AI and data science; no public health."
+    ]
+   },
+   "sections": [
+    {
+     "h": "What it pays",
+     "ul": [
+      "Full tuition, about **US$20,000 a year**, housing, health insurance and relocation support.",
+      "No application fee."
+     ]
+    },
+    {
+     "h": "Who can apply",
+     "ul": [
+      "Admission to a KAUST MS or PhD programme. Medicine isn't a listed background, so your fit depends on the programme (bioscience or data science)."
+     ]
+    },
+    {
+     "h": "Dates that matter",
+     "ul": [
+      "**Round 2 closes 3 Jan 2027** for Fall 2027. Decisions around 25 Feb 2027.",
+      "Term starts 29 Aug 2027, which collides with your internship."
+     ]
+    },
+    {
+     "h": "How it fits the US and Europe goals",
+     "p": [
+      "A KAUST MS in bioscience or data science gives you quantitative skills that help clinical research later, and the Gulf is a plausible place to work. It doesn't count as clinical experience anywhere."
+     ]
+    },
+    {
+     "h": "The catches",
+     "ul": [
+      "**Catch 1: field.** No clinical or public-health track.",
+      "**Catch 2: timing.** August 2027 is too early.",
+      "**Catch 3: background.** You'd need to show quantitative readiness."
+     ]
+    },
+    {
+     "h": "The honest recommendation",
+     "p": [
+      "Only apply if a bioscience or data-science programme genuinely interests you, and ask about deferring to 2028."
+     ]
+    }
+   ],
+   "fixed": [
+    "Deadlines: Gemini gave 1 Dec 2026 priority and 30 Jan / 1 Mar 2027 finals. KAUST's Round 2 closes 3 Jan 2027.",
+    "Removed Gemini's TOEFL 79 figure, which couldn't be confirmed.",
+    "Timeline: Gemini said a provisional certificate before an August 2027 start would do. The internship runs past August 2027."
+   ]
+  },
+  "emjm-imim": {
+   "tag": "A translational-medicine Master's that names medicine as eligible",
+   "tone": "ok",
+   "dest": [
+    "GRQ",
+    "Groningen"
+   ],
+   "lede": "IMIM is a two-year Erasmus Mundus Master's in innovative medicine across Groningen, Heidelberg, Tartu and Uppsala. Medicine is a listed eligible field, which makes it one of the more natural Erasmus fits for an MBBS.",
+   "fit": {
+    "us": [
+     "mixed",
+     "Two years in Europe moves a Match to about 2030–31, but builds research."
+    ],
+    "eu": [
+     "mixed",
+     "A funded base in Europe and time to learn a language; no licence."
+    ],
+    "interest": [
+     "mixed",
+     "Translational biomedical research rather than public health."
+    ]
+   },
+   "sections": [
+    {
+     "h": "What it pays",
+     "ul": [
+      "Erasmus Mundus scholarship: **€1,400 a month** plus participation costs.",
+      "No application fee was found."
+     ]
+    },
+    {
+     "h": "Who can apply",
+     "ul": [
+      "Medicine is a listed eligible field (180 ECTS equivalent). No work experience needed; research experience is a plus.",
+      "2027 requirements are marked 'under review', so read the call when it opens."
+     ]
+    },
+    {
+     "h": "Dates that matter",
+     "ul": [
+      "The 2027 call **opens 25 Nov 2026** and **closes 4 Jan 2027**.",
+      "September 2027 start collides with your internship: ask about deferral."
+     ]
+    },
+    {
+     "h": "How it fits the US and Europe goals",
+     "p": [
+      "A research Master's at Groningen or Uppsala builds translational credentials for academic residencies. No clinical experience, and two years pushes a Match to around 2031."
+     ]
+    },
+    {
+     "h": "The catches",
+     "ul": [
+      "**Catch 1: competition.** Erasmus Mundus scholarships are limited.",
+      "**Catch 2: research angle.** Selection rewards research experience you'll need to show.",
+      "**Catch 3: timing.** The September 2027 start."
+     ]
+    },
+    {
+     "h": "The honest recommendation",
+     "p": [
+      "A strong Erasmus fit for an MBBS. Apply when the call opens if they'll consider a later start; otherwise keep it for 2028."
+     ]
+    }
+   ],
+   "fixed": [
+    "Deadline: the board said 4 Jan 2027 and Groningen's page shows last year's 5 Jan. IMIM's own site confirms 4 Jan 2027.",
+    "Removed Gemini's selection weights and its '1,300+ applicants, 20–25 scholarships' figures, which couldn't be confirmed.",
+    "Removed Gemini's €9,000 tuition figure and IELTS 6.5 / TOEFL 92 thresholds pending the 2027 call."
+   ]
+  },
+  "emory-mph": {
+   "tag": "A real MPH scholarship, but tuition only, not a stipend",
+   "tone": "warn",
+   "dest": [
+    "ATL",
+    "Atlanta"
+   ],
+   "lede": "Emory's Rollins MPH gives merit scholarships of 50–100% of tuition, and internationals are considered automatically if the file is verified by 5 January. There's no stipend, so this only works alongside paid US research work (the Sakib model).",
+   "fit": {
+    "us": [
+     "good",
+     "Puts you in the US with research jobs and US letters."
+    ],
+    "eu": [
+     "poor",
+     "No European relevance."
+    ],
+    "interest": [
+     "good",
+     "Epidemiology and global health, CDC next door."
+    ]
+   },
+   "sections": [
+    {
+     "h": "What it pays",
+     "ul": [
+      "Merit awards of **50–100% of tuition**, plus a REAL award of $2,500 and a practicum award of $2,000–4,000.",
+      "Programme total is about **$85,356**, so partial awards leave a big bill.",
+      "**Cost to apply: $155** via SOPHAS, or $65 if added to another SOPHAS programme."
+     ]
+    },
+    {
+     "h": "Who can apply",
+     "ul": [
+      "Internationals are considered automatically for merit scholarships if the application is complete and SOPHAS-verified by 5 Jan."
+     ]
+    },
+    {
+     "h": "Dates that matter",
+     "ul": [
+      "**5 Jan 2027** priority deadline: complete AND verified. Submit in mid-December.",
+      "1 May and 15 Jul 2027 later deadlines carry little scholarship money."
+     ]
+    },
+    {
+     "h": "How it fits the US and Europe goals",
+     "p": [
+      "This is the route closest to your US goal: it puts you in Atlanta with access to Emory and CDC research jobs and US letters. The money is the risk: a partial award plus living costs could easily exceed your $30,000."
+     ]
+    },
+    {
+     "h": "The catches",
+     "ul": [
+      "**Catch 1: no stipend.** Living costs in Atlanta are on you.",
+      "**Catch 2: award size.** Anything below a full-tuition award breaks the budget.",
+      "**Catch 3: verification lag.** Late submission means no scholarship consideration."
+     ]
+    },
+    {
+     "h": "The honest recommendation",
+     "p": [
+      "Apply by mid-December through SOPHAS, alongside Columbia if you like. Only accept with a high award and a clear plan for paid research work."
+     ]
+    }
+   ],
+   "fixed": [
+    "Award tiers: Gemini described 25–50%, 50–75% and up-to-100% named awards. The board's figure is 50–100% of tuition, plus REAL and practicum awards.",
+    "Removed Gemini's 1,500-word statement and TOEFL 100 claims, which couldn't be confirmed.",
+    "Fee: Gemini said about $150 plus an Emory supplement. It's $155 via SOPHAS."
+   ]
+  },
+  "eiffel": {
+   "tag": "Effectively closed for 2027: the nomination deadlines have passed",
+   "tone": "bad",
+   "dest": [
+    "CDG",
+    "France"
+   ],
+   "lede": "France's Eiffel scholarship can only be filed by a French institution, and most institutions' internal deadlines fell in October and November 2026. The 6 January date is for institutions, not you.",
+   "fit": {
+    "us": [
+     "mixed",
+     "A one-to-two-year Master's in France."
+    ],
+    "eu": [
+     "mixed",
+     "A base in France; French licensing still separate."
+    ],
+    "interest": [
+     "good",
+     "'Biology and Health' is an eligible field."
+    ]
+   },
+   "sections": [
+    {
+     "h": "What it pays",
+     "ul": [
+      "**€1,200 a month** for a Master's.",
+      "No Eiffel application fee; the institution may charge its own."
+     ]
+    },
+    {
+     "h": "Who can apply",
+     "ul": [
+      "**Master's applicants must be 29 or younger** (born after 31 Mar 1997); PhD under 35.",
+      "Only a French institution can nominate you."
+     ]
+    },
+    {
+     "h": "Dates that matter",
+     "ul": [
+      "Institutions file with Campus France by **6 Jan 2027**; results the week of 12 Apr 2027.",
+      "Université Paris Cité's internal deadline was 29 Oct 2026. Other institutions' internal deadlines were similar."
+     ]
+    },
+    {
+     "h": "How it fits the US and Europe goals",
+     "p": [
+      "An Eiffel-funded Master's in France would be a respectable public health credential, but French medical licensing is a separate, French-language process."
+     ]
+    },
+    {
+     "h": "The catches",
+     "ul": [
+      "**Catch 1: closed.** Most internal deadlines have passed.",
+      "**Catch 2: age.** The master's limit is 29.",
+      "**Catch 3: nomination.** You can't apply directly."
+     ]
+    },
+    {
+     "h": "The honest recommendation",
+     "p": [
+      "Ask IDOH, which nominates some candidates for Eiffel, and any French programme you still apply to. Otherwise plan for the 2028 round and contact institutions by September 2027."
+     ]
+    }
+   ],
+   "fixed": [
+    "Age limit: Gemini said 25 for Master's and 30 for PhD. The official limits are 29 for Master's and 35 for PhD.",
+    "Allowance: Gemini said €1,181 a month. The official programme page gives €1,200 for Master's.",
+    "Gemini treated early January as your deadline. It's the institutions' deadline; most internal ones fell in Oct–Nov 2026."
+   ]
+  },
+  "emjm-humres": {
+   "tag": "Humanitarian public health, and the scholarship round closes 7 January",
+   "tone": "ok",
+   "dest": [
+    "LIS",
+    "Lisbon"
+   ],
+   "lede": "Human Response is a new two-year Erasmus Mundus Master's in public health in disasters and humanitarian response, led by Iscte in Lisbon with fieldwork in Africa. It's free to apply and puts real weight on motivation and relevance.",
+   "fit": {
+    "us": [
+     "mixed",
+     "Two years in Europe moves a Match to about 2030–31, but builds research."
+    ],
+    "eu": [
+     "mixed",
+     "A funded base in Europe and time to learn a language; no licence."
+    ],
+    "interest": [
+     "good",
+     "Humanitarian and global health focus."
+    ]
+   },
+   "sections": [
+    {
+     "h": "What it pays",
+     "ul": [
+      "Erasmus Mundus scholarship: **€1,400 a month** plus participation costs; **15 scholarships** per edition.",
+      "No application fee."
+     ]
+    },
+    {
+     "h": "Who can apply",
+     "ul": [
+      "A **180-ECTS bachelor's** is required.",
+      "IELTS 6.5 (no band under 5.5) or TOEFL 92.",
+      "Selection weights: academic level 30%, relevance 15%, research 5%, professional experience 20%, statement 20%, cohort fit 10%."
+     ]
+    },
+    {
+     "h": "Dates that matter",
+     "ul": [
+      "The scholarship round closes **7 Jan 2027**. A self-funded round follows.",
+      "September 2027 start collides with your internship."
+     ]
+    },
+    {
+     "h": "How it fits the US and Europe goals",
+     "p": [
+      "Humanitarian health experience reads well for preventive and global health residencies, and Portugal, Greece and Norway give you a European base. No clinical credit and no licence."
+     ]
+    },
+    {
+     "h": "The catches",
+     "ul": [
+      "**Catch 1: experience counts.** Professional experience is 20% of the score.",
+      "**Catch 2: small cohort.** Only 15 scholarships.",
+      "**Catch 3: timing.** The 2027 start."
+     ]
+    },
+    {
+     "h": "The honest recommendation",
+     "p": [
+      "A good fit for your interests. Apply by 7 Jan, asking about late arrival, and lean on any community or outbreak work from the internship."
+     ]
+    }
+   ],
+   "fixed": [
+    "Deadline: Gemini said 15 Jan 2027 at 13:00 CET. The official scholarship round closes 7 Jan 2027.",
+    "Tuition: Gemini said about €16,000 covered; removed as unconfirmed.",
+    "Removed Gemini's IELTS 6.0-band claim; the programme asks for no band under 5.5."
+   ]
+  },
+  "emjm-eph": {
+   "tag": "The board's best Erasmus fit for public health",
+   "tone": "ok",
+   "dest": [
+    "RNS",
+    "Rennes"
+   ],
+   "lede": "Europubhealth+ is the European Master in Public Health, across EHESP, Maastricht, Sheffield, Dublin, Granada, Liège, Kraków and Bordeaux. Medical graduates are accepted and work experience only adds to your score.",
+   "fit": {
+    "us": [
+     "mixed",
+     "Two years in Europe moves a Match to about 2030–31, but builds research."
+    ],
+    "eu": [
+     "mixed",
+     "A funded base in Europe and time to learn a language; no licence."
+    ],
+    "interest": [
+     "good",
+     "Epidemiology, biostatistics and public health data science tracks."
+    ]
+   },
+   "sections": [
+    {
+     "h": "What it pays",
+     "ul": [
+      "Up to **€1,400 a month** plus participation costs.",
+      "No application fee was found."
+     ]
+    },
+    {
+     "h": "Who can apply",
+     "ul": [
+      "Any bachelor's of 180 ECTS or equivalent; medical graduates accepted.",
+      "No work experience required.",
+      "Dublin and Sheffield routes need IELTS 6.5 with no band below 6.0."
+     ]
+    },
+    {
+     "h": "Dates that matter",
+     "ul": [
+      "Scholarship round closes **8 Jan 2027, 13:00 CET**. Interviews **18 Feb 2027**.",
+      "Self-funded round closes 24 Mar 2027 with no scholarship."
+     ]
+    },
+    {
+     "h": "How it fits the US and Europe goals",
+     "p": [
+      "A European public health Master's with biostatistics and data-science tracks is a natural credential for preventive medicine or academic residencies, and Maastricht or Dublin give you a base in Europe. Two years still pushes a Match to around 2031."
+     ]
+    },
+    {
+     "h": "The catches",
+     "ul": [
+      "**Catch 1: timing.** The September 2027 start collides.",
+      "**Catch 2: competition.** Strong cohort for limited scholarships.",
+      "**Catch 3: route choice.** Each track has its own language and city requirements."
+     ]
+    },
+    {
+     "h": "The honest recommendation",
+     "p": [
+      "Make this one of your three Erasmus choices. Use the same master motivation letter, and ask about late arrival or plan for 2028."
+     ]
+    }
+   ],
+   "fixed": [
+    "Fees: Gemini said €16,000 covered and about €8,000 a year self-funded; removed as unconfirmed.",
+    "Confirmed dates: 8 Jan 2027 13:00 CET (scholarship) and 24 Mar 2027 (self-funded), matching Gemini."
+   ]
+  },
+  "ista-phd": {
+   "tag": "A salary, not a stipend, but a biology and computing PhD",
+   "tone": "warn",
+   "dest": [
+    "VIE",
+    "Vienna"
+   ],
+   "lede": "ISTA in Austria employs its PhD students on a full salary, charges no tuition and no application fee. The fields are biology, neuroscience and computation, and whether it accepts an MBBS isn't stated.",
+   "fit": {
+    "us": [
+     "poor",
+     "A 3–4 year PhD pushes a US Match to about 2031–32."
+    ],
+    "eu": [
+     "poor",
+     "No licensing impact in Austria or the EU."
+    ],
+    "interest": [
+     "mixed",
+     "Neuroscience and computational biology, not public health."
+    ]
+   },
+   "sections": [
+    {
+     "h": "What it pays",
+     "ul": [
+      "Salaried: **€3,053–3,673 a month gross, 14 times a year**.",
+      "No tuition and no application fee."
+     ]
+    },
+    {
+     "h": "Who can apply",
+     "ul": [
+      "Bachelor's holders are eligible; you rotate through labs in year one.",
+      "Whether an MBBS counts isn't stated: ask phd.admissions@ist.ac.at."
+     ]
+    },
+    {
+     "h": "Dates that matter",
+     "ul": [
+      "**8 Jan 2027**, submit before **14:59 CET**. Referee letters by 12 Jan.",
+      "Start date is fixed at 15 Sep 2027, which collides with your internship."
+     ]
+    },
+    {
+     "h": "How it fits the US and Europe goals",
+     "p": [
+      "A great scientific training ground, but five-ish years of basic science moves a US Match to about 2032, and it's no help for licensing anywhere in Europe."
+     ]
+    },
+    {
+     "h": "The catches",
+     "ul": [
+      "**Catch 1: fixed start.** 15 September 2027 is before your internship ends.",
+      "**Catch 2: eligibility.** An MBBS isn't mentioned.",
+      "**Catch 3: competition.** Very selective."
+     ]
+    },
+    {
+     "h": "The honest recommendation",
+     "p": [
+      "Not this year: the fixed September 2027 start rules it out. Revisit for 2028 if basic neuroscience or computation really appeals."
+     ]
+    }
+   ],
+   "fixed": [
+    "Salary: Gemini said about €38,000–42,000 gross a year. The board lists €3,053–3,673 a month × 14, about €42,700–51,400.",
+    "Deadline: confirmed 8 Jan 2027 (3:00 PM CET on one page, 14:59 on another), as Gemini expected.",
+    "Removed Gemini's acceptance-rate figure, which couldn't be confirmed."
+   ]
+  },
+  "csc": {
+   "tag": "Accessible government scholarship, but the 2027 call isn't out",
+   "tone": "ok",
+   "dest": [
+    "PEK",
+    "China"
+   ],
+   "lede": "The Chinese Government Scholarship covers tuition, accommodation and a monthly allowance, through either the Chinese Embassy (Type A) or individual universities (Type B). The 2027 Bangladesh notice hasn't been published yet.",
+   "fit": {
+    "us": [
+     "mixed",
+     "A two-to-three year master's; adds research but no clinical credit."
+    ],
+    "eu": [
+     "poor",
+     "No European relevance."
+    ],
+    "interest": [
+     "mixed",
+     "Public health programmes exist; quality varies by university."
+    ]
+   },
+   "sections": [
+    {
+     "h": "What it pays",
+     "ul": [
+      "Tuition, accommodation, a monthly allowance (about **CNY 2,500–3,500**) and insurance.",
+      "No CSC fee; some universities charge their own Type B portal fee."
+     ]
+    },
+    {
+     "h": "Who can apply",
+     "ul": [
+      "Bangladeshi citizens are eligible through the embassy (Type A) or a university (Type B).",
+      "Choose an English-taught public health programme."
+     ]
+    },
+    {
+     "h": "Dates that matter",
+     "ul": [
+      "Expected around **10 Jan 2027**, based on last year's embassy notice (10 Jan 2026). Watch the Chinese Embassy Dhaka and SHED in December.",
+      "University (Type B) deadlines vary from January to April."
+     ]
+    },
+    {
+     "h": "How it fits the US and Europe goals",
+     "p": [
+      "A funded Chinese master's is a fallback that keeps your budget intact. It's two to three years of non-clinical work, and Chinese degrees carry less weight with US programme directors than European ones."
+     ]
+    },
+    {
+     "h": "The catches",
+     "ul": [
+      "**Catch 1: no call yet.** Dates are estimates.",
+      "**Catch 2: programme quality.** Choose the university carefully.",
+      "**Catch 3: timing.** September 2027 starts collide."
+     ]
+    },
+    {
+     "h": "The honest recommendation",
+     "p": [
+      "Keep it as a back-up. Shortlist two universities with English-taught public health now so you're ready when the notice drops."
+     ]
+    }
+   ],
+   "fixed": [
+    "Allowances: Gemini gave CNY 3,000 for master's and 3,500 for PhD. The board's range is CNY 2,500–3,500.",
+    "Removed Gemini's age limits (35 master's, 40 PhD), which couldn't be confirmed.",
+    "Deadline: Gemini said late January to early March. The board's estimate is about 10 Jan 2027 for the embassy route."
+   ]
+  },
+  "emjm-idoh": {
+   "tag": "Infectious-disease epidemiology, and a direct path to Eiffel nomination",
+   "tone": "ok",
+   "dest": [
+    "TUF",
+    "Tours"
+   ],
+   "lede": "IDOH is the Erasmus Mundus Master's in Infectious Diseases and One Health, with Tours, Barcelona and Hannover, plus mobility options. One application enters you for both scholarship and self-funded places, and the consortium nominates some candidates for Eiffel.",
+   "fit": {
+    "us": [
+     "mixed",
+     "Two years in Europe moves a Match to about 2030–31, but builds research."
+    ],
+    "eu": [
+     "mixed",
+     "A funded base in Europe and time to learn a language; no licence."
+    ],
+    "interest": [
+     "good",
+     "Infectious-disease epidemiology and One Health: a strong match."
+    ]
+   },
+   "sections": [
+    {
+     "h": "What it pays",
+     "ul": [
+      "Erasmus Mundus scholarship: **€1,400 a month** plus participation costs.",
+      "Self-funded tuition about €4,500 a year.",
+      "No application fee was found."
+     ]
+    },
+    {
+     "h": "Who can apply",
+     "ul": [
+      "A 180-ECTS bachelor's in a relevant field.",
+      "One application covers both scholarship and self-funded places (about 24 students a year)."
+     ]
+    },
+    {
+     "h": "Dates that matter",
+     "ul": [
+      "**1 Dec 2026 – 15 Jan 2027** for the 2027–2029 cohort."
+     ]
+    },
+    {
+     "h": "How it fits the US and Europe goals",
+     "p": [
+      "Infectious-disease epidemiology is a direct match for your interests and a credible step to US infectious disease or preventive medicine research. Two years in Europe moves a Match to around 2031."
+     ]
+    },
+    {
+     "h": "The catches",
+     "ul": [
+      "**Catch 1: timing.** September 2027 start.",
+      "**Catch 2: competition.** Limited scholarship seats.",
+      "**Catch 3: details unverified.** Eligibility specifics weren't re-checked this cycle."
+     ]
+    },
+    {
+     "h": "The honest recommendation",
+     "p": [
+      "A top-three Erasmus choice for you. Apply in the December window and ask about late arrival."
+     ]
+    }
+   ],
+   "fixed": [
+    "Programme name: Gemini called it 'IDOHNext from 2025'. The renewed IDOH was among the new Erasmus Mundus programmes selected in July 2026.",
+    "Tuition: Gemini said €9,000–18,000 a year. The consortium site gives about €4,500 a year self-funded.",
+    "Removed Gemini's references to London and Utrecht, which aren't on the consortium list."
+   ]
+  },
+  "hartford-srf": {
+   "tag": "A US research job, not a scholarship, and pay isn't stated",
+   "tone": "warn",
+   "dest": [
+    "BDL",
+    "Hartford"
+   ],
+   "lede": "Hartford Hospital's General Surgery Research Fellowship is a US research year with J-1 sponsorship. It's the kind of bridge your 2029 plan needs, but the page doesn't say whether it's paid, and the fit is surgery.",
+   "fit": {
+    "us": [
+     "good",
+     "A US research year with US letters is exactly the 2029 bridge."
+    ],
+    "eu": [
+     "poor",
+     "No European relevance."
+    ],
+    "interest": [
+     "mixed",
+     "Surgical research, not public health."
+    ]
+   },
+   "sections": [
+    {
+     "h": "What it pays",
+     "ul": [
+      "Pay isn't stated: **ask before applying**.",
+      "J-1 Research Scholar sponsorship is available.",
+      "No application fee."
+     ]
+    },
+    {
+     "h": "Who can apply",
+     "ul": [
+      "MD, DO or equivalent; prior research strongly preferred.",
+      "International graduates do observership-only clinical activity."
+     ]
+    },
+    {
+     "h": "Dates that matter",
+     "ul": [
+      "**15 Jan each year**, so 15 Jan 2027 for a 2027 start.",
+      "A 2027 start collides with your internship; January 2028 for a later start fits better."
+     ]
+    },
+    {
+     "h": "How it fits the US and Europe goals",
+     "p": [
+      "A US research year with American letters is the heart of the 2029 plan. Bear in mind that the J-1 can carry a two-year home-country requirement, so check which category you'd be on."
+     ]
+    },
+    {
+     "h": "The catches",
+     "ul": [
+      "**Catch 1: pay.** Unpaid would drain your budget fast.",
+      "**Catch 2: field.** Surgery, not epidemiology.",
+      "**Catch 3: timing.** The 2027 start."
+     ]
+    },
+    {
+     "h": "The honest recommendation",
+     "p": [
+      "Email them to ask about pay and start dates. If it's paid and they take a 2028 start, it's a strong bridge; otherwise look at paid posts like Mayo or the NIH Visiting Program."
+     ]
+    }
+   ],
+   "fixed": [
+    "Gemini's answer treated it as a standard paid fellowship. The page doesn't state pay, so ask.",
+    "Removed Gemini's own sub-scores and the Step 2 CK 250+ claim for surgery, which couldn't be confirmed."
+   ]
+  },
+  "reading-intl-phd": {
+   "tag": "A fully funded UK PhD, but one nomination per School and no health track",
+   "tone": "warn",
+   "dest": [
+    "LHR",
+    "Reading"
+   ],
+   "lede": "Reading's International PhD Studentships pay international fees plus a stipend. Each School nominates just one candidate, and there's no explicit health or medicine track.",
+   "fit": {
+    "us": [
+     "poor",
+     "A 3–4 year PhD pushes a US Match to about 2031–32."
+    ],
+    "eu": [
+     "mixed",
+     "A UK base; PLAB separate."
+    ],
+    "interest": [
+     "poor",
+     "No explicit health or medicine track."
+    ]
+   },
+   "sections": [
+    {
+     "h": "What it pays",
+     "ul": [
+      "International fees plus a stipend (**£21,805** at the 2026/27 rate) and **£1,000 a year** for research. Visa costs are on you.",
+      "No application fee was found."
+     ]
+    },
+    {
+     "h": "Who can apply",
+     "ul": [
+      "International-fee applicants across sciences, social sciences and humanities.",
+      "Apply for a Reading PhD; your School nominates one candidate."
+     ]
+    },
+    {
+     "h": "Dates that matter",
+     "ul": [
+      "**15 Jan 2027** to apply for the PhD.",
+      "October 2027 start collides with your internship."
+     ]
+    },
+    {
+     "h": "How it fits the US and Europe goals",
+     "p": [
+      "A UK PhD with no health focus adds little to a US clinical path and takes about four years."
+     ]
+    },
+    {
+     "h": "The catches",
+     "ul": [
+      "**Catch 1: one nomination per School.**",
+      "**Catch 2: fit.** No health or medicine track.",
+      "**Catch 3: timing.** October 2027 start."
+     ]
+    },
+    {
+     "h": "The honest recommendation",
+     "p": [
+      "Low priority. Only worth it if a specific Reading supervisor's project matches your interests."
+     ]
+    }
+   ],
+   "fixed": [
+    "Gemini described the stipend as aligned to the UKRI minimum; the board confirms £21,805 for 2026/27.",
+    "Gemini said the internal deadline is in January; the confirmed date is 15 Jan 2027."
+   ]
+  },
+  "hung": {
+   "tag": "Bangladesh is a partner, but the stipend is small",
+   "tone": "ok",
+   "dest": [
+    "BUD",
+    "Budapest"
+   ],
+   "lede": "Stipendium Hungaricum is Hungary's government scholarship. Bangladesh is a Sending Partner, there's no work-experience rule, and applying is free. The stipend won't cover living costs on its own.",
+   "fit": {
+    "us": [
+     "mixed",
+     "Two years of non-clinical study."
+    ],
+    "eu": [
+     "mixed",
+     "An EU base; Hungarian licensing is separate."
+    ],
+    "interest": [
+     "mixed",
+     "Public health master's are offered in English."
+    ]
+   },
+   "sections": [
+    {
+     "h": "What it pays",
+     "ul": [
+      "Tuition, **HUF 43,700 a month** (about €110) and housing support.",
+      "No application fee, entrance exam or admission fee."
+     ]
+    },
+    {
+     "h": "Who can apply",
+     "ul": [
+      "Bangladeshi citizens via the **Bangladesh Sending Partner** nomination (mandatory) plus the Tempus portal.",
+      "No work-experience rule."
+     ]
+    },
+    {
+     "h": "Dates that matter",
+     "ul": [
+      "Expected **about 15 Jan 2027, 14:00 CET**, based on last year. The 2027/28 call isn't published yet.",
+      "The Sending Partner deadline may be earlier."
+     ]
+    },
+    {
+     "h": "How it fits the US and Europe goals",
+     "p": [
+      "A funded EU master's in public health is a solid credential and a European foothold, though Hungarian licensing is a separate, Hungarian-language process."
+     ]
+    },
+    {
+     "h": "The catches",
+     "ul": [
+      "**Catch 1: stipend.** About €110 a month: you'll need savings for the gap.",
+      "**Catch 2: dual process.** Without nomination, the Tempus application goes nowhere.",
+      "**Catch 3: timing.** September 2027 start."
+     ]
+    },
+    {
+     "h": "The honest recommendation",
+     "p": [
+      "One of your more realistic funded routes. Watch for the call in November or December and apply to both steps."
+     ]
+    }
+   ],
+   "fixed": [
+    "Gemini listed the same HUF 43,700 stipend; the board confirms it.",
+    "Removed Gemini's late February nomination date, which couldn't be confirmed.",
+    "Timeline: Gemini had the internship ending September 2027."
+   ]
+  },
+  "mastermind": {
+   "tag": "A government grant, but under review and with an unclear health fit",
+   "tone": "warn",
+   "dest": [
+    "BRU",
+    "Flanders"
+   ],
+   "lede": "Flanders' Master Mind scholarships pay a grant plus a big tuition reduction for a Master's in Flanders. The 2027–28 terms are under review, and whether health master's qualify isn't stated.",
+   "fit": {
+    "us": [
+     "mixed",
+     "One-to-two years in Europe."
+    ],
+    "eu": [
+     "mixed",
+     "A Belgian base; licensing separate."
+    ],
+    "interest": [
+     "mixed",
+     "Depends on whether health programmes qualify."
+    ]
+   },
+   "sections": [
+    {
+     "h": "What it pays",
+     "ul": [
+      "**€10,225 a year** plus a tuition waiver to the reduced rate (2027–28 terms under review).",
+      "No scholarship fee; the university's admission fee varies."
+     ]
+    },
+    {
+     "h": "Who can apply",
+     "ul": [
+      "All nationalities except Russian.",
+      "Each host university nominates up to 20 candidates.",
+      "Can't be combined with Erasmus Mundus."
+     ]
+    },
+    {
+     "h": "Dates that matter",
+     "ul": [
+      "Per host university. Last cycle: KU Leuven 15 Jan, UAntwerp 1 Feb, Hasselt 15 Mar, Ghent and VUB 1 Apr. The 2027–28 dates aren't posted."
+     ]
+    },
+    {
+     "h": "How it fits the US and Europe goals",
+     "p": [
+      "A Flemish master's is a good European credential, but the grant doesn't fully cover living costs and the September 2027 start collides with your internship."
+     ]
+    },
+    {
+     "h": "The catches",
+     "ul": [
+      "**Catch 1: under review.** Terms may change.",
+      "**Catch 2: health fit.** Not confirmed.",
+      "**Catch 3: shortfall.** The grant leaves a gap."
+     ]
+    },
+    {
+     "h": "The honest recommendation",
+     "p": [
+      "Ask KU Leuven and Antwerp's Institute of Tropical Medicine whether their health master's count before investing time."
+     ]
+    }
+   ],
+   "fixed": [
+    "Grant: Gemini said €10,000; the current amount is €10,225 (under review).",
+    "Deadlines: Gemini said 1 Feb – 1 Mar and KU Leuven 1 Mar. Last cycle's KU Leuven deadline was 15 Jan.",
+    "Removed Gemini's '~30 awards a year' figure; each university nominates up to 20."
+   ]
+  },
+  "columbia-mph": {
+   "tag": "Prestigious MPH, but modest money against very high tuition",
+   "tone": "bad",
+   "dest": [
+    "JFK",
+    "New York"
+   ],
+   "lede": "Columbia Mailman's MPH has a strong name, and merit awards exist, but they're small next to New York tuition and living costs. It fails the full-funding test on its own.",
+   "fit": {
+    "us": [
+     "good",
+     "In the US, with research jobs and letters."
+    ],
+    "eu": [
+     "poor",
+     "No European relevance."
+    ],
+    "interest": [
+     "good",
+     "Epidemiology and global health."
+    ]
+   },
+   "sections": [
+    {
+     "h": "What it pays",
+     "ul": [
+      "The PopFam Future Changemaker award pays **$10,000**; international eligibility for Fall 2027 isn't stated.",
+      "Other merit awards are modest against very high tuition.",
+      "**Cost to apply: $155** via SOPHAS, or $65 extra."
+     ]
+    },
+    {
+     "h": "Who can apply",
+     "ul": [
+      "Standard MPH entry. A one-year accelerated MPH exists for holders of doctoral-level degrees; check whether an MBBS qualifies."
+     ]
+    },
+    {
+     "h": "Dates that matter",
+     "ul": [
+      "**1 Dec 2026** preferred deadline (passed in a month), rolling until **15 Jan 2027**."
+     ]
+    },
+    {
+     "h": "How it fits the US and Europe goals",
+     "p": [
+      "New York is a great place for research jobs and letters, but self-funding Columbia would blow through your budget several times over."
+     ]
+    },
+    {
+     "h": "The catches",
+     "ul": [
+      "**Catch 1: money.** Partial awards only.",
+      "**Catch 2: cost of living.** New York.",
+      "**Catch 3: timing.** August 2027 start."
+     ]
+    },
+    {
+     "h": "The honest recommendation",
+     "p": [
+      "Only apply if you can add it cheaply to a SOPHAS application you're already making, and decline unless the award is very large."
+     ]
+    }
+   ],
+   "fixed": [
+    "English: Gemini said IELTS 7.5 minimum; removed as unconfirmed.",
+    "Deadlines: Gemini said 15 Jan – 15 Feb final. Columbia says 1 Dec preferred, rolling to 15 Jan."
+   ]
+  },
+  "si": {
+   "tag": "Not this cycle: the 3,000-hour work rule shuts you out",
+   "tone": "bad",
+   "dest": [
+    "ARN",
+    "Stockholm"
+   ],
+   "lede": "The Swedish Institute's scholarship is a generous full package, but it's for professionals. You need about 3,000 hours of work experience before February 2027, and the internship doesn't count.",
+   "fit": {
+    "us": [
+     "mixed",
+     "One-to-two years in Sweden."
+    ],
+    "eu": [
+     "mixed",
+     "A Swedish base; licensing separate."
+    ],
+    "interest": [
+     "good",
+     "Public Health is an eligible field."
+    ]
+   },
+   "sections": [
+    {
+     "h": "What it pays",
+     "ul": [
+      "Full tuition plus **SEK 12,000 a month**.",
+      "**Cost to apply: SEK 900** at universityadmissions.se, one fee per semester however many programmes."
+     ]
+    },
+    {
+     "h": "Who can apply",
+     "ul": [
+      "Bangladesh is eligible.",
+      "About **3,000 hours of paid work** (max three employers) before February 2027, plus leadership experience.",
+      "The SI FAQ says internships are not employment."
+     ]
+    },
+    {
+     "h": "Dates that matter",
+     "ul": [
+      "University application by **15 Jan 2027**, then the SI scholarship application in February."
+     ]
+    },
+    {
+     "h": "How it fits the US and Europe goals",
+     "p": [
+      "A Swedish public health master's would be a strong credential, but with no qualifying work hours there's no route this cycle."
+     ]
+    },
+    {
+     "h": "The catches",
+     "ul": [
+      "**Catch 1: work hours.** Your internship doesn't count.",
+      "**Catch 2: fee.** SEK 900 isn't refunded if you're ineligible.",
+      "**Catch 3: timing.** Realistic only about two years after the internship."
+     ]
+    },
+    {
+     "h": "The honest recommendation",
+     "p": [
+      "Don't pay the SEK 900 this year. Revisit once you have about 18 months of post-internship work."
+     ]
+    }
+   ],
+   "fixed": [
+    "Work experience: Gemini said internships count toward 3,000 hours. The SI FAQ says internships don't count as employment.",
+    "Removed Gemini's travel grant and number-of-scholarships figures, which couldn't be confirmed."
+   ]
+  },
+  "emjm-live": {
+   "tag": "Vaccinology, and clinicians are explicitly welcome",
+   "tone": "ok",
+   "dest": [
+    "LYS",
+    "Lyon"
+   ],
+   "lede": "LIVE_Innov is a two-year Erasmus Mundus Master's in vaccinology across Lyon, Barcelona and Antwerp. Clinicians are explicitly welcomed and no work experience is required.",
+   "fit": {
+    "us": [
+     "mixed",
+     "Two years in Europe moves a Match to about 2030–31, but builds research."
+    ],
+    "eu": [
+     "mixed",
+     "A funded base in Europe and time to learn a language; no licence."
+    ],
+    "interest": [
+     "good",
+     "Vaccinology sits squarely in infectious-disease public health."
+    ]
+   },
+   "sections": [
+    {
+     "h": "What it pays",
+     "ul": [
+      "Erasmus Mundus scholarship (full or partial): **€1,400 a month** plus participation costs.",
+      "No application fee was found."
+     ]
+    },
+    {
+     "h": "Who can apply",
+     "ul": [
+      "Clinicians accepted; no work experience required.",
+      "English C1 (IELTS 6.5)."
+     ]
+    },
+    {
+     "h": "Dates that matter",
+     "ul": [
+      "MyLIVE platform open **18 Nov 2026 – 20 Jan 2027** (Lyon time)."
+     ]
+    },
+    {
+     "h": "How it fits the US and Europe goals",
+     "p": [
+      "Vaccinology is a concrete specialism for infectious disease research and global health careers, including WHO-type roles. Two years pushes a Match to around 2031."
+     ]
+    },
+    {
+     "h": "The catches",
+     "ul": [
+      "**Catch 1: timing.** September 2027 start.",
+      "**Catch 2: partial scholarships.** Some awards are partial.",
+      "**Catch 3: competition.** Limited seats."
+     ]
+    },
+    {
+     "h": "The honest recommendation",
+     "p": [
+      "A good third Erasmus choice if infectious disease is your thread. Apply in December alongside IDOH."
+     ]
+    }
+   ],
+   "fixed": [
+    "Deadline: Gemini said mid-January (15–25 Jan). The window is 18 Nov 2026 – 20 Jan 2027.",
+    "Timeline: Gemini had the internship ending September 2027."
+   ]
+  },
+  "emjm-spacemed": {
+   "tag": "The aerospace-medicine route, and a medical degree is the core background",
+   "tone": "ok",
+   "dest": [
+    "BER",
+    "Berlin"
+   ],
+   "lede": "SpaceMed is the Erasmus Mundus Master's in space and extreme-environment medicine, with Caen, Charité Berlin and Ljubljana. It's the one route on the board built around your aerospace interest.",
+   "fit": {
+    "us": [
+     "mixed",
+     "Two years in Europe moves a Match to about 2030–31, but builds research."
+    ],
+    "eu": [
+     "mixed",
+     "A funded base in Europe and time to learn a language; no licence."
+    ],
+    "interest": [
+     "good",
+     "Aerospace and extreme-environment medicine: your niche."
+    ]
+   },
+   "sections": [
+    {
+     "h": "What it pays",
+     "ul": [
+      "About 20 scholarships a year: **€1,400 a month for 24 months** plus a fee waiver.",
+      "Self-funded fees are €5,000 a year.",
+      "No application fee."
+     ]
+    },
+    {
+     "h": "Who can apply",
+     "ul": [
+      "'A medical degree' is a listed background. You may apply before the diploma is in hand but must graduate by summer 2027.",
+      "Scoring /100: academic excellence 40, background relevance 15, institution 15, video 10, experience 9, letters 8, language 3."
+     ]
+    },
+    {
+     "h": "Dates that matter",
+     "ul": [
+      "Closes **21 Jan 2027, 23:59 CET**; decisions early April 2027."
+     ]
+    },
+    {
+     "h": "How it fits the US and Europe goals",
+     "p": [
+      "SpaceMed opens doors in aerospace medicine research in Europe; in the US, aerospace medicine still sits after a primary residency. Two years pushes a Match to around 2031."
+     ]
+    },
+    {
+     "h": "The catches",
+     "ul": [
+      "**Catch 1: degree timing.** You must graduate by summer 2027, which depends on when your MBBS is conferred.",
+      "**Catch 2: small intake.** About 20 scholarships.",
+      "**Catch 3: academic weighting.** 40% is grades."
+     ]
+    },
+    {
+     "h": "The honest recommendation",
+     "p": [
+      "Ask SpaceMed how they treat an internship-pending MBBS. If they say yes, apply: it's the best interest fit on the board."
+     ]
+    }
+   ],
+   "fixed": [
+    "Gemini said 15–20 scholarships; the board's figure is about 20.",
+    "Added the scoring breakdown and the requirement to graduate before September from the official pages."
+   ]
+  },
+  "unimelb-mdhs": {
+   "tag": "Good research scholarships, and the 2028 round fits better",
+   "tone": "warn",
+   "dest": [
+    "MEL",
+    "Melbourne"
+   ],
+   "lede": "Melbourne's Faculty of Medicine, Dentistry and Health Sciences considers every graduate research applicant for its scholarships automatically. Offer-holders must start by 31 October of the offer year, which clashes with your internship.",
+   "fit": {
+    "us": [
+     "poor",
+     "A 3–4 year PhD pushes a US Match to about 2031–32."
+    ],
+    "eu": [
+     "poor",
+     "No European licensing relevance."
+    ],
+    "interest": [
+     "good",
+     "Population health and epidemiology are strong at Melbourne."
+    ]
+   },
+   "sections": [
+    {
+     "h": "What it pays",
+     "ul": [
+      "Graduate Research Scholarship: a stipend (A$41,100 in 2027) plus a fee offset.",
+      "**Cost to apply: A$154** per application for international applicants."
+     ]
+    },
+    {
+     "h": "Who can apply",
+     "ul": [
+      "Supervisor first, then apply for the course. Usually needs research experience."
+     ]
+    },
+    {
+     "h": "Dates that matter",
+     "ul": [
+      "Round 2 closes **31 Jan 2027**; Round 3 closes 15 May 2027.",
+      "Most awards go in Rounds 1–2, and 2027 offers must start by 31 Oct 2027."
+     ]
+    },
+    {
+     "h": "How it fits the US and Europe goals",
+     "p": [
+      "An Australian research degree with publications is a good academic credential, but it's three to four years non-clinical."
+     ]
+    },
+    {
+     "h": "The catches",
+     "ul": [
+      "**Catch 1: start deadline.** Offer-holders must start by 31 Oct.",
+      "**Catch 2: research experience.** Usually expected.",
+      "**Catch 3: fee.** A$154 per application."
+     ]
+    },
+    {
+     "h": "The honest recommendation",
+     "p": [
+      "Aim for the round that gives you a 2028 start, and use 2027 to find a supervisor and build a publication."
+     ]
+    }
+   ],
+   "fixed": [
+    "Stipend: Gemini said about A$37,000 (2024/25). The 2027 rate is A$41,100.",
+    "Deadlines: Gemini said 31 Oct and 15 Mar / 30 Apr. The board lists Round 2 on 31 Jan 2027 and Round 3 on 15 May 2027.",
+    "Fee: Muse marked it unverified. Melbourne's page says A$154 per international application."
+   ]
+  },
+  "nz-waikato": {
+   "tag": "A modest NZ doctoral scholarship that needs an offer first",
+   "tone": "warn",
+   "dest": [
+    "HLZ",
+    "Hamilton"
+   ],
+   "lede": "Waikato's Doctoral Scholarship pays a stipend plus domestic-rate fees for three years, across four rounds a year. You need an Offer of Place before it's considered, and MBBS-to-PhD entry in New Zealand is unclear.",
+   "fit": {
+    "us": [
+     "poor",
+     "A 3–4 year PhD pushes a US Match to about 2031–32."
+    ],
+    "eu": [
+     "poor",
+     "No European relevance."
+    ],
+    "interest": [
+     "mixed",
+     "Health research possible; fewer epidemiology groups."
+    ]
+   },
+   "sections": [
+    {
+     "h": "What it pays",
+     "ul": [
+      "Up to **NZ$33,000 a year** for up to 36 months plus domestic-rate tuition.",
+      "No application fee was found."
+     ]
+    },
+    {
+     "h": "Who can apply",
+     "ul": [
+      "An Offer of Place for a doctoral programme first, usually with a supervisor's invitation.",
+      "Whether an MBBS gives direct PhD entry is unclear."
+     ]
+    },
+    {
+     "h": "Dates that matter",
+     "ul": [
+      "Rounds close **31 Jan, 30 Apr, 31 Jul and 31 Oct**. The 31 Jan 2027 date isn't on the official scholarship page."
+     ]
+    },
+    {
+     "h": "How it fits the US and Europe goals",
+     "p": [
+      "A New Zealand PhD is a slow route away from US practice, though New Zealand's own NZREX licensing exists separately."
+     ]
+    },
+    {
+     "h": "The catches",
+     "ul": [
+      "**Catch 1: entry.** MBBS-to-PhD admission is unclear.",
+      "**Catch 2: stipend.** Modest compared with Australia.",
+      "**Catch 3: length.** Three years."
+     ]
+    },
+    {
+     "h": "The honest recommendation",
+     "p": [
+      "Low priority. Keep it as a back-up if a Waikato supervisor approaches you."
+     ]
+    }
+   ],
+   "fixed": [
+    "Gemini's NZ$30,000–33,000 range is close; the official page says up to NZ$33,000.",
+    "Rounds: Gemini's four dates match Muse's, but 31 Jan 2027 isn't stated on the official page."
+   ]
   }
  }
 }

@@ -333,7 +333,7 @@ def gauge(k, v):
 def story_html(pid, st):
     p = PBYID[pid]
     ap = APPLY.get(pid)
-    code, city = DEST.get(pid, ("—", p["country"]))
+    code, city = tuple(st["dest"]) if st.get("dest") else DEST.get(pid, ("—", p["country"]))
     sid = f"story-{e(pid)}"
     chapters, toc = [], []
     for i, sec in enumerate(st["sections"]):
