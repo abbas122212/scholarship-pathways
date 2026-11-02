@@ -274,44 +274,132 @@ FIT_LABEL = {"good": "Good fit", "mixed": "Mixed", "poor": "Poor fit"}
 FIT_NAME = {"us": "US Match, 2029 plan", "eu": "Practising in Europe", "interest": "Your interests"}
 
 
+DEST = {
+    "imperial-pres": ("LHR", "London"), "oist-phd": ("OKA", "Okinawa"), "sanger-phd": ("STN", "Cambridge"),
+    "eth-esop": ("ZRH", "Zurich"), "yenching": ("PEK", "Beijing"), "clarendon": ("LHR", "Oxford"),
+    "emjm-neurasmus": ("BOD", "Bordeaux"), "hkpfs": ("HKG", "Hong Kong"), "jhu-phd": ("BWI", "Baltimore"),
+    "emory-phd": ("ATL", "Atlanta"), "singa": ("SIN", "Singapore"), "mps": ("FRA", "Germany"),
+    "euhem": ("OSL", "Oslo"), "gates": ("STN", "Cambridge"), "cw-shared": ("LHR", "United Kingdom"),
+    "emjm-noha": ("BRU", "Europe"), "unc-phd": ("RDU", "Chapel Hill"), "mbzuai": ("AUH", "Abu Dhabi"),
+}
+STAMP = {"ok": "Strong fit", "warn": "Proceed with care", "bad": "Not funded"}
+FIT_VAL = {"good": 100, "mixed": 62, "poor": 26}
+
+
+def split_fix(t):
+    label, body = "", t
+    m = re.match(r"^([A-Z][^:]{1,38}):\s+(.*)$", t)
+    if m:
+        label, body = m.group(1), m.group(2)
+    was, now = [], []
+    for x in re.split(r"(?<=[.])\s+(?=[A-Z])", body):
+        if x.startswith("Gemini"):
+            a, _, b = x.partition("; ")
+            was.append(a if not b else a + ".")
+            if b:
+                now.append(b[0].upper() + b[1:])
+        else:
+            now.append(x)
+    return label, " ".join(was), " ".join(now)
+
+
+def gauge(k, v):
+    val = FIT_VAL[v[0]]
+    return (
+        f'<li class="g g-{v[0]}"><svg viewBox="0 0 120 68" aria-hidden="true" focusable="false">'
+        f'<path class="g-bg" d="M10 62 A50 50 0 0 1 110 62" pathLength="100"/>'
+        f'<path class="g-fg" d="M10 62 A50 50 0 0 1 110 62" pathLength="100" style="--v:{val}"/></svg>'
+        f'<span class="g-l">{FIT_LABEL[v[0]]}</span><span class="g-n">{FIT_NAME[k]}</span><span class="g-t">{e(v[1])}</span></li>'
+    )
+
+
 def story_html(pid, st):
     p = PBYID[pid]
     ap = APPLY.get(pid)
-    fit = "".join(
-        f'<li class="fit fit-{v[0]}"><span class="fit-n">{FIT_NAME[k]}</span><strong><span class="fit-i" aria-hidden="true"></span>{FIT_LABEL[v[0]]}</strong><span class="fit-t">{e(v[1])}</span></li>'
-        for k, v in st["fit"].items()
-    )
-    secs = []
-    for sec in st["sections"]:
-        body = ""
-        for para in sec.get("p", []):
-            body += f"<p>{rich(para)}</p>"
+    code, city = DEST.get(pid, ("—", p["country"]))
+    sid = f"story-{e(pid)}"
+    chapters, toc = [], []
+    for i, sec in enumerate(st["sections"]):
+        cid = f"c-{e(pid)}-{i}"
+        catches = sec["h"].lower().startswith("the catches")
+        body = "".join(f"<p>{rich(x)}</p>" for x in sec.get("p", []))
         if sec.get("ul"):
-            cls = " class=\"catches\"" if sec["h"].lower().startswith("the catches") else ""
-            body += f"<ul{cls}>" + "".join(f"<li>{rich(x)}</li>" for x in sec["ul"]) + "</ul>"
-        secs.append(f"<section><h3>{e(sec['h'])}</h3>{body}</section>")
-    fixed = "".join(f"<li>{rich(x)}</li>" for x in st["fixed"])
+            if catches:
+                items = []
+                for j, x in enumerate(sec["ul"]):
+                    m = re.match(r"^\*\*(Catch \d+: [^*]+?)\.?\*\*\s*(.*)$", x)
+                    head, rest = (m.group(1), m.group(2)) if m else (f"Catch {j+1}", x)
+                    head = re.sub(r"^Catch \d+:\s*", "", head)
+                    items.append(f'<li><span class="c-n" aria-hidden="true">{j+1:02d}</span><div><h4><span class="sr">Catch {j+1}: </span>{e(head.rstrip("."))}</h4><p>{rich(rest)}</p></div></li>')
+                body += '<ol class="catch-grid">' + "".join(items) + "</ol>"
+            else:
+                body += "<ul>" + "".join(f"<li>{rich(x)}</li>" for x in sec["ul"]) + "</ul>"
+        chapters.append(f'<section class="ch{" ch-catch" if catches else ""}" id="{cid}" aria-labelledby="{cid}-h"><p class="ch-n" aria-hidden="true">{i+1:02d}</p><h3 id="{cid}-h">{e(sec["h"])}</h3>{body}</section>')
+        toc.append(f'<li><a href="#{sid}" data-jump="{cid}"><span aria-hidden="true">{i+1:02d}</span>{e(sec["h"])}</a></li>')
+    fixes = []
+    for x in st["fixed"]:
+        label, was, now = split_fix(x)
+        lab = f'<p class="fx-l">{e(label)}</p>' if label else ""
+        if was:
+            w2 = re.sub(r"^Gemini (?:said|quoted) ", "", was)
+            w2 = w2[:1].upper() + w2[1:]
+            fixes.append(f'<li>{lab}<div class="fx-row"><p class="fx-was"><span class="fx-k">Gemini&#8217;s draft</span><s>{rich(w2)}</s></p><p class="fx-now"><span class="fx-k">Official page</span>{rich(now) if now else "Corrected"}</p></div></li>')
+        else:
+            fixes.append(f'<li>{lab}<div class="fx-row fx-solo"><p class="fx-now"><span class="fx-k">Fact-check note</span>{rich(now)}</p></div></li>')
+    fee = e(ap["fee"]) if ap else "—"
+    closes = e(fmt(p["d"])) if p.get("d") else "Rolling"
+    portal_btn = (
+        f'<a class="board-btn" href="{e(ap["portal_url"])}" target="_blank" rel="noopener">Board now<span class="sr">: open the application portal for {e(p["name"])} (opens in a new tab)</span> <span aria-hidden="true">↗</span></a>'
+        if ap else ""
+    )
     box = ""
     if ap:
-        dl = f'<p class="sb-row"><span>Closes</span><strong>{e(p.get("dt") or "")}</strong></p>' if p.get("dt") else ""
         box = (
-            f'<div class="story-box"><p class="sb-row"><span>Portal</span><a class="portal" href="{e(ap["portal_url"])}" target="_blank" rel="noopener">{e(ap["portal_label"])} <span aria-hidden="true">↗</span><span class="sr"> (opens in a new tab)</span></a></p>'
-            f'<p class="sb-row"><span>Application fee</span><strong class="fee {FEE_CLS[ap["kind"]]}"><span class="fee-i" aria-hidden="true">{FEE_ICON[ap["kind"]]}</span> {e(ap["fee"])}</strong></p>'
-            f'{dl}<p class="sb-note">{e(ap["fee_note"])}</p><p class="sb-check"><strong>How this was checked:</strong> {e(ap["check"])}</p></div>'
+            f'<div class="howto"><h3>Before you board</h3><p class="howto-portal"><span class="fx-k">Portal</span>'
+            f'<a href="{e(ap["portal_url"])}" target="_blank" rel="noopener">{e(ap["portal_label"])} <span aria-hidden="true">↗</span><span class="sr"> (opens in a new tab)</span></a></p>'
+            f'<p>{e(ap["fee_note"])}</p><p class="howto-check"><strong>How this was checked:</strong> {e(ap["check"])}</p></div>'
         )
-    return f'''<article class="story" id="story-{e(pid)}" role="dialog" aria-modal="true" aria-labelledby="st-{e(pid)}" tabindex="-1">
-  <a class="story-backdrop" href="#p-{e(pid)}" tabindex="-1" aria-hidden="true"></a>
+    return f'''<article class="story" id="{sid}" role="dialog" aria-modal="true" aria-labelledby="st-{e(pid)}" tabindex="-1" data-tone="{st["tone"]}">
   <div class="story-sheet">
-    <div class="story-bar"><p class="eyebrow">The story · {e(p["country"])}</p><a class="story-close" href="#p-{e(pid)}">Close <span aria-hidden="true">✕</span><span class="sr"> story</span></a></div>
-    <h2 id="st-{e(pid)}">{e(p["name"])}</h2>
-    <p class="verdict v-{st["tone"]}"><span class="v-i" aria-hidden="true"></span>{e(st["tag"])}</p>
-    <p class="story-lede">{rich(st["lede"])}</p>
-    <p class="ai-note"><span aria-hidden="true">✦</span> Drafted by Gemini (an AI), then rewritten and fact-checked against official pages on 2 Nov 2026. Where the two disagreed, the official page won.</p>
-    <ul class="fitrail" aria-label="How it fits your goals">{fit}</ul>
-    {box}
-    {"".join(secs)}
-    <aside class="fixed"><h3>What we corrected from Gemini's draft</h3><ul>{fixed}</ul></aside>
-    <p class="story-end"><a class="btn btn-ghost" href="#p-{e(pid)}">Back to the route</a></p>
+    <div class="story-bar"><span class="story-prog" aria-hidden="true"></span><p class="eyebrow">Route story · {e(p["country"])}</p><a class="story-close" href="#p-{e(pid)}">Close <span aria-hidden="true">✕</span><span class="sr"> story</span></a></div>
+    <header class="pass-stage">
+      <div class="pass" aria-label="Boarding pass summary">
+        <div class="pass-main">
+          <p class="pass-air"><span class="pass-logo" aria-hidden="true"></span>PATHWAYS · BOARDING PASS</p>
+          <div class="pass-route">
+            <p class="pass-port"><span class="pc">CGP</span><span class="pn">Chattogram</span></p>
+            <svg class="pass-arc" viewBox="0 0 200 60" aria-hidden="true" focusable="false"><path d="M6 50 Q100 -14 194 50" pathLength="100"/><g class="pass-plane"><path d="M0 -5 L4 0 L0 5 L1 0 Z M-6 -1 L4 -1 L4 1 L-6 1 Z"/></g></svg>
+            <p class="pass-port pass-to"><span class="pc">{e(code)}</span><span class="pn">{e(city)}</span></p>
+          </div>
+          <h2 id="st-{e(pid)}">{e(p["name"])}</h2>
+          <dl class="pass-f">
+            <div><dt>Passenger</dt><dd>Dr A. U. Chowdhury</dd></div>
+            <div><dt>Gate closes</dt><dd>{closes}</dd></div>
+            <div><dt>Fare to apply</dt><dd>{fee}</dd></div>
+            <div><dt>Class</dt><dd>{e(CAT_NAME[p["cat"]])}</dd></div>
+          </dl>
+        </div>
+        <div class="pass-stub">
+          <p class="stub-k">Seat</p><p class="stub-code">{e(code)}</p>
+          {portal_btn}
+          <span class="barcode" aria-hidden="true"></span>
+        </div>
+        <p class="stamp" role="note"><span class="sr">Verdict: </span>{e(STAMP[st["tone"]])}</p>
+      </div>
+    </header>
+    <div class="story-body">
+      <nav class="toc" aria-label="Chapters"><p class="toc-h">Chapters</p><ol>{"".join(toc)}<li><a href="#{sid}" data-jump="fx-{e(pid)}"><span aria-hidden="true">✓</span>Fact-check</a></li></ol></nav>
+      <div class="story-main">
+        <p class="verdict v-{st["tone"]}"><span class="v-i" aria-hidden="true"></span>{e(st["tag"])}</p>
+        <p class="story-lede">{rich(st["lede"])}</p>
+        <p class="ai-note"><span aria-hidden="true">✦</span> Drafted by Gemini (an AI), then rewritten and fact-checked against official pages on 2 Nov 2026. Where they disagreed, the official page won.</p>
+        <ul class="gauges" aria-label="How it fits your goals">{"".join(gauge(k, v) for k, v in st["fit"].items())}</ul>
+        {box}
+        {"".join(chapters)}
+        <section class="factcheck" id="fx-{e(pid)}" aria-labelledby="fx-{e(pid)}-h"><p class="ch-n" aria-hidden="true">✓</p><h3 id="fx-{e(pid)}-h">Fact-check: Gemini vs the official pages</h3><ul class="fx">{"".join(fixes)}</ul></section>
+        <div class="story-end">{portal_btn}<a class="btn btn-ghost" href="#p-{e(pid)}">Back to the route</a></div>
+      </div>
+    </div>
   </div>
 </article>'''
 
