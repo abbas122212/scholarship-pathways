@@ -404,6 +404,1096 @@
    "cur": "NZD",
    "amt": 0,
    "check": "Process from Waikato's pages via Muse; 'no fee' is from secondary guides, not an official fee page."
+  },
+  "usra": {
+   "portal_label": "No single portal: USAJobs for federal posts, university career pages for the rest",
+   "portal_url": "https://www.usajobs.gov",
+   "kind": "free",
+   "fee": "None to apply",
+   "fee_note": "There is no application fee for searching or applying to these posts. Posts are advertised employer by employer (USAJobs for federal posts, university and hospital career pages, NIH institute pages). Costs start only at the visa stage: if ECFMG sponsors your J-1, that is a $370 annual fee, $220 SEVIS and the J-1 visa fee (see the ECFMG J-1 card).",
+   "cur": "USD",
+   "amt": 0,
+   "check": "Checked 3 Nov 2026 against ECFMG's EVSP fees page for the sponsorship leg; the route itself has no central portal or fee, so nothing more could be verified."
+  },
+  "mayo-rf": {
+   "portal_label": "Mayo Clinic Careers (apply to each post)",
+   "portal_url": "https://jobs.mayoclinic.org",
+   "kind": "free",
+   "fee": "None",
+   "fee_note": "These are job applications through Mayo's careers portal. No fee is charged or published. Set job alerts, because posts close fast. The real costs come at the visa stage (see the ECFMG J-1 card).",
+   "cur": "USD",
+   "amt": 0,
+   "check": "Checked 3 Nov 2026 against Mayo Clinic Careers (jobs.mayoclinic.org), as named on the board's card; no fee is stated for employment applications."
+  },
+  "ecfmg-j1rs": {
+   "portal_label": "ECFMG EVSP, via MyIntealth (with your host's Training Program Liaison)",
+   "portal_url": "https://www.ecfmg.org/evsp/",
+   "kind": "paid",
+   "fee": "$370 + $220 + $160",
+   "fee_note": "ECFMG's annual application fee is $370 (required every case), plus SEVIS $220 and the J-1 visa application fee, listed at $160 on ECFMG's page. Re-check the visa fee against the State Department before paying. Extra $367 + $200 only for cases needing Department of State review (change of category, exceptional extension). Your host starts the process.",
+   "cur": "USD",
+   "amt": 750,
+   "check": "Checked 3 Nov 2026 against ECFMG's EVSP Fees page (crawled 18 Apr 2026) and the EVSP Research Scholar checklist; the visa-fee line needs a re-check."
+  },
+  "ecfmg": {
+   "portal_label": "MyIntealth (ECFMG) and the FSMB USMLE portal",
+   "portal_url": "https://www.ecfmg.org",
+   "kind": "paid",
+   "fee": "$580 + $905 + $930 + $945",
+   "fee_note": "ECFMG certification application $580 (from 1 Apr 2026); Step 1 $695 + $210 overseas surcharge; Step 2 CK $695 + $235; Pathway application (2027 season) $945. Since 12 Jan 2026 international graduates register and pay for the Step exams through FSMB (usmle.fsmb.org); ECFMG still decides eligibility. OET, ERAS and Match fees are separate and not priced here.",
+   "cur": "USD",
+   "amt": 3360,
+   "check": "Checked 3 Nov 2026 against ECFMG's fee-increase notice (effective 1 Apr 2026), the ECFMG Fees Overview and the 2027 Pathways requirements."
+  },
+  "maastricht-gh": {
+   "portal_label": "Studielink, then Maastricht University MyApplication portal",
+   "portal_url": "https://www.studielink.nl",
+   "kind": "paid",
+   "fee": "€100",
+   "fee_note": "Register on Studielink (opens 1 Oct 2026), then complete the MyApplication portal. Because your MBBS is from a non-EU/EEA country you pay a €100 handling fee, by the 10 Dec 2026 file deadline. UM does not cover it. The scholarship form itself is free.",
+   "cur": "EUR",
+   "amt": 100,
+   "check": "Checked 3 Nov 2026 against UM's MSc Global Health admission requirements page for 2027-2028 and the NL-High Potential Scholarship page."
+  },
+  "maastricht-epi": {
+   "portal_label": "Studielink, then Maastricht University MyApplication portal",
+   "portal_url": "https://www.studielink.nl",
+   "kind": "paid",
+   "fee": "€100",
+   "fee_note": "Register on Studielink (opens 1 Oct 2026), then complete the MyApplication portal. Because your MBBS is from a non-EU/EEA country you pay a €100 handling fee, by the 10 Dec 2026 file deadline. UM does not cover it. The scholarship form itself is free. Confirm on UM's 2027-28 participating-programmes list that the full-time Epidemiology variant is eligible.",
+   "cur": "EUR",
+   "amt": 100,
+   "check": "Checked 3 Nov 2026 against UM's MSc Epidemiology admission requirements page for 2027-2028 and the NL-High Potential Scholarship page."
+  },
+  "nih-vf": {
+   "portal_label": "No central portal: contact NIH labs directly (OITE: training.nih.gov)",
+   "portal_url": "https://www.training.nih.gov",
+   "kind": "unk",
+   "fee": "None found",
+   "fee_note": "NIH's official pages state no application fee, and there is no central application to pay for. Approaching principal investigators and registering with OITE are free. Once a lab selects you, NIH's Division of International Services processes the Visiting Program case and NIH sponsors the J-1 itself, not ECFMG. Government visa fees apply later.",
+   "cur": "USD",
+   "amt": 0,
+   "check": "Checked 3 Nov 2026 against NIMH and NIAID training pages and NIH Division of International Services guidance; no fee stated, none found."
+  },
+  "emjm-all": {
+   "portal_label": "No single portal: EACEA Erasmus Mundus Catalogue (apply on each programme's site)",
+   "portal_url": "https://www.eacea.ec.europa.eu/scholarships/erasmus-mundus-catalogue_en",
+   "kind": "unk",
+   "fee": "Varies by programme",
+   "fee_note": "The catalogue is a directory, not an application portal. Each consortium sets its own fee and the great majority of Erasmus Mundus Joint Masters charge none, but that is not guaranteed. The programme's own site is the only authority. You may apply to at most three programmes per cycle.",
+   "cur": "EUR",
+   "amt": 0,
+   "check": "Checked 3 Nov 2026 against the EACEA Erasmus Mundus Catalogue page; no central fee exists."
+  },
+  "usphd": {
+   "portal_label": "SOPHAS (most schools of public health); some use their own portal",
+   "portal_url": "https://sophas.liaisoncas.com",
+   "kind": "paid",
+   "fee": "$155 + $65 each extra",
+   "fee_note": "SOPHAS charges $155 for the first programme and $65 for each additional one. Some programmes add their own fee. Bangladesh is on SOPHAS's Least Developed Countries list, so you can request the international fee waiver, which covers the $155 first fee only; apply before you submit. Some schools, such as UNC Gillings' PhD, use their own portal.",
+   "cur": "USD",
+   "amt": 155,
+   "check": "Checked 3 Nov 2026 against the SOPHAS Fees and Fee Waivers page on Liaison's Applicant Help Center."
+  },
+  "kh": {
+   "portal_label": "Knight-Hennessy Scholars application, plus Stanford Graduate Admissions",
+   "portal_url": "https://knight-hennessy.stanford.edu",
+   "kind": "paid",
+   "fee": "KHS free; Stanford $125",
+   "fee_note": "The KHS application is free, stated explicitly on KHS's official page. The separate Stanford graduate programme application costs $125, non-refundable, and KHS cannot waive it. Both applications are required. The 2027 cohort is closed.",
+   "cur": "USD",
+   "amt": 125,
+   "check": "Checked 3 Nov 2026 against KHS's Your Applications and Online Application pages and Stanford Graduate Admissions' Application Fee page."
+  },
+  "emjm-hygieia": {
+   "portal_label": "HYGIEIA programme website (application process page)",
+   "portal_url": "https://www.hygieiamaster.eu/admission/application-process",
+   "kind": "unk",
+   "fee": "None found",
+   "fee_note": "No application fee is stated anywhere on the programme's site. Erasmus Mundus applications are usually free, but HYGIEIA's site does not say so, so no claim is made either way. Applications go to the consortium (Lusófona University in Lisbon coordinating, University of Belgrade, University of the Balearic Islands) through the programme site.",
+   "cur": "EUR",
+   "amt": 0,
+   "check": "Checked 3 Nov 2026 against hygieiamaster.eu (Application Process and Selection pages) and the University of Belgrade Faculty of Pharmacy HYGIEIA 2026/2027 call; fee and 2027 deadline not found."
+  },
+  "lshtm-fund": {
+   "portal_label": "LSHTM online application, then the scholarships portal link emailed after you apply",
+   "portal_url": "https://www.lshtm.ac.uk/study/fees-and-funding/funding-scholarships/2026-27-lshtm-fund-scholarship",
+   "kind": "paid",
+   "fee": "£50",
+   "fee_note": "Two steps. First, apply for a London-based MSc and pay the non-refundable £50 admissions fee. Second, LSHTM emails a link to its scholarship portal where you select 'LSHTM Fund Scholarship'. No separate scholarship fee is stated. Both steps must be done by the scholarship deadline. The 2027-28 page is not published yet; the link is the 2026-27 page.",
+   "cur": "GBP",
+   "amt": 50,
+   "check": "Checked 3 Nov 2026 against LSHTM's 2026-27 Fund Scholarship page and 'How to apply' pages; the 2027-28 deadline was not found."
+  },
+  "mext": {
+   "portal_label": "No online portal: Bangladesh Ministry of Education advert, then the Embassy of Japan",
+   "portal_url": "https://www.bd.emb-japan.go.jp/en/education/scholarshipNotice.html",
+   "kind": "unk",
+   "fee": "None found",
+   "fee_note": "No fee is stated on the Embassy page or the MEXT information it links to, and no official statement says there is none. The call is advertised each April by the Ministry of Education (moedu.gov.bd) and applications first go to the Ministry, which forwards shortlisted candidates to the Embassy. The Embassy distributes forms to selected candidates, returned in June.",
+   "cur": "JPY",
+   "amt": 0,
+   "check": "Checked 3 Nov 2026 against the Embassy of Japan in Bangladesh MEXT schedule page and basic-requirements PDF; fee not found."
+  },
+  "emjm-imagein": {
+   "portal_label": "Université Côte d'Azur eCandidat (link published at opening)",
+   "portal_url": "https://life.univ-cotedazur.eu/international/imagein/application-and-registration-to-emjm-imagein",
+   "kind": "unk",
+   "fee": "None found",
+   "fee_note": "No application fee, and no statement that there is none, appears on the programme's application page. Applications are entirely online through Université Côte d'Azur's eCandidat platform; the link is published from the opening date. Incomplete or late applications are not considered.",
+   "cur": "EUR",
+   "amt": 0,
+   "check": "Checked 3 Nov 2026 against the imAGEin Application & Registration page and the October 2026 brochure; fee not found."
+  },
+  "emjm-membiomed": {
+   "portal_label": "Université Côte d'Azur online application (linked from the programme page)",
+   "portal_url": "https://life.univ-cotedazur.eu/international/membiomed/application-registration",
+   "kind": "unk",
+   "fee": "None found",
+   "fee_note": "No application fee, and no statement that there is none, appears on the programme's pages. The figures sometimes quoted (non-European students €7,900 for the full programme, Europeans €510) are participation costs for self-funded students, not application fees. Applications go to Université Côte d'Azur.",
+   "cur": "EUR",
+   "amt": 0,
+   "check": "Checked 3 Nov 2026 against the MemBioMed programme and Application & Registration pages and the October 2026 brochure; closing date and fee not found."
+  },
+  "emjm-other-health": {
+   "portal_label": "No single portal: EACEA Erasmus Mundus Catalogue (apply on each programme's site)",
+   "portal_url": "https://www.eacea.ec.europa.eu/scholarships/erasmus-mundus-catalogue_en",
+   "kind": "unk",
+   "fee": "Varies by programme",
+   "fee_note": "This card is an umbrella for ten separate programmes (EMMBIOME, EMMaH, NeuroData, NANOMED, S-DISCO, ECT+ One Health, EMOTION, MorphoPHEN, BIOPHAM, MICROSCOM). Fees, where any exist, are stated only on each programme's own site. EACEA tells applicants to visit the programme's site and contact the consortium. Not found at umbrella level.",
+   "cur": "EUR",
+   "amt": 0,
+   "check": "Checked 3 Nov 2026 against the EACEA Erasmus Mundus Catalogue page only; none of the ten programme sites was verified in Part 1."
+  },
+  "mext-unirec": {
+   "portal_label": "No online portal: apply through the host department (Hamamatsu University School of Medicine)",
+   "portal_url": "https://www.hama-med.ac.jp/uni-e/campus-life/scholarship/mext.html",
+   "kind": "unk",
+   "fee": "Exam fee not published",
+   "fee_note": "No MEXT application fee is stated. You must pass Hamamatsu's own graduate-school entrance examination at your own expense, and the examination fee is refunded after October if you are selected as a MEXT recipient. The fee amount is not published on the scholarship page. Other Japanese universities run their own calls.",
+   "cur": "JPY",
+   "amt": 0,
+   "check": "Checked 3 Nov 2026 against Hamamatsu University School of Medicine's MEXT University Recommendation page; exam fee amount not found."
+  },
+  "gks": {
+   "portal_label": "Study in Korea (NIIED) portal; University Track goes direct to one university",
+   "portal_url": "https://www.studyinkorea.go.kr",
+   "kind": "unk",
+   "fee": "None found",
+   "fee_note": "No application fee, and no explicit statement that there is none, was found in the NIIED guidelines or the Korean Embassy notice. The Embassy Track is submitted online at studyinkorea.go.kr; the University Track goes directly to one GKS-designated university. You must choose one track only. The 2027 guidelines are not yet published.",
+   "cur": "KRW",
+   "amt": 0,
+   "check": "Checked 3 Nov 2026 against the 2026 GKS-G guidelines on studyinkorea.go.kr, the Korean Embassy in Bangladesh notice and the GKS notice page; no 2027 guidelines and no fee found."
+  },
+  "daad-study": {
+   "portal_label": "DAAD Portal (link appears only while a call is running)",
+   "portal_url": "https://portal.daad.de",
+   "kind": "free",
+   "fee": "None stated",
+   "fee_note": "Register on the DAAD Portal and upload documents under 'Attachments'. DAAD states no charge for applying. You must also win admission to a German master's yourself, and DAAD does not pay tuition at the host university.",
+   "cur": "EUR",
+   "amt": 0,
+   "check": "DAAD scholarship database entry for the Master's Study Scholarship (Application Procedure and Submitting an Application tabs), 3 Nov 2026; the fee is listed as NOT FOUND, but no charge is mentioned anywhere on the page."
+  },
+  "it-dsu": {
+   "portal_label": "No single portal: your region's right-to-study agency (example ER.GO, Emilia-Romagna)",
+   "portal_url": "https://www.er-go.it",
+   "kind": "unk",
+   "fee": "None found",
+   "fee_note": "DSU is claimed online from the regional agency for the region where your university sits, under that agency's yearly call. Non-EU students also complete pre-enrolment on Universitaly for admission and visa. The family papers (ISEE parificato, legalised and translated) cost money to prepare, but no fee for the claim itself is mentioned.",
+   "cur": "EUR",
+   "amt": 0,
+   "check": "ER.GO guide to the 2026/27 call, UNIMORE and University of Parma fee pages, 3 Nov 2026; no fee found and the 2027/28 deadlines are NOT FOUND (regional calls appear in summer 2027)."
+  },
+  "bcs51": {
+   "portal_label": "BPSC Teletalk online registration (closed)",
+   "portal_url": "http://bpsc.teletalk.com.bd",
+   "kind": "paid",
+   "fee": "BDT 205",
+   "fee_note": "BDT 200 exam fee + BDT 5 data verification fee, paid by Teletalk SMS after the online form. Reduced total of BDT 55 for ethnic minority, disability and third-gender candidates. This cycle is closed, so nothing can be paid or submitted now.",
+   "cur": "BDT",
+   "amt": 205,
+   "check": "BPSC site plus BSS and Prothom Alo reports of the 24 Sep 2026 circular, 3 Nov 2026; applications ran 1-25 Oct 2026 and fee payment closed 28 Oct 2026."
+  },
+  "turk": {
+   "portal_label": "Turkiye Scholarships application system (TBBS)",
+   "portal_url": "https://www.turkiyeburslari.gov.tr",
+   "kind": "free",
+   "fee": "Free",
+   "fee_note": "The official site says applications are received online, free of charge, and that no person or institution may apply on your behalf. Anyone charging a fee to 'handle' an application is not connected to the programme.",
+   "cur": "TRY",
+   "amt": 0,
+   "check": "Turkiye Scholarships official site, How to Apply and programme pages, 3 Nov 2026; the 2027 calendar was NOT FOUND, so the 10 Jan - 20 Feb 2027 dates are unconfirmed."
+  },
+  "qatar": {
+   "portal_label": "DHP Registration & Licensing System",
+   "portal_url": "https://dhpportal.moph.gov.qa",
+   "kind": "unk",
+   "fee": "Not published",
+   "fee_note": "Process: apply for evaluation on the portal, employer approval, DHP evaluation, then licensing, with a Prometric exam and DataFlow primary-source verification alongside. Current amounts show only inside the portal. Old circulars list QAR 1,000 for a 2-year licence (2014) and QAR 1,100 for the DataFlow package (2016), so do not treat those as current.",
+   "cur": "QAR",
+   "amt": 0,
+   "check": "DHP Applicant User Manual and Circulars 6/2014 and 25/2016 on dhp.moph.gov.qa, 3 Nov 2026; current fees and any intake window are NOT FOUND."
+  },
+  "nus-sph": {
+   "portal_label": "NUS Graduate Admission System (GradApp)",
+   "portal_url": "https://gradapp.nus.edu.sg/apply",
+   "kind": "paid",
+   "fee": "SGD 50",
+   "fee_note": "Non-refundable SGD 50 per application. There is no separate scholarship form: you tick 'NUS Research Scholarship' as your source of finance inside the PhD application. A confirmed thesis advisor is mandatory.",
+   "cur": "SGD",
+   "amt": 50,
+   "check": "SSHSPH How to Apply and Aug 2027 intake instructions plus the NUS Graduate School scholarship page, 3 Nov 2026; the Aug 2027 round closed 1 Nov 2026 and no January window was found."
+  },
+  "smle": {
+   "portal_label": "SCFHS Mumaris+ portal",
+   "portal_url": "https://portal.scfhs.org.sa",
+   "kind": "unk",
+   "fee": "Not published",
+   "fee_note": "Route: DataFlow verification, professional classification in Mumaris+, eligibility number, SMLE at Prometric, then registration (which follows a job in the Kingdom). SCFHS fees show only after login. Prometric says the exam price varies by the country you test in.",
+   "cur": "SAR",
+   "amt": 0,
+   "check": "SCFHS service guides (registration, re-classification, fee refunds) and the Prometric SCFHS FAQ, 3 Nov 2026; fees and any window are NOT FOUND publicly."
+  },
+  "plab": {
+   "portal_label": "GMC Online",
+   "portal_url": "https://www.gmc-uk.org",
+   "kind": "paid",
+   "fee": "£283 + £1,036",
+   "fee_note": "From 1 April 2026: PLAB 1 £283, PLAB 2 £1,036, full registration with a licence £481 (annual fee also £481). Not included: ECFMG EPIC verification, IELTS or OET, and travel to Manchester for PLAB 2. Fees change every 1 April.",
+   "cur": "GBP",
+   "amt": 283,
+   "check": "GMC fees pages ('Registration fees for doctors explained' and 'How our registration fees have changed'), 3 Nov 2026; there is no single annual deadline, so test dates are booked on GMC Online."
+  },
+  "cw": {
+   "portal_label": "CSC Central (nominated candidates only)",
+   "portal_url": "https://cscuk.fcdo.gov.uk/scholarships/commonwealth-masters-scholarships/",
+   "kind": "free",
+   "fee": "Free",
+   "fee_note": "The CSC says it does not charge to apply for any scholarship through its online system. You cannot apply directly: a national nominating agency must put you forward. The 2027/28 round closed on 20 Oct 2026 at 16:00 BST.",
+   "cur": "GBP",
+   "amt": 0,
+   "check": "CSC Commonwealth Master's page, the Scholarships and Fellowships listing and the Shared Scholarships page, 3 Nov 2026; the PhD scheme page could not be fetched, so a PhD-specific closing time is NOT FOUND."
+  },
+  "ireland": {
+   "portal_label": "Medical Council of Ireland Online Doctors Portal",
+   "portal_url": "https://portal.medicalcouncil.ie",
+   "kind": "paid",
+   "fee": "€451",
+   "fee_note": "2026/27 schedule: first-time application €451, PRES Level 2 exam €352, PRES Level 3 exam €1,500, annual registration €560 (under 3 years on the register) or €665. The Council is raising fees about 10% in 2026 and again in 2027. HSE posts are applied for separately and carry no registration fee.",
+   "cur": "EUR",
+   "amt": 451,
+   "check": "Medical Council fees, PRES Level 3 and First Time Registration pages, 3 Nov 2026; registration is rolling and PRES sittings have their own deadlines. No HSE careers portal was checked."
+  },
+  "euphd": {
+   "portal_label": "No single portal: EURAXESS Jobs plus each university's vacancy board",
+   "portal_url": "https://euraxess.ec.europa.eu/jobs",
+   "kind": "free",
+   "fee": "Free",
+   "fee_note": "EURAXESS says no charges apply to its Jobs portal, and universities do not charge for advertised salaried posts. You apply to each vacancy through the employer. These are jobs, so each post sets its own closing date and degree rules.",
+   "cur": "EUR",
+   "amt": 0,
+   "check": "EURAXESS 'About EURAXESS', Jobs and member-apply terms, 3 Nov 2026; there is no central deadline (NOT FOUND) because every vacancy has its own."
+  },
+  "amc": {
+   "portal_label": "AMC candidate account",
+   "portal_url": "https://account.amc.org.au",
+   "kind": "paid",
+   "fee": "AUD 642 + 2,920 + 3,000",
+   "fee_note": "AMC fees (GST-free): portfolio AUD 642, MCQ authorisation AUD 2,920, clinical exam AUD 3,000 in person or AUD 3,400 online. ECFMG verification is charged separately in USD. The Medical Board registration fee was not confirmed on an official page.",
+   "cur": "AUD",
+   "amt": 642,
+   "check": "AMC 'Fees and charges' and FAQ pages, 3 Nov 2026; Ahpra and Medical Board fees were NOT FOUND (pages did not render), and the AUD 1,661 and AUD 1,102 figures in the press are unverified."
+  },
+  "edin-dcs": {
+   "portal_label": "Edinburgh Degree Finder, then EUCLID",
+   "portal_url": "https://study.ed.ac.uk/programmes/postgraduate-research/698-global-health",
+   "kind": "free",
+   "fee": "Free",
+   "fee_note": "The Global Health PhD page states there is no fee to apply, and the scholarship form carries no fee. You must submit the PhD application first. The scholarship form in EUCLID can take up to five working days to unlock after that.",
+   "cur": "GBP",
+   "amt": 0,
+   "check": "Edinburgh Doctoral College Scholarships page (health.ed.ac.uk) and the Global Health and Global Health Policy PhD pages, 3 Nov 2026."
+  },
+  "intlra": {
+   "portal_label": "No single portal: jobs.ac.uk, KAUST, Sidra and HMC careers pages",
+   "portal_url": "https://www.jobs.ac.uk",
+   "kind": "unk",
+   "fee": "None found",
+   "fee_note": "Each employer takes applications directly and none advertises a fee. Anyone asking you to pay to 'submit' to these employers is not an official channel. Qatar clinical-research roles also need DHP licensing.",
+   "cur": "GBP",
+   "amt": 0,
+   "check": "jobs.ac.uk, KAUST careers, Sidra and Hamad Medical Corporation recruitment pages, 3 Nov 2026; no Singapore entry point was verified and no deadlines exist (rolling)."
+  },
+  "germany-app": {
+   "portal_label": "No single portal: Recognition Finder, then your target state's authority",
+   "portal_url": "https://www.anerkennung-in-deutschland.de",
+   "kind": "unk",
+   "fee": "Set by each state",
+   "fee_note": "Fees are set per state. The official finder shows ranges of roughly €164 to €774 for Approbation and about €400 to €487 for the Fachsprachprüfung, with the Kenntnisprüfung, certified copies and any expert report charged on top. Confirm the exact figure with the competent authority.",
+   "cur": "EUR",
+   "amt": 0,
+   "check": "Anerkennung in Deutschland Recognition Finder pages for doctors from a third country, 3 Nov 2026; a single fee and any deadline are NOT FOUND (rolling, up to about 4 months once documents are complete)."
+  },
+  "goi-ies": {
+   "portal_label": "GOI-IES portal via the HEA programme page",
+   "portal_url": "https://hea.ie/policy/internationalisation/goi-ies/",
+   "kind": "unk",
+   "fee": "None stated",
+   "fee_note": "No fee is stated for the scholarship application itself. The university admission application you need first does carry a fee set by each university (examples: Limerick €50, DCU €70, Trinity €55), and it is not waived. You need a conditional or final offer before you can apply.",
+   "cur": "EUR",
+   "amt": 0,
+   "check": "HEA GOI-IES page plus University of Limerick, DCU and Trinity pages, 3 Nov 2026; only the 2026 call (closed 12 Mar 2026) is published and the 2027 deadline is NOT FOUND."
+  },
+  "hbku-chls": {
+   "portal_label": "HBKU graduate admissions portal",
+   "portal_url": "https://admissions.hbku.edu.qa",
+   "kind": "paid",
+   "fee": "QAR 250",
+   "fee_note": "Non-refundable QAR 250 application fee, stated on the official CHLS admissions page. You may submit up to two programme applications per academic year. Funding is limited and competitive, not automatic with admission.",
+   "cur": "QAR",
+   "amt": 250,
+   "check": "HBKU College of Health and Life Sciences admissions page, 3 Nov 2026 (fee, dates and requirements all taken from it)."
+  },
+  "ukdtp": {
+   "portal_label": "No single portal: Wellcome scheme page, then each programme or university",
+   "portal_url": "https://wellcome.org/research-funding/schemes/phd-fellowships-health-professionals",
+   "kind": "unk",
+   "fee": "Set by each university",
+   "fee_note": "Wellcome says to contact the programme directly and not to apply to the Wellcome Trust. UKRI and MRC studentships are also run by host universities and partnerships. There is no central fee, and any fee is the university's own.",
+   "cur": "GBP",
+   "amt": 0,
+   "check": "Wellcome 'PhD Fellowships for Health Professionals' page, UKRI and the Cambridge doctoral training page, 3 Nov 2026; no central fee or deadline was found (NOT FOUND)."
+  },
+  "emjm-maia": {
+   "portal_label": "MAIA Master: admission page (application not yet live)",
+   "portal_url": "https://maiamaster.org/admission/",
+   "kind": "unk",
+   "fee": "Not published",
+   "fee_note": "The online application for the 2027-2029 edition is not open yet; the programme site says \"OPEN SOON\". No application fee is stated anywhere on the official site. Write to info@maiamaster.org if you want a fee answer before the call opens.",
+   "cur": "EUR",
+   "amt": 0,
+   "check": "Checked the MAIA site, Admission, Fees & Grants and FAQ pages on 3 Nov 2026: fee, deadline and direct application link are all NOT FOUND because the call has not opened."
+  },
+  "de-msc": {
+   "portal_label": "uni-assist: Pay & submit (many German universities); others apply direct",
+   "portal_url": "https://www.uni-assist.de/en/how-to-apply/apply-online/pay-submit/",
+   "kind": "paid",
+   "fee": "EUR 75 + EUR 30 each extra",
+   "fee_note": "On the uni-assist route the fee is EUR 75 for the first course and EUR 30 for each additional course, per application semester, and it is charged again if you reapply. Some uni-assist universities cover the fee. Universities that take direct applications set their own arrangements and many charge nothing. Semester contributions, a blocked account and living costs are separate.",
+   "cur": "EUR",
+   "amt": 75,
+   "check": "Checked uni-assist's Pay & submit and handling-fees page on 3 Nov 2026; no single national deadline or direct-route fee exists, so those are NOT FOUND."
+  },
+  "embl-phd": {
+   "portal_label": "EMBL e-recruitment",
+   "portal_url": "https://e-recruitment.embl.de",
+   "kind": "free",
+   "fee": "Free",
+   "fee_note": "EMBL states it charges no fee at any stage of recruitment. Apply through e-recruitment (email applications are not accepted). Two academic references from institutional email addresses are needed. Anyone asking for payment is a scam.",
+   "cur": "EUR",
+   "amt": 0,
+   "check": "Checked EMBL's PhD application page on 3 Nov 2026: no-fee statement and portal confirmed; the next (Summer) call dates were not published on the page checked."
+  },
+  "rtp": {
+   "portal_label": "No central portal: Dept of Education RTP page (apply to each university)",
+   "portal_url": "https://www.education.gov.au/research-block-grants/research-training-program",
+   "kind": "unk",
+   "fee": "Set by each university",
+   "fee_note": "The Department of Education takes no RTP applications. You apply for a research degree at the university and are considered for the scholarship there. Any application fee is that university's own, so check each one; ANU charges none for research degrees and Monash publishes none.",
+   "cur": "AUD",
+   "amt": 0,
+   "check": "Checked the Dept of Education RTP page and student FAQ on 3 Nov 2026: no central fee or deadline exists (NOT FOUND by design)."
+  },
+  "au-anu": {
+   "portal_label": "ANU RTP Stipend page (apply for HDR admission)",
+   "portal_url": "https://study.anu.edu.au/scholarships/find-scholarship/australian-government-research-training-program-rtp-stipend",
+   "kind": "free",
+   "fee": "Free",
+   "fee_note": "ANU's official policy says there is no fee for applications to Higher Degree Research programmes (the AUD 150 fee is for coursework only). There is no separate scholarship form: a timely HDR admission application is considered automatically. ANU advises applying 2-3 weeks early because referee reports must also be in.",
+   "cur": "AUD",
+   "amt": 0,
+   "check": "Checked ANU's RTP Stipend page and the HDR Admissions procedure (ANUP_7869072) on 3 Nov 2026."
+  },
+  "monash-mgs": {
+   "portal_label": "Monash My.App (research applications)",
+   "portal_url": "https://myapp.monash.edu",
+   "kind": "unk",
+   "fee": "None found",
+   "fee_note": "You first need an invitation to apply from the faculty (via an expression of interest or supervisor agreement), then apply in My.App. The same application covers admission and scholarship. No research-degree fee is published; do not assume the A$125 fee for coursework applies. Budget for the chance a fee appears in the portal.",
+   "cur": "AUD",
+   "amt": 0,
+   "check": "Checked Monash Graduate Research apply page and faculty round tables on 3 Nov 2026; research-application fee NOT FOUND."
+  },
+  "uae": {
+   "portal_label": "No single portal: DHA Sheryan, DOH TAMM, MOHAP",
+   "portal_url": "https://mohap.gov.ae/en/w/evaluation-of-health-professional",
+   "kind": "paid",
+   "fee": "AED 100 + AED 1,260 (DOH route)",
+   "fee_note": "Three separate authorities: Dubai (DHA, Sheryan), Abu Dhabi (DOH, TAMM) and the northern emirates (MOHAP). DHA credentialing is AED 200; DOH application AED 100 plus DataFlow PSV AED 1,260 for GPs; MOHAP evaluation AED 500 then AED 100. Exam fees (Prometric or Pearson VUE) are not published as fixed amounts, and licence fees are normally paid by the hiring facility.",
+   "cur": "AED",
+   "amt": 1360,
+   "check": "Checked DHA Sheryan service pages, DOH TAMM and Licensing Manual (Circular 151/2024) and MOHAP service pages on 3 Nov 2026; no application window or exam fee exists, so those are NOT FOUND."
+  },
+  "nz-auckland": {
+   "portal_label": "University of Auckland: doctoral application for admission",
+   "portal_url": "https://www.auckland.ac.nz/en/study/applications-and-admissions/how-to-apply/postgraduate-admission/doctoral-applications.html",
+   "kind": "paid",
+   "fee": "NZ$100",
+   "fee_note": "The international application fee is NZ$100 when your highest qualification is from an overseas tertiary institution (non-refundable, charged once). There is no separate scholarship form: you apply for the doctorate and say you want scholarship consideration. Do not enrol before the scholarship outcome.",
+   "cur": "NZD",
+   "amt": 100,
+   "check": "Checked the University of Auckland application-fee, doctoral applications and doctoral scholarship pages on 3 Nov 2026."
+  },
+  "vbc-phd": {
+   "portal_label": "Vienna BioCenter PhD applications",
+   "portal_url": "https://training.vbc.ac.at/phd-programme/applications/",
+   "kind": "unk",
+   "fee": "None found",
+   "fee_note": "Create a University of Vienna u:account before applying. No application fee is stated on the official pages. Both referees must submit their references before you can submit.",
+   "cur": "EUR",
+   "amt": 0,
+   "check": "Checked the Vienna BioCenter PhD applications and Education pages on 3 Nov 2026; fee NOT FOUND."
+  },
+  "nz-wellington": {
+   "portal_label": "Wellington Doctoral Scholarship (applied for through PhD admission)",
+   "portal_url": "https://www.wgtn.ac.nz/scholarships/current/wellington-doctoral-scholarships",
+   "kind": "unk",
+   "fee": "None found",
+   "fee_note": "There is no separate scholarship application: you are considered through the PhD admission application, which must be complete by 4.30 pm on the closing date. No application fee is stated on the official scholarship page.",
+   "cur": "NZD",
+   "amt": 0,
+   "check": "Checked the Wellington Doctoral Scholarship page and the Faculty of Graduate Research funding page on 3 Nov 2026; fee NOT FOUND."
+  },
+  "nz-otago": {
+   "portal_label": "Otago eVision (admission first, then a scholarship invitation)",
+   "portal_url": "https://www.otago.ac.nz/study/scholarships/university-of-otago-doctoral-scholarship",
+   "kind": "unk",
+   "fee": "None found",
+   "fee_note": "Apply for doctoral admission in eVision; the scholarship application then appears by invitation. Otago says it is reviewing its doctoral scholarships, so re-check terms. No application fee is stated on the scholarship page or AskOtago.",
+   "cur": "NZD",
+   "amt": 0,
+   "check": "Checked the Otago Doctoral Scholarship page and AskOtago on 3 Nov 2026; fee NOT FOUND."
+  },
+  "fogarty": {
+   "portal_label": "Fogarty LAUNCH programme page (apply to each consortium)",
+   "portal_url": "https://www.fic.nih.gov/Programs/Pages/scholars-fellows-global-health.aspx",
+   "kind": "unk",
+   "fee": "None found",
+   "fee_note": "No central portal: you apply directly to one LAUNCH consortium (ACHIEVE, GHES, INSIGHT, NPGH LEADERs, HBNU, UJMT or UC GLOCAL), each with its own process and deadlines. No fee is stated on the Fogarty page.",
+   "cur": "USD",
+   "amt": 0,
+   "check": "Checked the Fogarty LAUNCH page on 3 Nov 2026; fee and 2027 deadline NOT FOUND there; the board notes the 2027-28 deadlines (25 Sep to 1 Oct 2026) have passed."
+  },
+  "nz-canterbury": {
+   "portal_label": "UC doctoral scholarship application (plus myUC admission)",
+   "portal_url": "https://www.canterbury.ac.nz/study/getting-started/scholarships/doctoral-scholarships/uc-doctoral-scholarships",
+   "kind": "unk",
+   "fee": "None found",
+   "fee_note": "Submit the UC Doctoral Scholarship application and, separately, your admission application in myUC before the closing date. No application fee is stated on the official pages.",
+   "cur": "NZD",
+   "amt": 0,
+   "check": "Checked the UC Doctoral Scholarships and Scholarships pages on 3 Nov 2026; fee NOT FOUND and admission criteria not found."
+  },
+  "ngo-bd": {
+   "portal_label": "ReliefWeb Jobs (filter: Bangladesh), then each employer's own system",
+   "portal_url": "https://reliefweb.int/jobs",
+   "kind": "free",
+   "fee": "Free",
+   "fee_note": "ReliefWeb is free for jobseekers. Each listing links to the hiring organisation's own recruitment system (for example UNHCR, IOM, WHO, UNICEF, MSF, IRC or BRAC). Anyone asking you for money for a vacancy is a fraud.",
+   "cur": "BDT",
+   "amt": 0,
+   "check": "Checked ReliefWeb Jobs on 3 Nov 2026; there is no programme window, each vacancy has its own closing date."
+  },
+  "unicef-intern": {
+   "portal_label": "UNICEF Careers: internships (apply on jobs.unicef.org)",
+   "portal_url": "https://jobs.unicef.org",
+   "kind": "free",
+   "fee": "Free",
+   "fee_note": "UNICEF states it charges no fee at any stage. Filter vacancies by contract type Internship and use Apply Now on the vacancy. Only shortlisted candidates are contacted. Travel, visas and housing are your own costs, though a monthly stipend is paid.",
+   "cur": "USD",
+   "amt": 0,
+   "check": "Checked UNICEF Careers internships page and jobs.unicef.org on 3 Nov 2026."
+  },
+  "who": {
+   "portal_label": "WHO Careers: Internship programme (Stellis only)",
+   "portal_url": "https://www.who.int/careers/internship-programme",
+   "kind": "unk",
+   "fee": "None found",
+   "fee_note": "All applications go through internship vacancy notices on the WHO Careers site via Stellis; WHO says there is no other way to apply. No fee is stated on the official programme page. A living allowance is available to eligible interns, plus medical and accident insurance.",
+   "cur": "USD",
+   "amt": 0,
+   "check": "Checked the WHO Internship Programme page on 3 Nov 2026; fee NOT FOUND, no single deadline exists."
+  },
+  "unfpa-intern": {
+   "portal_label": "UNFPA Global Internship Roster 2026 posting",
+   "portal_url": "https://www.unfpa.org/jobs/global-internship-roster-2026",
+   "kind": "free",
+   "fee": "Free",
+   "fee_note": "UNFPA states it charges no application, processing, training, interviewing or testing fee. You apply online from the posting. A stipend toward living costs is available to interns without outside funding. Being on the roster does not guarantee a placement.",
+   "cur": "USD",
+   "amt": 0,
+   "check": "Checked the UNFPA Global Internship Roster 2026 posting on 3 Nov 2026; the posting text shows no closing date (NOT FOUND), the board lists 31 Dec 2026."
+  },
+  "gavi-intern": {
+   "portal_label": "Gavi Careers: internship programme",
+   "portal_url": "https://www.gavi.org/careers/internship-programme/",
+   "kind": "unk",
+   "fee": "None found",
+   "fee_note": "Apply through the Gavi Careers page for the specific vacancy (cover letter and resume). No application fee is stated. Interns not sponsored by a university get a fixed stipend toward basic living costs; travel and housing are yours.",
+   "cur": "USD",
+   "amt": 0,
+   "check": "Checked the Gavi internship programme page on 3 Nov 2026; fee NOT FOUND."
+  },
+  "arizona-irf": {
+   "portal_label": "Fellowship page, UArizona College of Medicine - Phoenix (apply by email)",
+   "portal_url": "https://phoenixmed.arizona.edu/research/research-resources/international-research-fellowship",
+   "kind": "paid",
+   "fee": "$120 + $1,200/yr",
+   "fee_note": "There is no online portal: you contact the programme at the email printed on the page. A non-refundable $120 fee is due before your documents are reviewed. The $1,200 annual programme fee is charged after the visa is issued, plus the university's own charges for the DS-2019/J-1 paperwork. It pays no salary.",
+   "cur": "USD",
+   "amt": 120,
+   "check": "Checked the UArizona College of Medicine - Phoenix fellowship page and Research Education page on 3 Nov 2026; the contact email did not render in the page text, so read it on the live page."
+  },
+  "mgh-irf": {
+   "portal_label": "Email application (MGH programme page)",
+   "portal_url": "https://research.massgeneralbrigham.org/en/education-and-training/graduate-medical-education/surgery/mgh-international-research-fellowship",
+   "kind": "unk",
+   "fee": "None stated",
+   "fee_note": "No portal: put the application form, one-page letter of intent, CV and two recommendation letters into one PDF and email it to mghtraumaresearchfellowship@mgb.org. The page states no application fee, but year 1 is not funded by the division, so the real cost is living in Boston.",
+   "cur": "USD",
+   "amt": 0,
+   "check": "Checked the Mass General Brigham programme page on 3 Nov 2026; the 16 Oct 2026 deadline has passed and the next deadline was NOT FOUND."
+  },
+  "daadres": {
+   "portal_label": "DAAD Portal (opens only during a live round)",
+   "portal_url": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?detail=57742121",
+   "kind": "unk",
+   "fee": "None found",
+   "fee_note": "Applications run online through the DAAD Portal, reached from the programme entry in the DAAD database. The portal opens at least 6 weeks before the deadline. No application fee is stated. You also need a confirmed academic host in Germany before you apply.",
+   "cur": "EUR",
+   "amt": 0,
+   "check": "Checked the DAAD database entry and the DAAD applicant information page on 3 Nov 2026; Bangladesh-specific deadlines were NOT FOUND and no fee is stated."
+  },
+  "jefferson-ent": {
+   "portal_label": "Dept. of Otolaryngology research fellowship page (no portal)",
+   "portal_url": "https://www.jefferson.edu/academics/colleges-schools-institutes/skmc/departments/otolaryngology/research/research-fellowship.html",
+   "kind": "unk",
+   "fee": "None found",
+   "fee_note": "No portal, form, deadline or named application contact is published. The department runs the fellowship directly. The only named contact (Beth Kangas) is for the optional MS in Medical Research. Ask the department before you spend time on an application.",
+   "cur": "USD",
+   "amt": 0,
+   "check": "Checked the Jefferson Otolaryngology research fellowship page and fellowships page on 3 Nov 2026; fee and deadline both NOT FOUND."
+  },
+  "ccf-hvti": {
+   "portal_label": "Email to Cleveland Clinic GPS (no portal)",
+   "portal_url": "https://my.clevelandclinic.org/departments/international-medical-education/resources",
+   "kind": "unk",
+   "fee": "None found",
+   "fee_note": "Email the application form, CV, two recommendation letters and medical diploma to Shalyn Sheffield at villwos@ccf.org. No fee is stated. The fellow pays housing, travel and transport; the post pays salary and benefits only.",
+   "cur": "USD",
+   "amt": 0,
+   "check": "Checked the Cleveland Clinic GPS resources page and the 2026-27 call PDF on 3 Nov 2026; the 2026-27 round closed 31 Jan 2026 and the next closing date was NOT FOUND."
+  },
+  "sakib": {
+   "portal_label": "SOPHAS (MPH programmes); US research jobs have no central portal",
+   "portal_url": "https://sophas.liaisoncas.com",
+   "kind": "paid",
+   "fee": "$155 + $65 each extra",
+   "fee_note": "SOPHAS charges $155 for the first programme and $65 for each extra one, and some programmes add a supplemental fee. A limited number of waivers go to citizens and residents of UN Least Developed Countries (Bangladesh is on the list), first come first served, covering only the first $155. Job applications carry no standard fee.",
+   "cur": "USD",
+   "amt": 155,
+   "check": "Checked the SOPHAS fees and waivers page (Liaison help centre) on 3 Nov 2026; no single scheme deadline exists, each programme sets its own."
+  },
+  "remote": {
+   "portal_label": "No portal: apply job by job (example platform: Upwork)",
+   "portal_url": "https://www.upwork.com",
+   "kind": "free",
+   "fee": "None",
+   "fee_note": "There is no scheme and no application fee. You apply on each employer's or platform's own careers page. Anyone charging a fee to place you in remote writing or annotation work is not an official route.",
+   "cur": "USD",
+   "amt": 0,
+   "check": "Not applicable: Part 1 found no funder or programme page for this card on 3 Nov 2026; Upwork is only a named example of a platform, not an official route."
+  },
+  "czech-gov": {
+   "portal_label": "Study in Czechia application register",
+   "portal_url": "https://msmt.gov.cz/en/scholarships/government-scholarships-developing-countries",
+   "kind": "unk",
+   "fee": "None found",
+   "fee_note": "You register on the Study in Czechia portal and submit the electronic form through the Foreign Development Cooperation call. No application fee is stated. Shortlisted candidates go through later stages, including an embassy step, under the binding scholarship guidelines. The 2027/28 window is closed.",
+   "cur": "CZK",
+   "amt": 0,
+   "check": "Checked the MEYS programme page and the 2027/2028 FAQ on 3 Nov 2026; the window ran 21 Aug to 30 Sep 2026 and no fee is stated."
+  },
+  "otherschol": {
+   "portal_label": "No single portal: five separate schemes (IsDB portal shown)",
+   "portal_url": "https://isdbscholarships.smartsimple.com",
+   "kind": "unk",
+   "fee": "IsDB free; others not found",
+   "fee_note": "IsDB officially charges no fee at any stage. For the NL Scholarship you apply through the Dutch institution, for Malaysia MIS through the MOHE portal, for OeAD through scholarships.at, and for MOE Taiwan through your local Taiwan overseas mission. Fees for those four were not found.",
+   "cur": "USD",
+   "amt": 0,
+   "check": "Checked Study in NL, MOHE Malaysia, IsDB, OeAD and the MOE Taiwan platform on 3 Nov 2026; only IsDB states a no-fee rule."
+  },
+  "it-maeci": {
+   "portal_label": "Study in Italy portal (online only)",
+   "portal_url": "https://studyinitaly.esteri.it",
+   "kind": "unk",
+   "fee": "None found",
+   "fee_note": "Apply only through the Study in Italy portal after registering. The 2026-27 call text states no application fee, though that is not an explicit free-of-charge promise. Regional fees stay payable by you. The 2027-28 call is not published yet.",
+   "cur": "EUR",
+   "amt": 0,
+   "check": "Checked the MAECI scholarships page and the 2026-27 call PDF on 3 Nov 2026; the 2026-27 call closed 26 Mar 2026 at 14:00 CET and no 2027-28 call exists yet."
+  },
+  "it-iyt": {
+   "portal_label": "Invest Your Talent in Italy application site",
+   "portal_url": "https://investyourtalentapplication.esteri.it/SitoIYT/EN/invest-your-talent-in-italy",
+   "kind": "unk",
+   "fee": "None found",
+   "fee_note": "You apply on the programme site and separately pre-apply to a participating university. No application fee is stated on the MAECI or programme pages. The course catalogue has no medicine or health degrees.",
+   "cur": "EUR",
+   "amt": 0,
+   "check": "Checked the MAECI programme page, the programme How does it work pages and the University of Pisa IYT page on 3 Nov 2026; no 2027-28 call yet."
+  },
+  "gwu-mrf": {
+   "portal_label": "Email application (GW Office of International Medicine Programs)",
+   "portal_url": "https://imp.smhs.gwu.edu/medical-research-fellowship-program",
+   "kind": "unk",
+   "fee": "Not published",
+   "fee_note": "Email a headshot, CV, one-page statement, degree, transcript, three recommendation letters and your USMLE Step 1 and/or Step 2 scores to impinfo@gwu.edu. The programme charges fees but publishes no amount, and you ask the office. GW pays no salary.",
+   "cur": "USD",
+   "amt": 0,
+   "check": "Checked the GW SMHS Medical Research Fellowship page on 3 Nov 2026; no application or programme fee is published and applications are ongoing."
+  },
+  "it-padua": {
+   "portal_label": "Apply@UniPD (apply.unipd.it)",
+   "portal_url": "https://apply.unipd.it",
+   "kind": "paid",
+   "fee": "€60",
+   "fee_note": "The €60 degree-application fee is non-refundable and paid by a link emailed after you register. There is no separate scholarship form: eligible applicants are considered automatically. Programmes using the CISIA CEnT-S test charge €55 instead. Winners still pay the regional fee and revenue stamp each year.",
+   "cur": "EUR",
+   "amt": 60,
+   "check": "Checked the Padua Excellence page and the Study in English how-to-apply page on 3 Nov 2026."
+  },
+  "obs": {
+   "portal_label": "No single portal: each hospital (Cleveland Clinic CIME as example)",
+   "portal_url": "https://my.clevelandclinic.org/departments/international-medical-education",
+   "kind": "paid",
+   "fee": "$200 now + $300 (CCF)",
+   "fee_note": "Every institution sets its own fee. Cleveland Clinic's international observership costs $500 in total: a $200 non-refundable processing fee on application and $300 on acceptance. Other hospitals differ and were not checked. Avoid agencies that charge large placement fees.",
+   "cur": "USD",
+   "amt": 200,
+   "check": "Checked the Cleveland Clinic CIME FAQ and the Cleveland Clinic Florida observer page on 3 Nov 2026; no common deadline exists."
+  },
+  "brunei": {
+   "portal_label": "Ministry of Foreign Affairs, Brunei: BDGS page",
+   "portal_url": "https://www.mfa.gov.bn/pages/scholarship.aspx",
+   "kind": "unk",
+   "fee": "None found",
+   "fee_note": "You fill in the MFA online form and also submit a separate admission application to your chosen institution (UBD, UNISSA, UTB, KUPU SB or Politeknik Brunei). The MFA form alone is incomplete. No fee is stated, but no official no-fee statement was found either.",
+   "cur": "BND",
+   "amt": 0,
+   "check": "Checked the MFA scholarship page, the BDGS invitation page and the FAQ document on 3 Nov 2026; the 2027/28 call is not posted."
+  },
+  "islands": {
+   "portal_label": "No single portal: Maldives Government Gazette (example)",
+   "portal_url": "https://gazette.gov.mv/iulaan",
+   "kind": "free",
+   "fee": "None",
+   "fee_note": "No ministry application fee on this route. Maldives doctor demand letters appear on the gazette and health.gov.mv, with applications through registered agencies or the MOH recruitment email. Any agency charge is a private arrangement, so treat it with caution.",
+   "cur": "MVR",
+   "amt": 0,
+   "check": "Checked health.gov.mv, the Maldives gazette and health.gov.sc on 3 Nov 2026; every vacancy has its own deadline and none was found for fresh graduates."
+  },
+  "mahidol-mugr": {
+   "portal_label": "Mahidol Faculty of Graduate Studies online admission",
+   "portal_url": "https://graduate.mahidol.ac.th/admission-apply/",
+   "kind": "paid",
+   "fee": "THB 500",
+   "fee_note": "The non-refundable THB 500 fee is charged per programme and the scholarship does not cover it. There is no separate scholarship application: you apply for programme admission and the programme nominates you. Some programmes, such as the Faculty of Public Health MPH, run their own admission outside the central system.",
+   "cur": "THB",
+   "amt": 500,
+   "check": "Checked the Mahidol admission information page and the 2026 scholarship announcement PDF on 3 Nov 2026; no 2027 round is published."
+  },
+  "chula-link": {
+   "portal_label": "Chulalongkorn Grant Gateway (after admission)",
+   "portal_url": "https://grantgateway.research.chula.ac.th/www/Home/program?id=66f8e76b790f9b24f100000b",
+   "kind": "paid",
+   "fee": "THB 1,000 (programme)",
+   "fee_note": "You must be admitted to a Chula Master's or PhD first, then apply on Grant Gateway. No separate scholarship fee is stated. A Chula document lists a THB 1,000 programme application fee as not covered by the scholarship.",
+   "cur": "THB",
+   "amt": 1000,
+   "check": "Checked Grant Gateway, the Office of International Affairs and the 2026 application-process document on 3 Nov 2026; scholarship fee NOT FOUND and no 2027 round is announced."
+  },
+  "ki-global": {
+   "portal_label": "universityadmissions.se, then KI's scholarship form on ki.se",
+   "portal_url": "https://www.universityadmissions.se",
+   "kind": "paid",
+   "fee": "SEK 900",
+   "fee_note": "Two steps. First apply to the Master's on universityadmissions.se (one SEK 900 fee per semester, however many programmes you pick) and rank a KI programme first. Then submit the separate KI Global Master's Scholarship form on ki.se during its short window. No fee for the scholarship form itself is stated, but paying the SEK 900 is a condition of being eligible.",
+   "cur": "SEK",
+   "amt": 900,
+   "check": "universityadmissions.se fee and key-date pages and Luleå's how-to-apply page were checked on 3 Nov 2026; ki.se could not be opened, so the scholarship window and any KI-specific fee are NOT FOUND."
+  },
+  "bcs52": {
+   "portal_label": "BPSC Teletalk application portal (opens only with the circular)",
+   "portal_url": "http://bpsc.teletalk.com.bd",
+   "kind": "unk",
+   "fee": "Not yet fixed",
+   "fee_note": "No 52nd BCS circular exists yet, so no fee has been set. For reference only, BPSC's standing online-application instructions state Tk 700, reduced to Tk 100 for ethnic minority, disabled and third-gender candidates. The fee is paid by Teletalk SMS.",
+   "cur": "BDT",
+   "amt": 0,
+   "check": "bpsc.gov.bd and the BPSC Teletalk instructions were checked on 3 Nov 2026; no 52nd BCS circular, fee or date is published (NOT FOUND)."
+  },
+  "fcps": {
+   "portal_label": "BCPS online registration (exams.bcps.edu.bd)",
+   "portal_url": "https://exams.bcps.edu.bd",
+   "kind": "paid",
+   "fee": "Tk 11,000 new · Tk 10,000 reseat",
+   "fee_note": "Online registration is compulsory and the fee is paid inside the system. The last official fee table retrieved (July 2025 notification) shows Tk 11,000 for new candidates and Tk 10,000 for reseat. The board's sweep read Tk 6,000 in the Jan 2027 notice, so confirm the figure in the session notification before paying. You need a permanent BMDC registration certificate.",
+   "cur": "BDT",
+   "amt": 11000,
+   "check": "BCPS notifications and the online registration guide on exams.bcps.edu.bd were checked on 3 Nov 2026; the fee comes from the July 2025 table, and the Jan 2027 fee needs confirming."
+  },
+  "mdms": {
+   "portal_label": "BMU forms portal (forms.bmu.ac.bd)",
+   "portal_url": "https://forms.bmu.ac.bd",
+   "kind": "unk",
+   "fee": "Not found",
+   "fee_note": "The fee is first deposited at Pubali Bank and the details entered in the online form. The fee for the March 2027 session was not verified in an official BMU notice. Do not borrow the Tk 4,000 on the July 2026 PhD notice. Check the session circular on bmu.ac.bd before paying.",
+   "cur": "BDT",
+   "amt": 0,
+   "check": "BMU notice board and the forms portal were checked on 3 Nov 2026; the 25 Oct 2026 admit-card notice shows the March 2027 application window has closed, and the MD/MS fee is NOT FOUND."
+  },
+  "gulfother": {
+   "portal_label": "No single portal: Bahrain NHRA (nhra.bh); Oman and Kuwait via their ministries",
+   "portal_url": "https://www.nhra.bh",
+   "kind": "paid",
+   "fee": "BD 20 + BD 50 (Bahrain)",
+   "fee_note": "Bahrain: licence-application fee BD 20 plus licensure exam BD 50, then a new licence fee of BD 60, 80 or 100 by grade. Kuwait: KD 20 for government-sector licence issuance. Oman: fee NOT FOUND. All three also need credential verification, a sponsor and a work visa.",
+   "cur": "BHD",
+   "amt": 70,
+   "check": "NHRA Bahrain Decision 17 of 2016 and Kuwait's e.gov.kw MOH service page were checked on 3 Nov 2026; Oman's practitioner fees are NOT FOUND on official pages."
+  },
+  "euother": {
+   "portal_label": "No single portal: EU Your Europe Regulated Professions page, then each country's regulator",
+   "portal_url": "https://europa.eu/youreurope/citizens/work/professional-qualifications/regulated-professions/",
+   "kind": "unk",
+   "fee": "Set per country",
+   "fee_note": "The EU pages state no fee. Each national authority (Italy, Sweden, Denmark, Finland, Poland, Czechia, Hungary, Romania and others) sets its own fees, exams and language rules, so there is no single figure.",
+   "cur": "EUR",
+   "amt": 0,
+   "check": "Your Europe and the European Commission recognition pages were checked on 3 Nov 2026; no EU-level fee exists, and country fees are NOT FOUND."
+  },
+  "akf-isp": {
+   "portal_label": "AKDN International Scholarships page (no central portal; apply via local AKF contact)",
+   "portal_url": "https://the.akdn/en/what-we-do/developing-human-capacity/education/international-scholarships",
+   "kind": "unk",
+   "fee": "None found",
+   "fee_note": "There is no central online portal. Use the eligibility tool on the AKDN page to get your local AKF team's details. The page states no application fee. The next cycle opens in early 2027, with no closing date published.",
+   "cur": "USD",
+   "amt": 0,
+   "check": "AKDN's official International Scholarships page was checked on 3 Nov 2026; it states the 2026-27 cycle is closed, the next opens early 2027, and no fee or closing date is published (NOT FOUND)."
+  },
+  "nz": {
+   "portal_label": "MCNZ NZREX page: application by email to examinations@mcnz.org.nz",
+   "portal_url": "https://www.mcnz.org.nz/registration/getting-registered/registration-exam-nzrex/",
+   "kind": "paid",
+   "fee": "NZD 860.92 + NZD 4,966.94",
+   "fee_note": "No online portal. Email forms NZREX1 and NZREX3 as PDFs with a passport photo. The NZD 860.92 application fee is non-refundable; the NZD 4,966.94 exam fee is invoiced at least three months before the sitting. Both include GST, from 1 Jul 2026.",
+   "cur": "NZD",
+   "amt": 860.92,
+   "check": "MCNZ's NZREX page and fees list (effective 1 Jul 2026) were checked on 3 Nov 2026."
+  },
+  "mymph": {
+   "portal_label": "Each university's own system (UM example: apply.um.edu.my)",
+   "portal_url": "https://apply.um.edu.my",
+   "kind": "paid",
+   "fee": "RM300 (UM)",
+   "fee_note": "No umbrella portal. Universiti Malaya charges international applicants RM300 per application, payable online before you submit. Other Malaysian universities set their own fees and deadlines.",
+   "cur": "MYR",
+   "amt": 300,
+   "check": "UM's admission FAQ and MPH pages were checked on 3 Nov 2026; the 2027 UM MPH deadline is NOT FOUND and other universities' fees were not checked."
+  },
+  "msf": {
+   "portal_label": "No single portal: MSF national office pages, rescue.org, careers.icrc.org",
+   "portal_url": "https://www.msf.es/en/trabaja/terreno",
+   "kind": "free",
+   "fee": "None",
+   "fee_note": "Apply only through each organisation's official careers system. MSF routes you to the office for your country of residence, and ICRC also recruits via national Red Cross/Red Crescent societies. MSF states it never asks applicants for money, so any request for payment is a scam.",
+   "cur": "EUR",
+   "amt": 0,
+   "check": "MSF Spain's working-in-the-field page, ICRC's careers page and MSF USA's scam warnings were checked on 3 Nov 2026; deadlines are per posting."
+  },
+  "cra": {
+   "portal_label": "No single portal: each employer's careers page (example: Armata CRA posting)",
+   "portal_url": "https://www.armatapharma.com/clinical-research-associate/",
+   "kind": "free",
+   "fee": "None",
+   "fee_note": "Apply job by job on each company's own site or on job boards. There is no official portal and no application fee. Anyone asking for payment to apply or be registered is a scam.",
+   "cur": "USD",
+   "amt": 0,
+   "check": "Employer careers postings were checked as examples on 3 Nov 2026; no official central source exists for this umbrella route."
+  },
+  "gsu-mph": {
+   "portal_label": "SOPHAS, then Georgia State Graduate Supplemental",
+   "portal_url": "https://sophas.cas.myliaison.com/",
+   "kind": "paid",
+   "fee": "$155 + $50",
+   "fee_note": "Two steps: SOPHAS ($155 for the first programme, $65 each extra) and the Georgia State Graduate Supplemental application at gradapply.gsu.edu ($50, non-refundable). Foreign credentials need a WES evaluation. The GRE is not required.",
+   "cur": "USD",
+   "amt": 205,
+   "check": "SOPHAS help centre, GSU's graduate deadlines page, catalog and funding page were checked on 3 Nov 2026."
+  },
+  "glasgow-great": {
+   "portal_label": "University of Glasgow GREAT Scholarships 2027 page (apply for the course first)",
+   "portal_url": "https://www.gla.ac.uk/scholarships/greatscholarships2027/",
+   "kind": "free",
+   "fee": "No scholarship fee",
+   "fee_note": "No fee for the scholarship. You must first apply for and accept a place on an eligible one-year taught master's, meeting all conditions. Glasgow's fees page lists a fee only for the MBA, which is excluded. International applicants face a £2,000 deposit to secure a place.",
+   "cur": "GBP",
+   "amt": 0,
+   "check": "Glasgow's GREAT 2027 page and postgraduate fees page were checked on 3 Nov 2026; the scholarship page says it will open shortly."
+  },
+  "ukmsc": {
+   "portal_label": "No single portal: apply direct to each UK university (UCAS postgraduate hub)",
+   "portal_url": "https://www.ucas.com/postgraduate/what-to-study/postgraduate-study",
+   "kind": "unk",
+   "fee": "Varies by university",
+   "fee_note": "Postgraduate courses are applied for directly to each provider. Some universities charge a per-application fee (Glasgow lists £25 for its MBA only); many charge nothing. Most ask for a £1,000 to £2,000+ deposit before issuing a visa document.",
+   "cur": "GBP",
+   "amt": 0,
+   "check": "UCAS's postgraduate pages and Glasgow's fees page were checked on 3 Nov 2026; no umbrella fee exists."
+  },
+  "au-uq": {
+   "portal_label": "UQ research degree application (Expression of Interest, then full application)",
+   "portal_url": "https://study.uq.edu.au/admissions/phd-mphil-professional-doctorate/application-dates",
+   "kind": "paid",
+   "fee": "AUD 150",
+   "fee_note": "Start with an Expression of Interest and, if invited, the full application. The scholarship is applied for as part of the programme application, with no separate form. The AUD 150 fee comes from UQ's 2026 charges list; no separate research-degree fee was found.",
+   "cur": "AUD",
+   "amt": 150,
+   "check": "UQ's application-dates and PhD/MPhil scholarship pages and 2026 charges list were checked on 3 Nov 2026; a distinct HDR fee and the next round are NOT FOUND."
+  },
+  "au-flinders": {
+   "portal_label": "Flinders StudyLink (admission) + Flinders Student System (scholarship)",
+   "portal_url": "https://www.flinders.edu.au/scholarships/australian-government-research-training-program-scholarship-international",
+   "kind": "unk",
+   "fee": "None found",
+   "fee_note": "Two steps: apply for the HDR through StudyLink, then apply in the Flinders Student System for the International RHD Scholarship Group (covers both AGRTPS and FIPRS). No fee is stated on the scholarship, conditions or how-to-apply pages. Referee reports must arrive by the closing date.",
+   "cur": "AUD",
+   "amt": 0,
+   "check": "Flinders' scholarship page, 2027 Conditions of Award and how-to-apply page were checked on 3 Nov 2026; the next round's date is NOT FOUND."
+  },
+  "nz-massey": {
+   "portal_label": "Massey Student Portal (Scholarships tab), via massey.ac.nz scholarships",
+   "portal_url": "https://www.massey.ac.nz/study/scholarships-and-awards/",
+   "kind": "unk",
+   "fee": "None found",
+   "fee_note": "Secure admission (an offer of place) for doctoral study first, then submit the scholarship in the Student Portal with the Supervisor Support Template. No fee is stated on the scholarship pages checked. Allow at least 4 weeks for admission processing before the closing date.",
+   "cur": "NZD",
+   "amt": 0,
+   "check": "Massey's scholarships pages (incl. the Alumni Doctoral Scholarship) were checked on 3 Nov 2026; this scholarship's own page and 2027 dates were NOT FOUND."
+  },
+  "chev": {
+   "portal_label": "Chevening online application system (ASAMS), via the Bangladesh page",
+   "portal_url": "https://www.chevening.org/scholarship/bangladesh/",
+   "kind": "free",
+   "fee": "Free",
+   "fee_note": "Applying is free. Chevening states you do not need to pay anyone to apply and it does not work with third parties who charge for support. Applications run through ASAMS from the apply link on the Bangladesh country page during the window.",
+   "cur": "GBP",
+   "amt": 0,
+   "check": "Chevening's Bangladesh page, online-application guidance and application-criteria guidance were checked on 3 Nov 2026."
+  },
+  "epos": {
+   "portal_label": "No single portal: apply to each EPOS course directly (DAAD database entry)",
+   "portal_url": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?origin=79&status=3&subjectGrps&daad&q&page=1&detail=50076777",
+   "kind": "unk",
+   "fee": "None found",
+   "fee_note": "DAAD states no application fee of its own. Each course runs its own admission procedure, so any course-level charge is set by the university and is not stated on daad.de. Applications sent straight to DAAD are not forwarded to courses.",
+   "cur": "EUR",
+   "amt": 0,
+   "check": "Checked the DAAD (daad.de) EPOS scholarship database entry on 3 Nov 2026; no DAAD fee stated, course-level fees not found."
+  },
+  "fulb": {
+   "portal_label": "IIE online application portal (Fulbright Foreign Student Program)",
+   "portal_url": "https://apply.iie.org/ffsp2027",
+   "kind": "unk",
+   "fee": "None found",
+   "fee_note": "No application fee is mentioned in the official US Embassy Dhaka announcement or the information it links to. The 2027-28 round has closed, so there is nothing to submit now.",
+   "cur": "USD",
+   "amt": 0,
+   "check": "Checked the US Embassy Dhaka Fulbright announcement on 3 Nov 2026; no fee mentioned, 2027-28 call closed 11 Jul 2026."
+  },
+  "jjwbgsp": {
+   "portal_label": "No public portal: World Bank JJ/WBGSP programme page",
+   "portal_url": "https://www.worldbank.org/en/programs/scholarships/jj-wbgsp",
+   "kind": "unk",
+   "fee": "None found",
+   "fee_note": "There is no public application portal. The form link is sent only to candidates admitted unconditionally (except for funding) to one of the 44 Participating Master's Programs and shortlisted by the university. No fee is stated on the official pages.",
+   "cur": "USD",
+   "amt": 0,
+   "check": "Checked the World Bank JJ/WBGSP page and the 2027 participating-programs lists (published 31 Aug 2026) on 3 Nov 2026; no fee found."
+  },
+  "aus-aw": {
+   "portal_label": "OASIS (DFAT Australia Awards online system)",
+   "portal_url": "https://oasis.dfat.gov.au/",
+   "kind": "unk",
+   "fee": "None found",
+   "fee_note": "No fee is stated on the Australia Awards Bangladesh or South Asia and Mongolia pages. Applications are closed; the Bangladesh site says they reopen in early 2027, with no dates.",
+   "cur": "AUD",
+   "amt": 0,
+   "check": "Checked the Australia Awards Bangladesh and South Asia & Mongolia pages on 3 Nov 2026; no fee found, next round dates not published."
+  },
+  "canada": {
+   "portal_label": "MCC physiciansapply.ca (exams) and CaRMS Online (residency)",
+   "portal_url": "https://www.carms.ca/match/r-1-main-residency-match/match-fees-r1/",
+   "kind": "paid",
+   "fee": "CAD 1,500 + 150 + 232",
+   "fee_note": "MCCQE application CAD 1,500, one-time account set-up CAD 150, source verification CAD 232 per credential. CaRMS (R-1 2027) adds CAD 301.60 match fee, CAD 66.26 per extra program and CAD 136.62 one-time verification, but CaRMS is limited to citizens and permanent residents.",
+   "cur": "CAD",
+   "amt": 1882,
+   "check": "Checked mcc.ca/fees, MCC scheduling and the CaRMS 2027 R-1 match fees page on 3 Nov 2026; eligibility wording on carms.ca should be re-checked."
+  },
+  "swiss": {
+   "portal_label": "GO ESKAS (Swiss Government Excellence Scholarships)",
+   "portal_url": "https://www.go.eskas.ch",
+   "kind": "free",
+   "fee": "Free",
+   "fee_note": "SERI states applying is free of charge, and GO ESKAS is the only accepted channel (no email or paper). The Bangladesh deadline for 2027-28 passed on 30 Oct 2026. Tuition and semester fees are not covered by the award.",
+   "cur": "CHF",
+   "amt": 0,
+   "check": "Checked sbfi.admin.ch scholarship pages and the 4 Aug 2026 A-Z country list on 3 Nov 2026; free, Bangladesh deadline 30 Oct 2026 passed."
+  },
+  "usmph": {
+   "portal_label": "SOPHAS (Schools of Public Health Application Service)",
+   "portal_url": "https://sophas.liaisoncas.com",
+   "kind": "paid",
+   "fee": "$155 + $65 each extra",
+   "fee_note": "USD 155 for the first program and USD 65 for each additional one. Some schools add a supplemental fee, and a few fee waivers exist, first come first served, covering only the initial fee. Older pages quote 145/55.",
+   "cur": "USD",
+   "amt": 155,
+   "check": "Checked the SOPHAS Applicant Help Center fees page on 3 Nov 2026; no single umbrella deadline found."
+  },
+  "jhu-mph": {
+   "portal_label": "SOPHAS (Bloomberg School of Public Health MPH)",
+   "portal_url": "https://publichealth.jhu.edu/academics/mph",
+   "kind": "paid",
+   "fee": "$155",
+   "fee_note": "SOPHAS fee is USD 155 for the first program, USD 65 for each extra. No separate Bloomberg School supplemental fee was stated on the MPH pages checked. A limited number of SOPHAS fee waivers exist.",
+   "cur": "USD",
+   "amt": 155,
+   "check": "Checked the Bloomberg MPH, requirements and SOPHAS fee pages on 3 Nov 2026; deadline 1 Dec 2026 confirmed."
+  },
+  "ausmph": {
+   "portal_label": "No central portal: each university's own application system",
+   "portal_url": "https://study.unimelb.edu.au/how-to-apply/graduate-coursework-study/international-applications/applications",
+   "kind": "paid",
+   "fee": "AUD 100 (Melbourne)",
+   "fee_note": "Fees vary by university. Melbourne's business school states AUD 100 for international applicants, but an agent form quoted AU$150, so confirm in the portal. Melbourne also requires a tuition deposit of AUD 17,000 on accepting an offer.",
+   "cur": "AUD",
+   "amt": 100,
+   "check": "Checked the University of Melbourne applications page and fees on 3 Nov 2026; no single deadline found."
+  },
+  "kcl-aero": {
+   "portal_label": "King's College London professional education catalogue",
+   "portal_url": "https://www.kcl.ac.uk/professional-education/catalogue/intro-aerospace-medicine",
+   "kind": "paid",
+   "fee": "£1,875 course price",
+   "fee_note": "The full course price is GBP 1,875.00 with no separate application fee. No run is currently scheduled, so you can only register interest.",
+   "cur": "GBP",
+   "amt": 1875,
+   "check": "Checked the live KCL course page on 3 Nov 2026; no dates or deadline listed."
+  },
+  "jpkr": {
+   "portal_label": "No single portal: Japan MHLW and Korea KHPLEI",
+   "portal_url": "https://www.mhlw.go.jp/stf/newpage_51097.html",
+   "kind": "paid",
+   "fee": "¥15,300 (Japan exam)",
+   "fee_note": "Japan: ¥15,300 for the national exam and ¥70,000 for the preliminary exam (¥35,000 for one part). Japan applications are made in person at MHLW by appointment. Korea: no fee could be verified on an official page.",
+   "cur": "JPY",
+   "amt": 15300,
+   "check": "Checked the MHLW application document page and the Japanese Law Translation fee regulation on 3 Nov 2026; Korea fee and dates not found."
+  },
+  "malta": {
+   "portal_label": "Government of Malta Recruitment Portal / Malta Foundation School",
+   "portal_url": "https://recruitment.gov.mt",
+   "kind": "unk",
+   "fee": "None found",
+   "fee_note": "No application fee is stated in the official call or on fpmalta.gov.mt. The official call requires applicants to be citizens of Malta or another EU state, so a Bangladeshi citizen with a Bangladeshi MBBS is ineligible.",
+   "cur": "EUR",
+   "amt": 0,
+   "check": "Checked fpmalta.gov.mt timeline and FAQs and the Ministry for Health call on 3 Nov 2026; no fee found."
+  },
+  "rhodes": {
+   "portal_label": "Rhodes Trust application page",
+   "portal_url": "https://www.rhodeshouse.ox.ac.uk/apply",
+   "kind": "free",
+   "fee": "Free",
+   "fee_note": "The Rhodes Trust states there is no application fee. Applications go through a Rhodes constituency, and Bangladesh is not one, so there is nothing for you to submit.",
+   "cur": "GBP",
+   "amt": 0,
+   "check": "Checked the Rhodes Trust constituency information and candidate documents on 3 Nov 2026; no fee, Bangladesh not a constituency."
+  },
+  "antwerp": {
+   "portal_label": "University of Antwerp admission procedure (Mobility Online)",
+   "portal_url": "https://www.uantwerpen.be/en/study/admission-and-enrolment/admission/procedure/",
+   "kind": "free",
+   "fee": "Free",
+   "fee_note": "The university states its application procedure is free of charge. General admission applications for 2027-28 open 4 Nov 2026. The VLIR-UOS scholarship form is attached to the application but is not open to Bangladesh.",
+   "cur": "EUR",
+   "amt": 0,
+   "check": "Checked the UAntwerp admission procedure and MEPI/VLIRUOS pages on 3 Nov 2026; 2027-28 scholarship deadline not found."
+  },
+  "manaaki": {
+   "portal_label": "Manaaki New Zealand Scholarships (tertiary students)",
+   "portal_url": "https://www.nzscholarships.govt.nz/international-tertiary-students/",
+   "kind": "unk",
+   "fee": "None found",
+   "fee_note": "No application fee is stated on the official Manaaki pages checked. Bangladesh is not on the eligible-countries page, so you cannot apply.",
+   "cur": "NZD",
+   "amt": 0,
+   "check": "Checked the Manaaki tertiary and eligible-countries pages on 3 Nov 2026; Bangladesh not listed, no fee found."
+  },
+  "nursing": {
+   "portal_label": "No single portal: Ahpra NMBA self-check and each university",
+   "portal_url": "https://portal.ahpra.gov.au/portal/s/self-check",
+   "kind": "unk",
+   "fee": "Not applicable",
+   "fee_note": "There is no single fee. Universities charge their own international application fees and NMBA/Ahpra charges separate assessment and registration fees. An MBBS does not register you as a nurse.",
+   "cur": "AUD",
+   "amt": 0,
+   "check": "Checked the Ahpra NMBA self-check, the NMBA fact sheet and the NSW Health guide on 3 Nov 2026; no fees verified."
+  },
+  "cruise": {
+   "portal_label": "No single portal: Royal Caribbean Group careers (example)",
+   "portal_url": "https://careers.royalcaribbeangroup.com/",
+   "kind": "free",
+   "fee": "Free",
+   "fee_note": "No application fee is charged by an employer's official careers portal. Anyone asking for an upfront 'placement' fee is not the official route.",
+   "cur": "USD",
+   "amt": 0,
+   "check": "Checked the Royal Caribbean Group careers site on 3 Nov 2026; doctor postings require 3+ years of acute-care experience."
+  },
+  "defence": {
+   "portal_label": "No single portal: ADF Careers and British Army jobs",
+   "portal_url": "https://www.adfcareers.gov.au/jobs/navy/doctor",
+   "kind": "free",
+   "fee": "Free",
+   "fee_note": "Salaried military recruitment; no fee at the official careers portals. ADF requires Australian citizenship (some PR cases) and AHPRA registration. The British Army accepts Commonwealth citizens, but doctor entry runs through GMC registration and UK foundation training.",
+   "cur": "AUD",
+   "amt": 0,
+   "check": "Checked the ADF Careers doctor pages, British Army recruitment Q&A and Commons Library briefing on 3 Nov 2026."
+  },
+  "carib": {
+   "portal_label": "No portal: check the World Directory of Medical Schools (WDOMS)",
+   "portal_url": "https://www.wdoms.org",
+   "kind": "unk",
+   "fee": "Not applicable",
+   "fee_note": "There is no official route or fee to verify. Any school must be checked individually for an ECFMG Sponsor Note in WDOMS and for CAAM-HP accreditation before paying anything.",
+   "cur": "USD",
+   "amt": 0,
+   "check": "Checked the ECFMG 2026 Information Booklet and the WFME accreditor list on 3 Nov 2026."
   }
  }
 }
