@@ -2,9 +2,9 @@
  "_about": "Gemini 3.5 Flash drafted these answers (ungrounded) on 2 Nov 2026 from Abbas's context. Claude rewrote each one the same day, keeping the voice and structure but replacing every fact that conflicted with official pages or the board. 'fixed' lists what changed from Gemini's draft.",
  "stories": {
   "imperial-pres": {
-   "tag": "Today's deadline: only if a supervisor has said yes",
+   "tag": "Round 1 has closed: round 2 on 11 Jan, and only with a supervisor",
    "tone": "warn",
-   "lede": "The Imperial College President's PhD Scholarships are the most prestigious doctoral funding Imperial offers. They're fully funded and a real route into world-class research, but the first round closes at 23:59 UK time today, and without a supervisor's agreement you're not ready for it.",
+   "lede": "The Imperial College President's PhD Scholarships are the most prestigious doctoral funding Imperial offers. They're fully funded and a real route into world-class research. Round 1 closed on 2 Nov, so the live chance is round 2 on **11 Jan 2027**, and without a supervisor's agreement you're not ready for it.",
    "fit": {
     "us": [
      "poor",
@@ -40,7 +40,7 @@
     {
      "h": "Dates that matter",
      "ul": [
-      "**Round 1: 2 Nov 2026** (decisions by 31 Jan 2027).",
+      "**Round 1: closed 2 Nov 2026** (decisions by 31 Jan 2027).",
       "**Round 2: 11 Jan 2027.** Round 3: 1 Mar 2027.",
       "Funded 2027–28 places can start as late as **1 Nov 2027**, which brushes against the end of your internship."
      ]
@@ -54,7 +54,7 @@
     {
      "h": "The catches",
      "ul": [
-      "**Catch 1: timing.** Round 1 closes today. If you have no agreed supervisor, aim for round 2 on 11 Jan instead.",
+      "**Catch 1: timing.** Round 1 has closed. Round 2 on 11 Jan 2027 is the realistic target, and you need an agreed supervisor before then.",
       "**Catch 2: competition.** Fifty awards across the whole college, usually for people with research experience. A fresh MBBS with no publications needs a strong supervisor connection.",
       "**Catch 3: years since graduation.** Many US programmes screen on how long ago you graduated. A PhD explains the gap well for academic programmes, less so for community ones.",
       "**Catch 4: clinical distance.** Three and a half years in a research group means arranging observerships before you reapply to residency."
@@ -71,7 +71,8 @@
     "Stipend: Gemini said £25,150 (2024/25). The current figure on the board is £27,036 a year.",
     "Rounds: Gemini gave 4 Nov / 8 Jan / 13 Mar. The real rounds are 2 Nov 2026, 11 Jan 2027 and 1 Mar 2027.",
     "Timeline: Gemini had you finishing the internship in late 2026. It runs from about Oct–Nov 2026 to late 2027, so the 1 Nov 2027 latest start matters.",
-    "Removed unverified claims about Imperial's space-agency links."
+    "Removed unverified claims about Imperial's space-agency links.",
+    "Round 1 wording: the original draft said Round 1 closes today. It closed on 2 Nov 2026, so the route now points to round 2 on 11 Jan 2027."
    ]
   },
   "oist-phd": {
