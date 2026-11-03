@@ -440,7 +440,7 @@
    "portal_url": "https://www.ecfmg.org",
    "kind": "paid",
    "fee": "$580 + $905 + $930 + $945",
-   "fee_note": "ECFMG certification application $580 (from 1 Apr 2026); Step 1 $695 + $210 overseas surcharge; Step 2 CK $695 + $235; Pathway application (2027 season) $945. Since 12 Jan 2026 international graduates register and pay for the Step exams through FSMB (usmle.fsmb.org); ECFMG still decides eligibility. OET, ERAS and Match fees are separate and not priced here.",
+   "fee_note": "ECFMG certification application $580 (from 1 Apr 2026); Step 1 $695 + $210 overseas surcharge; Step 2 CK $695 + $235; Pathway application (2027 season) $945. Since 12 Jan 2026 international graduates register and pay for the Step exams through FSMB (usmle.fsmb.org); ECFMG still decides eligibility. ERAS and Match fees are separate, and any English-test (OET) fee is not priced here.",
    "cur": "USD",
    "amt": 3360,
    "check": "Checked 3 Nov 2026 against ECFMG's fee-increase notice (effective 1 Apr 2026), the ECFMG Fees Overview and the 2027 Pathways requirements."
@@ -588,7 +588,7 @@
   "daad-study": {
    "portal_label": "DAAD Portal (link appears only while a call is running)",
    "portal_url": "https://portal.daad.de",
-   "kind": "free",
+   "kind": "unk",
    "fee": "None stated",
    "fee_note": "Register on the DAAD Portal and upload documents under 'Attachments'. DAAD states no charge for applying. You must also win admission to a German master's yourself, and DAAD does not pay tuition at the host university.",
    "cur": "EUR",
@@ -680,7 +680,7 @@
    "portal_url": "https://portal.medicalcouncil.ie",
    "kind": "paid",
    "fee": "€451",
-   "fee_note": "2026/27 schedule: first-time application €451, PRES Level 2 exam €352, PRES Level 3 exam €1,500, annual registration €560 (under 3 years on the register) or €665. The Council is raising fees about 10% in 2026 and again in 2027. HSE posts are applied for separately and carry no registration fee.",
+   "fee_note": "2026/27 schedule: first-time application €451, PRES Level 2 exam €352, PRES Level 3 exam €1,500, annual registration €560 (under 3 years on the register) or €665. The Council is raising fees about 10% in 2026 and again in 2027. HSE posts are applied for separately.",
    "cur": "EUR",
    "amt": 451,
    "check": "Medical Council fees, PRES Level 3 and First Time Registration pages, 3 Nov 2026; registration is rolling and PRES sittings have their own deadlines. No HSE careers portal was checked."
@@ -910,7 +910,7 @@
    "portal_url": "https://jobs.unicef.org",
    "kind": "free",
    "fee": "Free",
-   "fee_note": "UNICEF states it charges no fee at any stage. Filter vacancies by contract type Internship and use Apply Now on the vacancy. Only shortlisted candidates are contacted. Travel, visas and housing are your own costs, though a monthly stipend is paid.",
+   "fee_note": "UNICEF states it charges no fee at any stage. Filter vacancies by contract type Internship and use Apply Now on the vacancy. Only shortlisted candidates are contacted. A monthly stipend is paid.",
    "cur": "USD",
    "amt": 0,
    "check": "Checked UNICEF Careers internships page and jobs.unicef.org on 3 Nov 2026."
@@ -933,14 +933,14 @@
    "fee_note": "UNFPA states it charges no application, processing, training, interviewing or testing fee. You apply online from the posting. A stipend toward living costs is available to interns without outside funding. Being on the roster does not guarantee a placement.",
    "cur": "USD",
    "amt": 0,
-   "check": "Checked the UNFPA Global Internship Roster 2026 posting on 3 Nov 2026; the posting text shows no closing date (NOT FOUND), the board lists 31 Dec 2026."
+   "check": "Checked the UNFPA Global Internship Roster 2026 posting on 3 Nov 2026; the posting text shows no closing date (NOT FOUND), check the live posting for the current closing date."
   },
   "gavi-intern": {
    "portal_label": "Gavi Careers: internship programme",
    "portal_url": "https://www.gavi.org/careers/internship-programme/",
    "kind": "unk",
    "fee": "None found",
-   "fee_note": "Apply through the Gavi Careers page for the specific vacancy (cover letter and resume). No application fee is stated. Interns not sponsored by a university get a fixed stipend toward basic living costs; travel and housing are yours.",
+   "fee_note": "Apply through the Gavi Careers page for the specific vacancy (cover letter and resume). No application fee is stated. Interns not sponsored by a university get a fixed stipend toward basic living costs.",
    "cur": "USD",
    "amt": 0,
    "check": "Checked the Gavi internship programme page on 3 Nov 2026; fee NOT FOUND."
@@ -1006,14 +1006,14 @@
    "check": "Checked the SOPHAS fees and waivers page (Liaison help centre) on 3 Nov 2026; no single scheme deadline exists, each programme sets its own."
   },
   "remote": {
-   "portal_label": "No portal: apply job by job (example platform: Upwork)",
-   "portal_url": "https://www.upwork.com",
+   "portal_label": "No portal: apply job by job on each employer's own careers page",
+   "portal_url": "",
    "kind": "free",
    "fee": "None",
    "fee_note": "There is no scheme and no application fee. You apply on each employer's or platform's own careers page. Anyone charging a fee to place you in remote writing or annotation work is not an official route.",
    "cur": "USD",
    "amt": 0,
-   "check": "Not applicable: Part 1 found no funder or programme page for this card on 3 Nov 2026; Upwork is only a named example of a platform, not an official route."
+   "check": "Not applicable: the official pages found no funder or programme page for this card on 3 Nov 2026; there is nothing to verify against an official scheme page."
   },
   "czech-gov": {
    "portal_label": "Study in Czechia application register",
@@ -1150,7 +1150,7 @@
    "portal_url": "https://exams.bcps.edu.bd",
    "kind": "paid",
    "fee": "Tk 11,000 new · Tk 10,000 reseat",
-   "fee_note": "Online registration is compulsory and the fee is paid inside the system. The last official fee table retrieved (July 2025 notification) shows Tk 11,000 for new candidates and Tk 10,000 for reseat. The board's sweep read Tk 6,000 in the Jan 2027 notice, so confirm the figure in the session notification before paying. You need a permanent BMDC registration certificate.",
+   "fee_note": "Online registration is compulsory and the fee is paid inside the system. The last official fee table retrieved (July 2025 notification) shows Tk 11,000 for new candidates and Tk 10,000 for reseat. The board's sweep read Tk 6,000 in the Jan 2027 notice, so confirm the figure in the session notification before paying. You need an up-to-date BM&DC registration certificate uploaded with the application.",
    "cur": "BDT",
    "amt": 11000,
    "check": "BCPS notifications and the online registration guide on exams.bcps.edu.bd were checked on 3 Nov 2026; the fee comes from the July 2025 table, and the Jan 2027 fee needs confirming."
@@ -1170,7 +1170,7 @@
    "portal_url": "https://www.nhra.bh",
    "kind": "paid",
    "fee": "BD 20 + BD 50 (Bahrain)",
-   "fee_note": "Bahrain: licence-application fee BD 20 plus licensure exam BD 50, then a new licence fee of BD 60, 80 or 100 by grade. Kuwait: KD 20 for government-sector licence issuance. Oman: fee NOT FOUND. All three also need credential verification, a sponsor and a work visa.",
+   "fee_note": "Bahrain: licence-application fee BD 20 plus licensure exam BD 50, then a new licence fee of BD 60, 80 or 100 by grade. Kuwait: KD 20 for government-sector licence issuance. Oman: fee NOT FOUND. Oman and Bahrain need DataFlow credential verification, and all three need an employer sponsor and a work visa.",
    "cur": "BHD",
    "amt": 70,
    "check": "NHRA Bahrain Decision 17 of 2016 and Kuwait's e.gov.kw MOH service page were checked on 3 Nov 2026; Oman's practitioner fees are NOT FOUND on official pages."

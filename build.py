@@ -246,7 +246,7 @@ def card(p):
     ap = APPLY.get(p["id"])
     has_story = p["id"] in STORIES
     apply_html = ""
-    if ap:
+    if ap and ap.get("portal_url"):
         apply_html = (
             f'<div class="apply"><p class="fee {FEE_CLS[ap["kind"]]}"><span class="fee-k">Application fee</span>'
             f'<strong><span class="fee-i" aria-hidden="true">{FEE_ICON[ap["kind"]]}</span> {e(ap["fee"])}</strong></p>'
@@ -367,7 +367,7 @@ def story_html(pid, st):
     closes = e(fmt(p["d"])) if p.get("d") else ("Closed" if st["tone"] == "bad" else "Rolling")
     portal_btn = (
         f'<a class="board-btn" href="{e(ap["portal_url"])}" target="_blank" rel="noopener">Board now<span class="sr">: open the application portal for {e(p["name"])} (opens in a new tab)</span> <span aria-hidden="true">↗</span></a>'
-        if ap else ""
+        if ap and ap.get("portal_url") else ""
     )
     od = ODDS.get(pid)
     odds_html = ""
@@ -387,9 +387,11 @@ def story_html(pid, st):
         )
     box = ""
     if ap:
+        plink = (f'<a href="{e(ap["portal_url"])}" target="_blank" rel="noopener">{e(ap["portal_label"])} <span aria-hidden="true">↗</span><span class="sr"> (opens in a new tab)</span></a>'
+                 if ap.get("portal_url") else e(ap["portal_label"]))
         box = (
             f'<div class="howto"><h3>Before you board</h3><p class="howto-portal"><span class="fx-k">Portal</span>'
-            f'<a href="{e(ap["portal_url"])}" target="_blank" rel="noopener">{e(ap["portal_label"])} <span aria-hidden="true">↗</span><span class="sr"> (opens in a new tab)</span></a></p>'
+            f'{plink}</p>'
             f'<p>{e(ap["fee_note"])}</p><p class="howto-check"><strong>How this was checked:</strong> {e(ap["check"])}</p></div>'
         )
     return f'''<article class="story" id="{sid}" role="dialog" aria-modal="true" aria-labelledby="st-{e(pid)}" tabindex="-1" data-tone="{st["tone"]}">
@@ -441,7 +443,7 @@ def story_html(pid, st):
 stories_html = "\n".join(story_html(k, v) for k, v in STORIES.items() if k in PBYID)
 
 desk_ids = sorted(
-    [k for k in APPLY if k in PBYID],
+    [k for k in APPLY if k in PBYID and APPLY[k].get("portal_url")],
     key=lambda k: ((PBYID[k].get("d") or "9999"), PBYID[k]["rank"]),
 )
 desk_rows = []
