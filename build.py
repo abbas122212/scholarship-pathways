@@ -364,7 +364,7 @@ def story_html(pid, st):
         else:
             fixes.append(f'<li>{lab}<div class="fx-row fx-solo"><p class="fx-now"><span class="fx-k">Fact-check note</span>{rich(now)}</p></div></li>')
     fee = e(ap["fee"]) if ap else "—"
-    closes = e(fmt(p["d"])) if p.get("d") else "Rolling"
+    closes = e(fmt(p["d"])) if p.get("d") else ("Closed" if st["tone"] == "bad" else "Rolling")
     portal_btn = (
         f'<a class="board-btn" href="{e(ap["portal_url"])}" target="_blank" rel="noopener">Board now<span class="sr">: open the application portal for {e(p["name"])} (opens in a new tab)</span> <span aria-hidden="true">↗</span></a>'
         if ap else ""
