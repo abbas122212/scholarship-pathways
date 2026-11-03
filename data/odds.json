@@ -689,7 +689,7 @@
    },
    "why": "Score measures the chance of a paid NIH fellowship. It is very competitive, you have no research record, and it is unconfirmed that your MBBS meets the doctoral requirement.",
    "raise": [
-    "Email DIS@mail.nih.gov to confirm MBBS eligibility",
+    "Ask NIH's Division of International Services to confirm MBBS eligibility",
     "Build a short research record from the internship",
     "Target labs whose recent papers match your epidemiology interests"
    ]
@@ -750,7 +750,7 @@
    "why": "Score measures the chance of a funded place. MBBS is explicitly eligible and the subject fits, but only 25 places exist, the 2027 deadline is unpublished and Sept 2027 clashes with the internship.",
    "raise": [
     "Book IELTS or TOEFL now",
-    "Check hygieiamaster.eu again in late November",
+    "Check hygieiamaster.eu regularly for the 2027 dates",
     "Prepare a motivation letter linking prevention and lifespan health to your internship"
    ]
   },
@@ -777,7 +777,7 @@
     "profile": 1,
     "timing": 2
    },
-   "why": "Score measures the chance of a funded place. You are eligible by age and degree and the April 2028 arrival fits, but selection runs through a national exam and interview.",
+   "why": "Score measures the chance of a funded place. You likely meet the age and degree rules and the April 2028 arrival fits, but selection runs through a national exam and interview.",
    "raise": [
     "Write a research plan in public health or epidemiology by March 2027",
     "Watch moedu.gov.bd in April 2027 for the advert",
@@ -837,10 +837,10 @@
     "profile": 1,
     "timing": 0
    },
-   "why": "Score measures the chance of a funded doctoral place. A supervisor must already agree, the call is open only weeks, and the October 2027 start clashes with the internship.",
+   "why": "Score measures the chance of a funded doctoral place. A supervisor must already agree, the call normally runs only Nov-Dec, and the October 2027 start clashes with the internship.",
    "raise": [
     "Email prospective supervisors at Hamamatsu this week",
-    "Ask about an April 2028 start",
+    "Ask whether a later start than October 2027 is possible",
     "Prepare English proof at CEFR B2 across all four skills"
    ]
   },
@@ -901,7 +901,7 @@
    "raise": [
     "Watch bpsc.gov.bd for the 52nd BCS circular",
     "Keep your temporary BMDC registration paperwork ready",
-    "Check the age limit (21-32 on the circular date) against future dates"
+    "Check the age limit (21-32 on 1 September 2026) against future dates"
    ]
   },
   "turk": {
@@ -927,7 +927,7 @@
     "profile": 0,
     "timing": 0
    },
-   "why": "This is a licence, not an award, so the score is your chance of completing the step this cycle. You cannot start until the internship certificate exists (late 2027), and it needs an employer to approve the evaluation.",
+   "why": "This is a licence, not an award, so the score is your chance of completing the step this cycle. Eligibility before the internship certificate (late 2027) is unconfirmed, and it needs an employer to approve the evaluation.",
    "raise": [
     "Keep internship and BMDC papers clean and ready for verification",
     "Ask Qatar-based contacts what DHP currently asks for fresh graduates",
@@ -1002,7 +1002,7 @@
     "profile": 1,
     "timing": 1
    },
-   "why": "A licensing route, so the score is your chance of completing registration this cycle. You need the PRES route (or PLAB 2) and your internship papers, and you cannot register before the internship ends.",
+   "why": "A licensing route, so the score is your chance of completing registration this cycle. You need the PRES route (or PLAB 2) and your internship papers, and registration timing before the internship ends is unconfirmed.",
    "raise": [
     "Check the internship rotation record against the Council's rules",
     "Consider PLAB as the cheaper route to a PRES exemption",
@@ -1049,7 +1049,7 @@
    },
    "why": "The PhD application is due 9 Nov 2026, six days away, there are only a few awards in the college, and you have no master's or papers. A Sept 2027 start also clashes with your internship.",
    "raise": [
-    "Email a Usher Institute supervisor this week if you still want to try",
+    "Email an Edinburgh supervisor this week if you still want to try",
     "Aim for the 2028-29 round with a stronger paper record",
     "Keep the 2 Feb 2027 scholarship deadline in mind only if admission is submitted"
    ]
@@ -1062,7 +1062,7 @@
     "profile": 0,
     "timing": 1
    },
-   "why": "Paid research posts exist, but entry roles usually ask for stats skills or papers and many ask for prior experience. The score is the chance of a paid post this cycle; you have no outputs yet.",
+   "why": "Paid research posts exist, but entry roles may ask for stats skills, papers or prior experience. The score is the chance of a paid post this cycle; you have no outputs yet.",
    "raise": [
     "Learn R or Stata and show a small public analysis",
     "Aim for one case report or audit during the internship",
@@ -1109,7 +1109,7 @@
    },
    "why": "The PhD needs a master's, so only the MS is realistic, and whether an MBBS counts is unconfirmed. Waivers are limited and an Aug 2027 start clashes with the internship.",
    "raise": [
-    "Email admissions.chls@hbku.edu.qa on whether an MBBS counts for the MS",
+    "Email HBKU CHLS admissions on whether an MBBS counts for the MS",
     "Check your marks against the 3.0 GPA line",
     "Book IELTS 6.5 before the 1 Feb 2027 deadline if you go ahead"
    ]
@@ -1224,7 +1224,7 @@
    },
    "why": "Score is the chance you can complete this step this cycle. The GP title expects post-internship experience you do not have, so it is not open to you now.",
    "raise": [
-    "Complete internship and one to two years of experience first.",
+    "Complete internship and the post-internship experience the PQR asks for.",
     "Re-check the unified PQR text before paying DataFlow."
    ]
   },
@@ -1292,7 +1292,7 @@
     "profile": 1,
     "timing": 0
    },
-   "why": "Score is the chance of a funded fellowship this cycle. The 2027-28 deadlines have passed and Bangladesh is not at the sites seen, so only a later cycle is realistic.",
+   "why": "Score is the chance of a funded fellowship this cycle. The 2027-28 deadlines are reported as passed and Bangladesh was not at the sites the board checked (neither confirmed on the Fogarty page), so only a later cycle is realistic.",
    "raise": [
     "Check each consortium's site list in mid-2027.",
     "Build a research link at a local partner institution."
@@ -1320,7 +1320,7 @@
     "profile": 2,
     "timing": 1
    },
-   "why": "Score is the chance of a paid post. Entry-level doctor roles exist, but you are mid-internship with no field experience and many posts ask for it.",
+   "why": "Score is the chance of a paid post. Requirements vary by vacancy, and you are mid-internship with no field experience and many posts ask for it.",
    "raise": [
     "Complete the internship and register with BMDC.",
     "Do any short outbreak or camp-clinic volunteering for field credit.",
@@ -1363,7 +1363,7 @@
     "profile": 1,
     "timing": 1
    },
-   "why": "Score is the chance of a placement. Being on the roster is likely, but a matched placement that fits your internship is not.",
+   "why": "Score is the chance of a placement. Joining the roster is plausible, but a matched placement that fits your internship is not.",
    "raise": [
     "Confirm the live closing date and submit before it.",
     "Ask the Dhaka office about remote or country-office posts."
@@ -1526,7 +1526,7 @@
     "profile": 2,
     "timing": 1
    },
-   "why": "Score measures the chance of a funded MAECI place. Bangladesh is eligible and there is no work-experience rule, but the call is merit-ranked and the autumn 2027 start clashes with the internship.",
+   "why": "Score measures the chance of a funded MAECI place. Selection is by citizenship against a portal list and is merit-ranked; the 2027-28 call is not out and an autumn 2027 start clashes with the internship.",
    "raise": [
     "Check the portal from February 2027",
     "Verify your birth date against the age 28 cap",
@@ -1556,7 +1556,7 @@
     "profile": 1,
     "timing": 1
    },
-   "why": "Score measures the chance you can start and pay for this programme this cycle. Places do not look scarce, but you need USMLE scores first and the fee is unpublished.",
+   "why": "Score measures the chance you can start and pay for this programme this cycle. Applications are accepted on an ongoing basis, but you need USMLE scores first and the fee is unpublished.",
    "raise": [
     "Email impinfo@gwu.edu for the fee and visa details",
     "Finish Step 1 before applying",
@@ -1586,11 +1586,11 @@
     "profile": 2,
     "timing": 1
    },
-   "why": "Score measures the chance you can book and complete a US observership on your budget. Hospitals take international observers, but some exclude future applicants, the letters are weak and the visa bond adds risk.",
+   "why": "Score measures the chance you can book and complete a US observership on your budget. Hospitals take international observers, but some exclude future applicants and the letters are weak.",
    "raise": [
     "Wait for Step 1 and book directly with a hospital",
     "Ask each site in writing about a letter of recommendation",
-    "Budget for the possible visa bond"
+    "Check the current US visa rules before booking"
    ]
   },
   "brunei": {
@@ -1798,7 +1798,7 @@
    },
    "why": "Measures the chance of a paid international post this cycle. Field roles typically need relevant experience that a new graduate does not have, so this is not open to you.",
    "raise": [
-    "Build 2+ years of clinical experience first",
+    "Build relevant clinical experience first",
     "Follow MSF recruitment pages at the right time",
     "Look at national-staff posts only after the internship"
    ]
@@ -1813,7 +1813,7 @@
    },
    "why": "Measures the chance of a paid post abroad. CRA posts usually want experience and sponsorship is employer-specific, so a new graduate has a thin chance of landing one this cycle.",
    "raise": [
-    "Get a free GCP course certificate",
+    "Get a GCP course certificate",
     "Target entry-level pharmacovigilance roles",
     "Read each posting's visa rule before applying"
    ]
@@ -1856,7 +1856,7 @@
     "profile": 0,
     "timing": 0
    },
-   "why": "Measures the chance you can actually complete a self-funded UK master's on your budget. Admission is easy to get, but total cost is far above USD 30,000, so it is effectively out of reach.",
+   "why": "Measures the chance you can actually complete a self-funded UK master's on your budget. Admission depends on the course, and total cost is likely far above USD 30,000 (no course fee verified), so it is effectively out of reach.",
    "raise": [
     "Only consider with a scholarship or family funding",
     "Ask your target course for its real total cost",
@@ -1871,7 +1871,7 @@
     "profile": 0,
     "timing": 1
    },
-   "why": "Measures the chance of a funded research place. The late-2027 round has closed, you have no publications or supervisor, and competition is steep.",
+   "why": "Measures the chance of a funded research place. A reported 19 Oct 2026 round close is unconfirmed, you have no publications or supervisor, and competition is steep.",
    "raise": [
     "Publish at least one paper or case report",
     "Email UQ supervisors early with a short proposal",
