@@ -86,22 +86,21 @@
    "portal_url": "https://sophas.liaisoncas.com",
    "kind": "paid",
    "fee": "$155 first · $65 each extra",
-   "fee_note": "SOPHAS charges $155 for the first programme and $65 for each additional one, so Hopkins + Emory together cost $220, not $310. A limited number of fee waivers exist and must be requested before you submit. The same fees apply to Harvard Chan.",
+   "fee_note": "SOPHAS charges $155 for the first programme and $65 for each additional one. A limited number of fee waivers exist: you must be a citizen of and currently reside in a UN Least Developed Country (Bangladesh is listed), request it before you submit, and submit within 14 days; it covers the $155 first programme only. A credential evaluation is also required: WES ICAP course-by-course at $239 (an $80 coupon is available on the waiver form for a first WES order) or ECE sent directly to Hopkins; ECFMG is not accepted. Emory does not share this fee, because its PhD runs through the Laney Graduate School, not SOPHAS.",
    "cur": "USD",
    "amt": 155,
    "bundle": "sophas",
-   "check": "Fee amounts confirmed on Liaison's SOPHAS help centre; Bloomberg's own FAQ confirms PhD applicants use SOPHAS (2 Nov 2026)."
+   "check": "Fee amounts confirmed on Liaison's SOPHAS help centre; Bloomberg's how-to-apply and international-applicant pages and the WES fee page (9 Nov 2026)."
   },
   "emory-phd": {
-   "portal_label": "SOPHAS",
-   "portal_url": "https://sophas.liaisoncas.com",
+   "portal_label": "Laney Graduate School application (LaneyConnect), not SOPHAS",
+   "portal_url": "https://gs.emory.edu/admissions/requirements.html",
    "kind": "paid",
-   "fee": "$155 first · $65 each extra",
-   "fee_note": "All Rollins applications run through SOPHAS. If Hopkins is your first designation, Emory adds only the $65 extra-programme charge.",
+   "fee": "$75",
+   "fee_note": "The Laney Graduate School application fee is $75, and the Rollins how-to-apply page also states $75 for the PhD. Your notes say fee waivers exist; that was not confirmed on the pages checked. The PhD does not run through SOPHAS, so it does not share the Hopkins fee. Credential evaluation is not mandatory for Laney, but the Rollins general page says international applicants must use WES, so ask Epidemiology admissions.",
    "cur": "USD",
-   "amt": 155,
-   "bundle": "sophas",
-   "check": "Fee amounts confirmed on Liaison's SOPHAS help centre (2 Nov 2026)."
+   "amt": 75,
+   "check": "Emory Laney requirements page, Rollins PhD Epidemiology and how-to-apply pages, 9 Nov 2026; fee waiver not confirmed."
   },
   "singa": {
    "portal_label": "A*STAR Scholarship Application System",
@@ -234,15 +233,15 @@
    "check": "Deadline conflict resolved: the official IMIM homepage says 'The deadline to submit your application is 04 January 2027' (Groningen's page still shows last year's 5 January)."
   },
   "emory-mph": {
-   "portal_label": "SOPHAS",
-   "portal_url": "https://sophas.liaisoncas.com",
+   "portal_label": "SOPHAS, via the Emory Rollins admissions FAQ",
+   "portal_url": "https://sph.emory.edu/admissions/faq",
    "kind": "paid",
    "fee": "$155 first · $65 each extra",
-   "fee_note": "The 5 Jan 2027 priority deadline means the application must be complete AND verified by SOPHAS by then; verification can take up to 10 business days, so submit in mid-December.",
+   "fee_note": "The 5 Jan 2027 priority deadline means the application must be complete AND verified by SOPHAS by then; verification can take up to 10 business days, so submit in mid-December. Emory urges international applicants to submit by 1 May 2027 at the latest. The $75 Emory fee on its pages is for the PhD, not this MPH.",
    "cur": "USD",
    "amt": 155,
    "bundle": "sophas",
-   "check": "SOPHAS fees confirmed on Liaison's help centre (2 Nov 2026)."
+   "check": "SOPHAS fees confirmed on Liaison's help centre; Emory dates and funding re-checked on sph.emory.edu pages on 9 Nov 2026."
   },
   "eiffel": {
    "portal_label": "No student portal: a French institution nominates you",
@@ -345,15 +344,15 @@
    "check": "Route from Study in Flanders via the board and Muse. The 2027–28 terms are under review."
   },
   "columbia-mph": {
-   "portal_label": "SOPHAS",
-   "portal_url": "https://sophas.liaisoncas.com",
+   "portal_label": "SOPHAS, via the Columbia Mailman deadlines page",
+   "portal_url": "https://www.publichealth.columbia.edu/become-student/how-apply/deadlines",
    "kind": "paid",
    "fee": "$155 first · $65 each extra",
-   "fee_note": "One SOPHAS application covers Columbia, Emory and the US PhDs: the first programme costs $155 and each extra $65.",
+   "fee_note": "One SOPHAS application covers Columbia, Emory and the US PhDs: the first programme costs $155 and each extra $65. Columbia's statement of purpose is limited to 500 words.",
    "cur": "USD",
    "amt": 155,
    "bundle": "sophas",
-   "check": "SOPHAS fees confirmed on Liaison's help centre (2 Nov 2026)."
+   "check": "SOPHAS fees confirmed on Liaison's help centre; Columbia deadlines and financial aid pages re-checked on 9 Nov 2026."
   },
   "si": {
    "portal_label": "University Admissions Sweden, then the SI portal",
@@ -996,14 +995,15 @@
    "check": "Checked the Cleveland Clinic GPS resources page and the 2026-27 call PDF on 3 Nov 2026; the 2026-27 round closed 31 Jan 2026 and the next closing date was NOT FOUND."
   },
   "sakib": {
-   "portal_label": "SOPHAS (MPH programmes); US research jobs have no central portal",
-   "portal_url": "https://sophas.liaisoncas.com",
+   "portal_label": "SOPHAS help centre: fee waiver page (MPH programmes apply via SOPHAS; US research jobs have no central portal)",
+   "portal_url": "https://help.liaisonedu.com/SOPHAS_Applicant_Help_Center/Starting_Your_SOPHAS_Application/Getting_Started_with_Your_SOPHAS_Application/03_Application_Fees",
    "kind": "paid",
-   "fee": "$155 + $65 each extra",
-   "fee_note": "SOPHAS charges $155 for the first programme and $65 for each extra one, and some programmes add a supplemental fee. A limited number of waivers go to citizens and residents of UN Least Developed Countries (Bangladesh is on the list), first come first served, covering only the first $155. Job applications carry no standard fee.",
+   "fee": "$155 first · $65 each extra",
+   "fee_note": "SOPHAS charges $155 for the first programme and $65 for each extra one, and some programmes add a supplemental fee (e.g. UIC $80). Bangladesh is on the UN Least Developed Countries list, so a citizen who lives there can request a fee waiver in the application: request it BEFORE you submit, you must submit within 14 days of approval (no extension), and it covers only the first $155. The same form offers an $80 coupon off the WES evaluation (first order only). Processing takes up to 10 business days; call 617-612-2090 to check that waiver funds are left. Job applications carry no standard fee.",
    "cur": "USD",
    "amt": 155,
-   "check": "Checked the SOPHAS fees and waivers page (Liaison help centre) on 3 Nov 2026; no single scheme deadline exists, each programme sets its own."
+   "bundle": "sophas",
+   "check": "SOPHAS fees and waiver page re-read on 9 Nov 2026; F-1 rules checked on the DHS Study in the States pages."
   },
   "remote": {
    "portal_label": "No portal: apply job by job on each employer's own careers page",
@@ -1237,13 +1237,13 @@
   },
   "gsu-mph": {
    "portal_label": "SOPHAS, then Georgia State Graduate Supplemental",
-   "portal_url": "https://sophas.cas.myliaison.com/",
+   "portal_url": "https://publichealth.gsu.edu/academics-admissions/georgia-state-mph-program/mph-application-process/",
    "kind": "paid",
    "fee": "$155 + $50",
-   "fee_note": "Two steps: SOPHAS ($155 for the first programme, $65 each extra) and the Georgia State Graduate Supplemental application at gradapply.gsu.edu ($50, non-refundable). Foreign credentials need a WES evaluation. The GRE is not required.",
+   "fee_note": "Two steps: SOPHAS ($155 for the first programme, $65 each extra) and the Georgia State Graduate Supplemental application at gradapply.gsu.edu ($50, non-refundable). Foreign credentials need a WES evaluation. The GRE is not required. Use the application-process page above to reach both.",
    "cur": "USD",
    "amt": 205,
-   "check": "SOPHAS help centre, GSU's graduate deadlines page, catalog and funding page were checked on 3 Nov 2026."
+   "check": "SOPHAS help centre, GSU's graduate deadlines page, catalog and funding page were checked on 3 Nov 2026; dates, funding and cost figures re-checked on 9 Nov 2026."
   },
   "glasgow-great": {
    "portal_label": "University of Glasgow GREAT Scholarships 2027 page (apply for the course first)",
@@ -1494,6 +1494,216 @@
    "cur": "USD",
    "amt": 0,
    "check": "Checked the ECFMG 2026 Information Booklet and the WFME accreditor list on 3 Nov 2026."
+  },
+  "mrc-nwdms": {
+   "portal_label": "University of Manchester application portal (link on the programme page)",
+   "portal_url": "https://pgapplication.manchester.ac.uk/psc/apply/EMPLOYEE/SA/s/WEBLIB_ONL_ADM.CIBAA_LOGIN_BT.FieldFormula.IScript_Direct_Login?Key=UMANC1271000011039F",
+   "kind": "unk",
+   "fee": "Not found",
+   "fee_note": "No application fee is stated on the programme page or the pages read, so check inside the portal before assuming it is free. In the portal choose Postgraduate Research, entry year 2027/28, intake September (the studentship itself begins October 2027), funding Research Council / MRC PhD Studentship / Awarded / Fully Funded, and name the main supervisor only. Each of your up to two projects is a separate application.",
+   "cur": "GBP",
+   "amt": 0,
+   "check": "University of Manchester MRC NW-DMS programme page and the Faculty of Biology, Medicine and Health PhD pages, 9 Nov 2026; application fee NOT FOUND."
+  },
+  "yale-phd": {
+   "portal_label": "Yale GSAS PhD/Master's application (not SOPHAS)",
+   "portal_url": "https://apply.grad.yale.edu/apply",
+   "kind": "paid",
+   "fee": "$105",
+   "fee_note": "The fee is $105 for all degree-seeking applicants. US citizens, permanent residents and non-US citizens can all request a fee waiver. Yale's PhD in Public Health does not use SOPHAS (that is for the Yale MPH). Letters do not have to arrive before you submit, but programmes begin reviewing soon after the deadline.",
+   "cur": "USD",
+   "amt": 105,
+   "check": "Yale GSAS fee and deadline pages and the YSPH PhD page, 9 Nov 2026."
+  },
+  "pitt-ibgp": {
+   "portal_label": "University of Pittsburgh graduate biomedical application",
+   "portal_url": "https://learn.hs.pitt.edu/portal/gr_app",
+   "kind": "paid",
+   "fee": "$50",
+   "fee_note": "The $50 fee is non-refundable and due before your application is processed. Your notes say need-based waivers exist, but this was not found on the official pages read. Transcripts and a personal statement go in the application; a CV is not listed as required.",
+   "cur": "USD",
+   "amt": 50,
+   "check": "Pittsburgh graduate biomedical admissions, requirements and FAQ pages, 9 Nov 2026; fee waiver and CV requirement not confirmed."
+  },
+  "jhu-gdec": {
+   "portal_label": "SOPHAS (Bloomberg School PhD)",
+   "portal_url": "https://sophas.liaisoncas.com",
+   "kind": "paid",
+   "fee": "$155 first · $65 each extra",
+   "fee_note": "SOPHAS charges $155 for the first programme and $65 for each additional one. A waiver is possible only if you are a citizen of and currently reside in a UN Least Developed Country (Bangladesh is listed); request it before you submit, expect up to 10 business days, and submit within 14 days of approval. The waiver covers the $155 first programme only. Extra costs: the GRE sitting and score reports, and WES ICAP course-by-course at $239 (or ECE) for the credential evaluation.",
+   "cur": "USD",
+   "amt": 155,
+   "bundle": "sophas",
+   "check": "Hopkins Bloomberg School programme page, SOPHAS help centre fee page and WES fee page, 9 Nov 2026; GRE sitting cost and score-delivery time not checked."
+  },
+  "groningen-ebf": {
+   "portal_label": "No fellowship application: apply to the Master's (fellowship page)",
+   "portal_url": "https://www.rug.nl/education/scholarships/eric-bleumink-fellowship?lang=en",
+   "kind": "paid",
+   "fee": "EUR 100",
+   "fee_note": "The fellowship has no application. The EUR 100 is the non-refundable Groningen application fee for applicants with a non-Dutch diploma, paid once per academic year, and the Admissions Office cannot review your file until it is received. Complete the Master's application before 1 Dec 2026 so an admission offer exists before February. Do not contact the fellowship with an application: suitable candidates are told of a nomination.",
+   "cur": "EUR",
+   "amt": 100,
+   "check": "University of Groningen fellowship page, the Eric Bleumink Fellowship Rules and Regulations PDF (updated Nov 2024) and the non-Dutch-qualification fee page, 9 Nov 2026."
+  },
+  "doha-tamim": {
+   "portal_label": "Doha Institute admissions (apply for admission first)",
+   "portal_url": "https://www.dohainstitute.edu.qa/en/Admissions-Office/Pages/Scholarships.aspx",
+   "kind": "unk",
+   "fee": "Not confirmed",
+   "fee_note": "Apply for admission for 2027-28 through the Institute's admissions system. The scholarship is a second step: admitted students are contacted and invited to apply. An application fee was not confirmed on the official page, so check before you pay.",
+   "cur": "USD",
+   "amt": 0,
+   "check": "Scholarships page on dohainstitute.edu.qa read on 9 Nov 2026; stipend amount and application fee not published there."
+  },
+  "mccall-macbain": {
+   "portal_label": "McCall MacBain Scholarships application",
+   "portal_url": "https://mccallmacbainscholars.org/apply/",
+   "kind": "unk",
+   "fee": "Not confirmed",
+   "fee_note": "The 2027 cohort window is closed. When the next cycle opens, apply through the portal on the scholarship site and also meet McGill's own admission requirements. An application fee was not confirmed on the official page.",
+   "cur": "CAD",
+   "amt": 0,
+   "check": "apply page on mccallmacbainscholars.org read on 9 Nov 2026; it states applications for Summer/Fall 2027 are closed. Fee and 2028 dates not published."
+  },
+  "deakin-rtp": {
+   "portal_label": "Deakin RTP and DUPRS scholarship page",
+   "portal_url": "https://www.deakin.edu.au/study/fees-and-scholarships/scholarships/find-a-scholarship/rtp-and-duprs",
+   "kind": "unk",
+   "fee": "Not confirmed",
+   "fee_note": "The 2027 rounds are closed (international 23 Aug 2026, domestic 25 Oct 2026). You apply for a research degree place and the scholarship together when the next round opens. An application fee was not confirmed on the page checked.",
+   "cur": "AUD",
+   "amt": 0,
+   "check": "RTP and DUPRS page on deakin.edu.au read on 9 Nov 2026; both 2027 rounds are shown as closed, and 2028 round dates are not yet published."
+  },
+  "radboud-rsp": {
+   "portal_label": "Radboud OSIRIS Application (admission and scholarship)",
+   "portal_url": "https://www.ru.nl/en/education/scholarships/radboud-scholarship-programme",
+   "kind": "unk",
+   "fee": "Not confirmed",
+   "fee_note": "Apply for an English-taught master's and request the scholarship in OSIRIS. Submit by 31 Jan 2027 23:59 CET and complete by 14 Feb 2027 23:59 CET, with two reference letters and a CV. An application fee was not confirmed on the page checked. The NL Scholarship page is ru.nl/en/education/scholarships/nl-scholarship-for-prospective-students.",
+   "cur": "EUR",
+   "amt": 0,
+   "check": "Radboud Scholarship Programme and NL Scholarship pages on ru.nl read on 9 Nov 2026; the NLS page still carries some stale 2026 wording in its conditions list. Application fee not found."
+  },
+  "twente-uts": {
+   "portal_label": "University of Twente Scholarship form",
+   "portal_url": "https://www.utwente.nl/en/education/scholarship-finder/university-of-twente-scholarship",
+   "kind": "unk",
+   "fee": "Not confirmed",
+   "fee_note": "You must be admitted to a Twente master's first, then complete the scholarship form (open 15 Oct 2026 09:00 CET to 1 Apr 2027 16:00 CET). An application fee was not confirmed on the page checked.",
+   "cur": "EUR",
+   "amt": 0,
+   "check": "Scholarship page on utwente.nl read on 9 Nov 2026; amount, dates and eligibility confirmed there, fee not found."
+  },
+  "kfupm": {
+   "portal_label": "KFUPM Graduate Studies scholarship page",
+   "portal_url": "https://cgis.kfupm.edu.sa/admission/kfupm-scholarship",
+   "kind": "unk",
+   "fee": "Not confirmed",
+   "fee_note": "Thesis-based and PhD applications go through the Nabegh portal on the KFUPM Graduate Studies site. No application fee or thesis/PhD deadline was found on the official pages.",
+   "cur": "SAR",
+   "amt": 0,
+   "check": "KFUPM scholarship and admission-requirements pages on cgis.kfupm.edu.sa read on 9 Nov 2026; stipend amounts and thesis/PhD deadline not published there."
+  },
+  "bu-mph": {
+   "portal_label": "SOPHAS, via the BU SPH MPH apply page",
+   "portal_url": "https://www.bu.edu/sph/admissions/applying/master-of-public-health/",
+   "fee_note": "SOPHAS charges $155 for the first programme and $65 for each extra one; one set of transcripts and one WES evaluation serve every programme. If you use the Bangladesh LDC fee waiver (request it before you submit, 14-day clock), it covers only the first $155. No BU-specific supplemental fee was found on the page checked.",
+   "check": "Checked on 9 Nov 2026 against the school's own page, the SOPHAS fees page and the notes. BU lists transcripts or a WES ICAP evaluation.",
+   "kind": "paid",
+   "fee": "$155 first · $65 each extra",
+   "cur": "USD",
+   "amt": 155,
+   "bundle": "sophas"
+  },
+  "gw-mph": {
+   "portal_label": "SOPHAS, via the GW Milken graduate admissions page",
+   "portal_url": "https://publichealth.gwu.edu/admissions/graduate-admissions",
+   "fee_note": "SOPHAS charges $155 for the first programme and $65 for each extra one; one set of transcripts and one WES evaluation serve every programme. If you use the Bangladesh LDC fee waiver (request it before you submit, 14-day clock), it covers only the first $155. GW also asks for a supplemental form for scholarship review; its fee, if any, was not confirmed.",
+   "check": "Checked on 9 Nov 2026 against the school's own page, the SOPHAS fees page and the notes. The GW funding page retrieved referred to the 15 Jan 2026 cycle.",
+   "kind": "paid",
+   "fee": "$155 first · $65 each extra",
+   "cur": "USD",
+   "amt": 155,
+   "bundle": "sophas"
+  },
+  "drexel-mph": {
+   "portal_label": "SOPHAS, via the Drexel Dornsife application deadlines page",
+   "portal_url": "https://drexel.edu/dornsife/admissions/apply/application-deadlines/",
+   "fee_note": "SOPHAS charges $155 for the first programme and $65 for each extra one; one set of transcripts and one WES evaluation serve every programme. If you use the Bangladesh LDC fee waiver (request it before you submit, 14-day clock), it covers only the first $155. Tick your interest in the Dornsife Fellowship inside SOPHAS. No Drexel supplemental fee was found.",
+   "check": "Checked on 9 Nov 2026 against the school's own page, the SOPHAS fees page and the notes. The '>95% receive scholarships' claim was not confirmed.",
+   "kind": "paid",
+   "fee": "$155 first · $65 each extra",
+   "cur": "USD",
+   "amt": 155,
+   "bundle": "sophas"
+  },
+  "tulane-mph": {
+   "portal_label": "SOPHAS, via the Tulane SPH&TM how-to-apply page",
+   "portal_url": "https://sph.tulane.edu/how-apply-sphtm",
+   "fee_note": "SOPHAS charges $155 for the first programme and $65 for each extra one; one set of transcripts and one WES evaluation serve every programme. If you use the Bangladesh LDC fee waiver (request it before you submit, 14-day clock), it covers only the first $155. Tulane requires a course-by-course evaluation of international coursework; the notes name WES, ECE or TEC and sending it to Tulane too, which was not confirmed.",
+   "check": "Checked on 9 Nov 2026 against the school's own page, the SOPHAS fees page and the notes. The MPH-specific deadline row and evaluator names were not separately confirmed.",
+   "kind": "paid",
+   "fee": "$155 first · $65 each extra",
+   "cur": "USD",
+   "amt": 155,
+   "bundle": "sophas"
+  },
+  "usf-mph": {
+   "portal_label": "SOPHAS plus the USF graduate application, via the USF CoPH requirements page",
+   "portal_url": "https://health.usf.edu/publichealth/apply/graduate-resources/graduate-application-requirements-process",
+   "fee_note": "SOPHAS charges $155 for the first programme and $65 for each extra one; one set of transcripts and one WES evaluation serve every programme. If you use the Bangladesh LDC fee waiver (request it before you submit, 14-day clock), it covers only the first $155. USF also requires University admission requirements; the USF fee amount was not confirmed, so check USF Office of Admissions.",
+   "check": "Checked on 9 Nov 2026 against the school's own page, the SOPHAS fees page and the notes. USF's fee amount and WES ICAP requirement were not confirmed.",
+   "kind": "paid",
+   "fee": "$155 first · $65 each extra",
+   "cur": "USD",
+   "amt": 155,
+   "bundle": "sophas"
+  },
+  "uic-mph": {
+   "portal_label": "SOPHAS plus the UIC supplemental application, via the UIC SPH deadlines page",
+   "portal_url": "https://publichealth.uic.edu/admissions-aid/degrees-deadlines/masters-programs-application-deadlines/",
+   "fee": "$155 first · $65 each extra",
+   "fee_note": "SOPHAS charges $155 for the first programme and $65 for each extra one; one set of transcripts and one WES evaluation serve every programme. If you use the Bangladesh LDC fee waiver (request it before you submit, 14-day clock), it covers only the first $155. On top comes the UIC supplemental application fee: $80 on the current MPH/MS page, while older UIC pages still say $70. Budget $80 and confirm in the supplemental form. The calculator figure counts only the SOPHAS $155.",
+   "check": "Checked on 9 Nov 2026 against the school's own page, the SOPHAS fees page and the notes. UIC pages conflict on the $80 versus $70 supplemental fee.",
+   "kind": "paid",
+   "cur": "USD",
+   "amt": 155,
+   "bundle": "sophas"
+  },
+  "uab-mph": {
+   "portal_label": "SOPHAS, via the UAB SOPH graduate apply page",
+   "portal_url": "https://www.uab.edu/soph/home/apply/graduate",
+   "fee_note": "SOPHAS charges $155 for the first programme and $65 for each extra one; one set of transcripts and one WES evaluation serve every programme. If you use the Bangladesh LDC fee waiver (request it before you submit, 14-day clock), it covers only the first $155. No UAB supplemental fee was found. The notes say a WES or ECE course-by-course evaluation is mandatory; this was not re-checked.",
+   "check": "Checked on 9 Nov 2026 against the school's own page, the SOPHAS fees page and the notes. The page carries no MPH funding statement and does not print the year.",
+   "kind": "paid",
+   "fee": "$155 first · $65 each extra",
+   "cur": "USD",
+   "amt": 155,
+   "bundle": "sophas"
+  },
+  "albany-mph": {
+   "portal_label": "SOPHAS, via the Albany CIHS MPH page",
+   "portal_url": "https://www.albany.edu/cihs/programs/mph-health-policy-and-management",
+   "fee_note": "SOPHAS charges $155 for the first programme and $65 for each extra one; one set of transcripts and one WES evaluation serve every programme. If you use the Bangladesh LDC fee waiver (request it before you submit, 14-day clock), it covers only the first $155. UAlbany's own page confirms that SOPHAS waivers cover the initial $155 fee. No Albany supplemental fee was found.",
+   "check": "Checked on 9 Nov 2026 against the school's own page, the SOPHAS fees page and the notes. The 1 Aug final deadline was not confirmed.",
+   "kind": "paid",
+   "fee": "$155 first · $65 each extra",
+   "cur": "USD",
+   "amt": 155,
+   "bundle": "sophas"
+  },
+  "brown-mph": {
+   "portal_label": "SOPHAS, via the Brown SPH application deadlines page",
+   "portal_url": "https://sph.brown.edu/admission-aid/application-deadlines",
+   "fee_note": "SOPHAS charges $155 for the first programme and $65 for each extra one; one set of transcripts and one WES evaluation serve every programme. If you use the Bangladesh LDC fee waiver (request it before you submit, 14-day clock), it covers only the first $155. A Brown-specific fee was not checked. SOPHAS verification can take up to 10 business days, so verification by 15 Dec means submitting in mid-November.",
+   "check": "Checked on 9 Nov 2026 against the school's own page, the SOPHAS fees page and the notes. Eligibility of an MBBS intern for the Accelerated MPH for Clinicians was not confirmed.",
+   "kind": "paid",
+   "fee": "$155 first · $65 each extra",
+   "cur": "USD",
+   "amt": 155,
+   "bundle": "sophas"
   }
  }
 }

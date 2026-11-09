@@ -603,6 +603,8 @@ html:has(.story:target){overflow:hidden}
 @media (max-width:760px){.okey{grid-template-columns:1fr}}
 @media print{.story{display:none!important}.desk-wrap{box-shadow:none}.calc-out{display:none}}
 
+.panel{min-width:0;overflow-wrap:anywhere}
+.pblk-b,.pk-sum,.ptl li,.plinks li{overflow-wrap:anywhere}
 /* ---------- application packs */
 .packs{display:grid;gap:28px}
 .pack{background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);box-shadow:var(--shadow);overflow:hidden}
@@ -792,7 +794,7 @@ html:has(.story:target){overflow:hidden}
     </div>
     <div class="desk-wrap">
       <table class="desk" id="desk">
-        <caption class="sr">Application portal and fee for each route closing before 1 February 2027</caption>
+        <caption class="sr">Application portal and fee for each route with an official portal</caption>
         <thead><tr><th scope="col">Closes</th><th scope="col">Route</th><th scope="col">Official portal</th><th scope="col">Fee</th><th scope="col">Odds</th><th scope="col">Story</th><th scope="col">Add</th></tr></thead>
         <tbody>
 {{DESK_ROWS}}
@@ -802,7 +804,7 @@ html:has(.story:target){overflow:hidden}
     <div class="calc-out" role="status" aria-live="polite" id="calcOut">
       <p class="calc-h">Estimated application fees</p>
       <p class="calc-v" id="calcV">Tick routes above to add them up.</p>
-      <p class="calc-n">Amounts are in each school's own currency. The first SOPHAS programme costs $155 and each extra one $65. Hopkins, Emory, the Emory MPH and Columbia all share one SOPHAS application. Several fees are waivable (Oxford for Bangladesh, SOPHAS on request, MBZUAI at 75%+), so treat this as a ceiling.</p>
+      <p class="calc-n">Amounts are in each school's own currency. The first SOPHAS programme costs $155 and each extra one $65. Hopkins PhDs, the MPH programmes (Emory, Columbia, Georgia State and the rest) all share one SOPHAS application. Emory's PhD does not: it uses Emory's own Laney application ($75), and Yale and Pittsburgh have their own portals too. UIC adds an $80 supplemental fee that the tick-box total does not include. Several fees are waivable (Oxford for Bangladesh, SOPHAS on request for Bangladesh as a least-developed country, MBZUAI at 75%+), so treat this as a ceiling.</p>
     </div>
   </div>
 </section>
@@ -816,7 +818,7 @@ html:has(.story:target){overflow:hidden}
     <ol class="oboard">{{ODDS_ROWS}}</ol>
     <div class="okey">
       <p><strong>How to read it.</strong> 0 means no funded route exists. 1–2 is a long shot: elite schemes with a few dozen awards, usually won by people with research records. 3 is an outside chance worth a strong application. Open any route for the four-factor breakdown and what would raise the score.</p>
-      <p><strong>The pattern.</strong> Nothing scores above 4 right now. The best odds are the government schemes where Bangladesh is a partner (Stipendium Hungaricum, CSC) and the health-focused Erasmus Mundus programmes. The biggest levers are the same everywhere: a class-rank certificate, one research output during the internship, and applying to intakes you can actually start (January 2028 or later).</p>
+      <p><strong>The pattern.</strong> No scholarship or PhD scores above 4. The best odds among scholarships are the government schemes where Bangladesh is a partner (Stipendium Hungaricum, CSC) and the health-focused Erasmus Mundus programmes. The higher scores (up to 6) belong to steps you largely control, such as ECFMG certification, PLAB and US observerships, where the score measures whether you can complete the step, not a competition. The biggest levers are the same everywhere: a class-rank certificate, one research output during the internship, and applying to intakes you can actually start (January 2028 or later).</p>
     </div>
   </div>
 </section>
@@ -840,7 +842,7 @@ html:has(.story:target){overflow:hidden}
     <div class="prep">
       <div class="panel">
         <h3>To-do</h3>
-        <p class="panel-sub" id="tickCount" aria-live="polite">0 of 12 done</p>
+        <p class="panel-sub" id="tickCount" aria-live="polite">0 of {{CHECK_N}} done</p>
         <div class="progress" aria-hidden="true"><i id="bar"></i></div>
         <ul class="check" id="checklist">{{CHECKLIST}}</ul>
       </div>
@@ -894,6 +896,9 @@ html:has(.story:target){overflow:hidden}
         <li><a href="data/board.json">Pathway Board data (JSON)</a></li>
         <li><a href="data/apply.json">Portals and fees (JSON)</a></li>
         <li><a href="data/stories.json">Story texts (JSON)</a></li>
+        <li><a href="data/packs.json">Application packs (JSON)</a></li>
+        <li><a href="sources/USA_Dec1_Application_Pack_2026-11-07.md">Source notes: USA 1 Dec pack</a> · <a href="sources/MRC_NorthWest_Application_Pack_2026-11-07.md">MRC pack</a> · <a href="sources/SOPHAS_MPH_SHORTLIST.md">SOPHAS shortlist</a> · <a href="sources/SOPHAS_COSTS_AND_WAIVER.md">SOPHAS costs</a></li>
+        <li><a href="sources/verification/2026-11-09_MRC_Yale_Pitt_Groningen.json">Web verification results, 9 Nov 2026</a></li>
         <li><a href="classic.html">Previous version of this site</a></li>
       </ul>
     </div>

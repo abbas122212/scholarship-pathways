@@ -619,6 +619,7 @@ page = (
     .replace("{{DESK_FREE}}", str(free_n))
     .replace("{{STORY_N}}", str(len([k for k in STORIES if k in PBYID])))
     .replace("{{PACKS}}", packs_html)
+    .replace("{{CHECK_N}}", str(len(guide["checklist"])))
     .replace("{{CHECKLIST}}", checklist)
     .replace("{{DOCS}}", docs)
     .replace("{{GATES}}", gates)
