@@ -427,7 +427,7 @@ def story_html(pid, st):
       <div class="story-main">
         <p class="verdict v-{st["tone"]}"><span class="v-i" aria-hidden="true"></span>{e(st["tag"])}</p>
         <p class="story-lede">{rich(st["lede"])}</p>
-        <p class="ai-note"><span aria-hidden="true">✦</span> Drafted by Gemini (an AI), then rewritten and fact-checked against official pages on 2–3 Nov 2026. Where they disagreed, the official page won.</p>
+        <p class="ai-note"><span aria-hidden="true">✦</span> {e(st["ai_note"]) if st.get("ai_note") else "Drafted by Gemini (an AI), then rewritten and fact-checked against official pages on 2–3 Nov 2026. Where they disagreed, the official page won."}</p>
         <ul class="gauges" aria-label="How it fits your goals">{"".join(gauge(k, v) for k, v in st["fit"].items())}</ul>
         {odds_html}
         {box}
