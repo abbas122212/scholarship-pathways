@@ -602,6 +602,40 @@ html:has(.story:target){overflow:hidden}
 .okey{display:grid;grid-template-columns:1fr 1fr;gap:20px;margin-top:20px;color:var(--ink2);font-size:.95rem}
 @media (max-width:760px){.okey{grid-template-columns:1fr}}
 @media print{.story{display:none!important}.desk-wrap{box-shadow:none}.calc-out{display:none}}
+
+/* ---------- application packs */
+.packs{display:grid;gap:28px}
+.pack{background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);box-shadow:var(--shadow);overflow:hidden}
+.pack-h{display:flex;flex-wrap:wrap;gap:16px 28px;justify-content:space-between;align-items:flex-start;padding:clamp(18px,3vw,30px);border-bottom:1px solid var(--line);background:var(--bg2)}
+.pack-h h3{font-size:clamp(1.5rem,3vw,2.1rem);margin-top:6px}
+.pk-sum{color:var(--ink2);margin-top:10px;max-width:70ch}
+.pk-chips{list-style:none;padding:0;margin:14px 0 0;display:flex;flex-wrap:wrap;gap:8px}
+.pk-chips li{font-size:.82rem;font-weight:600;padding:4px 12px;border-radius:999px;background:var(--accent-soft);color:var(--accent-2)}
+.pk-dl{display:grid;gap:2px;text-align:right;font-family:var(--f-mono)}
+.pk-dl span{font-size:.72rem;letter-spacing:.14em;text-transform:uppercase;color:var(--ink3)}
+.pk-dl strong{font-size:1.15rem}
+.pk-dl em{font-style:normal;color:var(--red);font-weight:600;font-size:.9rem}
+.pack-b{padding:clamp(8px,2vw,16px) clamp(14px,3vw,30px) clamp(14px,3vw,24px)}
+.pblk{border-bottom:1px solid var(--line)}
+.pblk:last-child{border-bottom:0}
+.pblk summary{cursor:pointer;list-style:none;padding:16px 0;font-weight:700;font-size:1.05rem;display:flex;justify-content:space-between;gap:12px}
+.pblk summary::-webkit-details-marker{display:none}
+.pblk summary::after{content:"+";font-family:var(--f-mono);color:var(--ink3);font-weight:500}
+.pblk[open] summary::after{content:"–"}
+.pblk-b{padding:0 0 20px;color:var(--ink2);display:grid;gap:12px}
+.pblk-b ul{margin:0;padding-left:1.2em;display:grid;gap:6px}
+.pblk-b strong{color:var(--ink)}
+.pnote{font-size:.92rem;color:var(--ink3);border-left:3px solid var(--line2);padding-left:12px}
+.ptable-wrap{overflow-x:auto}
+.ptable{border-collapse:collapse;width:100%;font-size:.92rem;min-width:640px}
+.ptable th,.ptable td{text-align:left;padding:10px 12px;border-bottom:1px solid var(--line);vertical-align:top}
+.ptable th{font-family:var(--f-mono);font-size:.72rem;letter-spacing:.08em;text-transform:uppercase;color:var(--ink3)}
+@media (max-width:720px){.ptable{min-width:0;display:block}.ptable thead{display:none}.ptable tbody,.ptable tr,.ptable td{display:block}.ptable tr{border-bottom:1px solid var(--line2);padding:10px 0}.ptable td{border:0;padding:3px 0}.ptable td::before{content:attr(data-label) ": ";font-weight:700;color:var(--ink3);font-size:.8rem}}
+.ptl{list-style:none;padding:0;margin:0;display:grid;gap:14px;border-left:2px solid var(--line2);padding-left:18px}
+.ptl-w{font-family:var(--f-mono);font-size:.8rem;font-weight:700;color:var(--accent-2);margin-bottom:4px}
+.plinks{list-style:none;padding:0!important;display:grid;gap:10px!important}
+.plinks li{display:grid;gap:2px}
+.plinks li span{font-size:.92rem;color:var(--ink3)}
 </style>
 </head>
 <body class="no-js">
@@ -617,6 +651,7 @@ html:has(.story:target){overflow:hidden}
       <a href="#calendar">Calendar</a>
       <a href="#apply">Apply desk</a>
       <a href="#odds">Your odds</a>
+      <a href="#packs">Packs</a>
       <a href="#prep">Prep</a>
       <a href="#updates">Updates</a>
     </nav>
@@ -5808,6 +5843,16 @@ html:has(.story:target){overflow:hidden}
       <p><strong>How to read it.</strong> 0 means no funded route exists. 1–2 is a long shot: elite schemes with a few dozen awards, usually won by people with research records. 3 is an outside chance worth a strong application. Open any route for the four-factor breakdown and what would raise the score.</p>
       <p><strong>The pattern.</strong> Nothing scores above 4 right now. The best odds are the government schemes where Bangladesh is a partner (Stipendium Hungaricum, CSC) and the health-focused Erasmus Mundus programmes. The biggest levers are the same everywhere: a class-rank certificate, one research output during the internship, and applying to intakes you can actually start (January 2028 or later).</p>
     </div>
+  </div>
+</section>
+
+<section class="sec" id="packs" aria-labelledby="packs-h">
+  <div class="wrap">
+    <div class="sec-head">
+      <div><p class="eyebrow">Step by step</p><h2 id="packs-h">Application packs</h2></div>
+      <p>One pack per deadline group: what each application needs, who writes your letters, a dated timeline back from the deadline, and the best things to watch. Everything is checked against the official programme page; anything the page does not state is marked <strong>not found</strong>.</p>
+    </div>
+    <div class="packs"></div>
   </div>
 </section>
 

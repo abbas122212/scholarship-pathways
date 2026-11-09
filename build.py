@@ -469,6 +469,59 @@ odds_rows = "".join(
     f'<span class="ob-v"><strong>{ODDS[k]["score"]}</strong>/10<span class="ob-l">{odds_label(ODDS[k]["score"])}</span></span></a></li>'
     for k in odds_ids
 )
+
+# ---------- application packs (data/packs.json): generic block renderer
+PACKS_FILE = ROOT / "data/packs.json"
+PACKS = json.loads(PACKS_FILE.read_text()) if PACKS_FILE.exists() else {"packs": [], "guidance": {}}
+
+
+def rich_l(text):
+    """Escape, bold, and turn bare URLs into links."""
+    s = e(text)
+    s = re.sub(r"\*\*(.+?)\*\*", r"<strong>\1</strong>", s)
+    s = re.sub(r"(https?://[^\s<)]+[^\s<).,;:])", lambda m: f'<a href="{m.group(1)}" target="_blank" rel="noopener">{m.group(1).split("//")[1][:48]}{"…" if len(m.group(1).split("//")[1]) > 48 else ""}<span class="sr"> (opens in a new tab)</span></a>', s)
+    return s
+
+
+def block_html(b):
+    out = []
+    for x in b.get("p", []):
+        out.append(f"<p>{rich_l(x)}</p>")
+    if b.get("ul"):
+        out.append("<ul>" + "".join(f"<li>{rich_l(x)}</li>" for x in b["ul"]) + "</ul>")
+    if b.get("table"):
+        tb = b["table"]
+        head = "".join(f'<th scope="col">{e(h)}</th>' for h in tb["head"])
+        rows = "".join("<tr>" + "".join(f'<td data-label="{e(tb["head"][i])}">{rich_l(c)}</td>' for i, c in enumerate(r)) + "</tr>" for r in tb["rows"])
+        out.append(f'<div class="ptable-wrap"><table class="ptable"><thead><tr>{head}</tr></thead><tbody>{rows}</tbody></table></div>')
+    if b.get("timeline"):
+        out.append('<ol class="ptl">' + "".join(
+            f'<li><p class="ptl-w">{e(s["when"])}</p><ul>' + "".join(f"<li>{rich_l(i)}</li>" for i in s["items"]) + "</ul></li>"
+            for s in b["timeline"]) + "</ol>")
+    if b.get("links"):
+        out.append('<ul class="plinks">' + "".join(
+            f'<li><a href="{e(l["u"])}" target="_blank" rel="noopener">{e(l["t"])}<span class="sr"> (opens in a new tab)</span></a>'
+            + (f'<span>{rich_l(l["n"])}</span>' if l.get("n") else "") + "</li>" for l in b["links"]) + "</ul>")
+    if b.get("note"):
+        out.append(f'<p class="pnote">{rich_l(b["note"])}</p>')
+    return "".join(out)
+
+
+def pack_html(pk):
+    chips = "".join(f'<li>{e(c)}</li>' for c in pk.get("chips", []))
+    blocks = []
+    for i, b in enumerate(pk["blocks"]):
+        blocks.append(f'<details class="pblk"{" open" if b.get("open") else ""}><summary>{e(b["h"])}</summary><div class="pblk-b">{block_html(b)}</div></details>')
+    dl = pk.get("deadline")
+    dl_html = f'<p class="pk-dl" data-left="{dl}"><span>Closes</span><strong>{e(fmt(dl))}</strong><em data-left="{dl}">{e(rel(days_left(dl)))}</em></p>' if dl else ""
+    return (f'<article class="pack" id="pack-{e(pk["id"])}" aria-labelledby="pk-{e(pk["id"])}-h"><header class="pack-h"><div><p class="eyebrow">{e(pk.get("eyebrow", "Application pack"))}</p>'
+            f'<h3 id="pk-{e(pk["id"])}-h">{e(pk["title"])}</h3><p class="pk-sum">{rich_l(pk["summary"])}</p>'
+            f'{"<ul class=pk-chips>" + chips + "</ul>" if chips else ""}</div>{dl_html}</header>'
+            f'<div class="pack-b">{"".join(blocks)}</div></article>')
+
+
+packs_html = "\n".join(pack_html(p) for p in PACKS["packs"])
+
 free_n = sum(1 for k in desk_ids if APPLY[k]["kind"] == "free")
 cat_counts = Counter(p["cat"] for p in paths)
 elig_counts = Counter(p["elig"] for p in paths)
@@ -565,6 +618,7 @@ page = (
     .replace("{{DESK_N}}", str(len(desk_ids)))
     .replace("{{DESK_FREE}}", str(free_n))
     .replace("{{STORY_N}}", str(len([k for k in STORIES if k in PBYID])))
+    .replace("{{PACKS}}", packs_html)
     .replace("{{CHECKLIST}}", checklist)
     .replace("{{DOCS}}", docs)
     .replace("{{GATES}}", gates)
