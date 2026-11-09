@@ -350,11 +350,11 @@
     "profile": 2,
     "timing": 1
    },
-   "why": "Internationals are considered for merit awards automatically, but only tuition is covered; a full-tuition award is the hard part.",
+   "why": "Internationals are considered automatically for merit awards (50-100% of tuition), but only tuition is covered, and a full-tuition award is the hard part. The score measures a funded place that is affordable.",
    "raise": [
     "A file SOPHAS-verified well before 5 Jan",
     "Strong marks and a clear public-health story",
-    "A plan for paid US research work alongside"
+    "A plan for REAL and paid US research work alongside"
    ]
   },
   "eiffel": {
@@ -2206,6 +2206,336 @@
     "Avoid agents selling transfers",
     "Check WDOMS before paying anyone",
     "Spend on Step 1 instead"
+   ]
+  },
+  "mrc-nwdms": {
+   "score": 2,
+   "factors": {
+    "eligibility": 1,
+    "competition": 1,
+    "profile": 1,
+    "timing": 1
+   },
+   "why": "Measures the chance of a funded place this cycle. Competition is described as very high, a supervisor must nominate you for interview, it is unstated whether an MBBS counts, and only 18 days remain.",
+   "raise": [
+    "A supervisor who replies and backs you for a population-health or data project",
+    "Written confirmation that your MBBS meets the degree requirement",
+    "A tailored statement showing your manuscripts as research evidence"
+   ]
+  },
+  "yale-phd": {
+   "score": 1,
+   "factors": {
+    "eligibility": 1,
+    "competition": 0,
+    "profile": 1,
+    "timing": 1
+   },
+   "why": "Measures the chance of a funded place this cycle. Yale reports a 3% five-year acceptance rate and a 3.8 average GPA, MBBS equivalence is not ruled on, and you have no research job yet beyond manuscripts.",
+   "raise": [
+    "Written confirmation that an MBBS meets the degree requirement",
+    "A strong TOEFL or IELTS Speaking score",
+    "Manuscripts accepted and a research supervisor letter"
+   ]
+  },
+  "pitt-ibgp": {
+   "score": 1,
+   "factors": {
+    "eligibility": 1,
+    "competition": 0,
+    "profile": 0,
+    "timing": 1
+   },
+   "why": "Measures the chance of a funded place this cycle. Successful applicants all have lab research experience, usually a year or more, the degree list does not name medicine, and the program is lab science rather than your public health focus.",
+   "raise": [
+    "Lab or bench research experience of a year or more",
+    "A research-advisor letter from a senior co-author",
+    "A statement that front-loads your manuscripts"
+   ]
+  },
+  "jhu-gdec": {
+   "score": 1,
+   "factors": {
+    "eligibility": 2,
+    "competition": 0,
+    "profile": 1,
+    "timing": 0
+   },
+   "why": "Measures the chance of a funded place this cycle. Medicine qualifies and funding is strong, but the GRE is required with about three weeks left and no waiver applies to you, and you have no work experience.",
+   "raise": [
+    "Book the GRE now and ask Hopkins whether scores can follow the deadline",
+    "Start the WES ICAP evaluation today",
+    "Get a supervisor letter that shows research work on infectious disease"
+   ]
+  },
+  "groningen-ebf": {
+   "score": 1,
+   "factors": {
+    "eligibility": 1,
+    "competition": 0,
+    "profile": 1,
+    "timing": 1
+   },
+   "why": "Measures the chance of actually receiving the fellowship this cycle. Only four grants are awarded from hundreds of applications, nomination is out of your hands, and an admission offer is needed first.",
+   "raise": [
+    "A complete, early IRHD application with strong results and recommendation letters",
+    "Confirm with irhd@umcg.nl that your MBBS qualifies and prepare for the statistics exam",
+    "Ask whether English proof must be in before the final deadline"
+   ]
+  },
+  "doha-tamim": {
+   "score": 3,
+   "factors": {
+    "eligibility": 2,
+    "competition": 1,
+    "profile": 1,
+    "timing": 2
+   },
+   "why": "Score measures the chance of a funded place. The package is genuinely full and the deadline is open, but the fields are policy and development economics, which fit your profile and goals poorly, and merit selection is unknown.",
+   "raise_": [
+    "Check the Institute's full programme list for anything health-related",
+    "Ask admissions what the stipend is before you commit",
+    "Only apply if you want a policy degree"
+   ],
+   "raise": [
+    "Check the Institute's full programme list for anything health-related",
+    "Ask admissions what the stipend is before you commit",
+    "Only apply if you want a policy degree"
+   ]
+  },
+  "mccall-macbain": {
+   "score": 0,
+   "factors": {
+    "eligibility": 1,
+    "competition": 0,
+    "profile": 2,
+    "timing": 0
+   },
+   "why": "Score is 0 because the 2027 cohort window closed on 19 Aug 2026 and the next cycle dates are not published. Even when it reopens, it is a national-level competition for 10 international places.",
+   "raise_": [
+    "Set a mid-2027 reminder to read the apply page",
+    "Check McGill's master's list for a fit",
+    "Keep your first-bachelor's date within the five-year rule"
+   ],
+   "raise": [
+    "Set a mid-2027 reminder to read the apply page",
+    "Check McGill's master's list for a fit",
+    "Keep your first-bachelor's date within the five-year rule"
+   ]
+  },
+  "deakin-rtp": {
+   "score": 0,
+   "factors": {
+    "eligibility": 1,
+    "competition": 0,
+    "profile": 1,
+    "timing": 0
+   },
+   "why": "Score is 0 because both 2027 rounds are closed and the next one is not published. Later, an 80% research-component rule and a supervisor requirement would be real gates.",
+   "raise_": [
+    "Watch the Deakin page from mid-2027",
+    "Finish a research thesis or publication to show research strength",
+    "Contact a Deakin public health supervisor early"
+   ],
+   "raise": [
+    "Watch the Deakin page from mid-2027",
+    "Finish a research thesis or publication to show research strength",
+    "Contact a Deakin public health supervisor early"
+   ]
+  },
+  "radboud-rsp": {
+   "score": 3,
+   "factors": {
+    "eligibility": 3,
+    "competition": 1,
+    "profile": 1,
+    "timing": 1
+   },
+   "why": "Score measures the chance of getting the Radboud award, which is only partial. It is open to you and the date fits, but there are at most 22 awards and it does not replace living costs or fit the internship.",
+   "raise_": [
+    "Pick a specific Radboud master's first",
+    "Line up two reference letters now",
+    "Check EUR 2,771 against the live page in January"
+   ],
+   "raise": [
+    "Pick a specific Radboud master's first",
+    "Line up two reference letters now",
+    "Check EUR 2,771 against the live page in January"
+   ]
+  },
+  "twente-uts": {
+   "score": 2,
+   "factors": {
+    "eligibility": 2,
+    "competition": 1,
+    "profile": 1,
+    "timing": 2
+   },
+   "why": "Score measures the chance of a meaningful award. The window is open, but the amount can be as low as EUR 3,000, you must rank in the top 5 to 10%, and your marks and rank are unknown.",
+   "raise_": [
+    "Get a class-rank letter",
+    "Get admitted to a Twente master's you want",
+    "Ask Twente what recent awards were"
+   ],
+   "raise": [
+    "Get a class-rank letter",
+    "Get admitted to a Twente master's you want",
+    "Ask Twente what recent awards were"
+   ]
+  },
+  "kfupm": {
+   "score": 0,
+   "factors": {
+    "eligibility": 0,
+    "competition": 1,
+    "profile": 0,
+    "timing": 1
+   },
+   "why": "Score is 0 because the thesis MS and PhD need an engineering or science bachelor's in the proposed field, and your MBBS is a poor match. No thesis deadline is published either.",
+   "raise_": [
+    "Only revisit if you choose a non-medical field",
+    "Check the Nabegh portal for the thesis deadline",
+    "Do not rely on the SAR stipend figures"
+   ],
+   "raise": [
+    "Only revisit if you choose a non-medical field",
+    "Check the Nabegh portal for the thesis deadline",
+    "Do not rely on the SAR stipend figures"
+   ]
+  },
+  "bu-mph": {
+   "score": 2,
+   "factors": {
+    "eligibility": 3,
+    "competition": 1,
+    "profile": 1,
+    "timing": 1
+   },
+   "why": "Measures the chance of admission AND meaningful funding. Admission is plausible, but BU publishes no award sizes for internationals and tuition is very high.",
+   "raise": [
+    "Submit SOPHAS verified before 15 Jan 2027",
+    "A clear public-health statement linked to your manuscripts",
+    "Apply for Generation Health practicum stipends after admission"
+   ]
+  },
+  "gw-mph": {
+   "score": 2,
+   "factors": {
+    "eligibility": 3,
+    "competition": 1,
+    "profile": 1,
+    "timing": 1
+   },
+   "why": "Measures the chance of admission AND meaningful funding. Priority applicants are reviewed automatically, but amounts are unknown and DC costs are high.",
+   "raise": [
+    "File SOPHAS and the supplemental form by 15 Jan 2027",
+    "Order the WES evaluation early",
+    "Emphasise research output and public-health motivation"
+   ]
+  },
+  "drexel-mph": {
+   "score": 3,
+   "factors": {
+    "eligibility": 3,
+    "competition": 1,
+    "profile": 2,
+    "timing": 1
+   },
+   "why": "Measures the chance of admission AND meaningful funding. The Fellowship packages tuition with an RA, but it is for exceptional promise and no award sizes are published.",
+   "raise": [
+    "Tick the Dornsife Fellowship interest in SOPHAS",
+    "Apply by 15 Jan 2027",
+    "Write a statement that connects your manuscripts to a faculty member"
+   ]
+  },
+  "tulane-mph": {
+   "score": 2,
+   "factors": {
+    "eligibility": 3,
+    "competition": 2,
+    "profile": 1,
+    "timing": 1
+   },
+   "why": "Measures the chance of admission AND meaningful funding. Admission is plausible and the deadline is late, but funding amounts are not published and no assistantship is named.",
+   "raise": [
+    "File early rather than at the 15 Jun deadline",
+    "Confirm the accepted evaluator",
+    "Ask Tulane about assistantship funding"
+   ]
+  },
+  "usf-mph": {
+   "score": 1,
+   "factors": {
+    "eligibility": 3,
+    "competition": 2,
+    "profile": 1,
+    "timing": 0
+   },
+   "why": "Measures the chance of admission AND meaningful funding. Admission is plausible, but the college tells internationals to be fully self-funded.",
+   "raise": [
+    "Only apply as a fully self-funded back-up",
+    "Ask USF about assistantship timing",
+    "Confirm the USF fee and WES rule"
+   ]
+  },
+  "uic-mph": {
+   "score": 3,
+   "factors": {
+    "eligibility": 3,
+    "competition": 2,
+    "profile": 1,
+    "timing": 1
+   },
+   "why": "Measures the chance of admission AND meaningful funding. Assistantship and waiver mechanisms exist, but amounts are unconfirmed and out-of-state tuition is high.",
+   "raise": [
+    "Verify SOPHAS before 1 Dec 2026",
+    "Ask about the out-of-state premium waiver",
+    "Contact faculty about research assistantships"
+   ]
+  },
+  "uab-mph": {
+   "score": 1,
+   "factors": {
+    "eligibility": 3,
+    "competition": 2,
+    "profile": 1,
+    "timing": 0
+   },
+   "why": "Measures the chance of admission AND meaningful funding. Admission is plausible, but the official page shows no MPH funding for internationals.",
+   "raise": [
+    "Email UAB about assistantships for internationals",
+    "Confirm the evaluation rule",
+    "Compare cost against Georgia State and UIC"
+   ]
+  },
+  "albany-mph": {
+   "score": 2,
+   "factors": {
+    "eligibility": 3,
+    "competition": 2,
+    "profile": 1,
+    "timing": 1
+   },
+   "why": "Measures the chance of admission AND meaningful funding. A named pool of assistantships exists, but only 8-10 posts and no published amounts.",
+   "raise": [
+    "Complete application by 15 Jan 2027",
+    "Apply for assistantships in March",
+    "Choose an on-campus track"
+   ]
+  },
+  "brown-mph": {
+   "score": 2,
+   "factors": {
+    "eligibility": 2,
+    "competition": 1,
+    "profile": 1,
+    "timing": 1
+   },
+   "why": "Measures the chance of admission AND meaningful funding. Plausible admission at a competitive school, but standard awards are unpublished and the 1 Dec date is very tight.",
+   "raise": [
+    "Submit SOPHAS now so it is verified by 15 Dec",
+    "Ask Brown whether your MBBS fits the clinician track",
+    "Link manuscripts to Brown faculty in the statement"
    ]
   }
  }

@@ -1,0 +1,1052 @@
+{
+ "packs": [
+  {
+   "id": "usa-dec1",
+   "eyebrow": "Application pack",
+   "title": "USA, 1 December 2026",
+   "deadline": "2026-12-01",
+   "summary": "Four funded PhD applications close on Tuesday 1 December 2026 (Hopkins Epidemiology, Emory Epidemiology, Pittsburgh IBGP, Yale public health), with Hopkins GDEC and a Columbia MPH as optional extras. This pack gives the verified requirements from the official pages, the letters plan and a dated timeline from 9 November.",
+   "chips": [
+    "Hopkins PhD",
+    "Emory PhD",
+    "Pittsburgh IBGP",
+    "Yale PhD",
+    "Hopkins GDEC PhD",
+    "Columbia MPH (optional)"
+   ],
+   "blocks": [
+    {
+     "h": "The targets at a glance",
+     "open": true,
+     "table": {
+      "head": [
+       "Programme",
+       "Portal",
+       "Fee",
+       "Funding (official)",
+       "Letters",
+       "Statement"
+      ],
+      "rows": [
+       [
+        "Hopkins Bloomberg PhD Epidemiology",
+        "SOPHAS",
+        "$155 first programme, $65 each extra",
+        "Guaranteed minimum stipend $52,000/yr (through June 2027) + tuition, fees, medical benefits for at least 4 years",
+        "3",
+        "Statement of objectives and research goals, two-page limit (Epi FAQ)"
+       ],
+       [
+        "Emory Rollins PhD Epidemiology",
+        "LaneyConnect (not SOPHAS)",
+        "$75",
+        "Full tuition + $43,260/yr stipend (Laney, FY26-27); Rollins page still says $42,000 (stale)",
+        "3",
+        "500 words + collaborative-communities statement (500 words)"
+       ],
+       [
+        "Pittsburgh IBGP PhD",
+        "Pitt School of Medicine portal (learn.hs.pitt.edu/portal/gr_app)",
+        "$50",
+        "$41,200/yr (2026-27) + full tuition remission + individual health insurance + $2,000 first-year enrichment",
+        "3 minimum",
+        "Personal statement, no limit stated; research description heavily weighed"
+       ],
+       [
+        "Yale School of Public Health PhD",
+        "Yale GSAS application (apply.grad.yale.edu), not SOPHAS",
+        "$105 (waiver open to non-US citizens)",
+        "5 years guaranteed: 12-month stipend + full tuition ($52,400) + health coverage",
+        "3",
+        "Statement of academic purpose; word limit not found"
+       ],
+       [
+        "Hopkins PhD in Global Disease Epidemiology and Control (International Health)",
+        "SOPHAS (same account as Hopkins Epi)",
+        "$155 first programme, $65 if added to Hopkins Epi",
+        "Same BSPH PhD guarantee: minimum stipend $52,000/yr through June 2027 + tuition, fees, medical benefits (programme page); years supported vary",
+        "Not checked: see How to Apply",
+        "Not checked. **GRE scores are required** (Epi PhD does not need them)"
+       ],
+       [
+        "Columbia Mailman MPH (optional)",
+        "SOPHAS (same account as Hopkins)",
+        "+$65 inside SOPHAS",
+        "Partial merit money only, $7,500-$30,000/yr; not a funded PhD",
+        "See programme page",
+        "Statement of Purpose max 500 words"
+       ]
+      ]
+     },
+     "note": "All four main deadlines are Tuesday 1 December 2026, US Eastern. Official pages arbitrate; items below marked 'not found' were not stated on the official pages read."
+    },
+    {
+     "h": "Hopkins Bloomberg PhD Epidemiology (SOPHAS)",
+     "open": true,
+     "ul": [
+      "**Deadline:** submit by 1 Dec 2026; supporting documents (letters, transcripts, evaluation) no later than two weeks after the deadline (official rule). Cycle opened 12 Aug 2026.",
+      "**Fee:** $155 first programme, $65 each additional. International waiver exists but must be requested before you submit; once approved you have 14 days to submit and it covers the first $155 only.",
+      "**Letters:** 3 required (Epi FAQ: at least one academic, an advisor preferred; may mix academic and professional). Trap: SOPHAS can show the file complete with 2, but Bloomberg still requires the third.",
+      "**Statement:** statement of objectives and research goals. The Epi FAQ states a **two-page limit** (earlier notes said none; corrected). The generic how-to-apply page gives no limit. CV/resume required. No adviser needed in advance; faculty may be named.",
+      "**Credential evaluation is mandatory** for international coursework: WES ICAP course-by-course through SOPHAS, or ECE course-by-course sent to Bloomberg. **ECFMG certification is not accepted.** WES ICAP costs **$239** (the $80 coupon applies if the SOPHAS waiver is approved), plus delivery fees. WES's clock starts only when documents are accepted; the evaluation then takes about 1-2 weeks; door to door 4-6 weeks.",
+      "**English (scores under 2 years old):** TOEFL iBT **100 for scores before 21 Jan 2026; 5.0 on the new 1-6 scale for scores after 21 Jan 2026** (a test taken now uses the new scale); IELTS Academic 7; Duolingo 130; PTE 68. Waiver only if a WES or ECE evaluation verifies English as the sole language of instruction for the bachelor's/professional degree; the waiver cannot apply until the evaluation is received. Medium-of-instruction letters are not accepted. Duolingo/PTE scores go directly to BSPH Admissions Services.",
+      "**Work experience (conflict inside JHU):** the programme page lists one year of full-time work in a related field as required; the Epi FAQ calls one year of full-time post-baccalaureate work only 'strongly recommended' for ScM and PhD. Whether the internship year counts is not stated. Email BSPH.EpiAcademic@jh.edu.",
+      "**GRE:** not required and not reviewed.",
+      "**Submit-early caveat:** SOPHAS lets you submit before transcripts and recommendations arrive, but it will **not review or verify the application until all transcripts, payments and recommendations are received**. Allow up to 10 business days of SOPHAS verification."
+     ]
+    },
+    {
+     "h": "Emory Rollins PhD Epidemiology (LaneyConnect)",
+     "open": true,
+     "ul": [
+      "**Deadline:** final deadline 1 Dec 2026 (deadlines fall at midnight US Eastern). **Fee:** $75 (waivers exist per notes).",
+      "**Letters:** 3, from people familiar with your academic performance.",
+      "**Statement of purpose, 500 words:** previous research experience or training, research interests, how the programme addresses them, long-term goals. Plus the Statement on Building Collaborative and Respectful Graduate Communities (500 words) and an optional diversity statement.",
+      "**Name at least two Epidemiology graduate faculty** you want to work with. CV/resume required.",
+      "**Transcripts:** upload scanned registrar-issued transcripts (web printouts not accepted); non-English transcripts need notarized translation. Official transcripts only after admission.",
+      "**Credential evaluation (conflict, ask):** the programme and Laney pages do not make it mandatory (Laney: international applicants 'may want to consider' one). But the general Rollins how-to-apply page says international applicants must use WES, and that page covers all degrees including the SOPHAS MPH. Ask Epi admissions before relying on 'no WES'.",
+      "**English:** TOEFL/IELTS for international applicants; no numeric Epidemiology minimum found (do not borrow another programme's number). Contact the programme about the English-medium waiver.",
+      "**Stipend:** $43,260 for FY26-27 per Laney (CBA rate); the Rollins programme page still shows the stale $42,000 (2025-26). Full tuition scholarship per the Rollins page. GRE optional.",
+      "**Odds and next steps:** about 200+ applications for 10-14 places; a virtual visit day is usually a Friday in the first two weeks of February."
+     ]
+    },
+    {
+     "h": "Pittsburgh IBGP PhD (lab-based biomedical science)",
+     "open": false,
+     "ul": [
+      "**Deadline:** Fall 2027 application open 1 Sep to 1 Dec 2026 (no time of day stated); review is rolling and early files help. **Fee:** $50, non-refundable, due before processing; a need-based waiver was not found on the pages read (ask).",
+      "**Letters:** minimum 3; the FAQ says the research-advisor letter is very important.",
+      "**Personal statement:** required; no word limit or prompt on the pages read; the research description is heavily weighed. CV: not listed as a requirement (upload one if the portal allows). Transcripts are uploaded in the application; no WES requirement stated.",
+      "**English:** TOEFL iBT 100 (or 5 on the new scoring), IELTS 7.0, Duolingo 120; scores under 24 months old on 1 Sep of the start term. Exempt only with a bachelor's or higher from a US regionally accredited or other approved English-instructed institution ('approved' is not defined) - plan on needing a real score. TOEFL institution code 2927, dept 45.",
+      "**Academic bar:** minimum GPA 3.2 on 4.0 (incoming average 3.7); GRE not required. The degree is expected to be in a biological or physical science, mathematics, computer science or engineering; whether an MBBS fits is for the programme to judge.",
+      "**Honest weak point:** all successful applicants have research experience, most at least a year in a lab. A clinician's manuscript portfolio is the counter-argument; front-load it in the statement.",
+      "**Timeline:** interviews mostly January to March (overseas by teleconference); acceptances rolling 1 Feb to 15 Apr; offer letters mailed before 15 April."
+     ]
+    },
+    {
+     "h": "Yale School of Public Health PhD (via the Graduate School, GSAS)",
+     "open": false,
+     "ul": [
+      "**Deadline:** 1 Dec 2026, 11:59 pm Eastern (deadlines are subject to change). The public health PhD must use the GSAS PhD/Master's application, not SOPHAS. Fall 2027 application is open at apply.grad.yale.edu/apply. Contact: phdms.publichealth@yale.edu.",
+      "**Departments:** Biostatistics, Chronic Disease Epidemiology, Environmental Health Sciences, Epidemiology of Microbial Diseases, Social and Behavioral Sciences, Health Policy and Management.",
+      "**Fee:** $105; US citizens, permanent residents and non-US citizens can all request a waiver.",
+      "**Funding:** all PhD students are guaranteed five years of 12-month stipend and tuition support (fellowships, teaching fellowships, traineeships, research assistantships) plus health coverage. GSAS tuition 2026-27 is $52,400 and is covered. GSAS 2026-27 minimum stipends: $52,046 (humanities/social/physical sciences) and $53,629 (biological and biomedical); the Public Health band was not stated. A $1,500 one-time relocation award is confirmed.",
+      "**Letters:** 3, entered by name in the application; letters need not arrive before submission, but review starts shortly after the deadline. **CV** required; no writing sample.",
+      "**Statement of academic purpose:** research interests and faculty; you may list up to three faculty; no mentor needed in advance. The YSPH page states no word limit; the 500-1,000 word figure in earlier notes was **not found** (check the GSAS Application Question FAQs).",
+      "**GRE:** required only for Biostatistics (PhD and MS) and Health Policy and Management (PhD); not accepted for the other four PhD departments; no waivers; self-report scores; institution code 3987.",
+      "**English (PhD):** the PhD page gives only Speaking minimums (to teach): TOEFL iBT Speaking 26+ (before 21 Jan 2026) or 5.5+ (on or after); IELTS 'speaking 8.0 or higher' as written. The 100 / 7.0 overall figures are the **MS** minimum, not the PhD. Average admitted PhD: TOEFL 106, IELTS 7.5. Duolingo not accepted. Waiver: undergraduate degree from a school where English is the primary language of instruction with at least three years in residence; no waiver based on an advanced degree.",
+      "**Transcripts:** unofficial transcripts uploaded with the application; records in English or translated; no WES requirement seen (but no explicit 'no WES' statement either).",
+      "**Eligibility and odds:** a master's is not required (some programmes prefer post-baccalaureate training); whether an MBBS counts as the bachelor's equivalent is not ruled on - email the programme. 5-year average acceptance 3% across the six departments; average admitted GPA 3.8, no minimum. Decisions mostly February to early March; reply by 15 April."
+     ]
+    },
+    {
+     "h": "Hopkins GDEC PhD and Columbia MPH (optional add-ons)",
+     "open": false,
+     "ul": [
+      "**Hopkins PhD in Global Disease Epidemiology and Control (found by Claude on 9 Nov, not in your notes; read on publichealth.jhu.edu):** the page says the prior graduate degree can be **\"a degree in medicine, veterinary medicine, or dentistry\"**, so an MBBS qualifies on its face. Prior work experience is **\"not required but highly desirable\"** (the Epi PhD asks for a year). Apply by **1 December** for an August start. The catch: **standardized test scores (GRE) are required**, and the department waives this only for people who already submitted official GRE scores to Hopkins' MSPH in International Health within the last 10 years. Hopkins says it reviews applications holistically. It is STEM designated (24-month OPT extension). Same BSPH PhD stipend guarantee as the Epi PhD ($52,000 minimum through June 2027, tuition, fees, medical benefits). Not checked: letters and statement rules for this programme, GRE seat availability and score-delivery time before 1 Dec. Run it through SOPHAS (one more designated programme, $65 extra if added to the Hopkins Epi application).",
+      "**Columbia Mailman MPH:** preferred deadline 1 Dec 2026 (priority review and full scholarship consideration); standard deadline 15 Jan 2027 (rolling); **1 Mar 2027 late consideration** (reviewed as space remains, scholarships subject to availability). Applies via SOPHAS; Statement of Purpose max 500 words.",
+      "**Columbia money:** merit awards $7,500-$30,000 per year; need-based grants ($10,000-$12,500) are FAFSA-based, so assume none for an international applicant; the 'PopFam $10,000' figure from earlier notes was not checked. Partial funding only (the Sakib model), not a funded PhD."
+     ]
+    },
+    {
+     "h": "The letters",
+     "open": false,
+     "ul": [
+      "**Count:** 3 strong letters + 1 backup referee cover all of Hopkins, Emory, Pittsburgh and Yale; the same referees serve all of them and each portal sends its own request link. MRC (27 Nov) needs 2 referees with institutional email addresses, so brief the same people about both sets of dates.",
+      "**Who:** (1) research supervisor or senior co-author (the Pittsburgh 'research advisor' slot and the most important letter everywhere); (2) a professor who taught or examined you and can rank you against other students; (3) a clinical or internship supervisor or senior collaborator; (4) a backup senior name asked at the same time.",
+      "**Briefing pack for each referee:** CV draft, SOP draft (even rough), transcript, one line on each programme, exact deadlines, and 4-5 specific things they personally saw you do (a dataset cleaned, an analysis run, a deadline saved). Generic letters are the known failure mode.",
+      "**Statements:** Hopkins research-weighted within two pages; Emory a hard 500 words naming 2 faculty; Pittsburgh research description first; Yale research interests plus up to 3 faculty."
+     ]
+    },
+    {
+     "h": "Timeline: Mon 9 Nov to Tue 1 Dec 2026",
+     "open": true,
+     "timeline": [
+      {
+       "when": "Mon 9 - Sun 15 Nov: gates, accounts, drafts",
+       "items": [
+        "Email BSPH.EpiAcademic@jh.edu: does the internship year satisfy the one-year work-experience line, and can WES follow after submission?",
+        "Order WES ICAP through SOPHAS now; push the university to send mark sheets directly (WES clock starts when documents are accepted).",
+        "Open SOPHAS, LaneyConnect, the Pittsburgh portal and the Yale GSAS application.",
+        "Ask the 4 referees and send the briefing pack (name the MRC 27 Nov and USA 1 Dec dates).",
+        "Decide the English test; if you hold no valid score, book the earliest sitting.",
+        "CV master built; SOP v1 for each programme (Hopkins two pages, Emory 500 words with 2 named faculty, Pittsburgh research-led, Yale with up to 3 faculty); Emory collaborative-communities statement drafted."
+       ]
+      },
+      {
+       "when": "Mon 16 - Sun 22 Nov: files take shape",
+       "items": [
+        "Chase any referee who has not uploaded by Fri 20 Nov; activate the backup referee by Sun 22 Nov.",
+        "SOPs and CV final; transcripts scanned to Emory's standard (registrar-issued, no web printouts).",
+        "Submit Emory first (no WES dependency).",
+        "Decide by Fri 20 Nov whether to add Columbia (and other 1 Dec MPH priority dates) to the SOPHAS file."
+       ]
+      },
+      {
+       "when": "Mon 23 - Mon 30 Nov: submit everything",
+       "items": [
+        "Wed 25 Nov: submit Hopkins on SOPHAS (with all 3 letters requested and WES moving) and MRC.",
+        "Fri 27 Nov: submit Pittsburgh and Yale (GSAS).",
+        "Mon 30 Nov: final sweep of every portal; confirm the third Hopkins letter is received, not just requested."
+       ]
+      },
+      {
+       "when": "Tue 1 Dec",
+       "items": [
+        "Deadlines pass with everything in. Hopkins supporting documents may arrive up to two weeks later. The same pack, lightly edited, goes to UNC Gillings PhD Epidemiology by 15 Dec."
+       ]
+      }
+     ],
+     "note": "1 Dec in Baltimore, Atlanta, Pittsburgh and New Haven runs to about the next morning in Dhaka; do not plan on that buffer."
+    },
+    {
+     "h": "Honest timing note and open gates",
+     "open": false,
+     "ul": [
+      "A fully **verified** SOPHAS file by 1 Dec is not achievable from a standing start in November (WES approval plus up to 10 business days of SOPHAS verification). What is achievable, and normal, is a complete submitted file with WES verification following within the two-week supporting-document window.",
+      "The risk sits with Hopkins' WES-dependent English waiver: a real test score, if you can book one, de-risks the whole round.",
+      "Open gates to resolve by email this week: Hopkins work-experience line; Emory WES (ask); whether an MBBS counts as the bachelor's equivalent at Yale; Pittsburgh fee waiver and MBBS fit.",
+      "Hopkins SOPHAS fee waiver (pack notes, not re-verified): Epidemiology is not among the departments with its own waiver."
+     ]
+    },
+    {
+     "h": "Watch / read in full (in order)",
+     "open": false,
+     "links": [
+      {
+       "t": "SOPHAS Quick Start Guide (official)",
+       "u": "https://help.liaisonedu.com/SOPHAS_Applicant_Help_Center/Starting_Your_SOPHAS_Application/Getting_Started_with_Your_SOPHAS_Application/00_SOPHAS_Quick_Start_Guide",
+       "n": "Foreign-coursework traps and the 14-day fee-waiver rule."
+      },
+      {
+       "t": "Dr. Banda Khalifa reads his funded Hopkins Bloomberg PhD statement (YouTube)",
+       "u": "https://www.youtube.com/watch?v=jWanKecx3-Q",
+       "n": "A doctor who made your jump; model for the Hopkins SOP (keep it to two pages)."
+      },
+      {
+       "t": "Eyramconsult: How to use SOPHAS (Facebook, 5:56)",
+       "u": "https://www.facebook.com/watch/?v=733174289240703",
+       "n": "Real portal screens."
+      },
+      {
+       "t": "Musadiq the Scientist: WES evaluation step by step (YouTube)",
+       "u": "https://www.youtube.com/watch?v=v27N57M7mhI",
+       "n": "Cross-check with the 90-second Peter Bawuah walkthrough: https://www.facebook.com/watch/?v=1368700260978399"
+      },
+      {
+       "t": "Mirza Awais: a real recommendation letter (Facebook, 2:42)",
+       "u": "https://www.facebook.com/watch/?v=1116595870841004",
+       "n": "Pair with the Berkeley referee guide: https://www.scribd.com/document/251902937/Writing-a-Meaningful-Letter-of-Recommendation"
+      },
+      {
+       "t": "Mirza Awais: scholarship-winning CV (Facebook, about 3 min)",
+       "u": "https://www.facebook.com/watch/?v=1470577775127131",
+       "n": "Plus Harvard GSAS CVs and Cover Letters: https://cdn-careerservices.fas.harvard.edu/wp-content/uploads/sites/161/2024/07/2024-gsas-cvs-and-cover-letters.pdf"
+      },
+      {
+       "t": "Waseem Haider: SOP structure (Facebook, 3:46)",
+       "u": "https://www.facebook.com/watch/?v=1547403729232054",
+       "n": "Name 2-3 faculty and their work; maps onto Emory's 500-word brief."
+      },
+      {
+       "t": "Prof. Judd Walson (Hopkins International Health chair): how PhD applicants are evaluated (YouTube)",
+       "u": "https://www.youtube.com/watch?v=gpZfEqQD4uU",
+       "n": "International Health chair, not Epidemiology; research ability and mentor fit over brand."
+      },
+      {
+       "t": "UC Berkeley: letters of recommendation",
+       "u": "https://artshumanities.berkeley.edu/letters-recommendations",
+       "n": "How committees read letters; line up one more referee than required."
+      }
+     ],
+     "note": "Gaps: no video is specific to these programmes, no official Hopkins/Emory PhD admissions webinar recording was found, and no MBBS-specific application video surfaced."
+    },
+    {
+     "h": "What changed from the 7 Nov notes",
+     "open": false,
+     "ul": [
+      "Hopkins SOP: two-page limit exists (Epi FAQ), notes said none.",
+      "Hopkins work experience: required on the programme page, only 'strongly recommended' in the FAQ.",
+      "TOEFL iBT taken after 21 Jan 2026 uses the new scale (Hopkins minimum 5.0); 100 applies to older scores.",
+      "WES ICAP costs $239. SOPHAS will not review until transcripts, payments and letters arrive, though you can submit before.",
+      "Emory stipend $43,260 (Laney) vs stale $42,000 on the Rollins page; Emory WES: not mandatory per Laney/programme but the general Rollins page says WES.",
+      "Yale PhD English: only Speaking minimums are given for the PhD; 100/7.0 is the MS rule. Yale statement word limit not found."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "mrc-nw",
+   "eyebrow": "Application pack",
+   "title": "MRC North West PhD, 27 November 2026",
+   "deadline": "2026-11-27",
+   "summary": "A fully funded four-year biomedical PhD at Manchester and Liverpool, open to international applicants, closing Friday 27 November 2026 and applied for through up to two named projects. This pack lists what the official pages confirm, what is still unconfirmed (MBBS eligibility, fee) and a supervisor-first timeline.",
+   "chips": [
+    "Manchester + Liverpool",
+    "PhD, 4 years",
+    "UKRI stipend",
+    "Project-led"
+   ],
+   "blocks": [
+    {
+     "h": "At a glance",
+     "open": true,
+     "table": {
+      "head": [
+       "Item",
+       "Detail"
+      ],
+      "rows": [
+       [
+        "Programme",
+        "MRC North West Doctoral Programme in Medical Sciences (NW-DMS), University of Manchester + University of Liverpool; 4-year PhD"
+       ],
+       [
+        "Deadline",
+        "Friday 27 November 2026 (no closing time of day stated on the page); projects and applications opened 30 Oct 2026"
+       ],
+       [
+        "Funding",
+        "Tuition at the home or international rate plus a stipend at the UKRI rate for four years; international applicants explicitly eligible"
+       ],
+       [
+        "Stipend figure",
+        "GBP 21,805 is the UKRI minimum from 1 Oct 2026 (GBP 20,780 before). It is not printed on the Manchester page; the studentship starts Oct 2027, so the 2027/28 rate may be higher"
+       ],
+       [
+        "Interviews / awards / start",
+        "Interviews w/c 8 Feb 2027 on Teams (supervisor-nominated applicants only, max 10-minute presentation); studentships awarded w/c 22 Feb 2027; start October 2027"
+       ],
+       [
+        "Official page",
+        "https://www.bmh.manchester.ac.uk/study/research/funding-fees/funded-programmes/mrc-nwdp/"
+       ],
+       [
+        "Enquiries",
+        "fbmh.doctoralacademy.admissions@manchester.ac.uk"
+       ]
+      ]
+     },
+     "note": "The MRC file is project-led, not portal-led: you apply to a named advertised project (up to two, each a separate application), and contacting the supervisor first is described as one of the most important steps before applying."
+    },
+    {
+     "h": "What the application requires (official pages, re-verified)",
+     "open": true,
+     "ul": [
+      "**Eligibility:** First or Upper Second-class UK honours degree (or international equivalent) in a relevant discipline, held or about to be obtained. A master's is not required, but many successful applicants have one or research experience. **Whether an MBBS with the internship still in progress counts is not stated**; ask the Doctoral Academy.",
+      "**Two projects maximum:** each is a separate application with its own tailored supporting statement. Main supervisor only is entered in the portal.",
+      "**Documents:** supporting statement; reference details; degree certificates and final or interim transcripts; official English certificates if applicable; **CV is required**. The page states: **'A research statement is not required for this programme.'**",
+      "**Supporting statement:** no specific word limit; **2-4 pages maximum recommended** (FBMH general page; earlier notes said 1-2 pages).",
+      "**References:** two references from people who know your academic ability; one may be from your clinical or work background; the referee email must be institutional, not personal. Referees receive an automatic request when you submit, and you cannot be nominated without references. (This is the FBMH general research-degree page; confirm in the portal.)",
+      "**English:** **not required at the point of application**; any offer is conditional on an approved English test (such as IELTS). FBMH general guidance: typically IELTS 6.5 overall (5.5 each component, 6.0 writing) or TOEFL iBT 90; some programmes 7.0. Tests are valid 2 years; ask whether an English-medium MBBS qualifies for a waiver.",
+      "**Application fee:** not found on the programme page; confirm in the portal before assuming no fee.",
+      "**Portal entry values (use exactly):** Level Postgraduate Research; Entry year 2027/28; Intake September (although the studentship starts October 2027); Funding: Research Council / MRC PhD Studentship / Awarded / Fully Funded.",
+      "**No WES or credential evaluation** requirement stated for this programme; do not order WES for Manchester. No GRE requirement stated."
+     ]
+    },
+    {
+     "h": "Fit note and project shortlist",
+     "open": false,
+     "ul": [
+      "**Fit:** this is a biomedical-science DTP and most advertised projects are lab-based. Your fit is decided by project choice, not programme title: population, clinical-data, modelling and prescribing projects are where an MBBS plus your manuscript portfolio is a strength; a wet-lab molecular project would be a weak file.",
+      "Titles below came from FindAPhD listings on 7 Nov, not the official projects list; **confirm each on Manchester's official projects page** (supervisor emails and prerequisites live there) before emailing.",
+      "**1. Rebuilding trust in vaccination: a Large Epidemic Model to predict immunity gaps** (Liverpool; Dr S Chen, Prof A J Jorgensen): best fit; your dengue and cold-mortality trend work and GBD experience map onto it.",
+      "**2. Closing the loop: AI-guided approach to prioritise competence experimentation of emerging arbovirus risk** (Liverpool): strong fit with your dengue work.",
+      "**3. Genomic and mathematical approaches for precise targeting of public health interventions to control viral emergence** (Precision Medicine DLA): strong fit.",
+      "**4. Antibiotic use in hidradenitis suppurativa: prescribing patterns, treatment trajectories and antimicrobial treatment failure** (Manchester): good fit, clinical and data-led.",
+      "**5. Personalised approaches to reduce indoor environmental exposures during pregnancy** (Manchester): good fit, exposure epidemiology.",
+      "**6. A digital portal incorporating PROMs for equity and effectiveness of outpatient epilepsy care:** good fit, health services and equity.",
+      "**7. Optimising data completeness in clinical prediction models with high-frequency patient-generated health data** (Manchester): good fit; your NHANES/GBD data work is the argument.",
+      "**8. Reliable Multimodal Agentic AI for cardiovascular disease diagnosis and risk prediction** (Manchester): adjacent fit; heavy AI-methods weight.",
+      "**Suggested pairing:** (1) + (2), both Liverpool public-health modelling; or (1) + (4) for a Liverpool and Manchester spread. Do not pair two lab-heavy projects."
+     ]
+    },
+    {
+     "h": "Supervisor email template (send Mon 9 - Tue 10 Nov)",
+     "open": false,
+     "p": [
+      "**Subject:** Prospective MRC NW-DMS applicant: [exact project title]. Body 150-200 words with your academic CV attached.",
+      "Content: who you are (Bangladeshi MBBS graduate, internship, Chattogram); one line naming a specific paper or project of theirs and why it matters; two lines on you (degree, one relevant skill, one result with numbers such as a submitted manuscript or dataset analysed); the connection to their project and one question showing you read it; the ask (a brief call, and is an MBBS applicant without a prior master's a realistic fit?). Close with the 27 Nov deadline.",
+      "One polite reminder after a week with no reply, then move on; a generic mass email is spotted and ignored."
+     ]
+    },
+    {
+     "h": "Still to confirm (do not state as fact)",
+     "open": true,
+     "ul": [
+      "Does an MBBS with the internship in progress meet the degree requirement? (Ask admissions.)",
+      "Application fee: not found.",
+      "Exact per-project document list and referee count inside the portal (the step-by-step section did not render in a plain fetch).",
+      "Whether the 2027/28 stipend rate is above GBP 21,805.",
+      "Whether your English-medium MBBS gets a waiver from the offer-stage test."
+     ],
+     "note": "One enquiry email to fbmh.doctoralacademy.admissions@manchester.ac.uk can settle MBBS eligibility, English waiver and fee in a single ask."
+    },
+    {
+     "h": "Timeline: Mon 9 Nov to Fri 27 Nov 2026",
+     "open": true,
+     "timeline": [
+      {
+       "when": "Mon 9 - Sun 15 Nov",
+       "items": [
+        "Mon 9 Nov: send the admissions enquiry email and supervisor emails (latest Tue 10 Nov).",
+        "Ask the referees (institutional emails) and name both MRC 27 Nov and USA 1 Dec dates.",
+        "Browse the official projects page and fix 2 projects; supporting statement v1 per project."
+       ]
+      },
+      {
+       "when": "Mon 16 - Sun 22 Nov",
+       "items": [
+        "Chase any supervisor with no reply by Tue 17 Nov; commit to your two projects by Thu 19 Nov.",
+        "Statements final, transcripts scanned, referees confirm they received the portal requests."
+       ]
+      },
+      {
+       "when": "Mon 23 - Fri 27 Nov",
+       "items": [
+        "**Submit MRC by Wed 25 Nov** (both applications if running two); 27 Nov is also the week the USA files go in.",
+        "Thu 26 Nov: final sweep that each application shows the right project, statement and referee details."
+       ]
+      },
+      {
+       "when": "After 27 Nov",
+       "items": [
+        "Interviews w/c 8 Feb 2027; awards w/c 22 Feb 2027; start Oct 2027. The same pack then feeds Commonwealth Shared (closes 8 Dec), Maastricht (file complete before 10 Dec) and UNC (15 Dec)."
+       ]
+      }
+     ]
+    },
+    {
+     "h": "Watch / read in full",
+     "open": false,
+     "links": [
+      {
+       "t": "Manchester MRC NW-DMS programme page and projects page (official)",
+       "u": "https://www.bmh.manchester.ac.uk/study/research/funding-fees/funded-programmes/mrc-nwdp/",
+       "n": "Read before anything else."
+      },
+      {
+       "t": "UKRI: support for UKRI-funded students (stipend rates)",
+       "u": "https://www.ukri.org/manage-your-award/support-for-ukri-funded-students",
+       "n": "Source of the GBP 21,805 minimum from 1 Oct 2026."
+      },
+      {
+       "t": "Codanics: how to email a professor for a PhD position (5-part formula)",
+       "u": "https://codanics.com/study-abroad-phd-research-guide-pakistani-students-codanics/",
+       "n": "Subject line, their work first, you in two lines, the connection, the clear ask."
+      },
+      {
+       "t": "UK PhD application step by step (Oxbridge Essays)",
+       "u": "https://www.oxbridgeessays.com/blog/dissertation-ultimate-guide/how-to-apply-for-a-phd-in-the-uk-admission-requirements-and-process/",
+       "n": "How UK PhDs differ; research-led statements."
+      },
+      {
+       "t": "Dr. Banda Khalifa: funded Hopkins PhD statement read aloud (YouTube)",
+       "u": "https://www.youtube.com/watch?v=jWanKecx3-Q",
+       "n": "Research-first structure transfers to a Manchester supporting statement."
+      },
+      {
+       "t": "Waseem Haider: SOP structure (Facebook, 3:46)",
+       "u": "https://www.facebook.com/watch/?v=1547403729232054",
+       "n": "Name supervisor and project literature."
+      },
+      {
+       "t": "CV: Mirza Awais (Facebook) and Harvard GSAS CV guide",
+       "u": "https://www.facebook.com/watch/?v=1470577775127131",
+       "n": "Harvard PDF: https://cdn-careerservices.fas.harvard.edu/wp-content/uploads/sites/161/2024/07/2024-gsas-cvs-and-cover-letters.pdf"
+      }
+     ],
+     "note": "Gaps: no video is specific to MRC NW-DMS and no official webinar recording was found."
+    },
+    {
+     "h": "What changed from the 7 Nov notes",
+     "open": false,
+     "ul": [
+      "Statement: no limit, 2-4 pages recommended (notes said 1-2 pages). CV is required. English test is not needed until an offer.",
+      "Stipend: GBP 21,805 is the UKRI minimum, not printed on the Manchester page; the 2027/28 rate may be higher. Fee: not found.",
+      "Referees: two, from people who know your academic ability, institutional emails; page also says 'a research statement is not required'."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "sophas",
+   "eyebrow": "Guide",
+   "title": "SOPHAS: fees, waiver, costs and applying mid-internship",
+   "deadline": null,
+   "summary": "SOPHAS charges $155 for the first programme and $65 for each additional one, and Bangladesh qualifies for the international waiver if you request it before submitting. You can apply during the internship, but SOPHAS will not review the file until transcripts, payments and letters arrive.",
+   "chips": [
+    "$155 / $65",
+    "Fee waiver",
+    "WES $239",
+    "Mid-internship"
+   ],
+   "blocks": [
+    {
+     "h": "Fees and the international waiver",
+     "open": true,
+     "ul": [
+      "**Fees:** $155 for the first programme and $65 for each additional (SOPHAS Applicant Help Center, updated 6 Aug 2026). Some programmes add a supplemental fee.",
+      "**Fund is limited:** waivers are first-come, first-served and 'can be quickly depleted'. There is no public counter; call SOPHAS customer service on **617-612-2090** before requesting. You need an account; requests by mail or email are not accepted.",
+      "**Bangladesh qualifies:** you must be a citizen of **and** currently reside in a country on the UN Least Developed Countries list; Bangladesh is on SOPHAS's own list.",
+      "**Covers the first designation only** ($155); each additional programme's $65 is still payable. One waiver type per cycle.",
+      "**$80 WES coupon:** the form also lets you request $80 off a WES course-by-course evaluation; valid for your initial WES order only, no refunds once the order is placed. WES ICAP itself costs $239 (course-by-course Basic is $186, but Hopkins requires ICAP).",
+      "**Must request before submitting.** Requests after submission are not honoured. Processing takes up to 10 business days and you cannot submit while the request is pending.",
+      "**14-day clock:** once approved you must submit within 14 days including weekends and holidays; no extensions; missing it voids the waiver and you cannot reapply. Outstanding transcripts, recommendations and scores need not arrive within the 14 days."
+     ]
+    },
+    {
+     "h": "Sequencing the waiver against the deadlines",
+     "open": false,
+     "ul": [
+      "Because approval can take up to 10 business days and then starts a 14-day clock, request it only when the application is essentially ready to submit, but not so late that processing eats the deadline: for a 1 Dec Hopkins deadline, a request around Tue 10 - Wed 11 Nov leaves room.",
+      "If the waiver has not been approved by about Fri 20 Nov, weigh simply paying $155 to protect the deadline.",
+      "The waiver covers one programme: use it on the most expensive-to-miss first designation and pay the $65 extras."
+     ]
+    },
+    {
+     "h": "Applying mid-internship",
+     "open": true,
+     "ul": [
+      "**Yes, you can apply in the final phase of the degree.** Universities require the degree completed by enrolment, not by the application date; none of the four MPH programmes checked requires work experience or internship completion for admission.",
+      "**SOPHAS mechanics:** in-progress and planned coursework is a normal part of the application. You can submit before transcripts and recommendations are received, **but SOPHAS will not review or verify the application until all transcripts, payments and recommendations arrive.**",
+      "**Emory (official FAQ):** applicants near completion may apply in their final year with incomplete transcripts; an offer is contingent on a final transcript documenting completion.",
+      "**Drexel:** 'The MPH programs do not require work experience' confirmed. The exact 'prior to enrolling' wording was not seen on the page read; it asks for a bachelor's or equivalent international degree.",
+      "**Georgia State:** 'bachelor's at the time of enrollment' was **not verified** (catalog page fetch failed). **UIC:** bachelor's in any field, GPA typically 3.00, GRE not required; 'in progress' wording not found.",
+      "**Academic Update** (2026-27 cycle): 21 Jun - 30 Jul 2027, updated transcripts by 5 Aug 2027, but it is written for US and English-Canadian coursework; for a Bangladeshi MBBS the practical update route is an updated evaluation or transcript per programme instructions, so confirm with each programme.",
+      "**Cycle dates:** opened 12 Aug 2026; closes 2 Aug 2027, 11:59 PM ET; transcripts and test scores matched by 5 Aug 2027, 5 PM ET. Individual programme deadlines are much earlier.",
+      "**MBBS conferral is a matriculation question**, not an eligibility one: the degree must be finished by the time the programme starts."
+     ]
+    },
+    {
+     "h": "Cost of attendance for an international MPH student",
+     "open": true,
+     "table": {
+      "head": [
+       "School",
+       "Tuition / year",
+       "Total cost of attendance / year",
+       "Programme length"
+      ],
+      "rows": [
+       [
+        "Emory Rollins (Traditional MPH)",
+        "$43,264 (2026-27)",
+        "$85,356 (2026-27, per the SPH Tuition and Funding page). The Financial Aid COA PDF is stale (2025-26 labels, $82,514)",
+        "42 credits, about 2 years"
+       ],
+       [
+        "Georgia State SPH",
+        "$34,302 + $1,320 fees (2026-27, out-of-country graduate)",
+        "$59,666.51 on-campus / $62,376.08 off-campus (2026-27 SFS). ISSS I-20 sheet (2025-26 rates): $49,622 required funding to show",
+        "42 credits, about 2 years"
+       ],
+       [
+        "UIC SPH",
+        "$69,982 total out-of-state ('starting at'; about $34,991/yr derived); in-state $43,161 total",
+        "Not found on SPH pages. An out-of-state tuition premium waiver programme exists (merit-based, first-come-first-served)",
+        "42-45 credits, 2 years"
+       ],
+       [
+        "Drexel Dornsife (MPH)",
+        "$38,232 tuition and fees (2026-27, international)",
+        "$69,490 (tuition and fees $38,232 + living $20,502 + other $10,756); Drexel's I-20 figure",
+        "2 years full-time (56 quarter credits); moving to semesters from Fall 2027"
+       ]
+      ]
+     },
+     "note": "Cost of attendance (not tuition alone) is the figure that drives the I-20 funding requirement. Sources: Emory SPH Tuition and Funding page; Georgia State Student Financial Services and ISSS; UIC SPH programme pages; Drexel Central international COA table."
+    },
+    {
+     "h": "Official links",
+     "open": false,
+     "links": [
+      {
+       "t": "SOPHAS fees and fee waivers",
+       "u": "https://help.liaisonedu.com/SOPHAS_Applicant_Help_Center/Starting_Your_SOPHAS_Application/Getting_Started_with_Your_SOPHAS_Application/03_Application_Fees",
+       "n": "Call 617-612-2090 before requesting."
+      },
+      {
+       "t": "SOPHAS international waiver form 2026",
+       "u": "https://help.liaisonedu.com/@api/deki/files/1529/SOPHAS_Service_Waiver_Request_International_Applicants_2026.pdf?revision=9",
+       "n": "Covers the initial $155 only."
+      },
+      {
+       "t": "SOPHAS application cycle dates",
+       "u": "https://help.liaisonedu.com/SOPHAS_Applicant_Help_Center/Starting_Your_SOPHAS_Application/Getting_Started_with_Your_SOPHAS_Application/02_Application_Cycle_Dates",
+       "n": "Opens 12 Aug 2026, closes 2 Aug 2027."
+      },
+      {
+       "t": "Submitting and completing your SOPHAS application",
+       "u": "https://help.liaisonedu.com/SOPHAS_Applicant_Help_Center/Submitting_and_Monitoring_Your_SOPHAS_Application/Before_and_After_You_Submit_Your_SOPHAS_Application/01_Submitting_and_Completing_Your_SOPHAS_Application",
+       "n": "Submit-early rule and the no-review-until-complete caveat."
+      },
+      {
+       "t": "Emory Rollins admissions FAQ",
+       "u": "https://sph.emory.edu/admissions/faq",
+       "n": "Final-year applicants and contingent offers."
+      },
+      {
+       "t": "Emory Financial Aid: cost of attendance",
+       "u": "https://studentaid.emory.edu/graduate/apply/cost-of-attendance.html",
+       "n": "Use the SPH Tuition and Funding page for 2026-27 figures; the PDF is stale."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "mph-shortlist",
+   "eyebrow": "Shortlist",
+   "title": "Twelve MPH programmes through SOPHAS",
+   "deadline": null,
+   "summary": "Twelve MPH programmes verified against their own pages for Fall 2027, with deadlines, money open to internationals and MBBS/WES notes. None passes the full-funding filter, so the realistic route is partial scholarship plus assistantship work inside F-1 limits.",
+   "chips": [
+    "12 schools",
+    "Fall 2027",
+    "Partial funding",
+    "F-1 rules"
+   ],
+   "blocks": [
+    {
+     "h": "The twelve schools (Fall 2027, verified against official pages)",
+     "open": true,
+     "table": {
+      "head": [
+       "#",
+       "Programme",
+       "Fall 2027 deadline",
+       "Money for internationals",
+       "MBBS / WES notes"
+      ],
+      "rows": [
+       [
+        "1",
+        "Emory Rollins MPH",
+        "Priority 5 Jan 2027 (priority for admission and merit scholarships); international applicants urged to submit by 1 May 2027. The FAQ does not print the year.",
+        "Merit scholarships 50-100% of tuition; all full-time MPH/MSPH students incl. internationals with verified SOPHAS applications by 5 Jan are automatically considered. REAL programme: up to $3,000/semester, work-eligible internationals apply after admission (first-come-first-served)",
+        "WES via SOPHAS; Rollins general page says international applicants must use WES"
+       ],
+       [
+        "2",
+        "Columbia Mailman MPH",
+        "Preferred 1 Dec 2026; standard 15 Jan 2027 (rolling); late consideration 1 Mar 2027 (scholarships subject to availability)",
+        "Merit $7,500-$30,000/yr; need-based grants are FAFSA-based (assume none for you). Partial only; PopFam $10,000 not checked",
+        "WES via SOPHAS; Statement of Purpose max 500 words"
+       ],
+       [
+        "3",
+        "Georgia State MPH",
+        "Priority 15 Feb 2027 (scholarship consideration and international applicants); regular 15 Jun",
+        "Graduate Research Assistantships: stipend + tuition waiver, up to 20 h/week, limited and not guaranteed; incoming-MPH scholarships from $2,500. Stipend amount NOT FOUND",
+        "WES via SOPHAS"
+       ],
+       [
+        "4",
+        "Boston University SPH MPH",
+        "Priority 15 Jan 2027; international final 1 Apr 2027; domestic final 15 Jun",
+        "Scholarship aid against tuition for eligible internationals; Generation Health practicum stipends up to $5,000. Merit % for internationals NOT FOUND",
+        "Requirements list 'Academic Transcripts or WES ICAP Evaluation'"
+       ],
+       [
+        "5",
+        "GW Milken Institute SPH MPH (residential)",
+        "Scholarship priority 15 Jan 2027; Round 2 15 Mar 2027; visa-needing applicants by 15 Mar",
+        "Merit scholarships; priority applicants automatically reviewed (over $20 million offered annually; the 'largest portion of institutional aid' wording not seen). Amounts NOT FOUND",
+        "WES via SOPHAS; a supplemental form is also required"
+       ],
+       [
+        "6",
+        "Drexel Dornsife MPH",
+        "International 1 Jun 2027; apply by 15 Jan 2027 for endowed scholarship consideration",
+        "Dornsife Public Health Research Fellowship = tuition scholarship + research assistantship for incoming MPH students (indicate interest in SOPHAS). The '>95% receive scholarship' figure was NOT FOUND, do not quote it. Award % NOT FOUND",
+        "WES via SOPHAS"
+       ],
+       [
+        "7",
+        "Tulane SPH&TM MPH",
+        "Final 15 Jun 2027 (confirm the on-campus MPH row); complete files considered for funding, no extra application",
+        "Automatic funding consideration; amounts NOT FOUND",
+        "Course-by-course evaluation mandatory for international coursework; 'sent to Tulane admissions as well' not verified"
+       ],
+       [
+        "8",
+        "USF College of Public Health MPH",
+        "Priority 1 May 2027",
+        "Weakest money fit: 'Federal financial opportunities are very limited for international applicants. The College requests that all international students are fully financially independent.'",
+        "WES ICAP not verified; separate USF graduate application and fee also required (fee amount NOT FOUND)"
+       ],
+       [
+        "9",
+        "UIC School of Public Health MPH",
+        "International 1 Feb 2027; priority 1 Dec 2026 for guaranteed consideration for all financial aid",
+        "TA/RA/GA posts exist; the '25-67% appointment waives tuition' rule was NOT FOUND on official pages; stipend NOT FOUND",
+        "Supplemental application fee **$80** on the MPH/MS apply page (older pages still say $70); WES via SOPHAS"
+       ],
+       [
+        "10",
+        "UAB School of Public Health MPH",
+        "International fall 1 Apr 2027 (domestic 1 Jul)",
+        "No MPH funding statement found; treat money as unproven",
+        "WES or ECE course-by-course mandatory (from notes)"
+       ],
+       [
+        "11",
+        "SUNY Albany MPH (on-campus)",
+        "Priority 15 Jan 2027; general 1 Mar; later space-available ('final 1 Aug' not verified)",
+        "8-10 full- and part-time graduate assistantships for new public health students (apply in March); amounts NOT FOUND",
+        "WES via SOPHAS; the fully online MPH is closed to F-1/J-1"
+       ],
+       [
+        "12",
+        "Brown University SPH MPH",
+        "Priority 1 Dec 2026; final 15 Jan 2027 (Accelerated MPH for Clinicians: same dates)",
+        "Merit scholarships; priority applicants may earn an additional 2.5% tuition scholarship (needs verification by 15 Dec and enrolment confirmed by 15 Mar). Award size NOT FOUND",
+        "Accelerated MPH for Clinicians suits holders of advanced clinical degrees"
+       ]
+      ]
+     },
+     "note": "No deadline above has passed as of 9 Nov 2026; the 1 Dec dates (Columbia, UIC priority, Brown) fall in three weeks. Year is not printed on several official pages (Emory, GSU, UAB, UIC); the dates are the standing annual ones."
+    },
+    {
+     "h": "Where the realistic chances are",
+     "open": true,
+     "ul": [
+      "**Admission:** MPH cohorts routinely include physicians; the screens are the degree, GPA conversion, English scores and the statement. None of the 12 lists research experience as an admission requirement. The public universities (Georgia State, UIC, USF, UAB, Albany) plus Drexel and Tulane are the realistic-admission band; Emory, Columbia, BU, GW and Brown are competitive for everyone and their top merit tiers are the long shots.",
+      "**Where Sakib-type mechanics exist:** assistantships with tuition waiver (Georgia State confirmed; UIC unconfirmed), Emory REAL (up to $3,000/semester), Drexel's research fellowship (tuition scholarship + RA), and automatic merit review at stated priority dates (Emory, Drexel, GW, UIC, Albany). USF is the counterexample: it tells internationals to arrive self-funded.",
+      "**None passes the board's hard filter** (full tuition + stipend guaranteed). Every route is partial scholarship plus work, and first-year funds must be documentable for the I-20 regardless of expected earnings.",
+      "**Sakib's own case (7 Nov talk, unverified claim):** a 50% Columbia scholarship still left a very large balance; he calls the MPH a 'cash-in' programme.",
+      "Research experience matters mainly for the top merit money and for landing RA jobs after arrival, not for admission itself."
+     ]
+    },
+    {
+     "h": "Fee waiver sequencing",
+     "open": false,
+     "ul": [
+      "One SOPHAS account, one transcript and WES set reused across programmes; each added programme costs $65 (UIC adds an $80 supplement, USF a separate application).",
+      "The international fee waiver (Bangladesh is on the UN LDC list on SOPHAS's page) covers only the first $155 and must be requested before submitting; approval takes up to 10 business days, then you must submit within 14 days or lose it for good.",
+      "Request it when WES is ordered and the statement is near final. Make the earliest-deadline programme your first designation.",
+      "Also use the waiver form to claim the $80 WES coupon before placing the WES order (initial order only)."
+     ]
+    },
+    {
+     "h": "F-1 work rules (official wording)",
+     "open": false,
+     "ul": [
+      "**On campus:** no more than 20 hours a week while school is in session; full-time during scheduled breaks. You may apply up to 30 days before classes start. RA/TA/GA assistantships count as on-campus employment inside the same cap.",
+      "**CPT:** needs at least a full academic year of full-time enrolment (exception for programmes whose curriculum requires earlier training); must be integral to the curriculum; one employer per authorisation. **One year of full-time CPT eliminates OPT eligibility.**",
+      "**OPT:** 12 months per level of study, authorised by USCIS with an EAD; STEM extension (24 months) only for eligible STEM degrees.",
+      "**Off-campus work** otherwise needs one full academic year plus economic hardship. Do not plan year-1 income around off-campus work."
+     ]
+    },
+    {
+     "h": "Cost of attendance (4 schools)",
+     "open": false,
+     "table": {
+      "head": [
+       "School",
+       "Tuition / year",
+       "Total cost of attendance / year",
+       "Programme length"
+      ],
+      "rows": [
+       [
+        "Emory Rollins (Traditional MPH)",
+        "$43,264 (2026-27)",
+        "$85,356 (2026-27, per the SPH Tuition and Funding page). The Financial Aid COA PDF is stale (2025-26 labels, $82,514)",
+        "42 credits, about 2 years"
+       ],
+       [
+        "Georgia State SPH",
+        "$34,302 + $1,320 fees (2026-27, out-of-country graduate)",
+        "$59,666.51 on-campus / $62,376.08 off-campus (2026-27 SFS). ISSS I-20 sheet (2025-26 rates): $49,622 required funding to show",
+        "42 credits, about 2 years"
+       ],
+       [
+        "UIC SPH",
+        "$69,982 total out-of-state ('starting at'; about $34,991/yr derived); in-state $43,161 total",
+        "Not found on SPH pages. An out-of-state tuition premium waiver programme exists (merit-based, first-come-first-served)",
+        "42-45 credits, 2 years"
+       ],
+       [
+        "Drexel Dornsife (MPH)",
+        "$38,232 tuition and fees (2026-27, international)",
+        "$69,490 (tuition and fees $38,232 + living $20,502 + other $10,756); Drexel's I-20 figure",
+        "2 years full-time (56 quarter credits); moving to semesters from Fall 2027"
+       ]
+      ]
+     },
+     "note": "Emory's COA PDF is stale; use the SPH page figure. UIC total COA not found."
+    }
+   ]
+  },
+  {
+   "id": "guidance",
+   "eyebrow": "Third-party guidance",
+   "title": "What other applicants say: guidance posts and the Sakib talk",
+   "deadline": null,
+   "summary": "Summaries of social-media guidance posts and the 7 November BOB-MedElites talk by Dr Sakib, plus the status of every lead they raised. These are personal views, not official rules; the unnamed Netherlands award is now identified as the University of Twente Scholarship.",
+   "chips": [
+    "Unofficial",
+    "Sakib talk",
+    "Lead status"
+   ],
+   "blocks": [
+    {
+     "h": "Building an extracurricular (ECA) profile from home (Career & Abroad, Facebook reel (Bangla), 28 Oct 2026)",
+     "open": false,
+     "ul": [
+      "The reel is about building an **extracurricular-activity (ECA) profile from home**, and the title promises **15 free resources**.",
+      "No scholarship, programme, amount or deadline is named anywhere in the caption.",
+      "The list of 15 resources was **not retrieved** (Facebook gave no captions for this reel), so only the title and caption are known.",
+      "How to use it: watch the reel yourself and note the 15 items, then keep only those that fit your health, research or public-health field."
+     ],
+     "note": "Caution: Only the title and caption were read; the actual 15 resources were not retrieved, so nothing here is confirmed content of the reel."
+    },
+    {
+     "h": "How to make a Europass CV for higher studies (Mrinmoy 'Moon' Modak (Graduate Research Assistant, University of Florida), Nextop USA Facebook group, long Bangla post, 1 Nov 2026)",
+     "open": false,
+     "ul": [
+      "**Europass** is the EU's free online CV builder; build it only on the official site, **europass.europa.eu/en/create-europass-cv**. You can make an account or use a guest option, then download a PDF.",
+      "It is **not mandatory** everywhere. If a university or scholarship gives its own CV format, use that. USA, Canada, Australia and UK programmes often prefer their own 2 to 3 page academic CV.",
+      "Order of sections: basic info (professional email, LinkedIn or research profile), Education (latest degree first, official degree names, CGPA if relevant, thesis title), Work experience, Research experience or projects, Publications and presentations, Skills, Languages, Awards, References.",
+      "For research roles, write what you did, how, and your own role: project title, lab or institution, supervisor, duration, objectives, your contribution, methods, analysis tools.",
+      "List publications with authors, year, title, journal, DOI and an **honest status** (Published, Accepted, Under review, Submitted). Never show an unpublished manuscript as published.",
+      "Name only skills and software you really know (R, Python, SPSS, Excel, GIS and so on). IELTS or TOEFL: give test name, score and date if relevant.",
+      "Ask referees before you put their names in; leave references out if none are asked for.",
+      "For a PhD, stress education, research experience, publications, research skills, conference presentations and research interests so a professor sees the match with their work.",
+      "Keep a folder system (Academic Documents, Transcripts, CV, Research Experience, Publications, IELTS/TOEFL, Recommendation Letters, Awards, SOP and Research Proposal) and one **master CV**, then make a trimmed version per programme.",
+      "Before sending, check spelling, degree names, dates, CGPA, email, phone and formatting, and save as YourName_Academic_CV.pdf."
+     ],
+     "note": "Caution: The post is general advice by a PhD-stage student, not an official rule; always follow each university's own CV instructions. The author promises a follow-up on emailing professors."
+    },
+    {
+     "h": "Month-by-month application calendar for the Sept 2027 intake (Deshi Passport, Facebook reel with full post text (Bangla), 21 Oct 2026)",
+     "open": false,
+     "ul": [
+      "**Oct to Dec (start now):** Sweden 16 Oct 2026 to 15 Jan 2027; Norway around 1 Dec; Stipendium Hungaricum expected to open in November (no official date yet); ETH Zurich and EPFL masters usually Nov to Dec (sources differ, check the university site); Charles University English medicine 30 Nov; Greece English masters Dec to May, many 31 May; Netherlands: Studielink applications open from October.",
+      "**January:** Finland 7 to 21 Jan 2027 (Studyinfo.fi); Sweden closes 15 Jan; Hungary likely mid-January (last year 15 Jan); Germany summer semester usually 15 Jan; Radboud with scholarship **31 Jan**; Comenius University Slovakia 31 Jan to 31 Mar; most Erasmus Mundus deadlines Dec to Jan.",
+      "**Feb to Mar:** WU Vienna English masters 1 Feb to 31 Mar; Denmark masters until 1 Mar (DTU 15 Jan to 1 Mar); Italy usually Feb to Apr by university; Charles University 28 Feb to 30 Apr; KU Leuven and Ghent from 1 Mar; Vilnius 1 Mar to 30 Jun; Campus France Feb to Mar.",
+      "**Apr to May:** Netherlands without scholarship usually **1 Apr** (Radboud basis), some programmes 1 May; Tartu and Tallinn 1 Apr; Latvia RSU 1 Apr to 30 Jun; Portugal Mar to Jul (apply by May to leave visa time); KU Leuven until 15 May; Greece 31 May.",
+      "**Jun to Jul:** Spain public universities May to Jul (Complutense and Barcelona 31 Jul); Germany winter semester usually 15 Jul, many earlier; Lithuania 30 Jun; Latvia 30 Jun or 31 Jul; Portugal 31 Jul. Poland has no single date; each university sets its own.",
+      "Start APS, transcripts, certificate verification and IELTS **3 to 6 months early**; a late deadline is not a reason to start late.",
+      "Visa processing takes long, especially for Germany, so leave time after an offer.",
+      "The poster's own rule: dates change yearly, so check each one on the university or official portal before you apply."
+     ],
+     "note": "Caution: This is one creator's compiled calendar; the poster says dates shift each year, and the Swiss dates and the Hungary opening date are flagged uncertain in the post itself. Verify each date on the official portal."
+    },
+    {
+     "h": "The bank-statement mistake that gets Italy study visas rejected (Imran Faruk Official (education consultant), Facebook reel (Bangla), 22 Feb 2026)",
+     "open": false,
+     "ul": [
+      "The commonest mistake is **fake transactions**: withdrawing and re-depositing the same money again and again (for example cycling Tk 5 lakh) so the statement looks long and busy.",
+      "The pattern the speaker warns about: keep Tk 2 to 5 lakh rolling, then deposit the real Tk 20 to 25 lakh only in the last 2 to 3 months before submitting.",
+      "Why it fails, he says: the **balance never really grows**, and turnover does not match the sponsor's salary. Example: salary Tk 1.5 lakh a month with half spent means the highest normal transaction is about Tk 2 to 2.5 lakh, not Tk 10 to 15 lakh a month.",
+      "A visa officer who sees this may reject you for dishonesty.",
+      "What to do instead: let the account follow **real life**. Pay school fees, medical bills, shopping, restaurant bills, mobile recharge, bKash transfers and family support through the bank or card, and withdraw small amounts instead of one big monthly cash withdrawal.",
+      "When 12 months of statements match your real spending and your supporting documents, the embassy is more likely to believe the whole file."
+     ],
+     "note": "Caution: This is a consultant's own view of how Italian visa officers read statements, not an embassy rule; check the embassy and university pages for the actual financial requirements."
+    },
+    {
+     "h": "Skills that put you ahead for a fully funded Public Health scholarship (Dhrubo (ধ্রুব), Facebook text post (Bangla), 1 Nov 2026)",
+     "open": false,
+     "ul": [
+      "For applicants with good results but **no research experience or publications**: learn technical skills now so you can show professors a usable skill set.",
+      "**Statistics software or language:** R, Stata, SPSS, Python or SAS. You do not need all; start with one and add others by work type.",
+      "**Epidemiology and biostatistics methods:** logistic regression, linear regression, survival analysis, Cox regression, meta-analysis, systematic review, sample-size calculation. Learn the ones that fit your research interest.",
+      "**Research tools:** REDCap, Rayyan, RevMan, Zotero, NVivo. Start with **Zotero**; add Rayyan and RevMan for systematic review or meta-analysis.",
+      "**GIS and disease mapping:** QGIS or ArcGIS; start with QGIS.",
+      "Aim: a stronger profile for funded graduate programmes and a clearer skills story when you write to professors."
+     ],
+     "note": "Caution: General advice from a social-media post; it names no scheme, amount or deadline and does not promise funding."
+    },
+    {
+     "h": "Can you get full funding with no research experience? (Toma Rahman, Facebook reel (Bangla and English, about 2 min), 2 Nov 2026)",
+     "open": false,
+     "ul": [
+      "Her answer: saying you cannot get funding without research experience would be a lie, but she has seen **people get funded with little**; those are exceptions, and most funded research masters and PhD students have some research experience, strong or weak.",
+      "Her own case: no undergraduate thesis at Dhaka University, but she worked as a **research assistant from first year**.",
+      "She also helped others with theses: **data collection, interview transcripts, data management, literature review**. She had not run her own full research.",
+      "In her application she said plainly that she had not written a thesis but had done these tasks, and wanted to learn through the thesis. She says it worked.",
+      "Her advice: try your best to get at least some research experience.",
+      "If your university cannot offer it, she says it may not be the right university for you, which she calls a harsh comment."
+     ],
+     "note": "Caution: One person's experience and opinion, with no scheme named; her story shows it can work, not that it will."
+    },
+    {
+     "h": "The '50+ scholarship opportunities' list post (Bashar Gulumbe, Facebook text post, 2 Nov 2026)",
+     "open": false,
+     "ul": [
+      "The post says the author compiled **50+ scholarships and funded research programmes** with deadlines from November 2026 into 2027.",
+      "The list itself is in the comments or links, and it was **not retrieved**; the post body names no scheme, amount or deadline.",
+      "Do not use the count of 50+ as a source.",
+      "If you open the list, check every scheme on its own official site before spending time or money (the same tip as in Naim's Diary, see the government-scholarship entry)."
+     ],
+     "note": "Caution: Aggregator teaser; nothing in it was checked, and the actual list was never seen."
+    },
+    {
+     "h": "Four student profiles with the best Italy study-visa chances (Imran Faruk Official (consultant, ends with a client pitch), Facebook reel (Bangla, auto-captions), 13 Oct 2026)",
+     "open": false,
+     "ul": [
+      "**Profile 1, bachelor's applicants:** HSC GPA 4.0 or more out of 5 (or diploma CGPA 3.0 or more out of 4), **IELTS 6.0 or more**, and an entrance or CEnT-S exam pass; show about **Tk 30 to 40 lakh** with genuine transactions and proper sponsor papers. Two factors matter most: the entrance exam and bank solvency.",
+      "**Profile 2, fresh graduates (within about 1 to 3 years):** CGPA 3.3 or more out of 4, even with no job; IELTS 6.0 or more (applying on MOI alone lowers the odds); show about **Tk 25 to 35 lakh** of genuine sponsor funds, consistent with the sponsor's documents.",
+      "**Profile 3, graduated about 3 to 5 years ago:** a decent CGPA, 1 to 2 years of job experience **related to the degree**, IELTS 6.0 or more, Tk 25 to 35 lakh or more, and a perfect sponsor file. The figures in this stretch were garbled in the captions, so treat them as approximate.",
+      "**Profile 4, graduated about 5 to 10 years ago:** a moderate CGPA is fine (about 3.0 or 3.5), with 2 to 5 years of job experience, best at a multinational or reputed company and in the same field. He says some get visas on MOI, but IELTS makes it risk-free. These applicants fund themselves partly from savings and rely less on a sponsor. Figures here are also approximate.",
+      "For every profile the bank statement and the sponsor's financial papers must be **consistent and genuine**.",
+      "He says these are his own observations from several years of casework, not a rule, and that other profiles can also get visas."
+     ],
+     "note": "Caution: Consultant marketing; the lakh figures and CGPA and IELTS cut-offs are one agent's experience, not Italian embassy requirements, and some figures were garbled in the captions. Check the embassy page."
+    },
+    {
+     "h": "How to get a government scholarship: the full process (Naim's Diary, long Facebook video (Bangla), 1 Nov 2026)",
+     "open": false,
+     "ul": [
+      "**Step 1, analyse your results honestly.** For bachelor's applicants he says most government scholarships need HSC GPA **4.5 or more out of 5** (5.0 best). For master's applicants, CGPA **above 3.0**; a 2.8 or 2.9 can sometimes be covered by strong extracurriculars, which HSC applicants cannot do.",
+      "Lower-competition schemes exist (he gives an ICCR-type scholarship as an example, around 3.8 to 4.0) but with limited subjects.",
+      "**Step 2, organise documents.** Use a real scanner, not phone photos, with a clear folder structure. Basics: passport, passport photo, NID, birth certificate, academic documents, extracurricular proof, language certificate if any; sometimes police clearance and a medical certificate.",
+      "**Step 3, build an Excel sheet** of target schemes: name, documents needed, when the circular comes, deadline, whether IELTS or police clearance is needed, and the application link.",
+      "Examples he names: Chinese government, Stipendium Hungaricum, Russian, Kazakhstan, ICCR, Morocco, Mexican and Romanian government scholarships.",
+      "**Where to find them:** the Bangladesh ministry site he names as shade.gov.bd (as heard in the transcript, spelling unconfirmed) for ministry-routed offers, and **opportunitiescorner.com** for international ones. Then go to each scheme's own site for details, to avoid scams and mistakes.",
+      "**Step 4, apply:** register, fill the form exactly as instructed, upload documents. A few schemes add an entrance exam or interview (he cites the Russian one); most do not."
+     ],
+     "note": "Caution: Aimed mainly at HSC and bachelor's applicants, so the GPA cut-offs are the speaker's rules of thumb and mostly not your level; the website names are as transcribed and should be checked."
+    },
+    {
+     "h": "What to do to win an undergraduate scholarship (Annels Scarlen Diaz, Nextop USA group, Facebook photo post (Bangla), 3 Nov 2026)",
+     "open": false,
+     "ul": [
+      "Aimed at **HSC-level students**, so it is not your level; the ideas below are what the post says.",
+      "Keep SSC and HSC results strong and consistent; add subject depth through Olympiads, science fairs and projects.",
+      "Prepare IELTS or TOEFL, and for the US the SAT only where required (many universities are test-optional; check each one).",
+      "Choose a few extracurriculars and stay long enough to show real impact rather than collecting **20 certificates**.",
+      "Show leadership by starting small initiatives: free tutoring, a reading or science club, a clean-up or tree planting. Document what you did, why, and what changed.",
+      "Tailor profile, story and essays to each university; do not copy others' essays or exaggerate.",
+      "Build relationships with teachers early so recommenders can write real examples.",
+      "Research who gives financial aid to international students: full tuition or tuition plus living, separate application, SAT or ACT, deadlines, family financial papers. In the USA need-based aid and merit scholarships are different things.",
+      "Keep an Excel plan with a reach, match and safer list, and prepare essays, letters and financial papers well before deadlines."
+     ],
+     "note": "Caution: Undergraduate-level advice; an attached table comparing countries was partly illegible and its figures were not used."
+    },
+    {
+     "h": "Studying in the USA with zero living cost: the Resident Assistant route (Mohammed Farhan Hossain (Bangladeshi undergraduate in Massachusetts), Facebook reel (Bangla and English), 28 Dec 2025)",
+     "open": false,
+     "ul": [
+      "He arrived on a **merit scholarship that covered tuition only in part** and not living costs, which were roughly **double his tuition share**.",
+      "On seniors' advice he applied for a **Resident Assistant (RA)** post in his residence hall: a **free single room, a meal plan and a biweekly stipend**, so living cost is effectively $0.",
+      "Apply **as early as the application opens**. The pipeline is application, selection, interview, then a training class, taking **one to two semesters**.",
+      "Look for **three on-campus roles** first: Resident Assistant, **Research Assistant** (approach professors directly, before or right after arriving, saying what skills you bring), and **Teaching Assistant**.",
+      "Search on **Handshake**; build a detailed profile with a professional photo and apply early and widely.",
+      "F-1 student visa limit: **20 working hours a week**; do not exceed it, because employers can report it.",
+      "His view: use the degree years for long-term growth and skills rather than cash work off campus."
+     ],
+     "note": "Caution: This is an undergraduate's personal experience; RA posts mostly serve enrolled undergraduates in residence halls and do not cover tuition, so for you it is a gap-closer (like RA or TA work for partially funded students), not a funded route."
+    },
+    {
+     "h": "Opportunities in USA as a Bangladeshi doctor (BOB-MedElites live, 7 Nov 2026)",
+     "open": true,
+     "ul": [
+      "**Two myths:** that Bangladeshi doctors can only work unpaid in the USA, and that there are no scholarships for a master's. He calls both partly myth; the real gap is that students do not know the pathways (full-time job routes, visa application, funded master's) and seniors seldom guide. **Internship timing:** his internship ran Feb to Feb and he started applying in the **November before it ended**. He had felt completely lost during internship; his first research project was stuck for a year with no publication, and publications came during internship.",
+      "**Age advantage:** he says Bangladeshi doctors can start early; he is a doctor at **25**, while many people finishing medical school in the US are about **30 to 32**. He calls this a big advantage.",
+      "**Pick programmes that match your own interest and experience** (his are maternal health, HIV and adolescent health), not any scholarship in an unrelated field such as biological sciences; he says you would not get that scholarship.",
+      "**IELTS:** a minimum score is enough for selection, but a visa officer may look more favourably on an **8 than a 7**, and English speaking plays a big role in the visa. If a visa is refused, understand the real reason. He names TOEFL or IELTS as the options.",
+      "**Decide your destination early.** Prepare for the US, UK or Australia the same way at first, but pick one. On the **Middle East and Maldives** route he is blunt: little career growth, and he has seen seniors come back after about 3 years to sit **FCPS**. He says the same effort is better spent on the US route.",
+      "**US routes (his view):** USMLE, or take a position that adds to your portfolio first, then build clinical experience and Steps; he says within three years you can get into residency. Do not wait in Bangladesh to finish everything: the earlier you enter the US system, the earlier opportunities come.",
+      "**Research path for students in Bangladesh:** start with voluntary research. **Case reports in 3rd year** from atypical cases, then **cross-sectional**, then **cohort** studies (prospective cohort work is the most valuable), alongside medical life. **One hour a day, not eight.** **Build the research team:** look for **like-minded people**; attach a professor or senior who can guide the first project; learn **research methodology** from first idea to manuscript (YouTube short courses, BMSS courses). Run several projects, since only one may pay off, and it takes time.",
+      "**Avoid paid authorship:** do not buy papers, pay to be listed as an author, or use anyone who charges to publish for you. He says it is very detrimental for your career, it will come out, and people see through it.",
+      "**CV volunteering must relate to your field.** A health camp does not count if you cannot relate it. His examples: research with Public Health Foundation and BMSS, work with United Nations-linked groups (as heard), community awareness (dengue, prevention), work with vulnerable groups. Then, in his words, research, research, research and research. He had 7 years of voluntary work and 3 years of research before MBBS ended.",
+      "**Letters of recommendation matter a lot in the US.** Even with a low profile, a professor who sees your potential will write a very good letter. His suggestion: one from your principal, one from the medicine department head, one from the surgery department head. He says Bangladeshis put too little effort into this.",
+      "**Emailing professors:** he emailed about **50** professors at the universities he wanted and about **30** replied wanting a Zoom meeting; some offered research positions. Email contents: who you are in one line, interest in a specific part of their work (his example was an HIV drug clinical trial), your experience, what you want to learn, then **ask for a meeting date and time** instead of asking if they have a position. He says a professor who is convinced makes a high scholarship easy.",
+      "**Columbia story:** the scholarship needed CGPA above **3.3**, and although his MBBS marks were over 80%, he had no 3.3 CGPA. He says CGPA conversion from MBBS is of little use. He got a **50% scholarship**, which he says still left about Tk 1 crore to pay, so he wrote to the professor to ask for more. **MPH is a cash-in program** (it needs a lot of money); Emory has the second best MPH in the US in his view, Hopkins Bloomberg the first. He did not apply to Hopkins because he had a full job.",
+      "**Funded PhD:** he says a PhD costs nothing and pays about **$3,000 to $4,000 a month** for a profile like his (borderline cases possible). He says direct master's or PhD applications often get rejected and that applicants who send 20 or 30 applications blindly then complain online.",
+      "**Mindset and community:** be passionate and hungry; he says he does not charge for knowledge but wants the same hunger from a mentee and does not believe in ready-made publications. He ends by urging a stronger Bangladeshi doctor community abroad, like the Indian and Pakistani ones, and says to text him if you come to the US."
+     ],
+     "note": "Dr. Sadiqur Rahman Sadab (host) and Dr. Iftekhar Ahmed Sakib (Clinical Research Coordinator, Infectious Diseases division, Emory University School of Medicine, since March; works on HIV-immunology research). Live stream by the BOB-MedElites Facebook page, 7 Nov 2026, about 1 hr 02 min, in Bangla with English terms. Caution: One doctor's personal views and experience, not official guidance. The Bangla was machine-transcribed and noisy, so the figures from the garbled stretches (about $3,000 to $4,000 a month for a PhD, the Tk 1 crore remaining after the 50% Columbia award, the Emory and Hopkins ranking and the three-year route to residency) are his claims and were not verified."
+    },
+    {
+     "h": "Leads: status and next step",
+     "open": true,
+     "table": {
+      "head": [
+       "Lead",
+       "Status",
+       "Next step"
+      ],
+      "rows": [
+       [
+        "Unnamed Netherlands award 'up to EUR 22,000', deadline 1 Apr 2027 (ApplyKite reel, 12 Oct 2026) [item 19]",
+        "RESOLVED: University of Twente Scholarship (UTS), EUR 3,000-22,000 for one year; form opens 15 Oct 2026, closes 1 Apr 2027 16:00 CET; results first week of May 2027. Confirmed on utwente.nl. NOT a full scholarship: partial, 'no costs paid on your behalf'",
+        "Must be admitted first; non-EU/EEA; top 5-10% of class; IELTS 6.5 (speaking 6.0); Bangladesh in the eligible list; second year equal amount if average 7/10 and 50% ECTS. Earlier notes' 1 Feb / 1 May dates were wrong"
+       ],
+       [
+        "Bashar Gulumbe '50+ scholarships' list (2 Nov 2026)",
+        "Contents not retrieved",
+        "Open the comments or links; check each scheme on its official site; do not cite the count"
+       ],
+       [
+        "MRC North West PhD (Manchester + Liverpool)",
+        "VERIFIED; deadline 27 Nov 2026; stipend GBP 21,805 is the UKRI minimum (not printed on the Manchester page, 2027/28 may be higher); fee not found",
+        "See the MRC application pack; apply only through Manchester's page; the Facebook poster is a coaching business, do not pay them"
+       ],
+       [
+        "Doha Institute Tamim Scholarship (Qatar)",
+        "Coverage and deadline VERIFIED: 100% tuition, housing, monthly stipend, health insurance; admission deadline 15 Jan 2027 (opened 1 Sep 2026); stipend amount not published",
+        "CORRECTION: the 10 h/week work clause is under the Doctoral Studies tab only, not the master's Tamim terms. Programmes are social science, humanities and public policy; no clinical or public-health master's seen. Apply for admission first, then you are invited to apply for the scholarship"
+       ],
+       [
+        "KFUPM (Saudi Arabia) funded thesis MS/PhD",
+        "Package VERIFIED: tuition-free, stipend 'according to category', furnished housing, medical, airfare for internationals, books. SAR stipend figures (1,725 / 2,400) are NOT official; the handbook says SAR 890 (unclear period)",
+        "Only the Project-Based MS banner (10 Feb 2027) has a date and that track is not scholarship-funded; thesis/PhD date must be checked in the nabegh portal. Engineering, science and business only; scholarship needs GPA 3.00+; IELTS 6.0 (PhD 6.5); 2 letters"
+       ],
+       [
+        "McCall MacBain Scholarship (McGill)",
+        "VERIFIED; international deadline 19 Aug 2026, 4 PM ET (Fall 2027 cohort) has passed; applications closed",
+        "Benefits: tuition and fees + CAD 2,300/month + relocation + up to CAD 5,000 summer. Needs a recent first bachelor's (last 5 years) or age 30 or under; master's/professional only, not PhD. Next cycle dates unpublished (the FAQ says 12-15 months before start); check mid-2027"
+       ],
+       [
+        "Deakin University RTP (Australia)",
+        "VERIFIED: stipend AUD 37,450 tax-exempt, relocation AUD 500-1,500, OSHC; the INTERNATIONAL round (Feb 2027 intake) closed **23 Aug 2026**; the 25 Oct 2026 date was the domestic round",
+        "Next round dates not yet published; same RTP scheme as the Sydney/Melbourne board entries; a supervisor is needed first"
+       ],
+       [
+        "Radboud University Scholarship 2027-28",
+        "VERIFIED PARTIAL: tuition cut to EUR 2,771 (to be confirmed), visa, permit and insurance covered, no living costs; NL Scholarship EUR 5,000 stackable (not alone)",
+        "Submit in OSIRIS by 31 Jan 2027 23:59 CET, complete by 14 Feb 2027; decision before mid-April; all non-EU/EEA eligible. Fails the full-funding filter alone"
+       ],
+       [
+        "Eric Bleumink Fellowship (Groningen)",
+        "VERIFIED: no direct application; nominees chosen first week of January; four grants a year; EUR 1,250/month, EUR 275 settling, EUR 310/yr study allowance, tuition paid, return flights, insurance",
+        "Complete the Master's application before 1 Dec 2026 (fee EUR 100 non-Dutch diploma); no paid work in NL, no family provision, must return home; Bangladesh on the country list (tier reading likely, not certain); questions msd@rug.nl"
+       ],
+       [
+        "Stipendium Hungaricum (Debrecen), Maastricht, NL Scholarship, TU Delft, Erasmus Mundus in the agency reel",
+        "Already on the board; the agency's testimonial is unverifiable",
+        "Use official portals; the SH call had no official opening date yet (expected November, close about mid-January)"
+       ],
+       [
+        "ETH Zurich and EPFL master's deadlines",
+        "Poster says sources conflict",
+        "Check each university's admissions page"
+       ],
+       [
+        "Career & Abroad '15 secret resources' for an ECA profile",
+        "List of 15 not retrieved",
+        "Watch the reel and note the resources"
+       ],
+       [
+        "Nextop USA photo table of undergraduate routes",
+        "Partly illegible; no figures used",
+        "Not relevant to your level; ignore"
+       ],
+       [
+        "Italy bank-statement and visa-profile figures (Imran Faruk Official)",
+        "Consultant's claims, not embassy rules",
+        "Check embassy and university requirements before relying on any lakh figure"
+       ]
+      ]
+     }
+    }
+   ]
+  }
+ ]
+}

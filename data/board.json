@@ -68,6 +68,10 @@
   [
    "Facebook",
    "Bangladeshi doctor and USMLE groups repost from the official sites above. The sweep watches the originals, so every repost is caught at its source."
+  ],
+  [
+   "Application packs",
+   "bmh.manchester.ac.uk MRC NW-DMS projects page · help.liaisonedu.com SOPHAS fees and cycle pages · publichealth.jhu.edu Epidemiology FAQ · sph.emory.edu and gradschool.emory.edu · apply.grad.yale.edu · learn.hs.pitt.edu IBGP · ukri.org stipend rates · utwente.nl scholarships"
   ]
  ],
  "paths": [
@@ -842,12 +846,12 @@
    "cost": "Home-rate fees + stipend (overseas fee gap often not covered); international places capped ~30%",
    "time": "4 years",
    "d": null,
-   "dt": "No central deadline; MRC partnerships roughly Nov 2026 - Jan 2027",
+   "dt": "No central deadline; MRC NW-DMS (Manchester + Liverpool) closes 27 Nov 2026 (own route)",
    "usmle": "hurts",
    "rank": 27,
-   "note": "International places are limited by quota.",
+   "note": "International places are limited by quota. One live programme now: MRC North West Doctoral Programme in Medical Sciences, which funds tuition at home or international rate; see its own route.",
    "src": "",
-   "v": "2026-09-26"
+   "v": "2026-11-09"
   },
   {
    "id": "rtp",

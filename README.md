@@ -14,6 +14,8 @@ python3 build.py
 - `data/board.json`: the Pathway Board export (121 routes, checklist, weekly log, watchlist)
 - `data/extra.json`: routes from the master file that aren't on the board (Maastricht, Commonwealth Shared, US PhDs/MPHs, Italy, DAAD, Australia/NZ PhDs and others)
 - `data/guide.json`: plan, journey, 30-day to-do, documents, open questions
+- `data/packs.json`: application packs (USA 1 Dec, MRC North West, SOPHAS guide, MPH shortlist, guidance)
+- `sources/`: the uploaded research notes, verbatim, plus `sources/verification/` (web checks against official pages, 9 Nov 2026)
 - `site/template.html`: page design (CSS + a small script)
 - `classic.html`: the previous version of the site
 

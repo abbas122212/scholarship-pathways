@@ -1,0 +1,308 @@
+{
+ "topic": "SOPHAS MPH 12-school shortlist: Fall 2027 deadlines, funding, COA, degree-in-progress",
+ "items": [
+  {
+   "id": "emory-deadline",
+   "claim": "Emory MPH priority 5 Jan 2027, merit priority; international urged by 1 May",
+   "verdict": "CONFIRMED",
+   "official": "The application deadline for MPH and MSPH admission is January 5. Applications completed by this deadline receive priority consideration for admission and merit scholarships... strongly encourage international applicants to submit their SOPHAS application no later than May 1",
+   "url": "https://sph.emory.edu/admissions/faq",
+   "note": "FAQ does not name the year; Jan 5 is the standing deadline."
+  },
+  {
+   "id": "emory-merit",
+   "claim": "Emory merit 50-100% of tuition, intl eligible, automatic",
+   "verdict": "CONFIRMED",
+   "official": "Merit scholarships range in amounts from 50% tuition scholarships to 100% tuition... All full-time MPH and MSPH students, including international students, who have completed and verified applications in SOPHAS by the January 5 deadline are automatically considered",
+   "url": "https://sph.emory.edu/admissions/tuition-funding/scholarships",
+   "note": "Merit awards include a REAL award and a practicum award."
+  },
+  {
+   "id": "emory-real",
+   "claim": "Emory REAL up to $3,000/semester; intl work-eligible apply after admission",
+   "verdict": "CONFIRMED",
+   "official": "earn up to $3,000 per semester... International students who are eligible to work can apply for REAL after they are admitted",
+   "url": "https://sph.emory.edu/admissions/tuition-funding/rollins-earn-and-learn",
+   "note": "Fall and spring only; first-come-first-served; Emory/Emory Healthcare employees not eligible."
+  },
+  {
+   "id": "columbia-deadline",
+   "claim": "Columbia MPH preferred 1 Dec 2026, close 15 Jan 2027",
+   "verdict": "PARTIAL",
+   "official": "Fall 2027: December 1 preferred (priority review, full scholarship consideration); January 15 standard deadline; March 1 late consideration (reviewed as space remains, scholarships subject to availability). MPH full-time/accelerated/dual 'rolling until January 15'",
+   "url": "https://publichealth.columbia.edu/become-student/how-apply/deadlines",
+   "note": "Official page also lists a 1 Mar late-consideration date; notes call 15 Jan the 'rolling close'."
+  },
+  {
+   "id": "columbia-funding",
+   "claim": "Columbia merit $7,500-$30,000/yr; need-based n/a for internationals",
+   "verdict": "PARTIAL",
+   "official": "Merit award amounts can range from $7,500-$30,000 per year. Need based grants are based off your FAFSA... $10,000-$12,500 per year. All funding contingent on availability.",
+   "url": "https://publichealth.columbia.edu/become-student/how-apply/financial-aid",
+   "note": "'PopFam $10,000' not checked. Page does not state internationals are need-ineligible explicitly (FAFSA-based)."
+  },
+  {
+   "id": "gsu-deadline",
+   "claim": "Georgia State priority 15 Feb 2027 for scholarship and international applicants",
+   "verdict": "CONFIRMED",
+   "official": "Fall: February 15 (priority deadline for scholarship consideration and international applicants); June 15 (regular deadline)",
+   "url": "https://publichealth.gsu.edu/academics-admissions/georgia-state-mph-program/mph-application-process/",
+   "note": "Page text does not print the year; recurring annual deadline."
+  },
+  {
+   "id": "gsu-gra",
+   "claim": "GSU GRA stipend + tuition waiver up to 20 hrs, not guaranteed",
+   "verdict": "CONFIRMED",
+   "official": "A limited number of Graduate Research Assistant (GRA) positions funded by faculty grants are offered. GRA positions provide stipends and tuition waivers for up to 20 hours per week. GRA positions are not guaranteed.",
+   "url": "https://publichealth.gsu.edu/academics-admissions/funding-your-education/",
+   "note": "Stipend amount not stated (NOT_FOUND). 'Incoming MPH scholarships minimum $2,500' also CONFIRMED on the same page."
+  },
+  {
+   "id": "bu-deadline",
+   "claim": "BU priority 15 Jan 2027; international final 1 Apr 2027",
+   "verdict": "CONFIRMED",
+   "official": "Fall 2027: Priority Deadline: January 15, 2027; International Final Deadline: April 1, 2027; Domestic Final Deadline: June 15, 2027",
+   "url": "https://www.bu.edu/sph/admissions/applying/master-of-public-health/",
+   "note": ""
+  },
+  {
+   "id": "bu-funding",
+   "claim": "BU scholarship aid; Generation Health stipends up to $5,000; amounts for internationals not stated",
+   "verdict": "CONFIRMED",
+   "official": "BUSPH offers scholarship aid for eligible students... Generation Health, On-Campus MPH students are eligible for stipends of up to $5,000. International students are eligible for tuition scholarships (if applicable)",
+   "url": "https://www.bu.edu/sph/admissions/tuition-and-funding",
+   "note": "2025-26 tuition $34,935/semester full-time. Merit % for internationals not stated."
+  },
+  {
+   "id": "gwu-deadline",
+   "claim": "GW scholarship priority 15 Jan 2027; Round 2 15 Mar; visa applicants by 15 Mar",
+   "verdict": "CONFIRMED",
+   "official": "Fall 2027: January 15 (Scholarship Priority), March 15 (Round 2). If you require a GW sponsored student visa, you must apply by the final deadline... or by March 15th for the Fall semester.",
+   "url": "https://publichealth.gwu.edu/admissions/graduate-admissions",
+   "note": ""
+  },
+  {
+   "id": "gwu-funding",
+   "claim": "GW merit scholarships are 'the largest portion of institutional aid'; priority applicants automatically reviewed",
+   "verdict": "PARTIAL",
+   "official": "Each year, we extend over $20,000,000.00 in offers of merit-based scholarship... Admitted students who submitted their admission application and supplemental form by the priority deadline are automatically reviewed",
+   "url": "https://publichealth.gwu.edu/financial-assistance-graduate-students",
+   "note": "Retrieved copy refers to the 15 Jan 2026 (2026 start) cycle; 'largest portion' wording not seen; note a supplemental form is also required."
+  },
+  {
+   "id": "drexel-deadline",
+   "claim": "Drexel international 1 Jun 2027; 15 Jan 2027 for endowed scholarship",
+   "verdict": "CONFIRMED",
+   "official": "On-campus MPH: June 1, 2027 International Students; August 1, 2027 Regular Decision. MPH Endowed Scholarship Deadline: January 15",
+   "url": "https://drexel.edu/dornsife/admissions/apply/application-deadlines/ ; https://drexel.edu/dornsife/academics/degrees/mph-degree/",
+   "note": ""
+  },
+  {
+   "id": "drexel-fellowship",
+   "claim": "Dornsife Research Fellowship = tuition scholarship + RA for incoming MPH; interest indicated in SOPHAS",
+   "verdict": "CONFIRMED",
+   "official": "incoming Master of Public Health (MPH) students of exceptional promise who are awarded with a tuition scholarship and research assistantship. Prospective MPH students can indicate their interest in this fellowship at time of application via SOPHAS.",
+   "url": "https://drexel.edu/dornsife/admissions/scholarships/dornsife-fellows/",
+   "note": ""
+  },
+  {
+   "id": "drexel-95pct",
+   "claim": "Drexel >95% of full-time master's get some scholarship; Dean's scholarships automatic",
+   "verdict": "NOT_FOUND",
+   "official": "Not stated on pages read (viewbook not opened)",
+   "url": "https://drexel.edu/dornsife/admissions/scholarships/dornsife-fellows/",
+   "note": "Do not quote the >95% figure until the viewbook is checked."
+  },
+  {
+   "id": "tulane-deadline",
+   "claim": "Tulane final 15 Jun 2027; complete files considered for funding",
+   "verdict": "CONFIRMED",
+   "official": "Fall 2027 | June 15, 2027. Applications that are submitted and complete by the final deadline will be considered for funding opportunities (no additional application required).",
+   "url": "https://sph.tulane.edu/how-apply-sphtm",
+   "note": "Row quoted was from the query answer; the MPH-specific table label was not separately displayed (online MPH shows Fall 1 Jul 2027 on the same page). Confirm the on-campus MPH row."
+  },
+  {
+   "id": "tulane-eval",
+   "claim": "Tulane course-by-course evaluation mandatory for intl",
+   "verdict": "CONFIRMED",
+   "official": "International students (or students who have earned their degree outside the US or Canada) must submit a course-by-course evaluation of international coursework.",
+   "url": "https://sph.tulane.edu/how-apply-sphtm",
+   "note": "'WES/ECE/TEC' and 'also to Tulane admissions' not verified."
+  },
+  {
+   "id": "usf-deadline",
+   "claim": "USF priority 1 May 2027",
+   "verdict": "CONFIRMED",
+   "official": "MPH, MSPH, MHA | Fall 2027 | May 1, 2027 (Priority Application Deadline)",
+   "url": "https://health.usf.edu/publichealth/apply/graduate-resources/graduate-application-requirements-process",
+   "note": ""
+  },
+  {
+   "id": "usf-funding",
+   "claim": "USF: fed funding very limited; intl should be fully financially independent",
+   "verdict": "CONFIRMED",
+   "official": "Federal financial opportunities are very limited for international applicants. The College requests that all international students are fully financially independent. As graduate assistantships and other internal financial opportunities become available, enrolled students should apply at that time.",
+   "url": "https://health.usf.edu/publichealth/apply/graduate-resources/graduate-application-requirements-process",
+   "note": ""
+  },
+  {
+   "id": "usf-fee",
+   "claim": "USF separate graduate application + fee",
+   "verdict": "NOT_FOUND",
+   "official": "Fee amount not seen in retrieved text; page says applicants must meet University Admission requirements",
+   "url": "https://health.usf.edu/publichealth/apply/graduate-resources/graduate-application-requirements-process",
+   "note": "USF fee amount and WES ICAP requirement not verified; check USF Office of Admissions."
+  },
+  {
+   "id": "uic-deadline",
+   "claim": "UIC international deadline 1 Feb 2027; priority 1 Dec for financial aid",
+   "verdict": "CONFIRMED",
+   "official": "Community Health Sciences (Onsite): Fall February 1; International Fall February 1. All fall masters programs have a priority deadline of December 1 to guarantee consideration for all financial aid opportunities.",
+   "url": "https://publichealth.uic.edu/admissions-aid/degrees-deadlines/masters-programs-application-deadlines/",
+   "note": "Year not printed on page."
+  },
+  {
+   "id": "uic-fee",
+   "claim": "UIC supplemental fee $70",
+   "verdict": "CONTRADICTED",
+   "official": "MPH/MS apply page: 'non-refundable supplemental application fee ($80 for Domestic and International applicants)'. Other SPH pages (online CHS application process, FAQ) still say $70.",
+   "url": "https://publichealth.uic.edu/admissions-aid/apply-now/apply-mph-ms/",
+   "note": "Official pages conflict. Budget $80 (MPH/MS page is the current main one); confirm in the UIC supplemental application."
+  },
+  {
+   "id": "uic-waiver",
+   "claim": "UIC tuition+service fee waived for 25-67% appointments",
+   "verdict": "NOT_FOUND",
+   "official": "SPH FAQ: 'the school offers... federal financial aid, scholarships, fellowships, and assistantships. Any exact offer of funding varies by student'",
+   "url": "https://publichealth.uic.edu/admissions-aid/faqs-admissions/",
+   "note": "25-67% waiver rule not found (UIC SPH search was blocked by rate limits); check grad.uic.edu assistantship pages."
+  },
+  {
+   "id": "uab-deadline",
+   "claim": "UAB fall international 1 Apr 2027 (domestic 1 Jul)",
+   "verdict": "CONFIRMED",
+   "official": "MPH (Environmental Health, Epidemiology, Health Behavior, Health Policy & Organization, MCH Policy & Leadership, Population Health): International Fall: April 1 | Domestic Fall: July 1",
+   "url": "https://www.uab.edu/soph/home/apply/graduate",
+   "note": "Year not printed. No MPH funding statement on page (consistent with notes)."
+  },
+  {
+   "id": "albany-deadline",
+   "claim": "Albany priority 15 Jan, general 1 Mar, final rolling",
+   "verdict": "PARTIAL",
+   "official": "Priority: January 15 - First consideration for scholarship funding. General: March 1 - Second consideration for scholarship funding (MPH Health Policy and Management page). Applications accepted on a space available basis after published deadlines.",
+   "url": "https://www.albany.edu/cihs/programs/mph-health-policy-and-management",
+   "note": "'Final 1 Aug' not verified. Fully online MPH is closed to F-1/J-1; only on-campus tracks are relevant."
+  },
+  {
+   "id": "albany-assist",
+   "claim": "Albany 8-10 assistantships to new public health students (apply March)",
+   "verdict": "CONFIRMED",
+   "official": "The College of Integrated Health Sciences provides 8-10 full and part-time graduate assistantship positions to new public health students, open for application in March of each academic year.",
+   "url": "https://www.albany.edu/cihs/graduate-admissions",
+   "note": ""
+  },
+  {
+   "id": "brown-deadline",
+   "claim": "Brown MPH priority 1 Dec 2026, final 15 Jan 2027; AMPH same",
+   "verdict": "CONFIRMED",
+   "official": "MPH: Priority December 1, 2026; Final January 15, 2027. Accelerated MPH for Clinicians: December 1, 2026 / January 15, 2027",
+   "url": "https://sph.brown.edu/admission-aid/application-deadlines",
+   "note": ""
+  },
+  {
+   "id": "brown-2.5",
+   "claim": "Brown additional 2.5% tuition scholarship for 1 Dec priority; confirm by 15 Mar",
+   "verdict": "CONFIRMED",
+   "official": "may be eligible for an additional 2.5% tuition scholarship, up to a maximum of 100% tuition coverage. All materials received and applications verified by December 15... confirm their enrollment by March 15.",
+   "url": "https://sph.brown.edu/admission-aid/application-deadlines",
+   "note": "Verification by 15 Dec is an extra condition not in the notes."
+  },
+  {
+   "id": "coa-emory",
+   "claim": "Emory tuition $43,264 / COA $85,356 (2026-27)",
+   "verdict": "CONFIRMED",
+   "official": "2026-2027 Estimated Total Cost of Attendance: MPH $85,356 (Tuition & Funding page; tuition shown $21,632 per semester x2 = $43,264)",
+   "url": "https://sph.emory.edu/admissions/tuition-funding",
+   "note": "The Financial Aid PDF (coa_pubh.pdf) still carried 2025-26 labels with traditional MPH total $82,514 and tuition $43,264, so the PDF is stale; use the SPH page."
+  },
+  {
+   "id": "coa-gsu",
+   "claim": "GSU $34,302 + $1,320 / $59,666.51",
+   "verdict": "CONFIRMED",
+   "official": "Non-Law Graduate, Out of Country: Tuition $34,302.00; Fees $1,320.00; Total $59,666.51 (on-campus) / $62,376.08 (off-campus)",
+   "url": "https://sfs.gsu.edu/resources/coa/2026-2027-cost-of-attendance/",
+   "note": "Extract did not print the table heading for the block; figures match exactly."
+  },
+  {
+   "id": "coa-uic",
+   "claim": "UIC $69,982 out-of-state / $43,161 in-state total tuition",
+   "verdict": "CONFIRMED",
+   "official": "At a Glance Out-of-State: Completion 2 years, 42-45 credits, Tuition Starting at $69,982; In-State: Tuition Starting at $43,161",
+   "url": "https://publichealth.uic.edu/academics/public-health-degrees/master-public-health/mph-community-health-sciences/",
+   "note": "'Starting at'; a premium-waiver programme exists for out-of-state students."
+  },
+  {
+   "id": "coa-drexel",
+   "claim": "Drexel $38,232 / $69,490",
+   "verdict": "CONFIRMED",
+   "official": "Masters of Public Health | $38,232 | $20,502 | $10,756 | $69,490 (2026-27 Graduate Quarter Programs, international)",
+   "url": "https://drexel.edu/drexelcentral/cost/international",
+   "note": ""
+  },
+  {
+   "id": "inprog-emory",
+   "claim": "Emory: may apply in final year with incomplete transcripts; offer contingent on final transcript",
+   "verdict": "CONFIRMED",
+   "official": "Students who are near completion of a baccalaureate (or higher) degree may apply during their final year and submit incomplete transcripts. However, an offer of admission is contingent upon receipt of an applicant's final transcript, which clearly documents completion of the degree.",
+   "url": "https://sph.emory.edu/admissions/faq",
+   "note": ""
+  },
+  {
+   "id": "inprog-gsu",
+   "claim": "GSU: bachelor's 'at the time of enrollment'",
+   "verdict": "NOT_FOUND",
+   "official": "Catalog page fetch failed (catalogs.gsu.edu)",
+   "url": "https://catalogs.gsu.edu/preview_entity.php?catoid=39&ent_oid=2816&returnto=5118",
+   "note": "Unverified."
+  },
+  {
+   "id": "inprog-drexel",
+   "claim": "Drexel: 'Prior to enrolling... must have completed a bachelor's degree'",
+   "verdict": "PARTIAL",
+   "official": "To be considered for the Masters of Public Health program, students should have a bachelor's degree from a regionally accredited college or university, or an equivalent international institution.",
+   "url": "https://drexel.edu/dornsife/academics/degrees/mph-degree/",
+   "note": "'Prior to enrolling' wording not on this page. 'The MPH programs do not require work experience' CONFIRMED."
+  },
+  {
+   "id": "inprog-uic",
+   "claim": "UIC: bachelor's any field, GRE not required",
+   "verdict": "PARTIAL",
+   "official": "Catalog page 'Admission Requirements' lists English minimums (TOEFL iBT 80 old scale / 4.5 new, IELTS 6.5); GRE 'test optional' per SPH FAQ",
+   "url": "https://publichealth.uic.edu/admissions-aid/faqs-admissions/",
+   "note": "'In progress' wording not found; UIC catalog is a different page than cited."
+  },
+  {
+   "id": "sophas-fee-aggregate",
+   "claim": "SOPHAS fees $155/$65 (context)",
+   "verdict": "CONFIRMED",
+   "official": "SOPHAS fee waivers cover the initial $155 application fee (quoted on UAlbany page citing SOPHAS Fees and Fee Waivers)",
+   "url": "https://www.albany.edu/cihs/programs/mph-public-health-practice",
+   "note": "Secondary quotation of a university page; SOPHAS help centre itself not opened here."
+  }
+ ],
+ "official_urls": {
+  "Emory": "https://sph.emory.edu/admissions/faq",
+  "Columbia": "https://publichealth.columbia.edu/become-student/how-apply/deadlines",
+  "GSU": "https://publichealth.gsu.edu/academics-admissions/georgia-state-mph-program/mph-application-process/",
+  "BU": "https://www.bu.edu/sph/admissions/applying/master-of-public-health/",
+  "GWU": "https://publichealth.gwu.edu/admissions/graduate-admissions",
+  "Drexel": "https://drexel.edu/dornsife/admissions/apply/application-deadlines/",
+  "Tulane": "https://sph.tulane.edu/how-apply-sphtm",
+  "USF": "https://health.usf.edu/publichealth/apply/graduate-resources/graduate-application-requirements-process",
+  "UIC": "https://publichealth.uic.edu/admissions-aid/degrees-deadlines/masters-programs-application-deadlines/",
+  "UAB": "https://www.uab.edu/soph/home/apply/graduate",
+  "Albany": "https://www.albany.edu/cihs/programs/mph-health-policy-and-management",
+  "Brown": "https://sph.brown.edu/admission-aid/application-deadlines"
+ },
+ "summary": "UIC supplemental fee is $80 on the MPH/MS apply page (older pages still say $70). Emory's Financial Aid COA PDF is stale (2025-26, $82,514); the SPH page confirms $85,356. Columbia also has a 1 Mar late date. Not verified: UIC 25-67% waiver, Drexel >95% scholarship, USF fee, GSU catalog wording, Albany 1 Aug, Tulane evaluators. Firecrawl credits ran out and Tavily rate-limited."
+}
