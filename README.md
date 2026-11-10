@@ -23,3 +23,4 @@ All content is rendered as plain HTML at build time, so the page reads fully wit
 - `SCHOLARSHIP_PATHWAYS_MASTER.md`: canonical research notes
 - `SCHOLARSHIP_PATHWAYS_INDEX.json`: machine-readable index
 - `CLAUDE_CHECK_VERDICTS.md`: independent verification notes
+- `addenda/`: dated additions not yet merged into the master file or the site: the SOPHAS intake-term addendum, the Italy expanded target list, the "Eight New Routes" file, and a verification note for the new routes (10 Nov 2026)
