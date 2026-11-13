@@ -38,6 +38,10 @@
   {
    "date": "2026-11-01",
    "text": "Weekly sweep: 25 items checked, 6 changed, 1 added (121 routes total). Key: GMC will stop holding PLAB 1 in Dhaka from Feb 2027 (missed earlier; announced May 2026); 51st BCS applications closed 25 Oct, MCQ date still unannounced; correction — the new PSC chairman (Prof. Mohammad Nazmuzzaman Bhuian) took office 6 Sep 2026, 52nd BCS circular still pending; NUS SPH Aug 2027 round closed with no extension; LIVE_Innov window now 18 Nov – 20 Jan; Sanger stipend updated. Confirmed unchanged: Imperial President's (2 Nov), OIST (15 Nov), Sanger (24 Nov), ETH ESOP and Yenching (30 Nov), HKPFS, SINGA, Gates, NOHA (15 Dec), HYGIEIA, KAUST. US: no new ECFMG/USMLE rule changes; NRMP Oct newsletter changes interview-invitation rules only; H-1B $100k fee still blocked. New: University of Reading International PhD Studentships (15 Jan 2027). Not verified this week (official pages served old content): Oxford MSc GHSE and Neurasmus 1 Dec dates, Edinburgh 2027 scholarship dates. Still not published: Stipendium Hungaricum 2027/28, CSC 2027 Bangladesh notice, GKS 2027 graduate guidelines, LSHTM Fund 2027-28. Watching: a Malaysian MP's proposal (5 Oct) to recruit foreign doctors for Sabah/Sarawak — not government policy."
+  },
+  {
+   "date": "2026-11-13",
+   "text": "Audit and update: matched the repo to the live site (Batch 4, 169 routes); fixed three stale entries (Eiffel now closed with tuition-not-covered note, Edinburgh admission gate passed, Padua call caveat); added four verified routes from the 11–12 Nov doomscroll reports: Dartmouth QBS PhD (1 Dec), Chang Gung Master's (Round 1 17 Nov), MCW Young Leaders (3 Dec) and ISRV Accra (30 Nov). Not added: ESCMID LMIC grant (18 Nov is only the abstract date on public pages) and TIIP (official site would not load)."
   }
  ],
  "watch": [
@@ -604,13 +608,13 @@
    "country": "France",
    "elig": "closed",
    "gets": "Visa only",
-   "cost": "Free + €1,200/month",
+   "cost": "€1,200/month (Master's); tuition is NOT covered by Eiffel",
    "time": "1–2 years",
    "d": "2026-11-06",
    "dt": "Closed. Université Paris Cité's windows ended 3 Nov (Master's) and 6 Nov 2026, 12:00 Paris (PhD); other institutions' internal dates vary; institutions file with Campus France by 6 Jan 2027",
    "usmle": "neutral",
    "rank": 11,
-   "note": "Only French institutions can nominate; 'Biology and Health' is eligible. Master's applicants must be 29 or younger (born after 31 Mar 1997); PhD under 35. €1,200/month master's on the official programme page (unofficial reports of up to €2,100 not verified). Campus France's guide says 6 Jan 2027 but its news page mentions 8 Jan — results week of 12 Apr 2027. Re-checked 13 Nov on u-paris.fr: the page was extended after 24 Oct, so the Master's window ran 12 Oct – 3 Nov and the PhD window 12 Oct – 6 Nov; both are now closed. Paris Cité contacts its pre-selected candidates 1–4 Dec 2026 (as last verified).",
+   "note": "Only French institutions can nominate; 'Biology and Health' is eligible. Master's applicants must be 29 or younger (born after 31 Mar 1997); PhD under 35. €1,200/month master's on the official programme page (unofficial reports of up to €2,100 not verified). Campus France's guide says 6 Jan 2027 but its news page mentions 8 Jan — results week of 12 Apr 2027. Re-checked 13 Nov on u-paris.fr: the page was extended after 24 Oct, so the Master's window ran 12 Oct – 3 Nov and the PhD window 12 Oct – 6 Nov; both are now closed. Paris Cité contacts its pre-selected candidates 1–4 Dec 2026 (as last verified). Campus France (13 Nov): \"Tuition and fees are not covered by the Eiffel programme.\" It only works with low-fee French public universities.",
    "src": "https://u-paris.fr/language/en/eiffel-excellence-scholarship-2027/",
    "v": "2026-11-13"
   },

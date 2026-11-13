@@ -1762,7 +1762,8 @@
      "h": "What it pays",
      "ul": [
       "**€1,200 a month** for a Master's.",
-      "No Eiffel application fee; the institution may charge its own."
+      "No Eiffel application fee; the institution may charge its own.",
+      "**Tuition is not covered.** Campus France says tuition and fees are outside the Eiffel programme, so it is only workable at low-fee French public universities."
      ]
     },
     {
@@ -1776,7 +1777,7 @@
      "h": "Dates that matter",
      "ul": [
       "Institutions file with Campus France by **6 Jan 2027**; results the week of 12 Apr 2027.",
-      "Université Paris Cité's internal deadline was 29 Oct 2026. Other institutions' internal deadlines were similar."
+      "Université Paris Cité's windows ended on 3 Nov (Master's) and 6 Nov 2026 (PhD). Other institutions' internal deadlines vary."
      ]
     },
     {
@@ -2503,7 +2504,7 @@
      "ul": [
       "**Catch 1: money.** Partial awards only.",
       "**Catch 2: cost of living.** New York.",
-      "**Catch 3: timing.** The preferred date is about three weeks away and a start is August 2027."
+      "**Catch 3: timing.** The preferred date is 1 Dec 2026 and a start is August 2027."
      ]
     },
     {
@@ -7955,7 +7956,7 @@
     {
      "h": "The catches",
      "ul": [
-      "**Catch 1: 12 days left.** Call One closes 15 Nov 2026, and scholarships mainly go to that round.",
+      "**Catch 1: very little time.** Call One for unlimited-places programmes closes 15 Nov 2026 and scholarships mainly go to that round; limited-places programmes for non-EU applicants abroad run 7 Jan – 7 Mar 2027, so check which kind yours is.",
       "**Catch 2: internship clash.** A 2027 start overlaps your internship.",
       "**Catch 3: not fully funded.** €8,000 a year may not cover living costs in Padua.",
       "**Catch 4: competitive.** The board calls it a highly competitive merit award."
@@ -12427,7 +12428,7 @@
     "ORD",
     "Chicago"
    ],
-   "lede": "UIC's School of Public Health has teaching and research assistantships and an out-of-state tuition premium waiver programme, and the priority date for school-level aid is **1 Dec 2026**, three weeks away. The notes' '25-67% tuition waiver' rule is **not confirmed**, and a supplemental application adds **$80**.",
+   "lede": "UIC's School of Public Health has teaching and research assistantships and an out-of-state tuition premium waiver programme, and the priority date for school-level aid is **1 Dec 2026**, under three weeks away from 13 Nov. The notes' '25-67% tuition waiver' rule is **not confirmed**, and a supplemental application adds **$80**.",
    "fit": {
     "us": [
      "good",
@@ -12677,7 +12678,7 @@
     "PVD",
     "Providence"
    ],
-   "lede": "Brown's priority deadline is **1 Dec 2026**, three weeks away, and a one-year **Accelerated MPH for Clinicians** shares the same dates. Brown adds a further **2.5% tuition scholarship** for early, verified applicants, but the standard award size is not published.",
+   "lede": "Brown's priority deadline is **1 Dec 2026**, and a one-year **Accelerated MPH for Clinicians** shares the same dates. Brown adds a further **2.5% tuition scholarship** for early, verified applicants, but the standard award size is not published.",
    "fit": {
     "us": [
      "good",
@@ -12753,6 +12754,292 @@
     "Accelerated MPH: The notes said it is for holders of advanced clinical degrees or 2 or more years of medical school; that eligibility was not confirmed on the page read."
    ],
    "ai_note": "Drafted from your uploaded notes, then checked against the official pages on 9 Nov 2026. Where they disagreed, the official page won."
+  },
+  "dartmouth-qbs": {
+   "tag": "Real five-year funding, but one week of December and no research record",
+   "tone": "warn",
+   "dest": [
+    "LEB",
+    "Hanover"
+   ],
+   "lede": "Dartmouth gives every PhD student **tuition, health insurance and a $49,862.40 stipend** for 2026–27, with funding guaranteed for five years in good standing. The Quantitative Biomedical Sciences PhD closes on **1 Dec 2026**, and the page says prior research experience is especially important for international applicants.",
+   "fit": {
+    "us": [
+     "mixed",
+     "A funded US PhD gives research letters but moves a Match to about 2032."
+    ],
+    "eu": [
+     "poor",
+     "Nothing for a European base or licence."
+    ],
+    "interest": [
+     "mixed",
+     "Quantitative health data work, not clinical."
+    ]
+   },
+   "sections": [
+    {
+     "h": "What it pays",
+     "ul": [
+      "**Full tuition and health insurance** plus a **$49,862.40** stipend (2026–27 rate) and a relocation bonus.",
+      "Funding is guaranteed for five years if you stay in good standing.",
+      "Application fee **$150**, non-refundable; waivers exist on stated criteria."
+     ]
+    },
+    {
+     "h": "Who can apply",
+     "ul": [
+      "The QBS page welcomes degrees in epidemiology, medical sciences and public health.",
+      "It does not say whether an MBBS counts as the bachelor's, so ask the programme.",
+      "GRE is optional; you need an English test unless your degree was taught in English; three recommendation letters are required."
+     ]
+    },
+    {
+     "h": "Dates that matter",
+     "ul": [
+      "**1 Dec 2026**: QBS PhD deadline.",
+      "The Health Policy & Clinical Practice PhD at The Dartmouth Institute has its own date, which was not found."
+     ]
+    },
+    {
+     "h": "How it fits the US and Europe goals",
+     "p": [
+      "A five-year PhD pushes a Match to about 2032 and does not give clinical credit. It is a research-first choice, in the same family as the other December US PhDs."
+     ]
+    },
+    {
+     "h": "The catches",
+     "ul": [
+      "**Catch 1: tight timing.** Referees and a credential evaluation are the bottleneck, as with the other 1 Dec files.",
+      "**Catch 2: no research record.** The page says research experience matters most for international applicants.",
+      "**Catch 3: equivalence unknown.** Nobody has confirmed that an MBBS meets the bachelor's requirement.",
+      "**Catch 4: master's funding is not general.** Only a few Dartmouth master's degrees are funded, so do not treat this as a master's route."
+     ]
+    },
+    {
+     "h": "The honest recommendation",
+     "p": [
+      "Apply only if you can get three strong letters and write to the programme about your MBBS first. Otherwise put the effort into the US files that fit better."
+     ]
+    }
+   ],
+   "fixed": [
+    "Deadlines: a social post implied one 1 Dec date for everything; Dartmouth's own pages show programme-specific dates, and QBS is 1 Dec.",
+    "Master's funding: a post implied master's degrees are fully funded; the Guarini page limits the package to PhDs and three named degrees."
+   ]
+  },
+  "cgu-ms": {
+   "tag": "A funded Master's in Taiwan, with Round 1 closing on 17 Nov",
+   "tone": "warn",
+   "dest": [
+    "TPE",
+    "Taoyuan"
+   ],
+   "lede": "Chang Gung University's Master's scholarship gives a **tuition waiver, a NTD 6,000 monthly stipend and free on-campus housing**, with an English bar of IELTS 5.0 or TOEFL iBT 61. **Round 1 for Fall 2027 closes 17 Nov 2026**; Round 2 runs 29 Dec 2026 to 20 Feb 2027.",
+   "fit": {
+    "us": [
+     "poor",
+     "A non-clinical Master's adds no US clinical experience."
+    ],
+    "eu": [
+     "poor",
+     "An Asian base with no European link."
+    ],
+    "interest": [
+     "good",
+     "Biomedical and clinical research institutes fit an MBBS."
+    ]
+   },
+   "sections": [
+    {
+     "h": "What it pays",
+     "ul": [
+      "A tuition and miscellaneous-fee waiver.",
+      "A **NTD 6,000/month** stipend or a part-time research assistantship, with up to NTD 12,000/month extra possible.",
+      "Free on-campus housing in a quad room."
+     ]
+    },
+    {
+     "h": "Who can apply",
+     "ul": [
+      "Applicants for the Master's programmes with an English test of IELTS 5.0 or TOEFL iBT 61.",
+      "Earlier research reported a quota of about 10 new international Master's students and an 80% average needed to keep the award; this was not re-confirmed."
+     ]
+    },
+    {
+     "h": "Dates that matter",
+     "ul": [
+      "**17 Nov 2026**: Fall 2027 Round 1 application closes (Taiwan time).",
+      "**29 Dec 2026 – 20 Feb 2027**: Round 2.",
+      "Results: 15 Feb 2027 for Round 1 and 17 May 2027 for Round 2."
+     ]
+    },
+    {
+     "h": "How it fits the US and Europe goals",
+     "p": [
+      "A funded biomedical Master's is a low-cost research credential, but it takes two years away from clinical work and a September 2027 start collides with the internship."
+     ]
+    },
+    {
+     "h": "The catches",
+     "ul": [
+      "**Catch 1: four days.** Round 1 closes 17 Nov 2026, so use Round 2 unless the file is already ready.",
+      "**Catch 2: no public health programme.** The fit is biomedical and clinical research.",
+      "**Catch 3: late payments.** Earlier research reported stipends arriving late each semester, so keep start-up funds.",
+      "**Catch 4: internship clash.** A Sept 2027 start overlaps the internship."
+     ]
+    },
+    {
+     "h": "The honest recommendation",
+     "p": [
+      "Treat Round 2 as the realistic window and use the next few weeks to confirm quota and the MBBS bachelor's rule with the Office of International Affairs."
+     ]
+    }
+   ],
+   "fixed": [
+    "Scope: a social post covered Master's and PhD together; the verified full-funding package is the Master's one on this card."
+   ]
+  },
+  "mcw-ylf": {
+   "tag": "Open now: a free ten-day trip, but only if he is 26 or under on 1 June 2027",
+   "tone": "ok",
+   "dest": [
+    "JFK",
+    "New York"
+   ],
+   "lede": "MCW's Young Leaders Fellowship is a **10-day programme in New York and Burlington, Vermont (20–29 July 2027)** followed by a year-long community project with an alumni mentor. Applications close **3 Dec 2026, 11:59 PM New York time**. It pays flights, housing and meals, but no stipend and no degree.",
+   "fit": {
+    "us": [
+     "mixed",
+     "US exposure and a credential, not clinical experience."
+    ],
+    "eu": [
+     "poor",
+     "No European link."
+    ],
+    "interest": [
+     "mixed",
+     "A community health project fits, but it is leadership, not research."
+    ]
+   },
+   "sections": [
+    {
+     "h": "What it pays",
+     "ul": [
+      "International economy flights, housing 19–29 July, three meals a day 20–29 July, New York–Burlington travel and airport public transport.",
+      "**No stipend.** Passport fees, visa fees and travel to the departure airport are not covered.",
+      "No application fee; a **US$100** deposit is due by 16 Mar 2027 if accepted, and is refunded after the in-person training."
+     ]
+    },
+    {
+     "h": "Who can apply",
+     "ul": [
+      "Ages **18–26 on 1 June 2027**, no exceptions stated.",
+      "All nationalities, no degree requirement, fluent English.",
+      "A community issue in education, health or economic security, and commitment to a June needs assessment, the July programme and a year of project work."
+     ]
+    },
+    {
+     "h": "Dates that matter",
+     "ul": [
+      "**3 Dec 2026**: applications close (10:59 AM Fri 4 Dec in Dhaka).",
+      "21 Dec 2026: first-round decisions; second round closes 8 Jan 2027.",
+      "Interviews 3–16 Feb 2027; acceptances 23 Feb 2027; visa interview date and deposit by 16 Mar 2027."
+     ]
+    },
+    {
+     "h": "How it fits the US and Europe goals",
+     "p": [
+      "It sits beside, not instead of, the MRC and 1 Dec US files. It is a ten-day US visit, so it gives a US visa history and a leadership credential, not a route to a Match."
+     ]
+    },
+    {
+     "h": "The catches",
+     "ul": [
+      "**Catch 1: the age line.** If he is 27 on 1 June 2027 he is out; check his date of birth first.",
+      "**Catch 2: write it yourself.** MCW says AI-generated answers hurt selection.",
+      "**Catch 3: two letters not from friends or family.** Ask now; they are the longest pole.",
+      "**Catch 4: a passport and US visa are on him.** Neither is covered."
+     ]
+    },
+    {
+     "h": "The honest recommendation",
+     "p": [
+      "If the age line holds, apply: it is free and the dates fit the internship. Ask the two recommenders this week."
+     ]
+    }
+   ],
+   "fixed": [
+    "Coverage: posts called it fully funded; the official page excludes passport, visa and airport-travel costs and adds a US$100 refundable deposit."
+   ]
+  },
+  "isrv-accra": {
+   "tag": "Open to ask for support; nothing is guaranteed",
+   "tone": "warn",
+   "dest": [
+    "ACC",
+    "Accra"
+   ],
+   "lede": "The 8th ISRV School of Respiratory Viruses runs **10–14 May 2027 in Accra**. The expression of interest and scholarship application close **23:59 GMT on 30 Nov 2026**. ISRV says funding is limited, considered case by case, and not guaranteed.",
+   "fit": {
+    "us": [
+     "mixed",
+     "Respiratory virus training adds a line to a CV but no clinical credit."
+    ],
+    "eu": [
+     "poor",
+     "No European link."
+    ],
+    "interest": [
+     "good",
+     "Respiratory viruses and public health are a direct interest fit."
+    ]
+   },
+   "sections": [
+    {
+     "h": "What it pays",
+     "ul": [
+      "Financial support is flexible: ISRV may support registration, travel or both, depending on circumstances and funding.",
+      "Travel support does **not** automatically waive the registration fee.",
+      "Support may differ from what you ask for, so ask only for what you need."
+     ]
+    },
+    {
+     "h": "Who can apply",
+     "ul": [
+      "Early-career researchers and professionals in respiratory virus work.",
+      "Earlier research found clinicians and epidemiologists explicitly welcomed; this was not re-confirmed on 13 Nov."
+     ]
+    },
+    {
+     "h": "Dates that matter",
+     "ul": [
+      "**30 Nov 2026, 23:59 GMT**: expression of interest and scholarship application close.",
+      "**10–14 May 2027**: the school, in Accra."
+     ]
+    },
+    {
+     "h": "How it fits the US and Europe goals",
+     "p": [
+      "It is a short training and networking step, not a degree route. It fits a public health or infectious disease research interest."
+     ]
+    },
+    {
+     "h": "The catches",
+     "ul": [
+      "**Catch 1: funding is not guaranteed.** You may be offered a place without travel money.",
+      "**Catch 2: registration fee.** The fee depends on category and was not confirmed.",
+      "**Catch 3: a short event.** It adds a credential and contacts, not a funded year abroad."
+     ]
+    },
+    {
+     "h": "The honest recommendation",
+     "p": [
+      "Apply by 30 Nov if you can tell a clear story about respiratory work, and request only the support you need."
+     ]
+    }
+   ],
+   "fixed": []
   }
  }
 }

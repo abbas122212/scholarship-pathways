@@ -2216,7 +2216,7 @@
     "profile": 1,
     "timing": 1
    },
-   "why": "Measures the chance of a funded place this cycle. Competition is described as very high, a supervisor must nominate you for interview, it is unstated whether an MBBS counts, and only 18 days remain.",
+   "why": "Measures the chance of a funded place this cycle. Competition is described as very high, a supervisor must nominate you for interview, it is unstated whether an MBBS counts, and the deadline is close.",
    "raise": [
     "A supervisor who replies and backs you for a population-health or data project",
     "Written confirmation that your MBBS meets the degree requirement",
@@ -2536,6 +2536,66 @@
     "Submit SOPHAS now so it is verified by 15 Dec",
     "Ask Brown whether your MBBS fits the clinician track",
     "Link manuscripts to Brown faculty in the statement"
+   ]
+  },
+  "dartmouth-qbs": {
+   "score": 2,
+   "factors": {
+    "eligibility": 1,
+    "competition": 0,
+    "profile": 1,
+    "timing": 0
+   },
+   "why": "Funding is real, but a funded US PhD is very crowded, you have no research record, and a Sept 2027 start clashes with the internship.",
+   "raise": [
+    "Email the programme about MBBS equivalence now",
+    "Line up three strong referees this week",
+    "Describe any research or audit work you have"
+   ]
+  },
+  "cgu-ms": {
+   "score": 3,
+   "factors": {
+    "eligibility": 2,
+    "competition": 1,
+    "profile": 1,
+    "timing": 0
+   },
+   "why": "A modest English bar and a real package, but the quota is small and a Sept 2027 start clashes with the internship.",
+   "raise": [
+    "Email the Office of International Affairs about quota and the MBBS rule",
+    "Prepare an IELTS 5.0+ certificate",
+    "Aim for Round 2 if the file is not ready by 17 Nov"
+   ]
+  },
+  "mcw-ylf": {
+   "score": 3,
+   "factors": {
+    "eligibility": 2,
+    "competition": 0,
+    "profile": 2,
+    "timing": 2
+   },
+   "why": "You fit the age band if the date of birth holds, but MCW is competitive and your community-project story is untested.",
+   "raise": [
+    "Confirm your date of birth against 1 June 2027",
+    "Ask two non-family recommenders now",
+    "Draft the community-issue essay in your own words"
+   ]
+  },
+  "isrv-accra": {
+   "score": 3,
+   "factors": {
+    "eligibility": 2,
+    "competition": 1,
+    "profile": 2,
+    "timing": 2
+   },
+   "why": "You are eligible to ask, but funding is limited and not guaranteed.",
+   "raise": [
+    "Write a short respiratory-work statement",
+    "Request only the support you need",
+    "Check the registration fee for your category"
    ]
   }
  }
