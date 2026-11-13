@@ -5137,13 +5137,13 @@
    ]
   },
   "edin-dcs": {
-   "tag": "PhD application due 9 Nov; a long shot without a supervisor",
+   "tag": "Admission gate for Health in Social Sciences has passed; check other schools",
    "tone": "warn",
    "dest": [
     "EDI",
     "Edinburgh"
    ],
-   "lede": "Edinburgh Doctoral College Scholarships cover the university tuition fee plus a stipend at the UKRI minimum rate (**GBP 21,805** in 2026/27) for 3.5 years. For the 2027/28 round on the Health in Social Sciences page, you must complete the PhD admission application by **23:59 GMT on 9 November 2026**, and the scholarship form by **2 February 2027**.",
+   "lede": "Edinburgh Doctoral College Scholarships cover the university tuition fee plus a stipend at the UKRI minimum rate (**GBP 21,805** in 2026/27) for 3.5 years. For the 2027/28 round on the Health in Social Sciences page, the PhD admission application had to be complete by **23:59 GMT on 9 November 2026**, which has now passed, and the scholarship form is due **2 February 2027**. Other schools (for example the Usher Institute) set their own admission dates, so confirm yours before dropping this route.",
    "fit": {
     "us": [
      "poor",
@@ -5178,7 +5178,7 @@
     {
      "h": "Dates that matter",
      "ul": [
-      "**9 Nov 2026**: PhD admission deadline for the scholarship timetable.",
+      "**9 Nov 2026**: Health in Social Sciences PhD admission deadline. This has passed.",
       "**2 Feb 2027**: scholarship application.",
       "The Global Health Policy PhD lists 29 Jun 2027 for a September 2027 start, but that is too late for funding."
      ]
@@ -5192,7 +5192,7 @@
     {
      "h": "The catches",
      "ul": [
-      "**Catch 1: six days left.** The admission deadline is very close.",
+      "**Catch 1: the Health in Social Sciences gate has closed.** Other schools' admission dates are unconfirmed.",
       "**Catch 2: supervisor first.** Without one you are unlikely to be shortlisted.",
       "**Catch 3: other schools differ.** Each School sets its own timetable.",
       "**Catch 4: no research record.** You have no papers or master's yet."
@@ -5201,7 +5201,7 @@
     {
      "h": "The honest recommendation",
      "p": [
-      "Do not rush a weak application. Only apply this week if a supervisor is already willing; otherwise target the 2028 round."
+      "Do not rush a weak application. Apply only if a supervisor in a school that is still open is already willing; otherwise target the 2028 round."
      ]
     }
    ],
