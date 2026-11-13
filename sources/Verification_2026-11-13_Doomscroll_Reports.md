@@ -20,3 +20,13 @@ Checked on official pages on 13 Nov 2026. Reports were treated as claims, not fa
 - **NYU, Michigan PhDs**: funding real, deadlines and MBBS equivalence not found.
 - **Canberra, Tasmania (video claims)**: speaker claims only; Tasmania's HDR English bar is IELTS 7.0 per the reports.
 - **Failed in the reports** (not routes): Scholarship Alert Eiffel series, Norway post (no scholarship), Helsinki, Saskatchewan, Alberta, Toronto, Arizona, Twente (already on the board as partial), McCall, Romania, SMART, Harvard LEAD, and the youth-summit cluster.
+
+## Addendum routes (10 Nov) added after checking on 13 Nov
+- **UPenn Epidemiology PhD**: official page confirms no fee, 1 Dec 11:59 PM, $49,000 BGS stipend (Fall 2026). The page says the fellowship runs 16 months; later funding not stated.
+- **Manchester International Partnership PhD**: opens 9 Nov, closes 11 Dec 2026; UKRI stipend, tuition, £5,000 RTSG, £1,000 travel; visa and health surcharge are the candidate's. No epidemiology project confirmed.
+- **UBC 4YF**: $24,000 + full tuition up to 4 years from Sept 2026; deadline set by each programme.
+- **Oxford Weidenfeld-Hoffmann**: Oxford's law page shows 100% fees + at least £20,780 (2026 entry); the addendum's £21,805 and "automatic consideration" were NOT confirmed, and Oxford's pages say a separate form or tick-box is needed.
+- **Cambridge Trust International Scholarship**: no separate application; covers tuition, maintenance, visa, health surcharge. Level (PhD vs Master's) not stated on the pages read.
+- **NAWA Banach**: PLN 2,500/month, tuition exemption, PLN 2,500 travel. 2026/27 rule: bachelor's no earlier than 2024 (the addendum said 2022). 2027 call not published.
+- **QECS**: ACU calendar shows cycle 1 opens 18 Nov 2026, closes 13 Jan 2027; cycle 2 opens 3 Mar 2027.
+- **Left out**: UCAS Master's to CAS PhD watch item (not re-verified).

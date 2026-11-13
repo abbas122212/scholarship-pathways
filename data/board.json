@@ -42,6 +42,10 @@
   {
    "date": "2026-11-13",
    "text": "Audit and update: matched the repo to the live site (Batch 4, 169 routes); fixed three stale entries (Eiffel now closed with tuition-not-covered note, Edinburgh admission gate passed, Padua call caveat); added four verified routes from the 11–12 Nov doomscroll reports: Dartmouth QBS PhD (1 Dec), Chang Gung Master's (Round 1 17 Nov), MCW Young Leaders (3 Dec) and ISRV Accra (30 Nov). Not added: ESCMID LMIC grant (18 Nov is only the abstract date on public pages) and TIIP (official site would not load)."
+  },
+  {
+   "date": "2026-11-13",
+   "text": "Added seven routes from the 10 Nov addendum after checking them on official pages: UPenn Epidemiology PhD (1 Dec), Manchester International Partnership PhD (11 Dec), UBC 4YF, Oxford Weidenfeld-Hoffmann, Cambridge Trust, NAWA Banach (watch) and QECS (opens 18 Nov, closes 13 Jan). The UCAS Master's to CAS PhD watch item was not re-verified and was left out. Oxford's own pages conflict with the addendum on whether a separate form is needed."
   }
  ],
  "watch": [

@@ -13040,6 +13040,473 @@
     }
    ],
    "fixed": []
+  },
+  "upenn-epi": {
+   "tag": "Strong epidemiology fit, a 1 Dec file, and the funding term needs a question",
+   "tone": "warn",
+   "dest": [
+    "PHL",
+    "Philadelphia"
+   ],
+   "lede": "UPenn's Epidemiology PhD is open for 2027–28 with **no application fee** and a **1 Dec 2026, 11:59 PM** deadline. The BGS fellowship covers tuition, fees, health insurance and a $49,000 stipend, but the page says the fellowship runs **16 months**.",
+   "fit": {
+    "us": [
+     "good",
+     "A US epidemiology PhD builds research letters that a US residency file values."
+    ],
+    "eu": [
+     "poor",
+     "No European link."
+    ],
+    "interest": [
+     "good",
+     "Epidemiology is a direct interest fit."
+    ]
+   },
+   "sections": [
+    {
+     "h": "What it pays",
+     "ul": [
+      "BGS fellowship: **tuition, fees, health insurance and a stipend** (**$49,000** for Fall 2026).",
+      "The page states the fellowship period as **16 months**; funding for later years is not stated there.",
+      "No application fee."
+     ]
+    },
+    {
+     "h": "Who can apply",
+     "ul": [
+      "No citizenship restriction was seen on the admissions page.",
+      "Whether an MBBS meets the entry requirement was not checked: ask the programme coordinator."
+     ]
+    },
+    {
+     "h": "Dates that matter",
+     "ul": [
+      "**1 Dec 2026, 11:59 PM**: all materials must be in. No late applications.",
+      "Allow two weeks after the deadline for letters and transcripts to show as received."
+     ]
+    },
+    {
+     "h": "How it fits the US and Europe goals",
+     "p": [
+      "A funded US epidemiology PhD is the best research credential on the board for a US file, but it adds about five years before a Match."
+     ]
+    },
+    {
+     "h": "The catches",
+     "ul": [
+      "**Catch 1: same 1 Dec crunch.** Referees and credential evaluations are the bottleneck.",
+      "**Catch 2: funding after month 16.** Ask what funds years two to five.",
+      "**Catch 3: no research record.** You have no papers yet."
+     ]
+    },
+    {
+     "h": "The honest recommendation",
+     "p": [
+      "Add it to the 1 Dec set only if you can ask three referees this week and get the funding answer from the coordinator."
+     ]
+    }
+   ],
+   "fixed": []
+  },
+  "manchester-ipp": {
+   "tag": "Fully funded and open, but you need a project that fits",
+   "tone": "warn",
+   "dest": [
+    "MAN",
+    "Manchester"
+   ],
+   "lede": "The International Partnership PhD studentships opened **9 Nov** and close **11 Dec 2026**: four years of UKRI-rate stipend, tuition, a £5,000 yearly research grant and £1,000 travel. They are project-led, so the question is whether a public health or epidemiology project is on the list.",
+   "fit": {
+    "us": [
+     "poor",
+     "A four-year PhD moves a Match to about 2032."
+    ],
+    "eu": [
+     "mixed",
+     "A strong UK research base with no licence."
+    ],
+    "interest": [
+     "mixed",
+     "Depends entirely on the project."
+    ]
+   },
+   "sections": [
+    {
+     "h": "What it pays",
+     "ul": [
+      "A **UKRI-rate stipend** and **tuition fees** for four years.",
+      "**£5,000 a year** research support and **£1,000** travel.",
+      "Visa, health surcharge and relocation costs are yours."
+     ]
+    },
+    {
+     "h": "Who can apply",
+     "ul": [
+      "Open to home and overseas candidates.",
+      "You apply to a named advertised project with a partner institution."
+     ]
+    },
+    {
+     "h": "Dates that matter",
+     "ul": [
+      "**11 Dec 2026**: applications close.",
+      "Interviews w/c 22 Feb 2027; awards w/c 8 Mar 2027; start Oct 2027."
+     ]
+    },
+    {
+     "h": "How it fits the US and Europe goals",
+     "p": [
+      "A funded UK PhD is a strong research credential but replaces the 2029 plan and delays a Match."
+     ]
+    },
+    {
+     "h": "The catches",
+     "ul": [
+      "**Catch 1: project fit.** No epidemiology or public health project was confirmed.",
+      "**Catch 2: not the MRC programme.** That is a separate route closing 27 Nov.",
+      "**Catch 3: the clash.** An Oct 2027 start overlaps the internship."
+     ]
+    },
+    {
+     "h": "The honest recommendation",
+     "p": [
+      "Read the project list this week; apply only if a project fits and a supervisor will talk to you."
+     ]
+    }
+   ],
+   "fixed": []
+  },
+  "ubc-4yf": {
+   "tag": "A fellowship that follows admission: get into a programme first",
+   "tone": "warn",
+   "dest": [
+    "YVR",
+    "Vancouver"
+   ],
+   "lede": "UBC's Four Year Doctoral Fellowship gives **$24,000 a year plus full tuition for up to four years**, from September 2026, to domestic and international PhD students. It is not a separate application: your programme recommends you after admission, on academic excellence.",
+   "fit": {
+    "us": [
+     "poor",
+     "A PhD moves a Match well past 2030."
+    ],
+    "eu": [
+     "poor",
+     "No European link."
+    ],
+    "interest": [
+     "mixed",
+     "The School of Population and Public Health is the natural home."
+    ]
+   },
+   "sections": [
+    {
+     "h": "What it pays",
+     "ul": [
+      "**$24,000 stipend plus full tuition** each year for up to four years."
+     ]
+    },
+    {
+     "h": "Who can apply",
+     "ul": [
+      "International doctoral students are eligible.",
+      "Selection is on academic excellence, on the recommendation of the graduate programme."
+     ]
+    },
+    {
+     "h": "Dates that matter",
+     "ul": [
+      "No central deadline: each UBC graduate programme sets its own."
+     ]
+    },
+    {
+     "h": "How it fits the US and Europe goals",
+     "p": [
+      "It is a base-level funding floor for a Canadian PhD, not a way into medicine."
+     ]
+    },
+    {
+     "h": "The catches",
+     "ul": [
+      "**Catch 1: admission first.** You cannot apply for the fellowship alone.",
+      "**Catch 2: a PhD usually wants a master's or research record.** Neither is on file.",
+      "**Catch 3: no date.** Find the programme's own deadline."
+     ]
+    },
+    {
+     "h": "The honest recommendation",
+     "p": [
+      "Keep it as a Canadian PhD option and check the School of Population and Public Health's deadline before deciding."
+     ]
+    }
+   ],
+   "fixed": []
+  },
+  "oxford-wh": {
+   "tag": "A funded Oxford MSc option, but confirm whether you need a separate form",
+   "tone": "warn",
+   "dest": [
+    "LHR",
+    "Oxford"
+   ],
+   "lede": "Weidenfeld-Hoffmann Scholarships pay **100% of course fees plus a living grant of at least £20,780** for graduates from developing and emerging economies. An earlier note said you are considered automatically; Oxford's own pages say a separate statement or tick-box is needed, so confirm for the health MSc you choose.",
+   "fit": {
+    "us": [
+     "mixed",
+     "A one-year MSc keeps a 2030 Match realistic."
+    ],
+    "eu": [
+     "mixed",
+     "UK base for PLAB contacts, no licence on its own."
+    ],
+    "interest": [
+     "good",
+     "Global health and epidemiology MScs are a direct fit."
+    ]
+   },
+   "sections": [
+    {
+     "h": "What it pays",
+     "ul": [
+      "**100% of course fees** plus a **living grant of at least £20,780** (2026 entry figure).",
+      "A leadership programme and mentoring come with it."
+     ]
+    },
+    {
+     "h": "Who can apply",
+     "ul": [
+      "Graduates from developing and emerging economies who intend to return home.",
+      "Earlier research reported Bangladesh and the global health MScs as eligible; not re-confirmed."
+     ]
+    },
+    {
+     "h": "Dates that matter",
+     "ul": [
+      "Tied to your course deadline; the health MScs close in January 2027, confirm the exact date."
+     ]
+    },
+    {
+     "h": "How it fits the US and Europe goals",
+     "p": [
+      "A funded Oxford MSc is the strongest one-year option for a research credential in this set."
+     ]
+    },
+    {
+     "h": "The catches",
+     "ul": [
+      "**Catch 1: process unclear.** Separate statement or automatic: check your course page.",
+      "**Catch 2: the intention to return.** The scholarship expects you to go back.",
+      "**Catch 3: competition.** Many applicants chase a few awards."
+     ]
+    },
+    {
+     "h": "The honest recommendation",
+     "p": [
+      "Pair this with the Clarendon route: one Oxford application, two scholarship routes, so check the course page for both."
+     ]
+    }
+   ],
+   "fixed": [
+    "Process: an earlier note said automatic consideration; Oxford's law and business pages say a separate form or tick-box."
+   ]
+  },
+  "cambridge-trust": {
+   "tag": "No separate form: the course funding deadline decides",
+   "tone": "warn",
+   "dest": [
+    "STN",
+    "Cambridge"
+   ],
+   "lede": "The Cambridge Trust International Scholarship covers **international tuition, annual maintenance, visa and the health surcharge**. There is no separate application: you are considered when you apply for admission by your course's funding deadline.",
+   "fit": {
+    "us": [
+     "poor",
+     "A PhD or similar delays a Match."
+    ],
+    "eu": [
+     "mixed",
+     "UK research base, no licence."
+    ],
+    "interest": [
+     "mixed",
+     "Depends on the course."
+    ]
+   },
+   "sections": [
+    {
+     "h": "What it pays",
+     "ul": [
+      "International-rate tuition, annual maintenance, student visa and Immigration Health Surcharge."
+     ]
+    },
+    {
+     "h": "Who can apply",
+     "ul": [
+      "Applicants from countries other than the UK and Ireland.",
+      "Any subject except premium-rate courses.",
+      "Chosen on academic ability, research potential, results and references."
+     ]
+    },
+    {
+     "h": "Dates that matter",
+     "ul": [
+      "The course's funding deadline in the Postgraduate Course Directory."
+     ]
+    },
+    {
+     "h": "How it fits the US and Europe goals",
+     "p": [
+      "A strong credential, but a long absence from clinical work."
+     ]
+    },
+    {
+     "h": "The catches",
+     "ul": [
+      "**Catch 1: level.** The pages read do not say whether your course qualifies; earlier research said the Master's version covers fees only.",
+      "**Catch 2: no research record.** Selection weighs research potential."
+     ]
+    },
+    {
+     "h": "The honest recommendation",
+     "p": [
+      "Treat it as a bonus on any Cambridge application, not a reason to apply."
+     ]
+    }
+   ],
+   "fixed": []
+  },
+  "nawa-banach": {
+   "tag": "The 2027 call is not out; prepare now",
+   "tone": "warn",
+   "dest": [
+    "WAW",
+    "Warsaw"
+   ],
+   "lede": "NAWA's Banach programme pays **PLN 2,500 a month, a tuition exemption and a PLN 2,500 travel allowance** for second-cycle studies in Poland. The 2027 call is **not published yet**, and you still need an English-taught public health Master's to apply to.",
+   "fit": {
+    "us": [
+     "poor",
+     "A Master's in Poland adds no US clinical credit."
+    ],
+    "eu": [
+     "mixed",
+     "A funded EU base."
+    ],
+    "interest": [
+     "mixed",
+     "Depends on a programme not yet identified."
+    ]
+   },
+   "sections": [
+    {
+     "h": "What it pays",
+     "ul": [
+      "**PLN 2,500 a month**, tuition exemption at public universities, and a **PLN 2,500** travel allowance."
+     ]
+    },
+    {
+     "h": "Who can apply",
+     "ul": [
+      "The 2026/27 call wanted a bachelor's no earlier than 2024 (or finished by 15 July 2026), no prior Master's, and B2 English.",
+      "Eligibility covers 36 listed countries; Bangladesh was reported eligible and not re-checked."
+     ]
+    },
+    {
+     "h": "Dates that matter",
+     "ul": [
+      "Watch NAWA for the 2027/28 call."
+     ]
+    },
+    {
+     "h": "How it fits the US and Europe goals",
+     "p": [
+      "A Polish Master's is a low-cost European base but not a licensing route."
+     ]
+    },
+    {
+     "h": "The catches",
+     "ul": [
+      "**Catch 1: no call yet.** Nothing to apply to today.",
+      "**Catch 2: no programme.** No English-taught public health Master's in Poland has been identified.",
+      "**Catch 3: the video.** The call asks for a short self-presentation video."
+     ]
+    },
+    {
+     "h": "The honest recommendation",
+     "p": [
+      "Find the programme now so you can act as soon as the call opens."
+     ]
+    }
+   ],
+   "fixed": []
+  },
+  "qecs": {
+   "tag": "Opens 18 Nov, closes 13 Jan; the host list is not out yet",
+   "tone": "warn",
+   "dest": [
+    "LOS",
+    "Commonwealth"
+   ],
+   "lede": "The Queen Elizabeth Commonwealth Scholarships fund a **two-year Master's in a low or middle-income Commonwealth country**: tuition, living allowance, return economy flights and an arrival allowance. Cycle 1 for 2027–28 **opens 18 Nov 2026 and closes 13 Jan 2027**.",
+   "fit": {
+    "us": [
+     "poor",
+     "A Master's in a low or middle-income country adds little to a US file."
+    ],
+    "eu": [
+     "poor",
+     "No European link."
+    ],
+    "interest": [
+     "mixed",
+     "Depends on the host programme."
+    ]
+   },
+   "sections": [
+    {
+     "h": "What it pays",
+     "ul": [
+      "Tuition, a living allowance, **return economy flights** and a **one-off arrival allowance**.",
+      "A research support grant on request."
+     ]
+    },
+    {
+     "h": "Who can apply",
+     "ul": [
+      "Students committed to change in their communities; a 2:1-equivalent first degree was reported earlier.",
+      "Hosts are ACU member universities in low or middle-income Commonwealth countries (not the UK, Canada or Australia)."
+     ]
+    },
+    {
+     "h": "Dates that matter",
+     "ul": [
+      "**18 Nov 2026**: cycle 1 opens.",
+      "**13 Jan 2027**: cycle 1 closes.",
+      "**3 Mar 2027**: cycle 2 opens."
+     ]
+    },
+    {
+     "h": "How it fits the US and Europe goals",
+     "p": [
+      "A funded Master's abroad but not toward a US residency."
+     ]
+    },
+    {
+     "h": "The catches",
+     "ul": [
+      "**Catch 1: host list.** The 2027–28 host universities were not published.",
+      "**Catch 2: not Commonwealth Shared.** That is a separate scheme for UK courses.",
+      "**Catch 3: the clash.** A 2027 start overlaps the internship."
+     ]
+    },
+    {
+     "h": "The honest recommendation",
+     "p": [
+      "Wait for the host list, then decide in December."
+     ]
+    }
+   ],
+   "fixed": []
   }
  }
 }
