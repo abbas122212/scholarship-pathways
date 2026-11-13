@@ -1704,6 +1704,116 @@
    "cur": "USD",
    "amt": 155,
    "bundle": "sophas"
+  },
+  "dartmouth-qbs": {
+   "portal_label": "Guarini School online application",
+   "portal_url": "https://graduate.dartmouth.edu/admissions/applying-dartmouth/admissions-information",
+   "kind": "paid",
+   "fee": "$150",
+   "fee_note": "Non-refundable. Fee waivers exist on stated criteria, such as a GRE fee reduction, and you must meet them before you submit: they cannot be granted afterwards. Three recommendation letters are required. GRE is optional for QBS.",
+   "cur": "USD",
+   "amt": 150,
+   "check": "Dartmouth QBS programme page, Admissions Information page and Fee Waiver Criteria page, 13 Nov 2026."
+  },
+  "cgu-ms": {
+   "portal_label": "CGU international admissions (online application)",
+   "portal_url": "https://www.cgu.edu.tw/recruit_intl/",
+   "kind": "unk",
+   "fee": "Not found",
+   "fee_note": "No application fee was found on the pages read. The scholarship is awarded per semester, and earlier research reported that payments arrive late in each semester, so keep start-up funds.",
+   "cur": "TWD",
+   "amt": 0,
+   "check": "CGU international admissions timetable and Master's scholarship pages, 13 Nov 2026."
+  },
+  "mcw-ylf": {
+   "portal_label": "MCW Global application form",
+   "portal_url": "https://mcwglobal.org/young-leaders-fellowship-2027/",
+   "kind": "free",
+   "fee": "None",
+   "fee_note": "No application fee. Accepted fellows pay a US$100 deposit by 16 Mar 2027, refunded after the in-person training. Passport and visa fees are not covered.",
+   "cur": "USD",
+   "amt": 0,
+   "check": "MCW Global Young Leaders Fellowship 2027 page (eligibility, costs, timeline), 13 Nov 2026."
+  },
+  "isrv-accra": {
+   "portal_label": "ISRV expression of interest and scholarship application",
+   "portal_url": "https://www.isrv.global/featured-events/8th-isrv-school-of-respiratory-viruses/eoi/",
+   "kind": "unk",
+   "fee": "Registration fee by category",
+   "fee_note": "The registration fee depends on your category and was not confirmed on 13 Nov. The scholarship request is part of the same form.",
+   "cur": "GBP",
+   "amt": 0,
+   "check": "ISRV expression-of-interest page and school listing, 13 Nov 2026."
+  },
+  "upenn-epi": {
+   "portal_label": "Penn Biomedical Graduate Studies application",
+   "portal_url": "https://www.med.upenn.edu/ggeb/epiadmissions.html",
+   "kind": "free",
+   "fee": "None",
+   "fee_note": "UPenn's page says there is no application fee. Allow at least two weeks after the deadline for transcripts and letters to be posted, and note that all materials must be in by 1 Dec: no late applications.",
+   "cur": "USD",
+   "amt": 0,
+   "check": "UPenn Epidemiology Application and Admission page, 13 Nov 2026."
+  },
+  "manchester-ipp": {
+   "portal_label": "University of Manchester application (project-specific)",
+   "portal_url": "https://www.bmh.manchester.ac.uk/study/research/funding-fees/funded-programmes/international-partnership-phd",
+   "kind": "unk",
+   "fee": "Not found",
+   "fee_note": "No application fee was found on the page read. You apply to a named advertised project.",
+   "cur": "GBP",
+   "amt": 0,
+   "check": "Manchester International Partnership PhD page, 13 Nov 2026."
+  },
+  "ubc-4yf": {
+   "portal_label": "UBC graduate programme admission (no separate form)",
+   "portal_url": "https://www.grad.ubc.ca/awards/four-year-doctoral-fellowship-4yf",
+   "kind": "unk",
+   "fee": "Programme fee not checked",
+   "fee_note": "The 4YF is awarded on the programme's recommendation after admission, so the cost is the programme's own application fee.",
+   "cur": "CAD",
+   "amt": 0,
+   "check": "UBC Graduate School 4YF page, 13 Nov 2026."
+  },
+  "oxford-wh": {
+   "portal_label": "Oxford Graduate Application Form",
+   "portal_url": "https://www.ox.ac.uk/admissions/graduate/application-guide/declaration-and-payment/application-fee",
+   "kind": "paid",
+   "fee": "£75 taught · £20 research",
+   "fee_note": "Same Oxford graduate fee as the Clarendon route; a fee waiver exists for listed countries (see that card). Whether the Weidenfeld-Hoffmann scholarship needs a separate statement or tick-box for the health MScs was not confirmed.",
+   "cur": "GBP",
+   "amt": 75,
+   "check": "Fee from the Clarendon check; scholarship value from Oxford's law page, 13 Nov 2026."
+  },
+  "cambridge-trust": {
+   "portal_label": "Cambridge application for admission (no separate form)",
+   "portal_url": "https://www.cambridgetrust.org/scholarship/cambridge-international-scholarship",
+   "kind": "unk",
+   "fee": "Cambridge application fee not checked",
+   "fee_note": "No separate scholarship application: you apply for admission by the course funding deadline.",
+   "cur": "GBP",
+   "amt": 0,
+   "check": "Cambridge Trust International Scholarship page, 13 Nov 2026."
+  },
+  "nawa-banach": {
+   "portal_label": "NAWA ICT system (when the call opens)",
+   "portal_url": "https://nawa.gov.pl/en/students/foreign-students/the-banach-scholarship-programme",
+   "kind": "unk",
+   "fee": "Not found",
+   "fee_note": "The 2027 call is not published. The 2026/27 call asked for a short self-presentation video with the documents.",
+   "cur": "PLN",
+   "amt": 0,
+   "check": "NAWA Banach programme page and the 2026 call, 13 Nov 2026."
+  },
+  "qecs": {
+   "portal_label": "ACU and CSC application (when cycle 1 opens)",
+   "portal_url": "https://acu.ac.uk/funding-opportunities/for-students/scholarships/queen-elizabeth-commonwealth-scholarships",
+   "kind": "unk",
+   "fee": "Not found",
+   "fee_note": "Use only the official ACU and CSC application systems. Cycle 1 opens 18 Nov 2026.",
+   "cur": "GBP",
+   "amt": 0,
+   "check": "ACU funding calendar and QECS page, 13 Nov 2026."
   }
  }
 }

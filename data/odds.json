@@ -1047,9 +1047,9 @@
     "profile": 0,
     "timing": 1
    },
-   "why": "The PhD application is due 9 Nov 2026, six days away, there are only a few awards in the college, and you have no master's or papers. A Sept 2027 start also clashes with your internship.",
+   "why": "The Health in Social Sciences admission gate (9 Nov 2026) has passed, there are only a few awards in the college, and you have no master's or papers. A Sept 2027 start also clashes with your internship.",
    "raise": [
-    "Email an Edinburgh supervisor this week if you still want to try",
+    "Ask Edinburgh whether the Usher Institute or another school still has an open admission date",
     "Aim for the 2028-29 round with a stronger paper record",
     "Keep the 2 Feb 2027 scholarship deadline in mind only if admission is submitted"
    ]
@@ -2216,7 +2216,7 @@
     "profile": 1,
     "timing": 1
    },
-   "why": "Measures the chance of a funded place this cycle. Competition is described as very high, a supervisor must nominate you for interview, it is unstated whether an MBBS counts, and only 18 days remain.",
+   "why": "Measures the chance of a funded place this cycle. Competition is described as very high, a supervisor must nominate you for interview, it is unstated whether an MBBS counts, and the deadline is close.",
    "raise": [
     "A supervisor who replies and backs you for a population-health or data project",
     "Written confirmation that your MBBS meets the degree requirement",
@@ -2536,6 +2536,171 @@
     "Submit SOPHAS now so it is verified by 15 Dec",
     "Ask Brown whether your MBBS fits the clinician track",
     "Link manuscripts to Brown faculty in the statement"
+   ]
+  },
+  "dartmouth-qbs": {
+   "score": 2,
+   "factors": {
+    "eligibility": 1,
+    "competition": 0,
+    "profile": 1,
+    "timing": 0
+   },
+   "why": "Funding is real, but a funded US PhD is very crowded, you have no research record, and a Sept 2027 start clashes with the internship.",
+   "raise": [
+    "Email the programme about MBBS equivalence now",
+    "Line up three strong referees this week",
+    "Describe any research or audit work you have"
+   ]
+  },
+  "cgu-ms": {
+   "score": 3,
+   "factors": {
+    "eligibility": 2,
+    "competition": 1,
+    "profile": 1,
+    "timing": 0
+   },
+   "why": "A modest English bar and a real package, but the quota is small and a Sept 2027 start clashes with the internship.",
+   "raise": [
+    "Email the Office of International Affairs about quota and the MBBS rule",
+    "Prepare an IELTS 5.0+ certificate",
+    "Aim for Round 2 if the file is not ready by 17 Nov"
+   ]
+  },
+  "mcw-ylf": {
+   "score": 3,
+   "factors": {
+    "eligibility": 2,
+    "competition": 0,
+    "profile": 2,
+    "timing": 2
+   },
+   "why": "You fit the age band if the date of birth holds, but MCW is competitive and your community-project story is untested.",
+   "raise": [
+    "Confirm your date of birth against 1 June 2027",
+    "Ask two non-family recommenders now",
+    "Draft the community-issue essay in your own words"
+   ]
+  },
+  "isrv-accra": {
+   "score": 3,
+   "factors": {
+    "eligibility": 2,
+    "competition": 1,
+    "profile": 2,
+    "timing": 2
+   },
+   "why": "You are eligible to ask, but funding is limited and not guaranteed.",
+   "raise": [
+    "Write a short respiratory-work statement",
+    "Request only the support you need",
+    "Check the registration fee for your category"
+   ]
+  },
+  "upenn-epi": {
+   "score": 2,
+   "factors": {
+    "eligibility": 2,
+    "competition": 0,
+    "profile": 1,
+    "timing": 0
+   },
+   "why": "A funded US epidemiology PhD is very crowded, you have no research record, and funding past month 16 is unclear.",
+   "raise": [
+    "Ask the coordinator how years two to five are funded",
+    "Line up three referees this week",
+    "Get your marks converted"
+   ]
+  },
+  "manchester-ipp": {
+   "score": 2,
+   "factors": {
+    "eligibility": 1,
+    "competition": 1,
+    "profile": 1,
+    "timing": 0
+   },
+   "why": "Fully funded but project-tied, no matching project is confirmed, and an Oct 2027 start clashes with the internship.",
+   "raise": [
+    "Read the project list for an epidemiology fit",
+    "Email a supervisor before applying",
+    "Prepare a research statement"
+   ]
+  },
+  "ubc-4yf": {
+   "score": 1,
+   "factors": {
+    "eligibility": 1,
+    "competition": 1,
+    "profile": 0,
+    "timing": 0
+   },
+   "why": "You must win admission first, and a PhD usually expects a master's or research record.",
+   "raise": [
+    "Check the School of Population and Public Health deadline",
+    "Ask about MBBS entry",
+    "Build a research record"
+   ]
+  },
+  "oxford-wh": {
+   "score": 2,
+   "factors": {
+    "eligibility": 1,
+    "competition": 0,
+    "profile": 2,
+    "timing": 2
+   },
+   "why": "Oxford MSc places and awards are scarce, and whether a separate form is needed is unclear.",
+   "raise": [
+    "Confirm the process on the health MSc page",
+    "Prepare a strong statement on returning home",
+    "Submit by the course deadline"
+   ]
+  },
+  "cambridge-trust": {
+   "score": 1,
+   "factors": {
+    "eligibility": 1,
+    "competition": 0,
+    "profile": 0,
+    "timing": 0
+   },
+   "why": "Competitive, aimed at research potential you have not yet shown, and the level is unclear.",
+   "raise": [
+    "Confirm the course level and funding deadline",
+    "Build a research record",
+    "Approach a supervisor"
+   ]
+  },
+  "nawa-banach": {
+   "score": 3,
+   "factors": {
+    "eligibility": 2,
+    "competition": 2,
+    "profile": 1,
+    "timing": 1
+   },
+   "why": "The 2027 call is not out and you still need a programme, but the package is realistic.",
+   "raise": [
+    "Find an English-taught public health Master's in Poland",
+    "Prepare B2 English proof",
+    "Prepare the self-presentation video"
+   ]
+  },
+  "qecs": {
+   "score": 3,
+   "factors": {
+    "eligibility": 2,
+    "competition": 1,
+    "profile": 1,
+    "timing": 1
+   },
+   "why": "Competitive and the host list is not out, but the package is full and the window is long.",
+   "raise": [
+    "Watch the host list from 18 Nov",
+    "Prepare a 2:1-equivalent transcript",
+    "Shortlist programmes in December"
    ]
   }
  }
