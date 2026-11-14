@@ -16,9 +16,9 @@ e = lambda s: escape(str(s if s is not None else ""), quote=True)
 REGIONAL_EXTRA = json.loads((ROOT / "data/regional.json").read_text())["paths"]
 
 # ------------------------------------------------------------------ membership
-USA_COUNTRIES = {"USA", "USA / BD", "Switzerland / USA"}
+USA_COUNTRIES = {"USA", "United States", "USA / BD", "Switzerland / USA"}
 EUROPE_COUNTRIES = {
-    "Europe", "UK", "Germany", "Italy", "Ireland", "Sweden", "Switzerland", "Austria",
+    "Europe", "UK", "United Kingdom", "Poland", "Germany", "Italy", "Ireland", "Sweden", "Switzerland", "Austria",
     "Belgium", "Netherlands", "Malta", "Hungary", "Türkiye", "France", "Czechia",
     "Geneva / SEARO", "Switzerland / USA",
 }
@@ -26,6 +26,7 @@ WORLD_COUNTRIES = {
     "Australia", "New Zealand", "Japan", "Singapore", "Saudi Arabia", "Qatar", "UAE", "Gulf",
     "Thailand", "Canada", "South Korea", "Malaysia", "Hong Kong", "Brunei", "Japan / Korea",
     "Caribbean", "Bangladesh", "Remote", "Various", "—", "Geneva / SEARO", "Türkiye",
+    "Taiwan", "Ghana", "Commonwealth (low/middle income)",
 }
 # Global routes that also belong on another regional site.
 ALSO = {
@@ -179,10 +180,8 @@ TEXT = {
     },
 }
 
-PATTERN_OLD = ("<p><strong>The pattern.</strong> Nothing scores above 4 right now. The best odds are the government schemes where "
-               "Bangladesh is a partner (Stipendium Hungaricum, CSC) and the health-focused Erasmus Mundus programmes.")
-PATTERN_NEW = ("<p><strong>The pattern.</strong> Across the whole board nothing scores above 4 right now, and the best odds sit with "
-               "government schemes where Bangladesh is a partner and the health-focused Erasmus Mundus programmes.")
+PATTERN_OLD = "where Bangladesh is a partner (Stipendium Hungaricum, CSC)"
+PATTERN_NEW = "where Bangladesh is a partner (such as Stipendium Hungaricum, on the Europe site)"
 
 
 def post_replacements(region):

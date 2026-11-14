@@ -1,0 +1,296 @@
+{
+ "topic": "v2: JHU PhD Epi, Emory PhD Epi, SOPHAS, F-1, Columbia MPH",
+ "items": [
+  {
+   "id": "jhu-fee",
+   "claim": "SOPHAS fee $155 first / $65 each additional",
+   "verdict": "CONFIRMED",
+   "official": "SOPHAS charges $155 for the first program you apply to and $65 for each additional program.",
+   "url": "https://help.liaisonedu.com/SOPHAS_Applicant_Help_Center/Starting_Your_SOPHAS_Application/Getting_Started_with_Your_SOPHAS_Application/03_Application_Fees",
+   "note": "Fee is SOPHAS's; JHU's own fee page not separately read."
+  },
+  {
+   "id": "jhu-letters",
+   "claim": "3 letters of recommendation",
+   "verdict": "CONFIRMED",
+   "official": "Three Letters of Recommendation ... Letters may come from professional or academic references, or a mix. Epi FAQ: Three letters (at least one academic, advisor preferred)",
+   "url": "https://publichealth.jhu.edu/offices-and-services/office-of-admissions-services/how-to-apply",
+   "note": "Epi FAQ at https://publichealth.jhu.edu/departments/epidemiology/programs/faqs"
+  },
+  {
+   "id": "jhu-wes-ece",
+   "claim": "Credential evaluation mandatory: WES ICAP via SOPHAS or ECE direct",
+   "verdict": "CONFIRMED",
+   "official": "The Bloomberg School accepts WES ICAP (course-by-course) through the Application System or ECE (course-by-course) sent directly to the Bloomberg School. ... required for all international coursework (even if your Application System portal lists it as optional).",
+   "url": "https://publichealth.jhu.edu/offices-and-services/office-of-admissions-services/how-to-apply",
+   "note": "Also: application not complete without it (transcripts-and-academic-records page)."
+  },
+  {
+   "id": "jhu-ecfmg",
+   "claim": "ECFMG not accepted",
+   "verdict": "CONFIRMED",
+   "official": "BSPH does not accept ECFMG certification in place of a course-by-course credential evaluation from an approved agency.",
+   "url": "https://publichealth.jhu.edu/offices-and-services/office-of-admissions-services/how-to-apply/how-to-apply-faqs",
+   "note": "Other agencies accepted only with proof WES and ECE cannot complete the evaluation."
+  },
+  {
+   "id": "jhu-toefl",
+   "claim": "TOEFL iBT 100",
+   "verdict": "PARTIAL",
+   "official": "Minimum Scores iBT prior to January 21, 2026: 100; iBT after January 21, 2026: 5.0 (new-format TOEFL, 1-6 band scale). Scores must be under two years old.",
+   "url": "https://publichealth.jhu.edu/offices-and-services/office-of-admissions-services/international-applicants",
+   "note": "A TOEFL taken now (post 21 Jan 2026 format) needs 5.0, not 100. Old-format scores still under 2 yrs use 100."
+  },
+  {
+   "id": "jhu-ielts",
+   "claim": "IELTS Academic 7",
+   "verdict": "CONFIRMED",
+   "official": "IELTS Academic Minimum Score: 7",
+   "url": "https://publichealth.jhu.edu/offices-and-services/office-of-admissions-services/international-applicants",
+   "note": ""
+  },
+  {
+   "id": "jhu-duo",
+   "claim": "Duolingo 130",
+   "verdict": "CONFIRMED",
+   "official": "Duolingo Minimum Composite Score: 130",
+   "url": "https://publichealth.jhu.edu/offices-and-services/office-of-admissions-services/international-applicants",
+   "note": "Send Duolingo/PTE scores directly to BSPH Admissions Services (how-to-apply page)."
+  },
+  {
+   "id": "jhu-pte",
+   "claim": "PTE Academic 68",
+   "verdict": "CONFIRMED",
+   "official": "Pearson Test for English (PTE Academic) Minimum Score: 68",
+   "url": "https://publichealth.jhu.edu/offices-and-services/office-of-admissions-services/international-applicants",
+   "note": ""
+  },
+  {
+   "id": "jhu-eng-waiver",
+   "claim": "English waiver only via WES/ECE evaluation showing English sole language of instruction; MOI letters not accepted",
+   "verdict": "CONFIRMED",
+   "official": "You can provide a credential evaluation from WES or ECE verifying that English was the only language of instruction for a four-year bachelor's or professional degree. We cannot waive this requirement until the WES or ECE credential evaluation has been received. ... We do NOT accept medium of instruction letters",
+   "url": "https://publichealth.jhu.edu/offices-and-services/office-of-admissions-services/international-applicants",
+   "note": "Bangladesh is not on the English Speaking Country List as far as the exemption table shows; waiver route is the WES/ECE statement."
+  },
+  {
+   "id": "jhu-gre",
+   "claim": "GRE not required, not reviewed",
+   "verdict": "CONFIRMED",
+   "official": "Standardized test scores are not required and not reviewed for this program.",
+   "url": "https://publichealth.jhu.edu/academics/phd-dept-of-epidemiology",
+   "note": ""
+  },
+  {
+   "id": "jhu-work",
+   "claim": "1-year full-time work experience required",
+   "verdict": "PARTIAL",
+   "official": "Program page: Prior Work Experience - One year of full-time work experience in a related field. Epi FAQ: A minimum of one year of full-time post-baccalaureate work is strongly recommended for the ScM and PhD.",
+   "url": "https://publichealth.jhu.edu/academics/phd-dept-of-epidemiology",
+   "note": "Wording conflict inside JHU: program page lists it as requirement, FAQ says 'strongly recommended'. Whether internship counts is not stated; email department (BSPH.EpiAcademic@jh.edu)."
+  },
+  {
+   "id": "jhu-stipend",
+   "claim": "Stipend $52,000",
+   "verdict": "CONFIRMED",
+   "official": "PhD students are guaranteed a minimum annual stipend of $52,000 through June 2027 ... Tuition, fees, and medical benefits are provided ... guaranteed for at least the first four years.",
+   "url": "https://publichealth.jhu.edu/academics/phd-dept-of-epidemiology",
+   "note": "Guarantee dated only to June 2027; later amounts subject to union successor agreement. Epi FAQ separately says 100% tuition for up to four years plus NIH pre-doctoral level stipend."
+  },
+  {
+   "id": "jhu-deadline",
+   "claim": "Deadline 1 Dec",
+   "verdict": "CONFIRMED",
+   "official": "December 1, 2026 - PhD - All programs except Graduate Training Programs in Clinical Investigation. Submitted by deadline; supporting documents no later than two weeks after.",
+   "url": "https://publichealth.jhu.edu/offices-and-services/office-of-admissions-services/how-to-apply/application-deadlines",
+   "note": "Notes say 'ships by 1 Dec': official rule is SUBMIT by 1 Dec, all supporting documents received within 2 weeks after."
+  },
+  {
+   "id": "jhu-sop-limit",
+   "claim": "No official SOP word/page limit found",
+   "verdict": "CONTRADICTED",
+   "official": "Epi FAQ: Statement of objectives and research goals (limit two pages)",
+   "url": "https://publichealth.jhu.edu/departments/epidemiology/programs/faqs",
+   "note": "Notes say no limit found; the department FAQ states a two-page limit. The generic how-to-apply page gives no limit."
+  },
+  {
+   "id": "sophas-waiver-bd",
+   "claim": "Bangladesh on LDC list; international waiver requires citizen AND resident",
+   "verdict": "CONFIRMED",
+   "official": "you must be a citizen of and currently reside in one of the countries on the United Nations Least Developed Countries List ... Bangladesh",
+   "url": "https://help.liaisonedu.com/SOPHAS_Applicant_Help_Center/Starting_Your_SOPHAS_Application/Getting_Started_with_Your_SOPHAS_Application/03_Application_Fees",
+   "note": "Resident-in-country requirement matters if applicant lives abroad."
+  },
+  {
+   "id": "sophas-14day",
+   "claim": "Waiver must be requested before submitting; 14-day submit window",
+   "verdict": "CONFIRMED",
+   "official": "you must request a fee waiver before you submit your application ... required to submit your application within 14 days (including holidays and weekends). Extensions will not be granted",
+   "url": "https://help.liaisonedu.com/SOPHAS_Applicant_Help_Center/Starting_Your_SOPHAS_Application/Getting_Started_with_Your_SOPHAS_Application/03_Application_Fees",
+   "note": "Processing up to 10 business days; cannot submit while request pending; waiver covers $155 first programme only; call 617-612-2090 to check funds."
+  },
+  {
+   "id": "sophas-wes-coupon",
+   "claim": "$80 WES coupon",
+   "verdict": "CONFIRMED",
+   "official": "You can also request a coupon for $80 off your WES evaluation in the form. ... only valid for your initial WES evaluation order.",
+   "url": "https://help.liaisonedu.com/SOPHAS_Applicant_Help_Center/Starting_Your_SOPHAS_Application/Getting_Started_with_Your_SOPHAS_Application/03_Application_Fees",
+   "note": ""
+  },
+  {
+   "id": "wes-cost",
+   "claim": "WES course-by-course cost",
+   "verdict": "PARTIAL",
+   "official": "WES Graduate Admissions: Course-by-Course ICAP $239; Course-by-Course Basic $186 (excludes delivery/additional fees)",
+   "url": "https://www.wes.org/evaluations-and-fees/education/graduate-admissions",
+   "note": "JHU requires ICAP, so $239 (less $80 coupon if waiver approved) plus delivery fees. WES clock starts only after documents accepted; evaluation then ~1-2 weeks (wes.org/current-processing)."
+  },
+  {
+   "id": "sophas-cycle",
+   "claim": "Cycle opened 12 Aug 2026, closes 2 Aug 2027",
+   "verdict": "CONFIRMED",
+   "official": "The SOPHAS application cycle opens. August 12, 2026; closes August 2, 2027 at 11:59 PM ET",
+   "url": "https://help.liaisonedu.com/SOPHAS_Applicant_Help_Center/Starting_Your_SOPHAS_Application/Getting_Started_with_Your_SOPHAS_Application/02_Application_Cycle_Dates",
+   "note": "Also: transcripts/test scores matched by 5 Aug 2027 5PM ET; recommenders by 5 Aug 2027; verification ends 6 Aug 2027 5PM ET."
+  },
+  {
+   "id": "sophas-au",
+   "claim": "Academic Update window 21 Jun - 30 Jul 2027",
+   "verdict": "CONFIRMED",
+   "official": "between June 21, 2027 and July 30, 2027 ... no later than 11:59 PM ET on July 30, 2027 ... official transcripts by August 5, 2027",
+   "url": "https://help.liaisonedu.com/SOPHAS_Applicant_Help_Center/Submitting_and_Monitoring_Your_SOPHAS_Application/Before_and_After_You_Submit_Your_SOPHAS_Application/03_Updating_Your_SOPHAS_Application%2F%2FAcademic_Update",
+   "note": "Eligibility: at least one program Verified by 30 Jul 2027. Applies to US/English-Canadian coursework only."
+  },
+  {
+   "id": "sophas-submit-early",
+   "claim": "Can submit before transcripts/recommendations arrive",
+   "verdict": "PARTIAL",
+   "official": "You can submit your application before your transcripts and recommendations are received. (but) we will not review your application until all of your transcripts, payments, and recommendations are received",
+   "url": "https://help.liaisonedu.com/SOPHAS_Applicant_Help_Center/Submitting_and_Monitoring_Your_SOPHAS_Application/Before_and_After_You_Submit_Your_SOPHAS_Application/01_Submitting_and_Completing_Your_SOPHAS_Application",
+   "note": "Submission meets deadline, but review/verification waits for documents; JHU requires supporting docs within 2 weeks after deadline."
+  },
+  {
+   "id": "emory-fee",
+   "claim": "$75 fee",
+   "verdict": "CONFIRMED",
+   "official": "Our application fee is $75.",
+   "url": "https://gs.emory.edu/admissions/requirements.html",
+   "note": "Rollins how-to-apply page also states $75 for PhD."
+  },
+  {
+   "id": "emory-sop",
+   "claim": "500-word statement",
+   "verdict": "CONFIRMED",
+   "official": "Statement of purpose telling us about your previous research experiences or training ... research interests, how this program addresses your interests, and your long-term goals ... (500 words)",
+   "url": "https://sph.emory.edu/degrees-programs/phd/epidemiology",
+   "note": ""
+  },
+  {
+   "id": "emory-faculty",
+   "claim": "Name 2 faculty",
+   "verdict": "CONFIRMED",
+   "official": "Identification of at least two epidemiology graduate faculty members with whom they would be interested in working",
+   "url": "https://sph.emory.edu/degrees-programs/phd/epidemiology",
+   "note": ""
+  },
+  {
+   "id": "emory-letters",
+   "claim": "3 letters",
+   "verdict": "CONFIRMED",
+   "official": "Three letters of recommendation (Laney: from people familiar with your academic performance)",
+   "url": "https://sph.emory.edu/degrees-programs/phd/epidemiology",
+   "note": ""
+  },
+  {
+   "id": "emory-cred",
+   "claim": "No credential evaluation needed",
+   "verdict": "PARTIAL",
+   "official": "Program: Unofficial transcripts from each post-secondary institution. Laney: applicants with international transcripts 'may want to consider submitting credential evaluation reports; some programs strongly encourage'. Non-English transcripts need notarized translation.",
+   "url": "https://gs.emory.edu/admissions/international_appls.html",
+   "note": "Not mandatory per Laney/program pages. BUT Rollins general how-to-apply page says 'International applicants must use WES' (page covers all degrees incl. SOPHAS MPH); ask Epi admissions if unsure. Official transcripts only after admission."
+  },
+  {
+   "id": "emory-deadline",
+   "claim": "1 Dec 2026",
+   "verdict": "CONFIRMED",
+   "official": "PhD: Final deadline for PhD applicants, Dec. 1, 2026 (deadlines fall at midnight US Eastern)",
+   "url": "https://sph.emory.edu/admissions/how-to-apply",
+   "note": ""
+  },
+  {
+   "id": "emory-stipend",
+   "claim": "$43,260",
+   "verdict": "PARTIAL",
+   "official": "Laney: eligible PhD students will receive an annual stipend of $43,260 for FY26-27 (CBA). Rollins programme page still says 'As of 2025-2026 ... $42,000'.",
+   "url": "https://gs.emory.edu/funding/scholarships/index.html",
+   "note": "$43,260 is the current Laney figure; Rollins page is stale. Full tuition scholarship per Rollins page."
+  },
+  {
+   "id": "emory-visit",
+   "claim": "Virtual visit day in February",
+   "verdict": "CONFIRMED",
+   "official": "Visit day is most often Friday within the first two weeks of February ... virtual",
+   "url": "https://sph.emory.edu/degrees-programs/phd/epidemiology",
+   "note": "Also ~200+ applications for 10-14 places confirmed."
+  },
+  {
+   "id": "emory-english",
+   "claim": "TOEFL/IELTS if native language not English; no numeric minimum",
+   "verdict": "NOT_FOUND",
+   "official": "Rollins how-to-apply: TOEFL/IELTS for international students; Laney: requirements program specific. No numeric Epi minimum found.",
+   "url": "https://gs.emory.edu/admissions/international_appls.html",
+   "note": "Contact program."
+  },
+  {
+   "id": "f1-oncampus",
+   "claim": "F-1 on-campus max 20 h/week in session",
+   "verdict": "CONFIRMED",
+   "official": "If you participate in on-campus employment, you may not work more than 20 hours per week when school is in session.",
+   "url": "https://studyinthestates.dhs.gov/guide/f-1/f-1-postsecondary",
+   "note": "May apply up to 30 days before classes."
+  },
+  {
+   "id": "f1-cpt",
+   "claim": "CPT after one full academic year",
+   "verdict": "CONFIRMED",
+   "official": "Has been lawfully enrolled on a full-time basis for at least a full academic year. (Exception for graduate programs whose curriculum requires earlier training.) One year of full-time CPT eliminates a student's eligibility for OPT.",
+   "url": "https://studyinthestates.dhs.gov/sevis-help-hub/student-records/fm-student-employment/f-1-curricular-practical-training-cpt",
+   "note": "Must be integral to curriculum; one employer per authorisation."
+  },
+  {
+   "id": "f1-opt",
+   "claim": "OPT 12 months per level",
+   "verdict": "CONFIRMED",
+   "official": "Twelve months of Regular OPT is available for each higher level of study.",
+   "url": "https://studyinthestates.dhs.gov/sevis-help-hub/student-records/fm-student-employment/f-1-optional-practical-training-opt",
+   "note": "STEM extension 24 months for eligible STEM degrees."
+  },
+  {
+   "id": "f1-offcampus",
+   "claim": "(addition) off-campus needs 1 yr + hardship",
+   "verdict": "CONFIRMED",
+   "official": "Off-campus employment ... only available ... after at least one full academic year and economic hardship ...",
+   "url": "https://studyinthestates.dhs.gov/guide/f-1/f-1-postsecondary",
+   "note": "Not in notes; relevant: CPT/OPT are the usual routes."
+  },
+  {
+   "id": "columbia-dl",
+   "claim": "Columbia MPH preferred 1 Dec 2026, rolling to 15 Jan 2027",
+   "verdict": "CONFIRMED",
+   "official": "December 1st is the preferred deadline for most master level programs ... Applications will be accepted on a rolling basis until January 15th (MPH Full-Time, Accelerated, Dual). Preferred Dec 1 = priority review and full scholarship consideration; Mar 1 late consideration with scholarship by availability.",
+   "url": "https://www.publichealth.columbia.edu/become-student/how-apply/deadlines",
+   "note": "Page says Fall 2027. Doctoral final deadline is Dec 1. Statement of Purpose max 500 words; applies via SOPHAS."
+  }
+ ],
+ "official_urls": {
+  "JHU PhD Epi": "https://publichealth.jhu.edu/academics/phd-dept-of-epidemiology",
+  "JHU how to apply (SOPHAS)": "https://publichealth.jhu.edu/offices-and-services/office-of-admissions-services/how-to-apply",
+  "Emory PhD Epi": "https://sph.emory.edu/degrees-programs/phd/epidemiology",
+  "Emory Laney requirements": "https://gs.emory.edu/admissions/requirements.html",
+  "SOPHAS fees/waiver": "https://help.liaisonedu.com/SOPHAS_Applicant_Help_Center/Starting_Your_SOPHAS_Application/Getting_Started_with_Your_SOPHAS_Application/03_Application_Fees",
+  "SOPHAS cycle dates": "https://help.liaisonedu.com/SOPHAS_Applicant_Help_Center/Starting_Your_SOPHAS_Application/Getting_Started_with_Your_SOPHAS_Application/02_Application_Cycle_Dates",
+  "Columbia deadlines": "https://www.publichealth.columbia.edu/become-student/how-apply/deadlines",
+  "F-1 DHS": "https://studyinthestates.dhs.gov/guide/f-1/f-1-postsecondary"
+ },
+ "summary": "Corrections: JHU Epi FAQ states a two-page statement limit (notes say none). JHU work experience is a requirement on the programme page but only 'strongly recommended' in the FAQ. TOEFL iBT taken after 21 Jan 2026 needs 5.0 (new scale), 100 only for older scores. Emory stipend is $43,260 (Rollins page stale at $42,000). WES ICAP is $239. Emory credential evaluation optional, but Rollins general page says WES. Note SOPHAS submit-early caveat: review waits for documents."
+}
