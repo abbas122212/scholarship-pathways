@@ -1,0 +1,56 @@
+{
+  "_about": "Routes that appear only on the regional sites (usa/, europe/, world/). Added 14 Nov 2026 to cover study tours and short programmes. Each was checked against search results that day; dates not yet published are said so. Verify on the official page before acting.",
+  "paths": [
+    {
+      "id": "jhu-si",
+      "name": "Johns Hopkins Graduate Summer Institute of Epidemiology & Biostatistics",
+      "cat": "short",
+      "country": "USA",
+      "elig": "now",
+      "gets": "Neither",
+      "cost": "Self-funded: tuition per course or credit (2027 fees not yet published)",
+      "time": "Runs every June in Baltimore; courses from 4 hours to 2 weeks, in person, hybrid or online",
+      "d": null,
+      "dt": "2027 dates not yet published (the 2025 institute ran 9–27 June). Registration usually opens in March.",
+      "usmle": "neutral",
+      "rank": 901,
+      "note": "A short, paid study visit to the school behind the Hopkins PhD and MPH on this site. Open to non-degree participants, with a page for international participants. Online courses avoid a visa and the B1/B2 bond. A credit-bearing course gives a Hopkins transcript line and a contact in the department, but it is not a scholarship and does not count as US clinical experience. Fee figures found were from 2014, so they are not quoted here.",
+      "src": "https://publichealth.jhu.edu/academics/graduate-summer-institute-of-epidemiology-and-biostatistics/general-information/international-participants",
+      "v": "2026-11-14"
+    },
+    {
+      "id": "lindau-2027",
+      "name": "Lindau Nobel Laureate Meeting (Physiology/Medicine)",
+      "cat": "short",
+      "country": "Germany",
+      "elig": "closed",
+      "gets": "Neither",
+      "cost": "Selected young scientists attend free; travel support depends on the nominating body",
+      "time": "One week at Lake Constance with Nobel laureates and about 600 young scientists",
+      "d": "2026-10-30",
+      "dt": "2027 meeting runs 27 Jun – 2 Jul 2027. National nomination rounds closed Sep–Oct 2026 (the last found, Malta, on 30 Oct).",
+      "usmle": "neutral",
+      "rank": 902,
+      "note": "Entry is by nomination through an academic partner (national academies, universities, funders). Participants are students, PhD candidates and young postdocs in the meeting's field. Whether Bangladesh has a nominating partner has not been checked. The 2027 round is gone; the next medicine meeting is a later cycle (2028 is Physics). Worth asking a Bangladeshi academy or university early in a future Physiology/Medicine year.",
+      "src": "https://www.lindau-nobel.org/",
+      "v": "2026-11-14"
+    },
+    {
+      "id": "sakura-science",
+      "name": "Sakura Science Exchange Program (JST, Japan)",
+      "cat": "short",
+      "country": "Japan",
+      "elig": "unc",
+      "gets": "Neither",
+      "cost": "JST pays travel and stay for selected programmes (airfare only when a private company hosts)",
+      "time": "Short invited visit to a Japanese university or institute; must end within Japan's fiscal year",
+      "d": null,
+      "dt": "No individual application: a Japanese host applies to JST. The FY2026 window was 16 Feb – 2 Apr 2026; the FY2027 call is expected around Feb 2027.",
+      "usmle": "neutral",
+      "rank": 903,
+      "note": "A free short trip to Japan. Participants can be graduate students, postdocs, faculty or people working in science-related public institutions. You cannot apply yourself: the route is to get a Japanese lab (for example one you would want for MEXT or OIST) to include you in its JST application. Bangladesh eligibility was not shown on a current country list (older guidelines said generally all countries). Also a good way to meet a MEXT University Recommendation supervisor.",
+      "src": "https://ssp.jst.go.jp/en/program",
+      "v": "2026-11-14"
+    }
+  ]
+}
