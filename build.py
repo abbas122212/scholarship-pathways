@@ -16,7 +16,7 @@ from html import escape
 from pathlib import Path
 
 ROOT = Path(__file__).parent
-BUILD_DATE = date(2026, 11, 2)  # fallback "today" for the no-JS render
+BUILD_DATE = date(2026, 11, 3)  # fallback "today" for the no-JS render
 
 board = json.loads((ROOT / "data/board.json").read_text())
 extra = json.loads((ROOT / "data/extra.json").read_text())
@@ -248,7 +248,7 @@ def build(paths, cfg=None):
         ap = APPLY.get(p["id"])
         has_story = p["id"] in STORIES
         apply_html = ""
-        if ap:
+        if ap and ap.get("portal_url"):
             apply_html = (
                 f'<div class="apply"><p class="fee {FEE_CLS[ap["kind"]]}"><span class="fee-k">Application fee</span>'
                 f'<strong><span class="fee-i" aria-hidden="true">{FEE_ICON[ap["kind"]]}</span> {e(ap["fee"])}</strong></p>'
@@ -366,10 +366,10 @@ def build(paths, cfg=None):
             else:
                 fixes.append(f'<li>{lab}<div class="fx-row fx-solo"><p class="fx-now"><span class="fx-k">Fact-check note</span>{rich(now)}</p></div></li>')
         fee = e(ap["fee"]) if ap else "—"
-        closes = e(fmt(p["d"])) if p.get("d") else "Rolling"
+        closes = e(fmt(p["d"])) if p.get("d") else ("Closed" if st["tone"] == "bad" else "Rolling")
         portal_btn = (
             f'<a class="board-btn" href="{e(ap["portal_url"])}" target="_blank" rel="noopener">Board now<span class="sr">: open the application portal for {e(p["name"])} (opens in a new tab)</span> <span aria-hidden="true">↗</span></a>'
-            if ap else ""
+            if ap and ap.get("portal_url") else ""
         )
         od = ODDS.get(pid)
         odds_html = ""
@@ -389,9 +389,11 @@ def build(paths, cfg=None):
             )
         box = ""
         if ap:
+            plink = (f'<a href="{e(ap["portal_url"])}" target="_blank" rel="noopener">{e(ap["portal_label"])} <span aria-hidden="true">↗</span><span class="sr"> (opens in a new tab)</span></a>'
+                     if ap.get("portal_url") else e(ap["portal_label"]))
             box = (
                 f'<div class="howto"><h3>Before you board</h3><p class="howto-portal"><span class="fx-k">Portal</span>'
-                f'<a href="{e(ap["portal_url"])}" target="_blank" rel="noopener">{e(ap["portal_label"])} <span aria-hidden="true">↗</span><span class="sr"> (opens in a new tab)</span></a></p>'
+                f'{plink}</p>'
                 f'<p>{e(ap["fee_note"])}</p><p class="howto-check"><strong>How this was checked:</strong> {e(ap["check"])}</p></div>'
             )
         return f'''<article class="story" id="{sid}" role="dialog" aria-modal="true" aria-labelledby="st-{e(pid)}" tabindex="-1" data-tone="{st["tone"]}">
@@ -427,7 +429,7 @@ def build(paths, cfg=None):
           <div class="story-main">
             <p class="verdict v-{st["tone"]}"><span class="v-i" aria-hidden="true"></span>{e(st["tag"])}</p>
             <p class="story-lede">{rich(st["lede"])}</p>
-            <p class="ai-note"><span aria-hidden="true">✦</span> Drafted by Gemini (an AI), then rewritten and fact-checked against official pages on 2 Nov 2026. Where they disagreed, the official page won.</p>
+            <p class="ai-note"><span aria-hidden="true">✦</span> {e(st["ai_note"]) if st.get("ai_note") else "Drafted by Gemini (an AI), then rewritten and fact-checked against official pages on 2–3 Nov 2026. Where they disagreed, the official page won."}</p>
             <ul class="gauges" aria-label="How it fits your goals">{"".join(gauge(k, v) for k, v in st["fit"].items())}</ul>
             {odds_html}
             {box}
@@ -443,7 +445,7 @@ def build(paths, cfg=None):
     stories_html = "\n".join(story_html(k, v) for k, v in STORIES.items() if k in PBYID)
 
     desk_ids = sorted(
-        [k for k in APPLY if k in PBYID],
+        [k for k in APPLY if k in PBYID and APPLY[k].get("portal_url")],
         key=lambda k: ((PBYID[k].get("d") or "9999"), PBYID[k]["rank"]),
     )
     desk_rows = []
@@ -469,6 +471,59 @@ def build(paths, cfg=None):
         f'<span class="ob-v"><strong>{ODDS[k]["score"]}</strong>/10<span class="ob-l">{odds_label(ODDS[k]["score"])}</span></span></a></li>'
         for k in odds_ids
     )
+
+    # ---------- application packs (data/packs.json): generic block renderer
+    PACKS_FILE = ROOT / "data/packs.json"
+    PACKS = json.loads(PACKS_FILE.read_text()) if PACKS_FILE.exists() else {"packs": [], "guidance": {}}
+
+
+    def rich_l(text):
+        """Escape, bold, and turn bare URLs into links."""
+        s = e(text)
+        s = re.sub(r"\*\*(.+?)\*\*", r"<strong>\1</strong>", s)
+        s = re.sub(r"(https?://[^\s<)]+[^\s<).,;:])", lambda m: f'<a href="{m.group(1)}" target="_blank" rel="noopener">{m.group(1).split("//")[1][:48]}{"…" if len(m.group(1).split("//")[1]) > 48 else ""}<span class="sr"> (opens in a new tab)</span></a>', s)
+        return s
+
+
+    def block_html(b):
+        out = []
+        for x in b.get("p", []):
+            out.append(f"<p>{rich_l(x)}</p>")
+        if b.get("ul"):
+            out.append("<ul>" + "".join(f"<li>{rich_l(x)}</li>" for x in b["ul"]) + "</ul>")
+        if b.get("table"):
+            tb = b["table"]
+            head = "".join(f'<th scope="col">{e(h)}</th>' for h in tb["head"])
+            rows = "".join("<tr>" + "".join(f'<td data-label="{e(tb["head"][i])}">{rich_l(c)}</td>' for i, c in enumerate(r)) + "</tr>" for r in tb["rows"])
+            out.append(f'<div class="ptable-wrap"><table class="ptable"><thead><tr>{head}</tr></thead><tbody>{rows}</tbody></table></div>')
+        if b.get("timeline"):
+            out.append('<ol class="ptl">' + "".join(
+                f'<li><p class="ptl-w">{e(s["when"])}</p><ul>' + "".join(f"<li>{rich_l(i)}</li>" for i in s["items"]) + "</ul></li>"
+                for s in b["timeline"]) + "</ol>")
+        if b.get("links"):
+            out.append('<ul class="plinks">' + "".join(
+                f'<li><a href="{e(l["u"])}" target="_blank" rel="noopener">{e(l["t"])}<span class="sr"> (opens in a new tab)</span></a>'
+                + (f'<span>{rich_l(l["n"])}</span>' if l.get("n") else "") + "</li>" for l in b["links"]) + "</ul>")
+        if b.get("note"):
+            out.append(f'<p class="pnote">{rich_l(b["note"])}</p>')
+        return "".join(out)
+
+
+    def pack_html(pk):
+        chips = "".join(f'<li>{e(c)}</li>' for c in pk.get("chips", []))
+        blocks = []
+        for i, b in enumerate(pk["blocks"]):
+            blocks.append(f'<details class="pblk"{" open" if b.get("open") else ""}><summary>{e(b["h"])}</summary><div class="pblk-b">{block_html(b)}</div></details>')
+        dl = pk.get("deadline")
+        dl_html = f'<p class="pk-dl" data-left="{dl}"><span>Closes</span><strong>{e(fmt(dl))}</strong><em data-left="{dl}">{e(rel(days_left(dl)))}</em></p>' if dl else ""
+        return (f'<article class="pack" id="pack-{e(pk["id"])}" aria-labelledby="pk-{e(pk["id"])}-h"><header class="pack-h"><div><p class="eyebrow">{e(pk.get("eyebrow", "Application pack"))}</p>'
+                f'<h3 id="pk-{e(pk["id"])}-h">{e(pk["title"])}</h3><p class="pk-sum">{rich_l(pk["summary"])}</p>'
+                f'{"<ul class=pk-chips>" + chips + "</ul>" if chips else ""}</div>{dl_html}</header>'
+                f'<div class="pack-b">{"".join(blocks)}</div></article>')
+
+
+    packs_html = "\n".join(pack_html(p) for p in PACKS["packs"])
+
     free_n = sum(1 for k in desk_ids if APPLY[k]["kind"] == "free")
     cat_counts = Counter(p["cat"] for p in paths)
     elig_counts = Counter(p["elig"] for p in paths)
@@ -565,6 +620,8 @@ def build(paths, cfg=None):
         .replace("{{DESK_N}}", str(len(desk_ids)))
         .replace("{{DESK_FREE}}", str(free_n))
         .replace("{{STORY_N}}", str(len([k for k in STORIES if k in PBYID])))
+        .replace("{{PACKS}}", packs_html)
+        .replace("{{CHECK_N}}", str(len(guide["checklist"])))
         .replace("{{CHECKLIST}}", checklist)
         .replace("{{DOCS}}", docs)
         .replace("{{GATES}}", gates)

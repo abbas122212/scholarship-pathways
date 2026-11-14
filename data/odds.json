@@ -9,7 +9,7 @@
     "profile": 1,
     "timing": 1
    },
-   "why": "About 50 awards across all of Imperial, and you need a supervisor's agreement before applying. Round 1 closes today.",
+   "why": "About 50 awards across all of Imperial, and you need a supervisor's agreement before applying. Round 1 has closed; round 2 closes 11 Jan 2027.",
    "raise": [
     "A supervisor who agrees to back you for round 2 (11 Jan 2027)",
     "A first-class-equivalent MBBS result and class rank",
@@ -350,11 +350,11 @@
     "profile": 2,
     "timing": 1
    },
-   "why": "Internationals are considered for merit awards automatically, but only tuition is covered; a full-tuition award is the hard part.",
+   "why": "Internationals are considered automatically for merit awards (50-100% of tuition), but only tuition is covered, and a full-tuition award is the hard part. The score measures a funded place that is affordable.",
    "raise": [
     "A file SOPHAS-verified well before 5 Jan",
     "Strong marks and a clear public-health story",
-    "A plan for paid US research work alongside"
+    "A plan for REAL and paid US research work alongside"
    ]
   },
   "eiffel": {
@@ -587,6 +587,2120 @@
    "raise": [
     "A supervisor's invitation",
     "Confirmation an MBBS gives PhD entry"
+   ]
+  },
+  "usra": {
+   "score": 3,
+   "factors": {
+    "eligibility": 2,
+    "competition": 1,
+    "profile": 1,
+    "timing": 2
+   },
+   "why": "Score measures the chance of landing a paid US research post for a start after the internship. Posts are real and rolling, but you have no publications and the MBBS must be conferred first.",
+   "raise": [
+    "Turn one internship project into a poster, abstract or case report",
+    "Build a list of 20-30 labs and start emailing in May-July 2027",
+    "Get a strong letter from a consultant who has supervised research"
+   ]
+  },
+  "mayo-rf": {
+   "score": 2,
+   "factors": {
+    "eligibility": 2,
+    "competition": 0,
+    "profile": 1,
+    "timing": 1
+   },
+   "why": "Score measures the chance of landing a paid Mayo post. You qualify on paper once the MBBS is conferred, but each opening draws many applicants with publications.",
+   "raise": [
+    "Set Mayo job alerts now and read the person specifications",
+    "Get a first-author abstract or paper out of your thesis data",
+    "Write to the principal investigator as well as applying on the portal"
+   ]
+  },
+  "ecfmg-j1rs": {
+   "score": 4,
+   "factors": {
+    "eligibility": 2,
+    "competition": 3,
+    "profile": 2,
+    "timing": 1
+   },
+   "why": "This is not an award. Score measures the chance you can actually complete the sponsorship step this cycle: fees are small against your budget, but it needs a conferred MBBS and a host offer first.",
+   "raise": [
+    "Secure a written offer from a US host",
+    "Ask each host early whether they sponsor directly or via ECFMG",
+    "Keep about $750 in cash set aside for year one"
+   ]
+  },
+  "ecfmg": {
+   "score": 6,
+   "factors": {
+    "eligibility": 2,
+    "competition": 3,
+    "profile": 2,
+    "timing": 2
+   },
+   "why": "This is not an award. Score measures the chance you can complete the Step 1 and certification groundwork this cycle on your budget: fees are affordable and fully in your control, but the internship leaves little study time.",
+   "raise": [
+    "Check your school's ECFMG sponsor note on wdoms.org this week",
+    "Book Step 1 only after a timed practice assessment",
+    "Block out fixed weekly study hours during the internship"
+   ]
+  },
+  "maastricht-gh": {
+   "score": 2,
+   "factors": {
+    "eligibility": 2,
+    "competition": 0,
+    "profile": 1,
+    "timing": 1
+   },
+   "why": "Score measures the chance of a funded place. About 2% of applicants win, you need 75%+ marks that are not yet known, and a Sept 2027 start clashes with the internship.",
+   "raise": [
+    "Get your marks converted and a class-rank letter now",
+    "Resolve the MBBS-as-bachelor's and GRE question with admissions",
+    "Submit the full file well before 10 Dec 2026"
+   ]
+  },
+  "maastricht-epi": {
+   "score": 1,
+   "factors": {
+    "eligibility": 1,
+    "competition": 0,
+    "profile": 1,
+    "timing": 1
+   },
+   "why": "Score measures the chance of a funded place. About 2% of applicants win, you need 75%+ marks, the full-time variant's scholarship eligibility is unconfirmed, and Sept 2027 clashes with the internship.",
+   "raise": [
+    "Ask UM to confirm full-time Epidemiology is scholarship-eligible",
+    "Get your marks converted and a class-rank letter",
+    "Submit the full file well before 10 Dec 2026"
+   ]
+  },
+  "nih-vf": {
+   "score": 2,
+   "factors": {
+    "eligibility": 1,
+    "competition": 1,
+    "profile": 1,
+    "timing": 1
+   },
+   "why": "Score measures the chance of a paid NIH fellowship. It is very competitive, you have no research record, and it is unconfirmed that your MBBS meets the doctoral requirement.",
+   "raise": [
+    "Ask NIH's Division of International Services to confirm MBBS eligibility",
+    "Build a short research record from the internship",
+    "Target labs whose recent papers match your epidemiology interests"
+   ]
+  },
+  "emjm-all": {
+   "score": 3,
+   "factors": {
+    "eligibility": 2,
+    "competition": 1,
+    "profile": 1,
+    "timing": 1
+   },
+   "why": "Score measures the chance of a funded place somewhere in the catalogue this cycle. Up to three applications improve the odds, but scholarship places are scarce and a Sept 2027 start clashes with the internship.",
+   "raise": [
+    "Shortlist three programmes that state they accept medicine",
+    "Get an English-medium-of-instruction certificate and attested transcripts early",
+    "Write a motivation letter that ties each programme to your public health aim"
+   ]
+  },
+  "usphd": {
+   "score": 2,
+   "factors": {
+    "eligibility": 2,
+    "competition": 1,
+    "profile": 1,
+    "timing": 1
+   },
+   "why": "Score measures the chance of a funded US PhD place this cycle. An MBBS is usually accepted, but admissions are very competitive, you have no research record and the 1 Dec deadlines are four weeks away.",
+   "raise": [
+    "Start with JHU Epidemiology (no GRE) and request the SOPHAS fee waiver",
+    "Line up letters from supervisors who know your work",
+    "Book IELTS or TOEFL now"
+   ]
+  },
+  "kh": {
+   "score": 0,
+   "factors": {
+    "eligibility": 2,
+    "competition": 0,
+    "profile": 1,
+    "timing": 0
+   },
+   "why": "Score measures the chance of a funded place this cycle. The 2027 cohort closed on 6 Oct 2026, so there is no live window; the next realistic cycle is the 2028 cohort.",
+   "raise": [
+    "Check the KHS site around June 2027",
+    "Build leadership and research evidence during 2027",
+    "Look at Stanford programmes you would apply to for the 2028 cohort"
+   ]
+  },
+  "emjm-hygieia": {
+   "score": 3,
+   "factors": {
+    "eligibility": 2,
+    "competition": 1,
+    "profile": 2,
+    "timing": 1
+   },
+   "why": "Score measures the chance of a funded place. MBBS is explicitly eligible and the subject fits, but only 25 places exist, the 2027 deadline is unpublished and Sept 2027 clashes with the internship.",
+   "raise": [
+    "Book IELTS or TOEFL now",
+    "Check hygieiamaster.eu regularly for the 2027 dates",
+    "Prepare a motivation letter linking prevention and lifespan health to your internship"
+   ]
+  },
+  "lshtm-fund": {
+   "score": 1,
+   "factors": {
+    "eligibility": 2,
+    "competition": 0,
+    "profile": 1,
+    "timing": 1
+   },
+   "why": "Score measures the chance of the single funded place. Only one award a year, the 2027-28 round is unannounced, and a 2027 start clashes with the internship.",
+   "raise": [
+    "Keep transcripts, degree certificate and references ready",
+    "Watch the LSHTM scholarships page for the 2027-28 advert",
+    "Plan for the 2028-29 round and a strong MSc Epidemiology application"
+   ]
+  },
+  "mext": {
+   "score": 3,
+   "factors": {
+    "eligibility": 2,
+    "competition": 1,
+    "profile": 1,
+    "timing": 2
+   },
+   "why": "Score measures the chance of a funded place. You likely meet the age and degree rules and the April 2028 arrival fits, but selection runs through a national exam and interview.",
+   "raise": [
+    "Write a research plan in public health or epidemiology by March 2027",
+    "Watch moedu.gov.bd in April 2027 for the advert",
+    "Start basic Japanese study"
+   ]
+  },
+  "emjm-imagein": {
+   "score": 2,
+   "factors": {
+    "eligibility": 1,
+    "competition": 1,
+    "profile": 1,
+    "timing": 1
+   },
+   "why": "Score measures the chance of a funded place. Eligibility for an MBBS holder is unconfirmed, the fit to your interests is partial, and the Sept 2027 start clashes with the internship.",
+   "raise": [
+    "Email the programme to confirm MBBS eligibility",
+    "Gather an English-medium-of-instruction certificate",
+    "Prepare the application before the 6 Jan 2027 opening"
+   ]
+  },
+  "emjm-membiomed": {
+   "score": 1,
+   "factors": {
+    "eligibility": 1,
+    "competition": 1,
+    "profile": 0,
+    "timing": 1
+   },
+   "why": "Score measures the chance of a funded place. The subject is lab-based, your profile is clinical, eligibility is unpublished and the Sept 2027 start clashes with the internship.",
+   "raise": [
+    "Recheck the site after 1 Dec 2026 for eligibility and the closing date",
+    "Only pursue if you want a bench-science pivot",
+    "Email the programme about MBBS fit before investing time"
+   ]
+  },
+  "emjm-other-health": {
+   "score": 2,
+   "factors": {
+    "eligibility": 1,
+    "competition": 1,
+    "profile": 1,
+    "timing": 1
+   },
+   "why": "Score measures the chance of a funded place on one of these ten programmes. None is verified, several are poor fits for an MBBS holder, and Sept 2027 clashes with the internship.",
+   "raise": [
+    "Check EMMaH and ECT+ One Health sites first",
+    "Confirm scholarship availability on each programme page",
+    "Email programmes that do not name medicine"
+   ]
+  },
+  "mext-unirec": {
+   "score": 1,
+   "factors": {
+    "eligibility": 1,
+    "competition": 1,
+    "profile": 1,
+    "timing": 0
+   },
+   "why": "Score measures the chance of a funded doctoral place. A supervisor must already agree, the call normally runs only Nov-Dec, and the October 2027 start clashes with the internship.",
+   "raise": [
+    "Email prospective supervisors at Hamamatsu this week",
+    "Ask whether a later start than October 2027 is possible",
+    "Prepare English proof at CEFR B2 across all four skills"
+   ]
+  },
+  "gks": {
+   "score": 2,
+   "factors": {
+    "eligibility": 2,
+    "competition": 1,
+    "profile": 1,
+    "timing": 0
+   },
+   "why": "Score measures the chance of a funded place this cycle. You likely meet age and degree rules, but only seven Embassy places were offered for Bangladesh in 2026, marks are unknown, and the Sept 2027 start clashes.",
+   "raise": [
+    "Ask your medical college how it can certify your marks and class rank",
+    "Check the 2027 guidelines in early February",
+    "Prepare a research plan in public health or epidemiology"
+   ]
+  },
+  "daad-study": {
+   "score": 0,
+   "factors": {
+    "eligibility": 2,
+    "competition": 0,
+    "profile": 1,
+    "timing": 0
+   },
+   "why": "The Bangladesh window closed on 31 Aug 2026, so there is no live way in this cycle. The next call, for funding from Oct 2028, would fit your post-internship timeline better.",
+   "raise": [
+    "Watch the DAAD database page each spring for the next Bangladesh deadline",
+    "Start collecting a German master's shortlist and IELTS or TestDaF plan",
+    "Build one research output during the internship year"
+   ]
+  },
+  "it-dsu": {
+   "score": 3,
+   "factors": {
+    "eligibility": 2,
+    "competition": 2,
+    "profile": 1,
+    "timing": 1
+   },
+   "why": "DSU is a means-tested benefit claimed after you secure an Italian university place, not a competition, so the score is your chance of actually receiving the benefit. Calls for 2027/28 are not out until summer 2027 and you need admission first.",
+   "raise": [
+    "Start the family income and asset papers for the ISEE parificato early",
+    "Pick the Italian master's and note its region's agency",
+    "Check that your degree level is allowed under that region's rules"
+   ]
+  },
+  "bcs51": {
+   "score": 0,
+   "factors": {
+    "eligibility": 3,
+    "competition": 0,
+    "profile": 1,
+    "timing": 0
+   },
+   "why": "Applications closed on 25 Oct 2026, so you cannot enter this exam. Score 0 measures a paid government post this cycle; the 52nd regular BCS has no circular yet.",
+   "raise": [
+    "Watch bpsc.gov.bd for the 52nd BCS circular",
+    "Keep your temporary BMDC registration paperwork ready",
+    "Check the age limit (21-32 on 1 September 2026) against future dates"
+   ]
+  },
+  "turk": {
+   "score": 2,
+   "factors": {
+    "eligibility": 1,
+    "competition": 1,
+    "profile": 1,
+    "timing": 1
+   },
+   "why": "Free and fully funded, but the 2027 call is not announced, the health-graduate marks bar is high (board: at least 90%), and the start clashes with your internship. Score is the chance of a funded place this cycle.",
+   "raise": [
+    "Check your MBBS marks against the stated threshold once the call is out",
+    "Prepare transcripts and referee letters before January",
+    "Confirm only on turkiyeburslari.gov.tr, never via agents"
+   ]
+  },
+  "qatar": {
+   "score": 3,
+   "factors": {
+    "eligibility": 1,
+    "competition": 2,
+    "profile": 0,
+    "timing": 0
+   },
+   "why": "This is a licence, not an award, so the score is your chance of completing the step this cycle. Eligibility before the internship certificate (late 2027) is unconfirmed, and it needs an employer to approve the evaluation.",
+   "raise": [
+    "Keep internship and BMDC papers clean and ready for verification",
+    "Ask Qatar-based contacts what DHP currently asks for fresh graduates",
+    "Do not pay agents; check fees inside the official portal"
+   ]
+  },
+  "nus-sph": {
+   "score": 0,
+   "factors": {
+    "eligibility": 2,
+    "competition": 1,
+    "profile": 1,
+    "timing": 0
+   },
+   "why": "The Aug 2027 round closed on 1 Nov 2026 and a confirmed advisor is mandatory, so there is no live window. The Aug 2028 round (about 1 Nov 2027, not announced) is the real target.",
+   "raise": [
+    "Start emailing SSHSPH faculty about advisor fit well before Oct 2027",
+    "Book IELTS (7.0 stated by the board) and consider the GRE",
+    "Produce a first paper or protocol during the internship"
+   ]
+  },
+  "smle": {
+   "score": 3,
+   "factors": {
+    "eligibility": 2,
+    "competition": 3,
+    "profile": 1,
+    "timing": 1
+   },
+   "why": "A licensing step, so the score is your chance of completing it this cycle. Classification asks for the internship certificate, which you will not hold until late 2027, and fees and dates are unpublished.",
+   "raise": [
+    "Plan DataFlow verification for the last months of internship",
+    "Confirm current classification rules inside Mumaris+ before paying anyone",
+    "Check whether your target employer wants a year of post-internship experience"
+   ]
+  },
+  "plab": {
+   "score": 5,
+   "factors": {
+    "eligibility": 2,
+    "competition": 3,
+    "profile": 2,
+    "timing": 2
+   },
+   "why": "A licensing exam you can control, so the score is your chance of completing a PLAB step this cycle on your budget. The new prioritisation rules make UK training and some posts harder to win, but not the exam itself.",
+   "raise": [
+    "Start the ECFMG EPIC verification early",
+    "Book IELTS or OET once your PLAB 1 date is chosen",
+    "Fund Manchester travel and a visitor visa for PLAB 2 within the 2-year window"
+   ]
+  },
+  "cw": {
+   "score": 0,
+   "factors": {
+    "eligibility": 1,
+    "competition": 0,
+    "profile": 1,
+    "timing": 0
+   },
+   "why": "The 2027/28 round closed on 20 Oct 2026 and the Bangladesh nominating step ended earlier. No live window this cycle.",
+   "raise": [
+    "Watch for the next UGC Bangladesh call (about Aug-Sep 2027, a board estimate)",
+    "Get a UK university offer first, as UGC asked for it",
+    "Prepare a development-impact statement around health systems"
+   ]
+  },
+  "ireland": {
+   "score": 3,
+   "factors": {
+    "eligibility": 1,
+    "competition": 2,
+    "profile": 1,
+    "timing": 1
+   },
+   "why": "A licensing route, so the score is your chance of completing registration this cycle. You need the PRES route (or PLAB 2) and your internship papers, and registration timing before the internship ends is unconfirmed.",
+   "raise": [
+    "Check the internship rotation record against the Council's rules",
+    "Consider PLAB as the cheaper route to a PRES exemption",
+    "Budget the €451 application and the PRES Level 3 fee of €1,500"
+   ]
+  },
+  "euphd": {
+   "score": 2,
+   "factors": {
+    "eligibility": 1,
+    "competition": 1,
+    "profile": 0,
+    "timing": 1
+   },
+   "why": "Most posts ask for a recognised master's, so an MBBS alone is accepted only post by post. With no publications you start behind the pack, and a 3-4 year contract would replace the 2029 plan.",
+   "raise": [
+    "Email the supervisor to ask in writing if an MBBS counts as a master's",
+    "Target German medical faculty posts that accept an MBBS",
+    "Get a first-author paper or protocol during the internship"
+   ]
+  },
+  "amc": {
+   "score": 4,
+   "factors": {
+    "eligibility": 2,
+    "competition": 3,
+    "profile": 1,
+    "timing": 1
+   },
+   "why": "A licensing pathway you pay for, so the score is your chance of completing a step (EPIC verification, MCQ authorisation) this cycle. The MCQ can be sat early, but registration needs a verified internship and the route does not serve the 2029 plan.",
+   "raise": [
+    "Only start if Australia is a real destination, not a hedge",
+    "Start ECFMG verification during the internship",
+    "Budget the three AMC fees plus travel for the clinical exam"
+   ]
+  },
+  "edin-dcs": {
+   "score": 1,
+   "factors": {
+    "eligibility": 1,
+    "competition": 0,
+    "profile": 0,
+    "timing": 1
+   },
+   "why": "The Health in Social Sciences admission gate (9 Nov 2026) has passed, there are only a few awards in the college, and you have no master's or papers. A Sept 2027 start also clashes with your internship.",
+   "raise": [
+    "Ask Edinburgh whether the Usher Institute or another school still has an open admission date",
+    "Aim for the 2028-29 round with a stronger paper record",
+    "Keep the 2 Feb 2027 scholarship deadline in mind only if admission is submitted"
+   ]
+  },
+  "intlra": {
+   "score": 2,
+   "factors": {
+    "eligibility": 1,
+    "competition": 1,
+    "profile": 0,
+    "timing": 1
+   },
+   "why": "Paid research posts exist, but entry roles may ask for stats skills, papers or prior experience. The score is the chance of a paid post this cycle; you have no outputs yet.",
+   "raise": [
+    "Learn R or Stata and show a small public analysis",
+    "Aim for one case report or audit during the internship",
+    "Apply to Sidra and HMC research assistant posts after the internship certificate"
+   ]
+  },
+  "germany-app": {
+   "score": 2,
+   "factors": {
+    "eligibility": 1,
+    "competition": 3,
+    "profile": 0,
+    "timing": 0
+   },
+   "why": "A licensing route, so the score is your chance of completing a real step this cycle. You need B2 general German and then C1 medical German, plus the Kenntnisprüfung, so Approbation is a multi-year project.",
+   "raise": [
+    "Start German now and aim for B2 before late 2027",
+    "Fix a target state and ask its authority for the exact checklist",
+    "Budget the blocked account of about €11,904 a year plus exam fees"
+   ]
+  },
+  "goi-ies": {
+   "score": 1,
+   "factors": {
+    "eligibility": 2,
+    "competition": 0,
+    "profile": 1,
+    "timing": 0
+   },
+   "why": "Only 60 awards worldwide, no 2027 call yet, and you must hold an Irish university offer first. A Sept 2027 start also collides with the internship.",
+   "raise": [
+    "Pick the Irish master's and apply for admission before the call opens",
+    "Plan for two referee letters ready in January",
+    "Budget the extra living costs the €10,000 will not cover"
+   ]
+  },
+  "hbku-chls": {
+   "score": 1,
+   "factors": {
+    "eligibility": 1,
+    "competition": 1,
+    "profile": 0,
+    "timing": 0
+   },
+   "why": "The PhD needs a master's, so only the MS is realistic, and whether an MBBS counts is unconfirmed. Waivers are limited and an Aug 2027 start clashes with the internship.",
+   "raise": [
+    "Email HBKU CHLS admissions on whether an MBBS counts for the MS",
+    "Check your marks against the 3.0 GPA line",
+    "Book IELTS 6.5 before the 1 Feb 2027 deadline if you go ahead"
+   ]
+  },
+  "ukdtp": {
+   "score": 1,
+   "factors": {
+    "eligibility": 1,
+    "competition": 0,
+    "profile": 0,
+    "timing": 1
+   },
+   "why": "International places are capped at about 30% of an intake, UKRI covers only the Home fee, and Wellcome health-professional programmes target registered clinicians. You also have no research output yet.",
+   "raise": [
+    "Look for programmes that top up the international fee",
+    "Contact programme managers directly before applying",
+    "Build a research record first and revisit for 2028"
+   ]
+  },
+  "emjm-maia": {
+   "score": 1,
+   "factors": {
+    "eligibility": 0,
+    "competition": 1,
+    "profile": 0,
+    "timing": 1
+   },
+   "why": "Score is the chance of a funded place this cycle. The call is not open, the stated degree background is technical, and an MBBS is not named, so this is a very long shot.",
+   "raise": [
+    "Email info@maiamaster.org and ask in writing whether an MBBS meets the admission criteria.",
+    "Only pursue it if you build a real coding or imaging project portfolio first."
+   ]
+  },
+  "de-msc": {
+   "score": 4,
+   "factors": {
+    "eligibility": 2,
+    "competition": 3,
+    "profile": 2,
+    "timing": 1
+   },
+   "why": "This is a self-funded degree, so the score is the chance you can actually apply, get in and afford it this cycle. Entry is plausible for a doctor, but the budget and a Match 2029 timetable make it a hard fit.",
+   "raise": [
+    "Pick 2-3 English-taught programmes and read each one's own deadline and entry rules.",
+    "Price the full two years against your USD 30k before applying.",
+    "Decide your Step 1 timetable first, then choose a start date."
+   ]
+  },
+  "embl-phd": {
+   "score": 1,
+   "factors": {
+    "eligibility": 1,
+    "competition": 0,
+    "profile": 0,
+    "timing": 1
+   },
+   "why": "Score is the chance of a funded PhD place this cycle. The Winter call is closed, the next one is unconfirmed, and a fresh MBBS with no lab record is far down the pool.",
+   "raise": [
+    "Get a research master's or a paid research assistant job first.",
+    "Use EMBL's Shared Applicant Pool only if you later have a genuine lab background."
+   ]
+  },
+  "rtp": {
+   "score": 2,
+   "factors": {
+    "eligibility": 1,
+    "competition": 1,
+    "profile": 1,
+    "timing": 1
+   },
+   "why": "Score is the chance of a funded research-degree place this cycle. There is no single application and the entry bar is research-heavy, so it stays a long shot.",
+   "raise": [
+    "Pick one or two named universities and read their own rounds.",
+    "Build a first paper or audit with a local research mentor before you write to supervisors."
+   ]
+  },
+  "au-anu": {
+   "score": 2,
+   "factors": {
+    "eligibility": 1,
+    "competition": 1,
+    "profile": 1,
+    "timing": 1
+   },
+   "why": "Score is the chance of a funded PhD place this cycle. Round 1 is closed, Round 2 needs a supervisor and an August 2027 start, and you have no research record.",
+   "raise": [
+    "Find a supervisor and ask about expression-of-interest rules now.",
+    "Get one co-authored paper or audit before the next round."
+   ]
+  },
+  "monash-mgs": {
+   "score": 2,
+   "factors": {
+    "eligibility": 1,
+    "competition": 1,
+    "profile": 1,
+    "timing": 1
+   },
+   "why": "Score is the chance of a funded research place this cycle. The round fits, but you need a supervisor invite and a research record you do not yet have.",
+   "raise": [
+    "Email a Monash supervisor in public health or epidemiology.",
+    "Aim for the 31 Jul 2027 round and prepare a research proposal draft."
+   ]
+  },
+  "uae": {
+   "score": 0,
+   "factors": {
+    "eligibility": 0,
+    "competition": 2,
+    "profile": 0,
+    "timing": 0
+   },
+   "why": "Score is the chance you can complete this step this cycle. The GP title expects post-internship experience you do not have, so it is not open to you now.",
+   "raise": [
+    "Complete internship and the post-internship experience the PQR asks for.",
+    "Re-check the unified PQR text before paying DataFlow."
+   ]
+  },
+  "nz-auckland": {
+   "score": 2,
+   "factors": {
+    "eligibility": 1,
+    "competition": 1,
+    "profile": 1,
+    "timing": 1
+   },
+   "why": "Score is the chance of a funded PhD place this cycle. There is a live round, but entry from an MBBS is unclear and you lack research output.",
+   "raise": [
+    "Ask the Medical and Health Sciences graduate office whether MBBS meets doctoral entry.",
+    "Line up a supervisor before the 1 Aug 2027 round."
+   ]
+  },
+  "vbc-phd": {
+   "score": 1,
+   "factors": {
+    "eligibility": 1,
+    "competition": 0,
+    "profile": 0,
+    "timing": 1
+   },
+   "why": "Score is the chance of a funded PhD place this cycle. The autumn call is closed and the programme expects a master's and lab record.",
+   "raise": [
+    "Gain research-master's level experience before applying.",
+    "Only reconsider if you leave the clinical-timeline plan."
+   ]
+  },
+  "nz-wellington": {
+   "score": 2,
+   "factors": {
+    "eligibility": 1,
+    "competition": 2,
+    "profile": 1,
+    "timing": 1
+   },
+   "why": "Score is the chance of a funded PhD place this cycle. About 110 awards a year helps, but you lack a supervisor, a proposal and research output.",
+   "raise": [
+    "Ask a Wellington supervisor whether MBBS plus a research plan is enough.",
+    "Target the 1 Jul 2027 round."
+   ]
+  },
+  "nz-otago": {
+   "score": 2,
+   "factors": {
+    "eligibility": 1,
+    "competition": 2,
+    "profile": 1,
+    "timing": 1
+   },
+   "why": "Score is the chance of a funded PhD place this cycle. Rolling rounds help, but entry from an MBBS without research and a review of the scheme keep it a long shot.",
+   "raise": [
+    "Re-read the official page and contact an Otago epidemiology supervisor.",
+    "Aim for the September or November 2027 round."
+   ]
+  },
+  "fogarty": {
+   "score": 1,
+   "factors": {
+    "eligibility": 1,
+    "competition": 1,
+    "profile": 1,
+    "timing": 0
+   },
+   "why": "Score is the chance of a funded fellowship this cycle. The 2027-28 deadlines are reported as passed and Bangladesh was not at the sites the board checked (neither confirmed on the Fogarty page), so only a later cycle is realistic.",
+   "raise": [
+    "Check each consortium's site list in mid-2027.",
+    "Build a research link at a local partner institution."
+   ]
+  },
+  "nz-canterbury": {
+   "score": 2,
+   "factors": {
+    "eligibility": 1,
+    "competition": 1,
+    "profile": 1,
+    "timing": 2
+   },
+   "why": "Score is the chance of a funded PhD place this cycle. The May round fits your calendar, but MBBS entry is unconfirmed and you have no research record.",
+   "raise": [
+    "Email UC to confirm whether MBBS meets doctoral entry.",
+    "Line up a supervisor before 15 May 2027."
+   ]
+  },
+  "ngo-bd": {
+   "score": 4,
+   "factors": {
+    "eligibility": 2,
+    "competition": 2,
+    "profile": 2,
+    "timing": 1
+   },
+   "why": "Score is the chance of a paid post. Requirements vary by vacancy, and you are mid-internship with no field experience and many posts ask for it.",
+   "raise": [
+    "Complete the internship and register with BMDC.",
+    "Do any short outbreak or camp-clinic volunteering for field credit.",
+    "Set ReliefWeb and BRAC alerts."
+   ]
+  },
+  "unicef-intern": {
+   "score": 3,
+   "factors": {
+    "eligibility": 3,
+    "competition": 1,
+    "profile": 1,
+    "timing": 1
+   },
+   "why": "Score is the chance of a paid placement. You qualify, but competition is wide and your internship delays the start.",
+   "raise": [
+    "Prepare a UN-style CV and cover letter now.",
+    "Target Dhaka or Cox's Bazar health posts when they open."
+   ]
+  },
+  "who": {
+   "score": 3,
+   "factors": {
+    "eligibility": 3,
+    "competition": 1,
+    "profile": 1,
+    "timing": 1
+   },
+   "why": "Score is the chance of a placement. You are eligible now, but vacancies are scarce and the timing around your internship is awkward.",
+   "raise": [
+    "Set Stellis alerts for health-related units.",
+    "Confirm how WHO counts your completion date."
+   ]
+  },
+  "unfpa-intern": {
+   "score": 3,
+   "factors": {
+    "eligibility": 2,
+    "competition": 1,
+    "profile": 1,
+    "timing": 1
+   },
+   "why": "Score is the chance of a placement. Joining the roster is plausible, but a matched placement that fits your internship is not.",
+   "raise": [
+    "Confirm the live closing date and submit before it.",
+    "Ask the Dhaka office about remote or country-office posts."
+   ]
+  },
+  "gavi-intern": {
+   "score": 2,
+   "factors": {
+    "eligibility": 1,
+    "competition": 2,
+    "profile": 1,
+    "timing": 0
+   },
+   "why": "Score is the chance of a placement. The twelve-month rule likely closes before your internship ends, and Gavi has few posts.",
+   "raise": [
+    "Watch the vacancies page monthly.",
+    "Ask Gavi when a student-status rule is counted from."
+   ]
+  },
+  "arizona-irf": {
+   "score": 3,
+   "factors": {
+    "eligibility": 2,
+    "competition": 2,
+    "profile": 1,
+    "timing": 1
+   },
+   "why": "Score measures the chance you can actually start and complete this self-funded fellowship on your budget. Entry is rolling and unlikely to be competitive, but 24 months of fees and living costs strain $30,000.",
+   "raise": [
+    "Find a named epidemiology or internal medicine mentor first",
+    "Get a written answer on J-1 212(e) before paying",
+    "Cost out 24 months against your full USD 30,000"
+   ]
+  },
+  "mgh-irf": {
+   "score": 0,
+   "factors": {
+    "eligibility": 1,
+    "competition": 1,
+    "profile": 1,
+    "timing": 0
+   },
+   "why": "The 16 Oct 2026 deadline has passed, so no award is possible this cycle, and year 1 is unfunded anyway.",
+   "raise": [
+    "Check the programme page in autumn 2027",
+    "Line up outside funding before any future application",
+    "Build a first paper or abstract in the meantime"
+   ]
+  },
+  "daadres": {
+   "score": 0,
+   "factors": {
+    "eligibility": 0,
+    "competition": 1,
+    "profile": 1,
+    "timing": 0
+   },
+   "why": "Not open to you: the grant is for people already doing a doctorate outside Germany, and you have none. The Bangladesh dates were also not found.",
+   "raise": [
+    "Revisit only after enrolling in a doctoral programme",
+    "Use a funded master's route for Germany instead",
+    "Build a relationship with a German host in your field"
+   ]
+  },
+  "jefferson-ent": {
+   "score": 1,
+   "factors": {
+    "eligibility": 1,
+    "competition": 0,
+    "profile": 1,
+    "timing": 1
+   },
+   "why": "Score measures the chance of a post this cycle. The official wording points to ENT-trained doctors, ENT is very competitive and you have no ENT research.",
+   "raise": [
+    "Email the department to ask if an MBBS-only graduate is considered",
+    "Only continue if you commit to ENT",
+    "Compare with a general epidemiology research post"
+   ]
+  },
+  "ccf-hvti": {
+   "score": 1,
+   "factors": {
+    "eligibility": 1,
+    "competition": 1,
+    "profile": 0,
+    "timing": 1
+   },
+   "why": "The 2026-27 round closed 31 Jan 2026 and the next date is not published, so there is no live window to aim at. Surgical research with no publications is a long shot.",
+   "raise": [
+    "Email villwos@ccf.org in early 2027 to ask the next closing date",
+    "Finish Step 1 before applying",
+    "Get one case report or abstract submitted"
+   ]
+  },
+  "sakib": {
+   "score": 4,
+   "factors": {
+    "eligibility": 3,
+    "competition": 1,
+    "profile": 2,
+    "timing": 2
+   },
+   "why": "Score measures the chance of at least one MPH offer with a scholarship that makes it affordable. Admission is plausible with fee waivers, but big funding is uncertain and the start year clashes with the internship.",
+   "raise": [
+    "Request the SOPHAS Least Developed Country fee waiver",
+    "Apply to programmes with known assistantships, such as Hopkins by 1 Dec 2026 if you can be ready",
+    "Get WES course-by-course evaluation done early"
+   ]
+  },
+  "remote": {
+   "score": 5,
+   "factors": {
+    "eligibility": 2,
+    "competition": 2,
+    "profile": 2,
+    "timing": 3
+   },
+   "why": "Score measures the chance of landing some paid remote post. Entry-level writing and editing work is realistic, but the best-paid expert gigs need board certification and a licence you do not have.",
+   "raise": [
+    "Write three samples (hypertension guide, trial summary, public health explainer)",
+    "Apply to two or three platforms and finish screening tests",
+    "Cap yourself at 10 to 15 hours a week"
+   ]
+  },
+  "czech-gov": {
+   "score": 0,
+   "factors": {
+    "eligibility": 3,
+    "competition": 1,
+    "profile": 2,
+    "timing": 0
+   },
+   "why": "The 2027/28 window closed on 30 Sep 2026, so there is no live window this cycle. Bangladesh is eligible for the next one.",
+   "raise": [
+    "Set a reminder for August 2027",
+    "Prepare an English test and referee letters early",
+    "Shortlist English-taught health programmes"
+   ]
+  },
+  "otherschol": {
+   "score": 2,
+   "factors": {
+    "eligibility": 2,
+    "competition": 1,
+    "profile": 2,
+    "timing": 1
+   },
+   "why": "Score covers the chance of a funded place from any of the five schemes. Awards are small or partial, two need a university place first, and most dates are unknown.",
+   "raise": [
+    "Check OeAD Ernst Mach (1 Dec 2026) only if a short Austrian stay appeals",
+    "Start with IsDB, which is officially free to apply",
+    "Choose one master's course before applying for any award"
+   ]
+  },
+  "it-maeci": {
+   "score": 3,
+   "factors": {
+    "eligibility": 3,
+    "competition": 1,
+    "profile": 2,
+    "timing": 1
+   },
+   "why": "Score measures the chance of a funded MAECI place. Selection is by citizenship against a portal list and is merit-ranked; the 2027-28 call is not out and an autumn 2027 start clashes with the internship.",
+   "raise": [
+    "Check the portal from February 2027",
+    "Verify your birth date against the age 28 cap",
+    "Shortlist two English-taught health programmes"
+   ]
+  },
+  "it-iyt": {
+   "score": 1,
+   "factors": {
+    "eligibility": 1,
+    "competition": 1,
+    "profile": 1,
+    "timing": 1
+   },
+   "why": "Score measures the chance of a funded place in a course you would want. The catalogue has no medicine or health degrees, so only a management or economics master's would qualify.",
+   "raise": [
+    "Check the 2027-28 catalogue when it opens",
+    "Consider whether health economics is a real goal",
+    "Prefer MAECI or Padua instead"
+   ]
+  },
+  "gwu-mrf": {
+   "score": 3,
+   "factors": {
+    "eligibility": 2,
+    "competition": 3,
+    "profile": 1,
+    "timing": 1
+   },
+   "why": "Score measures the chance you can start and pay for this programme this cycle. Applications are accepted on an ongoing basis, but you need USMLE scores first and the fee is unpublished.",
+   "raise": [
+    "Email impinfo@gwu.edu for the fee and visa details",
+    "Finish Step 1 before applying",
+    "Line up three recommendation letters"
+   ]
+  },
+  "it-padua": {
+   "score": 3,
+   "factors": {
+    "eligibility": 3,
+    "competition": 1,
+    "profile": 2,
+    "timing": 1
+   },
+   "why": "Score measures the chance of a funded Padua award this cycle. It is a competitive merit award, Call One closes 15 Nov 2026, and a September 2027 start collides with the internship.",
+   "raise": [
+    "Decide this week whether to apply in Call One",
+    "Choose an English-taught health or data programme",
+    "Prepare a strong motivation letter and your degree papers"
+   ]
+  },
+  "obs": {
+   "score": 5,
+   "factors": {
+    "eligibility": 3,
+    "competition": 3,
+    "profile": 2,
+    "timing": 1
+   },
+   "why": "Score measures the chance you can book and complete a US observership on your budget. Hospitals take international observers, but some exclude future applicants and the letters are weak.",
+   "raise": [
+    "Wait for Step 1 and book directly with a hospital",
+    "Ask each site in writing about a letter of recommendation",
+    "Check the current US visa rules before booking"
+   ]
+  },
+  "brunei": {
+   "score": 3,
+   "factors": {
+    "eligibility": 3,
+    "competition": 2,
+    "profile": 2,
+    "timing": 1
+   },
+   "why": "Score measures the chance of a funded Master's place. The route is open to Bangladesh citizens under 35, but the 2027/28 call is not out and the start clashes with the internship.",
+   "raise": [
+    "Check the MFA page from December 2026",
+    "Shortlist a UBD health master's",
+    "Prepare IELTS and transcripts early"
+   ]
+  },
+  "islands": {
+   "score": 0,
+   "factors": {
+    "eligibility": 0,
+    "competition": 2,
+    "profile": 1,
+    "timing": 0
+   },
+   "why": "Not open to a new graduate: the posts checked ask for post-internship experience, and no live fresh-graduate call was found.",
+   "raise": [
+    "Return after your internship plus about a year",
+    "Watch gazette.mv from late 2028",
+    "Never pay an agency for a government post"
+   ]
+  },
+  "mahidol-mugr": {
+   "score": 3,
+   "factors": {
+    "eligibility": 2,
+    "competition": 2,
+    "profile": 2,
+    "timing": 1
+   },
+   "why": "Score measures the chance of partial funding at an eligible faculty. The route is open to Bangladesh citizens, but the CGPA gate is unknown, funding is partial and no 2027 round is published.",
+   "raise": [
+    "Convert your MBBS marks to a CGPA and check it clears 3.25",
+    "Pick an eligible public health programme",
+    "Watch for the 2027 rounds"
+   ]
+  },
+  "chula-link": {
+   "score": 3,
+   "factors": {
+    "eligibility": 2,
+    "competition": 2,
+    "profile": 2,
+    "timing": 1
+   },
+   "why": "Score measures the chance of a funded Chula place. Admission must come first, no 2027 round is announced, and the programme fee is yours.",
+   "raise": [
+    "Choose a programme and learn its admission deadline",
+    "Get an acceptance letter before the scholarship window",
+    "Budget THB 1,000 for the programme application"
+   ]
+  },
+  "ki-global": {
+   "score": 2,
+   "factors": {
+    "eligibility": 2,
+    "competition": 0,
+    "profile": 1,
+    "timing": 2
+   },
+   "why": "Measures the chance of the tuition waiver itself. About 10 to 12 awards across all KI programmes, a first-choice rule, and no research record make this a long shot, and it still leaves living costs on you.",
+   "raise": [
+    "Build a CV with at least one research output or audit during internship",
+    "Draft a strong motivation letter tied to a KI programme before Jan 2027",
+    "Confirm the scholarship window on ki.se before 15 Jan 2027"
+   ]
+  },
+  "bcs52": {
+   "score": 2,
+   "factors": {
+    "eligibility": 2,
+    "competition": 0,
+    "profile": 1,
+    "timing": 1
+   },
+   "why": "Measures the chance of a government post from this exam. The circular is not out, the applicant pool is very large, and a post would not start until years later.",
+   "raise": [
+    "Watch bpsc.gov.bd weekly for the circular",
+    "Decide by early 2027 whether BCS is a backup or a distraction",
+    "Keep Step 1 on schedule regardless"
+   ]
+  },
+  "fcps": {
+   "score": 1,
+   "factors": {
+    "eligibility": 1,
+    "competition": 3,
+    "profile": 2,
+    "timing": 0
+   },
+   "why": "Measures the chance you can actually sit Part I this cycle. The January 2027 window closes today and needs permanent registration, so this cycle is effectively shut. A later session is largely in your control.",
+   "raise": [
+    "Finish internship and get permanent BMDC registration",
+    "Aim for the January 2028 session, not July 2027",
+    "Confirm the fee in the session notification before paying"
+   ]
+  },
+  "mdms": {
+   "score": 0,
+   "factors": {
+    "eligibility": 1,
+    "competition": 1,
+    "profile": 1,
+    "timing": 0
+   },
+   "why": "Measures the chance of a place this cycle. The March 2027 application window has closed, so this cycle is not open to you.",
+   "raise": [
+    "Do not plan around March 2027",
+    "Watch bmu.ac.bd only if you decide to stay in Bangladesh",
+    "Keep USMLE Step 1 as the priority"
+   ]
+  },
+  "gulfother": {
+   "score": 2,
+   "factors": {
+    "eligibility": 1,
+    "competition": 2,
+    "profile": 1,
+    "timing": 0
+   },
+   "why": "Measures the chance of a sponsored paid post. You cannot be licensed until the internship ends, and sponsors tend to want experience, so nothing is likely this cycle.",
+   "raise": [
+    "Finish internship and collect BMDC good-standing papers",
+    "Ask a Gulf employer or recruiter what they actually require",
+    "Keep Step 1 on track so a Gulf year is optional"
+   ]
+  },
+  "euother": {
+   "score": 2,
+   "factors": {
+    "eligibility": 1,
+    "competition": 3,
+    "profile": 1,
+    "timing": 1
+   },
+   "why": "Measures the chance you can complete a European recognition step this cycle. Rules are national, language is the real gate, and your internship runs to late 2027, so practical progress is slow.",
+   "raise": [
+    "Pick one target country and start its language now",
+    "Read that country's regulator page for non-EU doctors",
+    "Do not split budget across USMLE and a European route yet"
+   ]
+  },
+  "akf-isp": {
+   "score": 1,
+   "factors": {
+    "eligibility": 1,
+    "competition": 0,
+    "profile": 1,
+    "timing": 2
+   },
+   "why": "Measures the chance of a funded place, which is half loan. You need prior admission, the UK is excluded, and awards are few, so odds are very low.",
+   "raise": [
+    "Get admitted to a non-UK programme first",
+    "Prepare a documented multi-source funding plan",
+    "Line up a guarantor early"
+   ]
+  },
+  "nz": {
+   "score": 0,
+   "factors": {
+    "eligibility": 0,
+    "competition": 2,
+    "profile": 1,
+    "timing": 0
+   },
+   "why": "Measures the chance you can sit NZREX this cycle. You hold none of the prerequisite exams, so the 2027 sittings are not open to you.",
+   "raise": [
+    "Pass Step 1 and Step 2 CK first",
+    "Check the prerequisite window (5 years) when you plan",
+    "Only then budget for the NZD fees"
+   ]
+  },
+  "mymph": {
+   "score": 4,
+   "factors": {
+    "eligibility": 3,
+    "competition": 3,
+    "profile": 2,
+    "timing": 1
+   },
+   "why": "Measures the chance you can get a place on a self-funded MPH. Admission looks attainable for an MBBS holder, but the start dates clash with your internship and there is no verified 2027 deadline.",
+   "raise": [
+    "Check UM's 2027 MPH deadline and start date directly",
+    "Ask the department about deferring until after internship",
+    "Compare tuition with at least one other Malaysian university"
+   ]
+  },
+  "msf": {
+   "score": 0,
+   "factors": {
+    "eligibility": 0,
+    "competition": 2,
+    "profile": 0,
+    "timing": 0
+   },
+   "why": "Measures the chance of a paid international post this cycle. Field roles typically need relevant experience that a new graduate does not have, so this is not open to you.",
+   "raise": [
+    "Build relevant clinical experience first",
+    "Follow MSF recruitment pages at the right time",
+    "Look at national-staff posts only after the internship"
+   ]
+  },
+  "cra": {
+   "score": 2,
+   "factors": {
+    "eligibility": 1,
+    "competition": 1,
+    "profile": 1,
+    "timing": 1
+   },
+   "why": "Measures the chance of a paid post abroad. CRA posts usually want experience and sponsorship is employer-specific, so a new graduate has a thin chance of landing one this cycle.",
+   "raise": [
+    "Get a GCP course certificate",
+    "Target entry-level pharmacovigilance roles",
+    "Read each posting's visa rule before applying"
+   ]
+  },
+  "gsu-mph": {
+   "score": 2,
+   "factors": {
+    "eligibility": 3,
+    "competition": 1,
+    "profile": 1,
+    "timing": 1
+   },
+   "why": "Measures the chance of a funded place (an assistantship or waiver). Admission is plausible, but funded posts are limited and not guaranteed, and the full cost would exceed your budget.",
+   "raise": [
+    "Contact faculty about research assistantships before 15 Feb 2027",
+    "Order WES early",
+    "Apply only if funding is in sight"
+   ]
+  },
+  "glasgow-great": {
+   "score": 3,
+   "factors": {
+    "eligibility": 3,
+    "competition": 1,
+    "profile": 2,
+    "timing": 1
+   },
+   "why": "Measures the chance of the £10,000 waiver. Only 3 awards are shared across five countries and you need an accepted place with conditions met, though the course itself is realistic to enter.",
+   "raise": [
+    "Apply to a Glasgow MSc early so conditions are met by April",
+    "Write a clear case for how the course fits your public health goals",
+    "Check deferral rules for the internship clash"
+   ]
+  },
+  "ukmsc": {
+   "score": 1,
+   "factors": {
+    "eligibility": 3,
+    "competition": 1,
+    "profile": 0,
+    "timing": 0
+   },
+   "why": "Measures the chance you can actually complete a self-funded UK master's on your budget. Admission depends on the course, and total cost is likely far above USD 30,000 (no course fee verified), so it is effectively out of reach.",
+   "raise": [
+    "Only consider with a scholarship or family funding",
+    "Ask your target course for its real total cost",
+    "Do not pay a deposit before funding is secured"
+   ]
+  },
+  "au-uq": {
+   "score": 1,
+   "factors": {
+    "eligibility": 2,
+    "competition": 0,
+    "profile": 0,
+    "timing": 1
+   },
+   "why": "Measures the chance of a funded research place. A reported 19 Oct 2026 round close is unconfirmed, you have no publications or supervisor, and competition is steep.",
+   "raise": [
+    "Publish at least one paper or case report",
+    "Email UQ supervisors early with a short proposal",
+    "Check the scholarship page for the next round"
+   ]
+  },
+  "au-flinders": {
+   "score": 0,
+   "factors": {
+    "eligibility": 2,
+    "competition": 0,
+    "profile": 0,
+    "timing": 0
+   },
+   "why": "Measures the chance of a funded place this cycle. The latest round closed 18 June 2026 with no next date, and publications are effectively required.",
+   "raise": [
+    "Publish before the next round opens",
+    "Secure a Flinders supervisor in writing",
+    "Check the scholarship page each spring"
+   ]
+  },
+  "nz-massey": {
+   "score": 1,
+   "factors": {
+    "eligibility": 2,
+    "competition": 0,
+    "profile": 0,
+    "timing": 1
+   },
+   "why": "Measures the chance of a funded doctoral place. The latest round reportedly closed 1 Oct 2026, and you have no research record or supervisor.",
+   "raise": [
+    "Build a publication",
+    "Contact Massey supervisors",
+    "Check the scholarship page for the next round"
+   ]
+  },
+  "chev": {
+   "score": 0,
+   "factors": {
+    "eligibility": 1,
+    "competition": 1,
+    "profile": 1,
+    "timing": 0
+   },
+   "why": "Measures the chance of a funded place this cycle. The 2027/28 round is closed and you lack the 2,800 work hours, so it is not open to you.",
+   "raise": [
+    "Plan for the 2029/30 cycle",
+    "Track work hours in writing from graduation",
+    "Prepare an essay that stands on its own without AI"
+   ]
+  },
+  "epos": {
+   "score": 0,
+   "factors": {
+    "eligibility": 0,
+    "competition": 1,
+    "profile": 1,
+    "timing": 0
+   },
+   "why": "Not open to you: the 2-year professional-experience gate is not met and each course's own window differs. The score measures a funded place this cycle.",
+   "raise": [
+    "Build 2 years of relevant paid work or research first",
+    "Read the DAAD 2027/28 course deadline list before planning",
+    "Keep Step 1 as the 2027 priority"
+   ]
+  },
+  "fulb": {
+   "score": 0,
+   "factors": {
+    "eligibility": 0,
+    "competition": 0,
+    "profile": 1,
+    "timing": 0
+   },
+   "why": "Closed (due 11 Jul 2026) and you lack the 2 years of work experience. The score measures a funded place this cycle.",
+   "raise": [
+    "Gain 2 years of relevant full-time work",
+    "Watch the US Embassy Dhaka page for the next call",
+    "Reach IELTS 7 or TOEFL 90 before any future round"
+   ]
+  },
+  "jjwbgsp": {
+   "score": 0,
+   "factors": {
+    "eligibility": 0,
+    "competition": 1,
+    "profile": 0,
+    "timing": 1
+   },
+   "why": "Not open to you: you need an unconditional offer from a participating programme and professional experience first. The score measures a funded place this cycle.",
+   "raise": [
+    "Build relevant professional experience",
+    "Check the 2027 participating-programme lists",
+    "Secure admission before either window"
+   ]
+  },
+  "aus-aw": {
+   "score": 0,
+   "factors": {
+    "eligibility": 0,
+    "competition": 1,
+    "profile": 1,
+    "timing": 1
+   },
+   "why": "Closed now and the experience expectation is not met. The score measures a funded place this cycle.",
+   "raise": [
+    "Gain several years of relevant work",
+    "Watch the Bangladesh site for early-2027 dates",
+    "Draft a public health leadership story over time"
+   ]
+  },
+  "canada": {
+   "score": 0,
+   "factors": {
+    "eligibility": 0,
+    "competition": 0,
+    "profile": 1,
+    "timing": 0
+   },
+   "why": "CaRMS R-1 is limited to citizens and permanent residents, so you cannot complete this route. The score measures completing the route this cycle.",
+   "raise": [
+    "Do not spend on MCC fees",
+    "Put the same months into Step 1",
+    "Re-check carms.ca only if your status changes"
+   ]
+  },
+  "swiss": {
+   "score": 0,
+   "factors": {
+    "eligibility": 0,
+    "competition": 1,
+    "profile": 1,
+    "timing": 0
+   },
+   "why": "Closed on 30 Oct 2026 and a master's is expected. The score measures a funded place this cycle.",
+   "raise": [
+    "Complete a master's or equivalent first",
+    "Contact a Swiss supervisor before Aug 2027",
+    "Plan for semester fees from savings"
+   ]
+  },
+  "usmph": {
+   "score": 1,
+   "factors": {
+    "eligibility": 1,
+    "competition": 1,
+    "profile": 0,
+    "timing": 1
+   },
+   "why": "The application is cheap, but the degree costs far more than your budget unless an assistantship appears. The score measures completing this step on your budget this cycle.",
+   "raise": [
+    "Search for programs with funded assistantships",
+    "Spend on Step 1 first",
+    "Revisit after a paid research job gives you savings"
+   ]
+  },
+  "jhu-mph": {
+   "score": 1,
+   "factors": {
+    "eligibility": 2,
+    "competition": 0,
+    "profile": 1,
+    "timing": 0
+   },
+   "why": "You are eligible and can apply by 1 Dec 2026, but funding and the internship clash make a funded start very unlikely. The score measures a funded place this cycle.",
+   "raise": [
+    "Check Sommer Scholars and funding rules first",
+    "Confirm the maths and science prerequisites",
+    "Clarify internship leave before applying"
+   ]
+  },
+  "ausmph": {
+   "score": 1,
+   "factors": {
+    "eligibility": 1,
+    "competition": 1,
+    "profile": 0,
+    "timing": 1
+   },
+   "why": "Admission is plausible but the cost is well above your budget. The score measures completing this step on your budget this cycle.",
+   "raise": [
+    "Look for funded options instead",
+    "Hold the budget for Step 1",
+    "Check each course's own deadline"
+   ]
+  },
+  "kcl-aero": {
+   "score": 1,
+   "factors": {
+    "eligibility": 2,
+    "competition": 2,
+    "profile": 1,
+    "timing": 0
+   },
+   "why": "No run is scheduled, so you cannot enrol. The score measures completing the course this cycle.",
+   "raise": [
+    "Register interest on the KCL page",
+    "Wait until Step 1 is passed",
+    "Compare with free aerospace reading"
+   ]
+  },
+  "jpkr": {
+   "score": 0,
+   "factors": {
+    "eligibility": 0,
+    "competition": 1,
+    "profile": 0,
+    "timing": 0
+   },
+   "why": "Out of reach this cycle without advanced Japanese or Korean. The score measures completing the licensing step this cycle.",
+   "raise": [
+    "Do not start language study for this",
+    "Re-evaluate only if you plan to relocate there",
+    "Keep exam time on USMLE"
+   ]
+  },
+  "malta": {
+   "score": 0,
+   "factors": {
+    "eligibility": 0,
+    "competition": 0,
+    "profile": 0,
+    "timing": 0
+   },
+   "why": "The official call is limited to EU citizens, so you are ineligible. The score measures a paid post this cycle.",
+   "raise": [
+    "Do not apply",
+    "Contact the Medical Council of Malta only if you need registration advice",
+    "Spend the time on Step 1"
+   ]
+  },
+  "rhodes": {
+   "score": 0,
+   "factors": {
+    "eligibility": 0,
+    "competition": 0,
+    "profile": 0,
+    "timing": 0
+   },
+   "why": "There is no Rhodes constituency for Bangladesh and the Global one is suspended. The score measures a funded place this cycle.",
+   "raise": [
+    "Do not apply",
+    "Check the Rhodes Trust page only if Global reopens",
+    "Choose other funded masters"
+   ]
+  },
+  "antwerp": {
+   "score": 0,
+   "factors": {
+    "eligibility": 0,
+    "competition": 2,
+    "profile": 1,
+    "timing": 0
+   },
+   "why": "The VLIR-UOS scholarship is not open to Bangladesh. The score measures a funded place this cycle.",
+   "raise": [
+    "Look for scholarships you are eligible for",
+    "Confirm the degree is still on offer for self-funding",
+    "Plan the Match year first"
+   ]
+  },
+  "manaaki": {
+   "score": 0,
+   "factors": {
+    "eligibility": 0,
+    "competition": 0,
+    "profile": 0,
+    "timing": 0
+   },
+   "why": "Bangladesh is not an eligible country. The score measures a funded place this cycle.",
+   "raise": [
+    "Do not apply",
+    "Use other funded masters",
+    "Ignore aggregator lists"
+   ]
+  },
+  "nursing": {
+   "score": 1,
+   "factors": {
+    "eligibility": 1,
+    "competition": 1,
+    "profile": 0,
+    "timing": 1
+   },
+   "why": "You could enrol, but the cost is far over budget and it leads away from medicine. The score measures completing this step on your budget.",
+   "raise": [
+    "Do not pursue",
+    "Use your budget for exams",
+    "Look at medical routes"
+   ]
+  },
+  "cruise": {
+   "score": 0,
+   "factors": {
+    "eligibility": 0,
+    "competition": 1,
+    "profile": 0,
+    "timing": 1
+   },
+   "why": "Not open to a new graduate: the experience requirement is not met. The score measures a paid post this cycle.",
+   "raise": [
+    "Gain acute-care experience first",
+    "Get ALS/ACLS later",
+    "Avoid fee-charging agents"
+   ]
+  },
+  "defence": {
+   "score": 0,
+   "factors": {
+    "eligibility": 0,
+    "competition": 0,
+    "profile": 0,
+    "timing": 0
+   },
+   "why": "No scheme gives direct entry to a foreign MBBS holder. The score measures a post this cycle.",
+   "raise": [
+    "Do not pursue",
+    "Focus on civilian research jobs",
+    "Revisit only if UK-trained"
+   ]
+  },
+  "carib": {
+   "score": 0,
+   "factors": {
+    "eligibility": 0,
+    "competition": 0,
+    "profile": 1,
+    "timing": 0
+   },
+   "why": "There is nothing to enter; it is a caution card. The score measures a useful step this cycle.",
+   "raise": [
+    "Avoid agents selling transfers",
+    "Check WDOMS before paying anyone",
+    "Spend on Step 1 instead"
+   ]
+  },
+  "mrc-nwdms": {
+   "score": 2,
+   "factors": {
+    "eligibility": 1,
+    "competition": 1,
+    "profile": 1,
+    "timing": 1
+   },
+   "why": "Measures the chance of a funded place this cycle. Competition is described as very high, a supervisor must nominate you for interview, it is unstated whether an MBBS counts, and the deadline is close.",
+   "raise": [
+    "A supervisor who replies and backs you for a population-health or data project",
+    "Written confirmation that your MBBS meets the degree requirement",
+    "A tailored statement showing your manuscripts as research evidence"
+   ]
+  },
+  "yale-phd": {
+   "score": 1,
+   "factors": {
+    "eligibility": 1,
+    "competition": 0,
+    "profile": 1,
+    "timing": 1
+   },
+   "why": "Measures the chance of a funded place this cycle. Yale reports a 3% five-year acceptance rate and a 3.8 average GPA, MBBS equivalence is not ruled on, and you have no research job yet beyond manuscripts.",
+   "raise": [
+    "Written confirmation that an MBBS meets the degree requirement",
+    "A strong TOEFL or IELTS Speaking score",
+    "Manuscripts accepted and a research supervisor letter"
+   ]
+  },
+  "pitt-ibgp": {
+   "score": 1,
+   "factors": {
+    "eligibility": 1,
+    "competition": 0,
+    "profile": 0,
+    "timing": 1
+   },
+   "why": "Measures the chance of a funded place this cycle. Successful applicants all have lab research experience, usually a year or more, the degree list does not name medicine, and the program is lab science rather than your public health focus.",
+   "raise": [
+    "Lab or bench research experience of a year or more",
+    "A research-advisor letter from a senior co-author",
+    "A statement that front-loads your manuscripts"
+   ]
+  },
+  "jhu-gdec": {
+   "score": 1,
+   "factors": {
+    "eligibility": 2,
+    "competition": 0,
+    "profile": 1,
+    "timing": 0
+   },
+   "why": "Measures the chance of a funded place this cycle. Medicine qualifies and funding is strong, but the GRE is required with about three weeks left and no waiver applies to you, and you have no work experience.",
+   "raise": [
+    "Book the GRE now and ask Hopkins whether scores can follow the deadline",
+    "Start the WES ICAP evaluation today",
+    "Get a supervisor letter that shows research work on infectious disease"
+   ]
+  },
+  "groningen-ebf": {
+   "score": 1,
+   "factors": {
+    "eligibility": 1,
+    "competition": 0,
+    "profile": 1,
+    "timing": 1
+   },
+   "why": "Measures the chance of actually receiving the fellowship this cycle. Only four grants are awarded from hundreds of applications, nomination is out of your hands, and an admission offer is needed first.",
+   "raise": [
+    "A complete, early IRHD application with strong results and recommendation letters",
+    "Confirm with irhd@umcg.nl that your MBBS qualifies and prepare for the statistics exam",
+    "Ask whether English proof must be in before the final deadline"
+   ]
+  },
+  "doha-tamim": {
+   "score": 3,
+   "factors": {
+    "eligibility": 2,
+    "competition": 1,
+    "profile": 1,
+    "timing": 2
+   },
+   "why": "Score measures the chance of a funded place. The package is genuinely full and the deadline is open, but the fields are policy and development economics, which fit your profile and goals poorly, and merit selection is unknown.",
+   "raise_": [
+    "Check the Institute's full programme list for anything health-related",
+    "Ask admissions what the stipend is before you commit",
+    "Only apply if you want a policy degree"
+   ],
+   "raise": [
+    "Check the Institute's full programme list for anything health-related",
+    "Ask admissions what the stipend is before you commit",
+    "Only apply if you want a policy degree"
+   ]
+  },
+  "mccall-macbain": {
+   "score": 0,
+   "factors": {
+    "eligibility": 1,
+    "competition": 0,
+    "profile": 2,
+    "timing": 0
+   },
+   "why": "Score is 0 because the 2027 cohort window closed on 19 Aug 2026 and the next cycle dates are not published. Even when it reopens, it is a national-level competition for 10 international places.",
+   "raise_": [
+    "Set a mid-2027 reminder to read the apply page",
+    "Check McGill's master's list for a fit",
+    "Keep your first-bachelor's date within the five-year rule"
+   ],
+   "raise": [
+    "Set a mid-2027 reminder to read the apply page",
+    "Check McGill's master's list for a fit",
+    "Keep your first-bachelor's date within the five-year rule"
+   ]
+  },
+  "deakin-rtp": {
+   "score": 0,
+   "factors": {
+    "eligibility": 1,
+    "competition": 0,
+    "profile": 1,
+    "timing": 0
+   },
+   "why": "Score is 0 because both 2027 rounds are closed and the next one is not published. Later, an 80% research-component rule and a supervisor requirement would be real gates.",
+   "raise_": [
+    "Watch the Deakin page from mid-2027",
+    "Finish a research thesis or publication to show research strength",
+    "Contact a Deakin public health supervisor early"
+   ],
+   "raise": [
+    "Watch the Deakin page from mid-2027",
+    "Finish a research thesis or publication to show research strength",
+    "Contact a Deakin public health supervisor early"
+   ]
+  },
+  "radboud-rsp": {
+   "score": 3,
+   "factors": {
+    "eligibility": 3,
+    "competition": 1,
+    "profile": 1,
+    "timing": 1
+   },
+   "why": "Score measures the chance of getting the Radboud award, which is only partial. It is open to you and the date fits, but there are at most 22 awards and it does not replace living costs or fit the internship.",
+   "raise_": [
+    "Pick a specific Radboud master's first",
+    "Line up two reference letters now",
+    "Check EUR 2,771 against the live page in January"
+   ],
+   "raise": [
+    "Pick a specific Radboud master's first",
+    "Line up two reference letters now",
+    "Check EUR 2,771 against the live page in January"
+   ]
+  },
+  "twente-uts": {
+   "score": 2,
+   "factors": {
+    "eligibility": 2,
+    "competition": 1,
+    "profile": 1,
+    "timing": 2
+   },
+   "why": "Score measures the chance of a meaningful award. The window is open, but the amount can be as low as EUR 3,000, you must rank in the top 5 to 10%, and your marks and rank are unknown.",
+   "raise_": [
+    "Get a class-rank letter",
+    "Get admitted to a Twente master's you want",
+    "Ask Twente what recent awards were"
+   ],
+   "raise": [
+    "Get a class-rank letter",
+    "Get admitted to a Twente master's you want",
+    "Ask Twente what recent awards were"
+   ]
+  },
+  "kfupm": {
+   "score": 0,
+   "factors": {
+    "eligibility": 0,
+    "competition": 1,
+    "profile": 0,
+    "timing": 1
+   },
+   "why": "Score is 0 because the thesis MS and PhD need an engineering or science bachelor's in the proposed field, and your MBBS is a poor match. No thesis deadline is published either.",
+   "raise_": [
+    "Only revisit if you choose a non-medical field",
+    "Check the Nabegh portal for the thesis deadline",
+    "Do not rely on the SAR stipend figures"
+   ],
+   "raise": [
+    "Only revisit if you choose a non-medical field",
+    "Check the Nabegh portal for the thesis deadline",
+    "Do not rely on the SAR stipend figures"
+   ]
+  },
+  "bu-mph": {
+   "score": 2,
+   "factors": {
+    "eligibility": 3,
+    "competition": 1,
+    "profile": 1,
+    "timing": 1
+   },
+   "why": "Measures the chance of admission AND meaningful funding. Admission is plausible, but BU publishes no award sizes for internationals and tuition is very high.",
+   "raise": [
+    "Submit SOPHAS verified before 15 Jan 2027",
+    "A clear public-health statement linked to your manuscripts",
+    "Apply for Generation Health practicum stipends after admission"
+   ]
+  },
+  "gw-mph": {
+   "score": 2,
+   "factors": {
+    "eligibility": 3,
+    "competition": 1,
+    "profile": 1,
+    "timing": 1
+   },
+   "why": "Measures the chance of admission AND meaningful funding. Priority applicants are reviewed automatically, but amounts are unknown and DC costs are high.",
+   "raise": [
+    "File SOPHAS and the supplemental form by 15 Jan 2027",
+    "Order the WES evaluation early",
+    "Emphasise research output and public-health motivation"
+   ]
+  },
+  "drexel-mph": {
+   "score": 3,
+   "factors": {
+    "eligibility": 3,
+    "competition": 1,
+    "profile": 2,
+    "timing": 1
+   },
+   "why": "Measures the chance of admission AND meaningful funding. The Fellowship packages tuition with an RA, but it is for exceptional promise and no award sizes are published.",
+   "raise": [
+    "Tick the Dornsife Fellowship interest in SOPHAS",
+    "Apply by 15 Jan 2027",
+    "Write a statement that connects your manuscripts to a faculty member"
+   ]
+  },
+  "tulane-mph": {
+   "score": 2,
+   "factors": {
+    "eligibility": 3,
+    "competition": 2,
+    "profile": 1,
+    "timing": 1
+   },
+   "why": "Measures the chance of admission AND meaningful funding. Admission is plausible and the deadline is late, but funding amounts are not published and no assistantship is named.",
+   "raise": [
+    "File early rather than at the 15 Jun deadline",
+    "Confirm the accepted evaluator",
+    "Ask Tulane about assistantship funding"
+   ]
+  },
+  "usf-mph": {
+   "score": 1,
+   "factors": {
+    "eligibility": 3,
+    "competition": 2,
+    "profile": 1,
+    "timing": 0
+   },
+   "why": "Measures the chance of admission AND meaningful funding. Admission is plausible, but the college tells internationals to be fully self-funded.",
+   "raise": [
+    "Only apply as a fully self-funded back-up",
+    "Ask USF about assistantship timing",
+    "Confirm the USF fee and WES rule"
+   ]
+  },
+  "uic-mph": {
+   "score": 3,
+   "factors": {
+    "eligibility": 3,
+    "competition": 2,
+    "profile": 1,
+    "timing": 1
+   },
+   "why": "Measures the chance of admission AND meaningful funding. Assistantship and waiver mechanisms exist, but amounts are unconfirmed and out-of-state tuition is high.",
+   "raise": [
+    "Verify SOPHAS before 1 Dec 2026",
+    "Ask about the out-of-state premium waiver",
+    "Contact faculty about research assistantships"
+   ]
+  },
+  "uab-mph": {
+   "score": 1,
+   "factors": {
+    "eligibility": 3,
+    "competition": 2,
+    "profile": 1,
+    "timing": 0
+   },
+   "why": "Measures the chance of admission AND meaningful funding. Admission is plausible, but the official page shows no MPH funding for internationals.",
+   "raise": [
+    "Email UAB about assistantships for internationals",
+    "Confirm the evaluation rule",
+    "Compare cost against Georgia State and UIC"
+   ]
+  },
+  "albany-mph": {
+   "score": 2,
+   "factors": {
+    "eligibility": 3,
+    "competition": 2,
+    "profile": 1,
+    "timing": 1
+   },
+   "why": "Measures the chance of admission AND meaningful funding. A named pool of assistantships exists, but only 8-10 posts and no published amounts.",
+   "raise": [
+    "Complete application by 15 Jan 2027",
+    "Apply for assistantships in March",
+    "Choose an on-campus track"
+   ]
+  },
+  "brown-mph": {
+   "score": 2,
+   "factors": {
+    "eligibility": 2,
+    "competition": 1,
+    "profile": 1,
+    "timing": 1
+   },
+   "why": "Measures the chance of admission AND meaningful funding. Plausible admission at a competitive school, but standard awards are unpublished and the 1 Dec date is very tight.",
+   "raise": [
+    "Submit SOPHAS now so it is verified by 15 Dec",
+    "Ask Brown whether your MBBS fits the clinician track",
+    "Link manuscripts to Brown faculty in the statement"
+   ]
+  },
+  "dartmouth-qbs": {
+   "score": 2,
+   "factors": {
+    "eligibility": 1,
+    "competition": 0,
+    "profile": 1,
+    "timing": 0
+   },
+   "why": "Funding is real, but a funded US PhD is very crowded, you have no research record, and a Sept 2027 start clashes with the internship.",
+   "raise": [
+    "Email the programme about MBBS equivalence now",
+    "Line up three strong referees this week",
+    "Describe any research or audit work you have"
+   ]
+  },
+  "cgu-ms": {
+   "score": 3,
+   "factors": {
+    "eligibility": 2,
+    "competition": 1,
+    "profile": 1,
+    "timing": 0
+   },
+   "why": "A modest English bar and a real package, but the quota is small and a Sept 2027 start clashes with the internship.",
+   "raise": [
+    "Email the Office of International Affairs about quota and the MBBS rule",
+    "Prepare an IELTS 5.0+ certificate",
+    "Aim for Round 2 if the file is not ready by 17 Nov"
+   ]
+  },
+  "mcw-ylf": {
+   "score": 3,
+   "factors": {
+    "eligibility": 2,
+    "competition": 0,
+    "profile": 2,
+    "timing": 2
+   },
+   "why": "You fit the age band if the date of birth holds, but MCW is competitive and your community-project story is untested.",
+   "raise": [
+    "Confirm your date of birth against 1 June 2027",
+    "Ask two non-family recommenders now",
+    "Draft the community-issue essay in your own words"
+   ]
+  },
+  "isrv-accra": {
+   "score": 3,
+   "factors": {
+    "eligibility": 2,
+    "competition": 1,
+    "profile": 2,
+    "timing": 2
+   },
+   "why": "You are eligible to ask, but funding is limited and not guaranteed.",
+   "raise": [
+    "Write a short respiratory-work statement",
+    "Request only the support you need",
+    "Check the registration fee for your category"
+   ]
+  },
+  "upenn-epi": {
+   "score": 2,
+   "factors": {
+    "eligibility": 2,
+    "competition": 0,
+    "profile": 1,
+    "timing": 0
+   },
+   "why": "A funded US epidemiology PhD is very crowded, you have no research record, and funding past month 16 is unclear.",
+   "raise": [
+    "Ask the coordinator how years two to five are funded",
+    "Line up three referees this week",
+    "Get your marks converted"
+   ]
+  },
+  "manchester-ipp": {
+   "score": 2,
+   "factors": {
+    "eligibility": 1,
+    "competition": 1,
+    "profile": 1,
+    "timing": 0
+   },
+   "why": "Fully funded but project-tied, no matching project is confirmed, and an Oct 2027 start clashes with the internship.",
+   "raise": [
+    "Read the project list for an epidemiology fit",
+    "Email a supervisor before applying",
+    "Prepare a research statement"
+   ]
+  },
+  "ubc-4yf": {
+   "score": 1,
+   "factors": {
+    "eligibility": 1,
+    "competition": 1,
+    "profile": 0,
+    "timing": 0
+   },
+   "why": "You must win admission first, and a PhD usually expects a master's or research record.",
+   "raise": [
+    "Check the School of Population and Public Health deadline",
+    "Ask about MBBS entry",
+    "Build a research record"
+   ]
+  },
+  "oxford-wh": {
+   "score": 2,
+   "factors": {
+    "eligibility": 1,
+    "competition": 0,
+    "profile": 2,
+    "timing": 2
+   },
+   "why": "Oxford MSc places and awards are scarce, and whether a separate form is needed is unclear.",
+   "raise": [
+    "Confirm the process on the health MSc page",
+    "Prepare a strong statement on returning home",
+    "Submit by the course deadline"
+   ]
+  },
+  "cambridge-trust": {
+   "score": 1,
+   "factors": {
+    "eligibility": 1,
+    "competition": 0,
+    "profile": 0,
+    "timing": 0
+   },
+   "why": "Competitive, aimed at research potential you have not yet shown, and the level is unclear.",
+   "raise": [
+    "Confirm the course level and funding deadline",
+    "Build a research record",
+    "Approach a supervisor"
+   ]
+  },
+  "nawa-banach": {
+   "score": 3,
+   "factors": {
+    "eligibility": 2,
+    "competition": 2,
+    "profile": 1,
+    "timing": 1
+   },
+   "why": "The 2027 call is not out and you still need a programme, but the package is realistic.",
+   "raise": [
+    "Find an English-taught public health Master's in Poland",
+    "Prepare B2 English proof",
+    "Prepare the self-presentation video"
+   ]
+  },
+  "qecs": {
+   "score": 3,
+   "factors": {
+    "eligibility": 2,
+    "competition": 1,
+    "profile": 1,
+    "timing": 1
+   },
+   "why": "Competitive and the host list is not out, but the package is full and the window is long.",
+   "raise": [
+    "Watch the host list from 18 Nov",
+    "Prepare a 2:1-equivalent transcript",
+    "Shortlist programmes in December"
    ]
   }
  }
